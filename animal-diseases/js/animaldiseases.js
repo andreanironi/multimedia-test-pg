@@ -36,15 +36,15 @@ efsa.preload = {
 	cache: {
 		sectionsAmount: 9,
 		sectionsLoaded: 0,
-		folder: '/sites/default/files/interactive_tools/animaldiseases/images/preload/adsm_'
+		folder: 'images/preload/adsm_'
 	},
 	init: function() {
 		this.getFiles();
 
 		if(window.innerWidth > 1700) {
-			this.cache.folder = '/sites/default/files/interactive_tools/animaldiseases/images/preload/adla_';
+			this.cache.folder = 'images/preload/adla_';
 		} else {
-			this.cache.folder = '/sites/default/files/interactive_tools/animaldiseases/images/preload/adsm_';
+			this.cache.folder = 'images/preload/adsm_';
 		}
 	},
 	getFiles: function() {
