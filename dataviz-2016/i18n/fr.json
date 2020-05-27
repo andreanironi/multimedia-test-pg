@@ -1,0 +1,257 @@
+{  
+   "home":{  
+      "start_button":"START",
+      "title_line_1":"La résistance aux antimicrobiens",
+      "title_line_2":"en Europe",
+      "text_part_1":"Résistance de ",
+      "text_part_2":"Salmonella, E. coli ",
+      "text_part_3":"et ",
+      "text_part_4":"Campylobacter ",
+      "text_part_5":"dans les aliments, chez l’animal et chez l’homme,",
+      "text_part_6":"par pays.",
+      "text_part_7":"L’absence de données affichées pour un pays",
+      "text_part_8":"signifie qu’aucune donnée n’a été notifiée.",
+      "text_part_9":"Cela ne signifie pas absence de résistance."
+   },
+   "macroregions":{  
+      "northern_europe":"EUROPE DU NORD",
+      "eastern_europe":"EUROPE DE L’EST",
+      "southern_europe":"EUROPE DU SUD",
+      "western_europe":"EUROPE DE L’OUEST",
+      "all":"TOUS",
+      "n":"N",
+      "e":"E",
+      "s":"S",
+      "w":"O"
+   },
+   "central_area":{  
+      "prevalence_of":"Prévalence des ",
+      "resistance_of":"Résistance de ",
+      "resistance":"RESISTANCE",
+      "in": {
+            "Humans": "chez ",
+            "Calves": "chez ",
+            "Pigs": "chez ",
+            "Calves/Pigs": "chez ",
+            "Meat from cattle": "dans ",
+            "Meat from pigs": "dans ",
+            "Meat from cattle/Meat from pigs": "dans ",
+            "Broilers": "chez ",
+            "Laying Hens": "chez ",
+            "Fattening turkeys": "chez ",
+            "Broilers/Fattening turkeys": "dans ",
+            "Meat from broilers": "dans ",
+            "Meat from turkeys": "dans ",
+            "Meat from broilers/Meat from turkeys": "dans "
+        },
+        "to": {
+            "Ampicillin": "à l'",
+            "Azithromycin": "à l'",
+            "Cefotaxime": "au ",
+            "Ceftazidime": "à la ",
+            "Chloramphenicol": "au ",
+            "Ciprofloxacin": "à la ",
+            "Colistin": "à la ",
+            "Gentamicin": "à la ",
+            "Meropenem": "au ",
+            "Nalidixic acid": "à l'",
+            "Sulfamethoxazole": "au ",
+            "Tetracycline": "à la ",
+            "Tigecycline": "à la ",
+            "Trimethoprim": "au ",
+            "Cefotaxime + Ciprofloxacin": "au ",
+            "ESBL": "des ",
+            "AmpC": "des ",
+            "+": "et à la",
+            "Erythromycin": "à l'",
+            "Streptomycin": "à la ",
+            "Erythromycin + Ciprofloxacin": "au "
+        },
+      "producing":" productrices"
+   },
+   "other_labels":{  
+      "all_antimicrobials":"Tous les antimicrobiens",
+      "all_countries":"Tous pays",
+      "data_not_available":"DONNÉES NON COMMUNIQUÉES",
+      "default_country":"Union européenne",
+      "default_antimicrobial":"Ampicilline",
+      "na":"NA",
+      "select_antimicrobial":"CHOISIR UN ANTIMICROBIEN",
+      "select_country":"CHOISIR LE PAYS",
+      "compare_antimicrobials":"Comparer les antimicrobiens",
+      "compare_countries":"Comparer les pays"
+   },
+   "generic":{  
+      "species":{  
+            "Humans":"Humains",
+            "Calves":"Veaux",
+            "Pigs":"Porcs",
+            "Calves/Pigs":"Veaux/Porcs",
+            "Meat from cattle":"Viande bovine",
+            "Meat from pigs":"Viande porcine",
+            "Meat from cattle/Meat from pigs":"Viande bovine/Viande porcine",
+            "Broilers": "Poulets de chair",
+            "Laying Hens": "Poules pondeuses",
+            "Fattening turkeys": "Dindes de chair",
+            "Broilers/Fattening turkeys": "Poulets de chair/Dindes de chair",
+            "Meat from broilers": "Viande de poulets de chair",
+            "Meat from turkeys": "Viande de dindes",
+            "Meat from broilers/Meat from turkeys": "Viande de poulets/des dindes"
+      },
+      "species_after_in":{  
+            "Humans":"les humains",
+            "Calves":"les veaux",
+            "Pigs":"les porcs",
+            "Calves/Pigs":"les veaux/porcs",
+            "Meat from cattle":"la viande bovine",
+            "Meat from pigs":"la viande porcine",
+            "Meat from cattle/Meat from pigs":"la viande bovine/viande porcine",
+            "Broilers": "poulets de chair",
+            "Laying Hens": "poules pondeuses",
+            "Fattening turkeys": "dindes de chair",
+            "Broilers/Fattening turkeys": "poulets de chair/dindes de chair",
+            "Meat from broilers": "viande de poulets de chair",
+            "Meat from turkeys": "viande de dindes",
+            "Meat from broilers/Meat from turkeys": "viande de poulets de chair/des dindes"
+      },
+      "antimicrobials":{  
+         "Ampicillin":"ampicilline",
+         "Azithromycin":"azithromycine",
+         "Cefotaxime":"céfotaxime",
+         "Ceftazidime":"ceftazidime",
+         "Chloramphenicol":"chloramphénicol",
+         "Ciprofloxacin":"ciprofloxacine",
+         "Colistin":"colistine",
+         "Gentamicin":"gentamicine",
+         "Meropenem":"méropénem",
+         "Nalidixic acid":"acide nalidixique",
+         "Sulfamethoxazole":"sulfaméthoxazole",
+         "Tetracycline":"tétracycline",
+         "Tigecycline":"tigécycline",
+         "Trimethoprim":"triméthoprime",
+         "Cefotaxime + Ciprofloxacin":"céfotaxime + ciprofloxacine",
+         "ESBL":"BLSE",
+         "AmpC":"AmpC",
+        "Erythromycin": "érythromycine",
+        "Streptomycin": "streptomycine",
+        "Erythromycin + Ciprofloxacin": "érythromycine + ciprofloxacine"
+      },
+      "countries":{  
+         "Austria":"Autriche",
+         "Belgium":"Belgique",
+         "Bulgaria":"Bulgarie",
+         "Croatia":"Croatie",
+         "Cyprus":"Chypre",
+         "Czech Republic":"République tchèque",
+         "Denmark":"Danemark",
+         "Estonia":"Estonie",
+         "European Union":"Union européenne",
+         "Finland":"Finlande",
+         "France":"France",
+         "Germany":"Allemagne",
+         "Greece":"Grèce",
+         "Hungary":"Hongrie",
+         "Iceland":"Islande",
+         "Ireland":"Irlande",
+         "Italy":"Italie",
+         "Latvia":"Lettonie",
+         "Lithuania":"Lituanie",
+         "Luxembourg":"Luxembourg",
+         "Malta":"Malte",
+         "Netherlands":"Pays-Bas",
+         "Norway":"Norvège",
+         "Poland":"Pologne",
+         "Portugal":"Portugal",
+         "Romania":"Roumanie",
+         "Slovakia":"Slovaquie",
+         "Slovenia":"Slovénie",
+         "Spain":"Espagne",
+         "Sweden":"Suède",
+         "Switzerland":"Suisse",
+         "United Kingdom":"Royaume-Uni"
+      },
+        "bacteria": {
+            "Salmonella spp.": {
+                "part_1": {
+                    "text": "Salmonella spp.",
+                    "text_case": "Salmonella spp."
+                },
+                "part_2": {
+                    "text": ""
+                }
+            },
+            "Salmonella Typhimurium": {
+                "part_1": {
+                    "text": "Salmonella Typhimurium",
+                    "text_case": "Salmonella Typhimurium"
+                },
+                "part_2": {
+                    "text": ""
+                }
+            },
+            "Monophasic Salmonella Typhimurium": {
+                "part_1": {
+                    "text": "Salmonella",
+                    "text_case": "Salmonella"
+                },
+                "part_2": {
+                    "text": "Typhimurium monophasique"
+                }
+            },
+            "Salmonella Derby": {
+                "part_1": {
+                    "text": "Salmonella",
+                    "text_case": "Salmonella"
+                },
+                "part_2": {
+                    "text": "Derby"
+                }
+            },
+            "E. Coli": {
+                "part_1": {
+                    "text": "E. coli",
+                    "text_case": "E. coli"
+                },
+                "part_2": {
+                    "text": ""
+                }
+            },
+            "Salmonella Enteritidis": {
+                "part_1": {
+                    "text": "Salmonella Enteritidis",
+                    "text_case": "Salmonella Enteritidis"
+                },
+                "part_2": {
+                    "text": ""
+                }
+            },
+            "Salmonella Infantis": {
+                "part_1": {
+                    "text": "Salmonella Infantis",
+                    "text_case": "Salmonella Infantis"
+                },
+                "part_2": {
+                    "text": ""
+                }
+            },
+            "Salmonella Kentucky": {
+                "part_1": {
+                    "text": "Salmonella Kentucky",
+                    "text_case": "Salmonella Kentucky"
+                },
+                "part_2": {
+                    "text": ""
+                }
+            },
+            "Campylobacter Jejuni": {
+                "part_1": {
+                    "text": "Campylobacter jejuni",
+                    "text_case": "Campylobacter jejuni"
+                },
+                "part_2": {
+                    "text": ""
+                }
+            }
+        }
+    }
+}

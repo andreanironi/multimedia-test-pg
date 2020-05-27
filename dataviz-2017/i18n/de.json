@@ -1,0 +1,223 @@
+{  
+   "home":{  
+      "start_button":"START",
+      "title_line_1":"Antibiotikaresistenz",
+      "title_line_2":"in Europa",
+      "text_part_1":"Resistenzen von ",
+      "text_part_2":"Salmonella, E. coli ",
+      "text_part_3":"und ",
+      "text_part_4":"Campylobacter",
+      "text_part_5":"in Lebensmitteln, bei Tieren und Menschen,",
+      "text_part_6":"nach Ländern für 2017. ",
+      "text_part_7":"Wenn für einzelne Länder keine Daten angezeigt werden,",
+      "text_part_8":"heißt dies, dass keine oder weniger als",
+      "text_part_9":"zehn resistente Bakterien berichtet wurden.",
+      "text_part_10":"Es bedeutet nicht das Fehlen von Resistenzen."
+   },
+   "macroregions":{  
+      "northern_europe":"NORDEUROPA",
+      "eastern_europe":"OSTEUROPA",
+      "southern_europe":"SÜDEUROPA",
+      "western_europe":"WESTEUROPA",
+      "all":"ALLE",
+      "n":"N",
+      "e":"O",
+      "s":"S",
+      "w":"W"
+   },
+   "central_area":{  
+      "prevalence_of":"Prävalenz von ",
+      "resistance_of":"Resistenz von ",
+      "resistance":"RESISTENZ",
+      "in": {
+            "Humans": "in/bei ",
+            "Calves": "in/bei ",
+            "Pigs": "in/bei ",
+            "Calves/Pigs": "in/bei ",
+            "Meat from cattle": "in/bei ",
+            "Meat from pigs": "in/bei ",
+            "Meat from cattle/Meat from pigs": "in/bei ",
+            "Broilers": "in/bei ",
+            "Laying Hens": "in/bei ",
+            "Fattening turkeys": "in/bei ",
+            "Broilers/Fattening turkeys": "in/bei ",
+            "Meat from broilers": "in/bei ",
+            "Meat from turkeys": "in/bei ",
+            "Meat from broilers/Meat from turkeys": "in/bei "
+        },
+        "to": {
+            "Ampicillin": "gegenüber ",
+            "Azithromycin": "gegenüber ",
+            "Cefotaxime": "gegenüber ",
+            "Ceftazidime": "gegenüber ",
+            "Chloramphenicol": "gegenüber ",
+            "Ciprofloxacin": "gegenüber ",
+            "Colistin": "gegenüber ",
+            "Gentamicin": "gegenüber ",
+            "Meropenem": "gegenüber ",
+            "Nalidixic acid": "gegenüber ",
+            "Sulfamethoxazole": "gegenüber ",
+            "Tetracycline": "gegenüber ",
+            "Tigecycline": "gegenüber ",
+            "Trimethoprim": "gegenüber ",
+            "Cefotaxime + Ciprofloxacin": "gegenüber ",
+            "ESBL": "gegenüber ",
+            "AmpC": "gegenüber ",
+            "+": "+",
+            "Erythromycin": "gegenüber ",
+            "Streptomycin": "gegenüber ",
+            "Erythromycin + Ciprofloxacin": "gegenüber "
+        },
+      "producing":" produzierenden"
+   },
+   "other_labels":{  
+      "all_antimicrobials":"Alle Antibiotika",
+      "all_countries":"Alle Länder",
+      "data_not_available":"KEINE DATEN BERICHTET",
+      "default_country":"Europäische Union",
+      "default_antimicrobial":"Ampicillin",
+      "na":"NA",
+      "select_antimicrobial":"ANTIBIOTIKUM WÄHLEN",
+      "select_country":"LAND WÄHLEN",
+      "compare_antimicrobials":"Antibiotika vergleichen",
+      "compare_countries":"Länder vergleichen"
+   },
+   "generic":{  
+        "species":{  
+            "Humans":"Menschen",
+            "Calves":"Kälber, &lt; 1 Jahr",
+            "Pigs":"Schweine",
+            "Calves/Pigs":"Kälber/Schweine",
+            "Meat from cattle":"Fleisch von Rindern (Rinderschlachtkörper)",
+            "Meat from pigs":"Fleisch von Schweinen (Schweineschlachtkörper)",
+            "Meat from cattle/Meat from pigs":"Fleisch von Rindern / von Schweinen",
+            "Broilers": "Masthähnchen",
+            "Laying Hens": "Legehennen",
+            "Fattening turkeys": "Mastputen",
+            "Broilers/Fattening turkeys": "Masthähnchen/Mastputen",
+            "Meat from broilers": "Fleisch von Masthähnchen",
+            "Meat from turkeys": "Fleisch von Truthähnen",
+            "Meat from broilers/Meat from turkeys": "Fleisch von Masthähnchen/von Truthähnen"
+        },
+        "species_after_in":{  
+            "Humans":"Menschen",
+            "Calves":"Kälbern",
+            "Pigs":"Schweinen",
+            "Calves/Pigs":"Kälbern/Schweinen",
+            "Meat from cattle":"Fleisch von Rindern (Rinderschlachtkörper)",
+            "Meat from pigs":"Fleisch von Schweinen (Schweineschlachtkörper)",
+            "Meat from cattle/Meat from pigs":"Fleisch von Rindern / von Schweinen",
+            "Broilers": "Masthähnchen",
+            "Laying Hens": "Legehennen",
+            "Fattening turkeys": "Mastputen",
+            "Broilers/Fattening turkeys": "Masthähnchen/Mastputen",
+            "Meat from broilers": "Masthähnchenfleisch",
+            "Meat from turkeys": "Truthähnenfleisch",
+            "Meat from broilers/Meat from turkeys": "Masthähnchenfleisch/Truthähnenfleisch"
+        },
+        "antimicrobials":{  
+            "Ampicillin":"Ampicillin",
+            "Azithromycin":"Azithromycin",
+            "Cefotaxime":"Cefotaxim",
+            "Ceftazidime":"Ceftazidim",
+            "Chloramphenicol":"Chloramphenicol",
+            "Ciprofloxacin":"Ciprofloxacin",
+            "Colistin":"Colistin",
+            "Co-amoxiclav": "Co-amoxiclav",
+            "Co-trimoxazole": "Co-trimoxazole",
+            "Gentamicin":"Gentamicin",
+            "Meropenem":"Meropenem",
+            "Nalidixic acid":"Nalidixinsäure",
+            "Sulfamethoxazole":"Sulfamethoxazol",
+            "Tetracycline":"Tetracycline",
+            "Tigecycline":"Tigecyclin",
+            "Trimethoprim":"Trimethoprim",
+            "Cefotaxime + Ciprofloxacin":"Cefotaxim + Ciprofloxacin",
+            "ESBL":"ESBL",
+            "AmpC":"AmpC",
+            "Erythromycin": "Erythromycin",
+            "Streptomycin": "Streptomycin",
+            "Erythromycin + Ciprofloxacin": "Erythromycin + Ciprofloxacin"
+        },
+        "countries":{  
+         "Austria":"Österreich",
+         "Belgium":"Belgien",
+         "Bulgaria":"Bulgarien",
+         "Croatia":"Kroatien",
+         "Cyprus":"Zypern",
+         "Czech Republic":"Tschechische Republik",
+         "Denmark":"Dänemark",
+         "Estonia":"Estland",
+         "European Union":"Europäische Union",
+         "Finland":"Finnland",
+         "France":"Frankreich",
+         "Germany":"Deutschland",
+         "Greece":"Griechenland",
+         "Hungary":"Ungarn",
+         "Iceland":"Island",
+         "Ireland":"Irland",
+         "Italy":"Italien",
+         "Latvia":"Lettland",
+         "Lithuania":"Litauen",
+         "Luxembourg":"Luxemburg",
+         "Malta":"Malta",
+         "Netherlands":"Niederlande",
+         "Norway":"Norwegen",
+         "Poland":"Polen",
+         "Portugal":"Portugal",
+         "Romania":"Rumänien",
+         "Slovakia":"Slowakei",
+         "Slovenia":"Slowenien",
+         "Spain":"Spanien",
+         "Sweden":"Schweden",
+         "Switzerland":"Schweiz",
+         "United Kingdom":"Vereinigtes Königreich"
+      },
+        "bacteria": {
+            "Salmonella spp.": {
+                "text": "<em>Salmonella</em> spp.",
+                "plain_text": "Salmonella spp."
+            },
+            "Salmonella Typhimurium": {
+                "text": "<em>Salmonella</em> Typhimurium",
+                "plain_text": "Salmonella Typhimurium"
+            },
+            "Monophasic Salmonella Typhimurium": {
+                "text": "Monophasische <em>Salmonella</em> Typhimurium",
+                "plain_text": "Monophasische Salmonella Typhimurium"
+            },
+            "Salmonella Monophasic Typhimurium": {
+                "text": "Monophasische <em>Salmonella</em> Typhimurium",
+                "plain_text": "Monophasische Salmonella Typhimurium"
+            },
+            "Salmonella Derby": {
+                "text": "<em>Salmonella</em> Derby",
+                "plain_text": "Salmonella Derby"
+            },
+            "Salmonella Enteritidis": {
+                "text": "<em>Salmonella</em> Enteritidis",
+                "plain_text": "Salmonella Enteritidis"
+            },
+            "Salmonella Infantis": {
+                "text": "<em>Salmonella</em> Infantis",
+                "plain_text": "Salmonella Infantis"
+            },
+            "Salmonella Kentucky": {
+                "text": "<em>Salmonella</em> Kentucky",
+                "plain_text": "Salmonella Kentucky"
+            },
+            "Campylobacter Jejuni": {
+                "text": "<em>Campylobacter jejuni</em>",
+                "plain_text": "Campylobacter jejuni"
+            },
+            "Campylobacter Coli": {
+                "text": "<em>Campylobacter coli</em>",
+                "plain_text": "Campylobacter coli"
+            },
+            "E. Coli": {
+                "text": "Indicator <em>E. coli</em>",
+                "plain_text": "Indicator E. coli"
+            }
+        }
+    }
+}

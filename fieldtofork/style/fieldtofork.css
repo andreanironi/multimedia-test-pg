@@ -1,0 +1,788 @@
+body {
+	padding-top: 0px; /* 60px to make the container go all the way to the bottom of the topbar */
+  background: #666666;
+	font-family: arial;
+  font-size: 83.7606837606838%;
+  line-height: 110%;
+}
+
+.dotted-fade {
+  position: absolute;
+}
+
+   .img-mask {
+      background: #FFF;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+   }
+
+#videoPesticides, #videoFood, #videoHealth, #videoIntro, #videoCcl { margin: auto; }
+
+#newsletter {
+  background: #ef7d00;
+  border: 2px solid #FFF;
+  border-right: 0;
+  padding: 5px;
+  position: fixed;
+  right: 0px;
+  top: 100px;
+  z-index: 9;
+  border-radius: 15px 0 0 15px;
+}
+#newsletter.notvisible { right: -5px }
+#newsletter.notvisible:hover { right: 0px }
+
+#newsLink1 {background: none repeat scroll 0% 0% !important;}
+#newsLink2 {background: none repeat scroll 0% 0% !important ;}
+
+  #newsletter .toggler {
+    margin-right: 5px;
+    padding: 5px;
+    float: left;
+    cursor: pointer;
+  }
+  #newsletter a { color: #FFF; text-decoration: none }
+
+  #newsletterform-wrapper {
+    height: 30px;
+    padding: 5px 0;
+  }
+
+
+#social-links {
+  position: fixed;
+  bottom: 10px;
+  z-index: 9;
+}
+  #social-links a {
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    background-color: #ef7d00;
+    margin: 3px 0px 0px 13px;
+  }
+    #social-links a img {
+      width: 36px;
+      height: 36px;
+      margin: -3px 0 0 -3px;
+      max-width: none;
+    }
+
+#colorbox {
+  font-size: 12px;
+}
+
+#main-wrapper {
+  background: #ffffff;
+  box-shadow: 5px 0 5px #363636;
+}
+
+
+#menubar {
+  top: 10px;
+  left: 50%;
+  width: 766px;
+  margin-left: -384px;
+  right: auto;
+  position: fixed;
+
+  border-radius: 8px;
+  background-color: #164189;
+  background-image: none;
+
+  -moz-box-shadow: 0px 5px 5px #888;
+  -webkit-box-shadow: 0px 5px 5px #888;
+  box-shadow: 0px 5px 5px #888;
+
+  opacity: 0.8;
+
+  z-index: 10;
+}
+#menubar:hover { opacity: 1; }
+
+  #menubar .logo, .navbar .logo {
+    float: left;
+    margin: 2px 0 0 5px;
+    width: 95px;
+    height: 46px;
+    background: url(../images/top-logo.png);
+  }
+
+  #menubar .logo:hover, .navbar .logo:hover {
+    background: url(../images/top-logo-hover.png);
+  }
+  #menubar .nav {
+    float: left;
+    width: 620px;
+    margin: 0 0 0 20px;
+  }
+    #menubar .nav li {
+      height: 50px;
+      display: inline-block;
+    }
+      #menubar .nav li a {
+        color: #FFFFFF;
+        background: none;
+        line-height: 50px;
+        padding: 0 10px;
+        font-size: 90%;
+        text-shadow: none;
+      }
+      #menubar .nav li a:hover, #menubar .nav li.active a { color: #ef7d00; }
+
+
+
+#header {
+  position: fixed;
+  z-index: 2;
+  border-bottom: 3px #171796 solid;
+}
+  #header .bg {
+    width: 100%;
+  }
+  #header .title {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+  }
+    #header h1 {
+      font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
+      font-size: 4em;
+      line-height: 1.25em;
+      color: #FFF;
+    }
+    #header h2 {
+      font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
+      font-size: 1.7em;
+      font-weight: normal;
+      color: #171796;
+    }
+
+  #header .logo {
+    position: absolute;
+    bottom: 8%;
+    right: 2%;
+    width: 25%;
+  }
+
+.mobile { display: none }
+
+#subheader {
+  margin-top: 22.9%;
+  position: relative;
+  z-index: 1;
+}
+
+#brochure-wrappper {
+	position: relative;
+	overflow: hidden;
+	margin-top: -7.2%;
+	z-index: 2;
+}
+	#background-wrapper, #background-wrapper-mobile {
+		position: relative;
+		width: 100%;
+    bottom: 0;
+    overflow: hidden;
+	}
+	 #background-wrapper .patch {
+    	height: 100%;
+    	width: 51%;
+    	background: #FFFFFF;
+    	position: absolute;
+    	bottom: 0;
+    	left: 0;
+    	z-index: 1;
+	 }
+
+	#background-wrapper-mobile {
+  	background: url('../images/bg-dotted-mobile.png') repeat-y;
+  	position: absolute;
+  	top: 0;
+    bottom: -80px;
+    z-index: 2;
+		width: 20px;
+	}
+  	#background-wrapper img { width: 100% }
+  	#background-wrapper-mobile .patch {
+    	position: fixed;
+    	background: #FFFFFF;
+    	height: 60%;
+    	width: 13px;
+    	margin-left: -3px;
+    	bottom: 0;
+    	z-index: 1;
+  	}
+
+	#content {
+		position: absolute;
+		top: 0;
+		width: 98%;
+		height: 98%;
+		padding: 1%;
+		font-size: 15px;
+    z-index: 1;
+	line-height:120%
+	}
+	  #content a {
+    	color: #171794;
+    	font-weight: bold;
+    }
+    #content a:hover {
+    	text-decoration: underline
+    }
+
+    #content .img-right, #content .img-left {
+  		float: right;
+  		width: 40%;
+  		margin-left: 1%;
+  	}
+  	#content .img-left {
+  		float: left;
+  		margin-right: 1%;
+  	}
+		#content h1, #content h2, #content .media, #content .text, #content .illus {
+		  position: absolute;
+		}
+		#content .illus {
+		  overflow: hidden;
+		}
+	  #content h1 {
+	    color: #ef7d00;
+	    padding: 80px 0 0 5%;
+	    margin: -80px 0 0 0;
+	    font-size: 28px;
+	  }
+	    #content h1 .title-dot {
+  	    position: absolute;
+  	    right: 0%;
+  	    top: 85%;
+  	    background: #ffffff;
+  	  }
+	    #content h1.left-dot .title-dot {
+  	    right: auto;
+  	    left: 2%;
+  	  }
+  	#content h2, #colorbox h2 {
+	    color: #bdd143;
+      font-size: 20px;
+    	line-height: 29px;
+	    padding: 0px 0px 0px 40px;
+  	  font-weight: bold;
+  	  text-transform: uppercase;
+  	}
+  	#colorbox h2 {
+    	padding: 0;
+  	}
+  	#colorbox p {
+    	text-align: justify;
+  	}
+	    #content h2 .title-dot {
+  	    position: absolute;
+  	    top: 15%;
+  	    left: 0;
+  	    background: #bdd144;
+	    }
+
+  	.text {
+    	background: url(../images/box-bg.png) no-repeat bottom right #b0c83c;
+    	box-shadow: 5px 5px 5px #666;
+    	padding: 1em 1em 1.5em;
+    	border-radius: 5px;
+    	z-index: 1;
+  	}
+  	.text.no-shadow {
+    	box-shadow: none !important;
+  	}
+
+  	  .text h3 {
+        font-size: 1.2em;
+        line-height: 1em;
+        margin: 0.5em 0;
+  	  }
+  	  .text p {
+    	  text-align: justify;
+    	  position: relative;
+  	  }
+  	  #content .text .toggle-more {
+    	  position: absolute;
+        bottom: 8px;
+        right: 8px;
+        background: #ef7d00;
+        color: #FFF;
+        display: block;
+        height: 14px;
+        line-height: 14px;
+        width: 14px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        text-decoration: none;
+  	  }
+
+#footer .bg { width: 100%; }
+
+/* Colorisation */
+#fieldandfarm h1 { color: #b5162a; }
+#fieldandfarm h1 .title-dot { background:#b5162a; }
+#menubar .nav li a.fieldandfarm:hover, #menubar .nav li.active a.fieldandfarm { color: #b5162a; }
+
+#factorytofork h1, #europeanlevel h1 { color: #8D2980; }
+#factorytofork h1 .title-dot, #europeanlevel h1 .title-dot{ background:#8D2980; }
+#menubar .nav li a.factorytofork:hover, #menubar .nav li.active a.factorytofork { color: #8D2980; }
+
+#howefsaworks h1, #howefsacommunicates h1, #efsaconsumers h1 { color: #FFCD00; }
+#howefsaworks h1 .title-dot, #efsaconsumers h1 .title-dot, #howefsacommunicates h1 .title-dot { background:#FFCD00; }
+#menubar .nav li a.howefsaworks:hover, #menubar .nav li.active a.howefsaworks { color: #FFCD00; }
+
+#howefsaisgoverned h1  { color: #d45d35; }
+#howefsaisgoverned h1 .title-dot { background:#d45d35; }
+#menubar .nav li a.howefsaisgoverned:hover, #menubar .nav li.active a.howefsaisgoverned { color: #d45d35; }
+
+/* Specific positioning */
+#thefoodchain h1 {
+  left: 48.7%;
+  top: 2.15%;
+}
+#thefoodchain .illus-1 {
+  left: 7.6%;
+    top: 3.03%;
+    width: 28%;;
+}
+#thefoodchain .video-1 {
+  left: 34.2%;
+    top: 5.85%;
+    width: 29%;
+}
+#thefoodchain .text-0 {
+  top: 3.20%;
+  left: 38.5%;
+  width: 57.2%;
+  font-size:15px !important;
+  line-height:120%
+}
+#thefoodchain h2 {
+  top: 7.6%;
+  left: 25.5%;
+}
+#thefoodchain h2 .title-dot {
+  top: 9%;
+  left: -2.8%;
+}
+#thefoodchain .text-1 {
+  top: 9%;
+  left: 22%;
+  width: 47%;
+}
+
+#fieldandfarm h1 {
+  top: 15.2%;
+  left: 35%;
+}
+#fieldandfarm h1 .title-dot {
+  left: -6%;
+}
+#fieldandfarm h2.subtitle-1 {
+  top: 17.48%;
+  right: 54.5%;
+  padding: 0 5% 0 0;
+}
+#fieldandfarm h2.subtitle-1 .title-dot {
+  left: auto;
+  right: 0%;
+}
+#fieldandfarm .illus-1 {
+  left: 49%;
+    top: 18%;
+    width: 35.8%;
+}
+#fieldandfarm .video-1 {
+  top: 23%;
+  left: 56.3%;
+  width: 24%;
+}
+#fieldandfarm .text-1 {
+  right: 42%;
+    top: 19.5%;
+    width: 50%;
+}
+#fieldandfarm h2.subtitle-2 {
+  left: 55.5%;
+    top: 27.6%;
+}
+#fieldandfarm h2.subtitle-2 .title-dot {
+  left: 3%;
+}
+#fieldandfarm .illus-2 {
+  left: 4%;
+    top: 26.4%;
+    width: 89%;
+}
+#fieldandfarm .text-2 {
+  left: 35%;
+    top: 28.7%;
+    width: 49%;
+}
+#fieldandfarm .video-2 {
+  top: 35.3%;
+  left: 56.2%;
+  width: 32%;
+  background-position: right center;
+  padding: 0 6% 0 0;
+}
+#fieldandfarm h2.subtitle-3 {
+  padding: 0 5% 0 0;
+    right: 55.4%;
+    top: 39%;
+}
+#fieldandfarm h2.subtitle-3 .title-dot {
+  left: auto;
+  right: 0%;
+}
+#fieldandfarm .text-3 {
+  left: 4%;
+    top: 40.1%;
+    width: 49%;
+}
+
+#factorytofork h1 {
+  top: 45%;
+  left: 23.2%;
+}
+#factorytofork h2.subtitle-1 {
+ left: 35.5%;
+    top: 48%;
+}
+#factorytofork h2.subtitle-1 .title-dot {
+  top: -67%;
+  left: -3%;
+}
+#factorytofork .illus-1 {
+  left: 29%;
+    top: 46.2%;
+    width: 68%;
+}
+
+#factorytofork .illus-1b {
+  top: 46.25%;
+  left: 25%;
+  width: 17%;
+}
+
+#factorytofork .text-1 {
+  left: 29%;
+    top: 49.1%;
+    width: 44%;
+}
+#factorytofork h2.subtitle-2 {
+  top: 56.1%;
+  left: 60%;
+  width: 30%;
+}
+#factorytofork .illus-2 {
+  left: 4.2%;
+    top: 52.3%;
+    width: 50%;
+}
+#factorytofork .text-2 {
+  left: 39%;
+  top: 58%;
+  width: 53.2%;
+}
+#factorytofork h2.subtitle-3 {
+  font-size: 20px;
+    left: auto;
+    padding: 0 5% 0 0;
+    right: 36.4%;
+    top: 62.7%;
+}
+#factorytofork h2.subtitle-3 .title-dot {
+  left: auto;
+  right: 0%;
+}
+#factorytofork .illus-3 {
+  left: 9.5%;
+    top: 67.85%;
+    width: 76%;
+}
+#factorytofork .text-3 {
+  left: 7%;
+    top: 63.6%;
+    width: 49%;
+}
+#factorytofork .video {
+  left: 70.7%;
+    top: 61.7%;
+    width: 26%;
+}
+#factorytofork h2.subtitle-4 {
+  left: auto;
+    padding: 0 5% 0 0;
+    right: 31.8%;
+    top: 76.1%;
+}
+#factorytofork h2.subtitle-4 .title-dot {
+  left: auto;
+  right: 6%;
+  top: -15%;
+}
+#factorytofork .text-4 {
+  left: 11%;
+    top: 77%;
+    width: 61%;
+}
+
+#efsaconsumers h1 {
+  left: auto;
+    padding: 87px 3.5% 0 0;
+    right: 38%;
+    top: 81.88%;
+    width: 56%;
+}
+  #efsaconsumers h1 .title-dot {
+    left: auto;
+    right: 0;
+  }
+
+#efsaconsumers .illus-1 {
+  left: 58.8%;
+    top: 81%;
+    width: 34.6%;
+}
+#efsaconsumers .text-1 {
+  left: 4%;
+  top: 86.7%;
+  width: 48%;
+}
+#efsaconsumers .text-2 {
+    left: 6%;
+    top: 92.2%;
+    width: 45%;
+}
+#europeanlevel h1 {
+  right: 41%;
+  top: 72%;
+  left: auto;
+  padding: 80px 5% 0 0;
+  text-align: right;
+  /*font-size: 3.9em;*/
+  width: 48%;
+}
+
+#europeanlevel .illus-1 {
+  top: 73%;
+  left: 3%;
+  width: 61%;
+}
+#europeanlevel .text-1 {
+  left: 39%;
+  top: 74.2%;
+  width: 54%;
+}
+
+#howefsaworks h1 {
+  top: 78.6%;
+  left: 43%;
+  padding: 80px 0 0 5%;
+}
+#howefsaworks .illus-1 {
+  top: 78.9%;
+  left: 9.5%;
+  width: 34%;
+}
+#howefsaworks .text-1 {
+  left: 56%;
+  top: 80%;
+  width: 41%;
+}
+#howefsaworks a.media {
+  left: 62%;
+  top: 82.5%;
+  width: 15%;
+  background: #0394b3;
+  color: #FFF;
+  font-size: 1.1em;
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  line-height: 1.4em;
+  padding: 0.1em;
+  text-align: center;
+  text-decoration: none;
+}
+#howefsaworks a.media:hover { background: #1c4594 }
+  #howefsaworks .media img {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+  }
+
+#howefsacommunicates h1 {
+  top: 85.4%;
+  padding: 80px 5% 0 0;
+  /*font-size: 4em;*/
+  text-align: right;
+  right: 43.7%;
+  width: 52%;
+}
+#howefsacommunicates .text-1 {
+  left: 4%;
+  top: 86.9%;
+  width: 52%;
+}
+
+#howefsaisgoverned h1 {
+  top: 92%;
+  padding: 80px 0 0 5%;
+  left: 56.5%;
+  width: 18%;
+}
+#howefsaisgoverned h1 .title-dot {
+  top: 59%;
+}
+#howefsaisgoverned .illus-1 {
+  top: 91.85%;
+  left: 5%;
+  width: 35.3%;
+}
+#howefsaisgoverned .text-1 {
+  left: 53%;
+  top: 93.5%;
+  width: 40%;
+}
+#howefsaisgoverned .video {
+  top: 97.2%;
+  left: 48.2%;
+  width: 37%;
+  color:#FFF;
+}
+
+#efsaconsumers h2.subtitle-1 {
+    left: 4%;
+    padding-right: 7.5%;
+    top: 85.65%;
+    width: 47.8%;
+}
+#efsaconsumers h2.subtitle-2 {
+    left: 15.2%;
+    padding-right: 3.5%;
+    top: 91.2%;
+    width: 31.8%;
+}
+
+#efsaconsumers h2.subtitle-1 img.title-dot {
+  left: auto;
+  right: 6%;
+  top: -15%;
+}
+#efsaconsumers h2.subtitle-2 img.title-dot {
+  left: auto;
+  right: 0%;
+  top: 0%;
+}
+#efsaconsumers .video {
+  color: #FFFFFF;
+    left: 41.6%;
+    top: 94.2%;
+    width: 37%;
+}
+#end h1 {
+  left: auto;
+  padding: 0 5% 0 0;
+  right: 55.6%;
+  top: 99.9%;
+  width: 5%;
+  /*font-size: 3em;*/
+}
+
+/* Big rezolution */
+@media (min-width: 1200px) {
+  body {
+    font-size: 100%;
+    line-height: 100%;
+  }
+  #content h1 {
+	  font-size: 36px;
+  }
+  #content h2 {
+    font-size: 26px;
+  }
+}
+
+
+/* MOBILE RESTRICTION */
+@media (max-width: 979px) {
+
+  #main-wrapper { box-shadow: none; }
+
+  #newsletter, #social-links { display: none;}
+  body { background: #FFF; }
+  body .navbar-fixed-top { position: relative; z-index: 3 }
+  #header { position: relative ;margin: -20px 0 0; }
+  #header .maintitle { font-size: 2em; margin: 0  }
+  #header h1 { font-size: 45px}
+  #header h2 { display: none }
+  #subheader { display: none; }
+	.mobile { display: block }
+	.no-mobile { display: none }
+	#brochure-wrappper { overflow: inherit; margin: 0;  }
+	#content { position: relative; padding-left: 15px; width: 96%; }
+
+		#brochure-wrappper #content h1, #brochure-wrappper #content h2, #brochure-wrappper #content .media, #brochure-wrappper #content .text, #brochure-wrappper #content .illus {
+		  position: relative;
+		  top: auto;
+		  right: auto;
+		  left: auto;
+		  width: auto;
+		  text-align: left;
+		}
+  	#brochure-wrappper #content h1 {
+	    background-image: url(../images/arrow-dotted.png);
+	    background-repeat: no-repeat;
+	    background-position: left center;
+	    padding: 0 0 0 15px;
+	    margin-left: -15px;
+	    margin-top: 2em;
+	    position: relative;
+	    font-size: 22px;
+	    line-height: 1.2em;
+	    z-index: 1;
+	  }
+  	#brochure-wrappper #content h2 { background: url(../images/arrow-dotted.png); background-position: center left; background-repeat: no-repeat; padding: 0 0 0 15px; font-size: 18px; line-height: 1.2em; margin-left: -15px }
+
+  	#brochure-wrappper #content h1 .title-dot, #brochure-wrappper #content h2 .title-dot {
+    	display: none;
+  	}
+
+  	#content .video {
+      display: block;
+      background: url('../images/dot-video-mobile.png') no-repeat;
+      padding-left: 24px;
+      height: 0.8%;
+      color: #0394b3;
+      font-size: 1.2em;
+      line-height: 1.3em;
+      text-transform: capitalize;
+    }
+
+
+    #content .mobile-illus {
+      margin: 1em 0;
+    }
+      #content .mobile-illus .img-wrapper {
+        max-height: 210px;
+        overflow: hidden;
+      }
+}
+
+@media (max-width: 460px) {
+  #header h1 { font-size: 27px}
+}
+
+h1#end-title span {
+    display: none;
+}

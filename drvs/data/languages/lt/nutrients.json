@@ -1,0 +1,310 @@
+[
+    {
+        "Nutrients": "Energy",
+        "Translated": "Energija",
+        "Image": "Energy 11949397.jpg",
+        "PDF Annotations": "RMV energijai pateikiamos kaip nustatytų amžiaus ir lyčių grupių vidutiniai poreikiai, o jų naudojimas atskirų asmenų atžvilgiu yra ribotas. Jos išreiškiamos energijos vienetais. 1 MJ = 238,83 kcal\n\nVaikų ir suaugusių asmenų atveju, vidutinių poreikių  vertės energijai pateikiamos pagal skirtingus fizinio aktyvumo lygius. Fizinio aktyvumo lygių  vertės 1,4; 1,6; 1,8 ir 2,0 atitinka žemo aktyvumo (sėdimą) gyvenimo būdą, saikingai aktyvų, aktyvų ir labai aktyvų gyvenimo būdą.\n\nSuaugusių asmenų atveju, vidutinių poreikių vertės energijai yra apskaičiuojamos, padauginant apytiksles poilsio metu sunaudojamos energijos reikšmes, kurios apytiksliai nustatomos antropometrių matavimų būdu, iš fizinio aktyvumo lygių. Vidutinių poreikių  vertės energijai nebuvo skaičiuojamos ≥ 80 metų amžiaus suaugusiems asmenims dėl nepakankamų antropometrinių duomenų iš ES šalių šiai žmonių grupei.\n\nBesilaukiančių ir žindančių moterų atveju vertė turi būti pridedama prie vidutinio poreikio vertės nesilaukiančioms ir nežindančioms moterims.\n",
+        "What is it and what does it do?": "Energijos poreikis – tai iš maisto gaunamos energijos kiekis, kuris reikalingas žmonėms, kad galėtų normaliai funkcionuoti ir būtų geros sveikatos būklės. Energijos šaltiniai yra angliavandeniai, riebalai ir baltymai."
+    },
+    {
+        "Nutrients": "Carbohydrates",
+        "Translated": "Angliavandeniai",
+        "Image": "Carbohydrate 429328003.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Angliavandeniai – tai pagrindinis energijos šaltinis daugelio žmonių racionuose. Mitybos požiūriu galima būtų išskirti dvi pagrindines angliavandenių grupes: „glikeminiai angliavandeniai“, t. y. angliavandeniai, kurie žmogaus organizme virškinami ir absorbuojami plonojoje žarnoje, ir „maistinės skaidulos“, kurios yra nevirškinami angliavandeniai, toliau patenkantys į storąją žarną. EMST nustatė RMV bendram angliavandenių kiekiui ir maistinėms skaiduloms ."
+    },
+    {
+        "Nutrients": "Total carbohydrates",
+        "Translated": "Bendras angliavandenių kiekis",
+        "Image": "Total_Carbo_252443719.jpg",
+        "PDF Annotations": "E%: su maistu gaunamos energijos procentinis kiekis",
+        "What is it and what does it do?": "Į bendrą angliavandenių kiekį įeina visų rūšių angliavandeniai, nepriklausomai nuo jų fiziologinių ir maistinių savybių. Iš bendro angliavandenių kiekio glikeminiai angliavandeniai sudaro pagrindinį energijos, kuri teikiama organizmo ląstelėms gliukozės pavidalu, šaltinį. Pagrindiniai glikeminiai angliavandeniai racione – tai monosacharidai (gliukozė ir fruktozė), malto-oligosacharidai ir krakmolas."
+    },
+    {
+        "Nutrients": "Dietary fibre",
+        "Translated": "Maistinės skaidulos",
+        "Image": "dietary fibre 710084218.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Maistinės skaidulos – tai angliavandeniai, kurie nėra virškinami žmogaus plonojoje žarnoje. Į juos įeina nekrakmolo polisacharidai, atsparus krakmolas, atsparūs oligosacharidai ir ligninas. Maistinės skaidulos vaidina svarbų vaidmenį užtikrinant sklandų žarnyno funkcionavimą (pvz., laisvina vidurius). Kai kurių rūšių maistinės skaidulos taip pat mažina maistinių riebalų ir glikeminių angliavandenių absorbavimą."
+    },
+    {
+        "Nutrients": "Fats",
+        "Translated": "Riebalai",
+        "Image": "Fat 396446890.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Riebalai – tai pagrindinis organizmo energijos šaltinis. Maistinus riebalus daugiausiai sudaro trigliceridas, kurį sudaro glicerolis susijugęs su trimis riebalų rūgštimis, jų sudėtyje yra fosfatidilcholino ir cholesterolio. EMST nustatė RMV bendram riebalų kiekiui, alfa-linoleno rūgščiai, eikozapentaeno rūgščiai ir dokozaheksaeno rūgščiai, linolo rūgščiai, sočiosioms riebalų rūgštims  ir transriebalų rūgštims."
+    },
+    {
+        "Nutrients": "Total fat",
+        "Translated": "Bendras riebalų kiekis",
+        "Image": "Total fat 510672865.jpg",
+        "PDF Annotations": "E%: su maistu gaunamos energijos procentinis kiekis",
+        "What is it and what does it do?": "Bendras riebalų kiekis – tai visų tipų maistinių riebalų arba lipidų derinys. Riebalai – svarbus energijos šaltinis, be to, jie padeda įsisavinti riebaluose tirpius vitaminus ir karotenoidus."
+    },
+    {
+        "Nutrients": "Alpha-linolenic acid (ALA)",
+        "Translated": "Alfa-linoleno rūgštis",
+        "Image": "Alpha-linolenic acid (ALA) 240806161.jpg",
+        "PDF Annotations": "E%: su maistu gaunamos energijos procentinis kiekis",
+        "What is it and what does it do?": "Alfa-linoleno rūgštis– tai augalinės kilmės omega-3 polinesočiosios riebalų rūgšties rūšis, kurią būtina gauti su maistu. Tai – žmogaus organizme esančių ilgos grandinės omega-3 riebalų rūgščių pirmtakas."
+    },
+    {
+        "Nutrients": "Docosahexaenoic acid (DHA)",
+        "Translated": "Docosahexaenoic acid (DHA)",
+        "Image": "Docosahexaenoic acid (DHA) 302322275.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Docosahexaenoic acid (DHA) is a type of omega-3 long chain polyunsaturated fatty acid (PUFA). It can be obtained from the diet or can be synthesized from alpha-linolenic acid (ALA). As a component of membrane structural lipids, it has several biological functions in the body (e.g. cell membrane stability, neurological development and function). "
+    },
+    {
+        "Nutrients": "Eicosapentaenoic acid, Docosahexaenoic acid (EPA, DHA)",
+        "Translated": "Eikozapentaeno rūgštis, dokozaheksaeno rūgštis ",
+        "Image": "Docosahexaenoic acid (DHA) 302322275.jpg",
+        "PDF Annotations": "Besilaukiančių ir žindančių moterų atveju vertė turi būti pridedama prie AI vertės nesilaukiančioms ir nežindančioms moterims.",
+        "What is it and what does it do?": "Eikozapentaeno rūgštis – tai omega 3 ilgos grandinės polinesočiosios riebalų rūgšties rūšis. Ji gaunama su maistu arba gali būti susintetinama organizme iš alfa-linoleno rūgšties. Būdama prekursoriumi eikozanoidams, ji dalyvauja reguliuojant kraujospūdį, inkstų funkcionavimą, kraujo krešėjimą bei uždegimines ir imunologines reakcijas.\n\nDokozaheksaeno rūgštis – tai omega 3 ilgos grandinės polinesočiosios riebalų rūgšties rūšis. Ji gaunama su maistu arba gali būti susintetinama iš alfa-linoleno rūgšties. Būdama membranas sudarančių lipidų sudėtine dalimi, ji organizme atlieka kelias biologines funkcijas (pvz., ląstelių membranų stabilumo, neurologinio vystymosi ir funkcionavimo)."
+    },
+    {
+        "Nutrients": "Linoleic acid (LA)",
+        "Translated": "Linolo rūgštis",
+        "Image": "Linoleic acid (LA) 236784790.jpg",
+        "PDF Annotations": "E%: su maistu gaunamos energijos procentinis kiekis",
+        "What is it and what does it do?": "Linolo rūgštis – tai augalinės kilmės omega-6 polinesočiosios riebalų rūgšties rūšis, kurią būtina gauti su maistu. Tai – žmogaus organizme sintetinamų ilgos grandinės omega-6 riebalų rūgščių pirmtakas."
+    },
+    {
+        "Nutrients": "Saturated fatty acids (SFA)",
+        "Translated": "Sočiosios riebalų rūgštys",
+        "Image": "Saturated fatty acids (SFA) 360064298.jpg",
+        "PDF Annotations": "ALAP: kaip galima mažesnis",
+        "What is it and what does it do?": "Sočiosios riebalų rūgštys – tai maistinių riebalų arba lipidų sudedamosios dalys, kurių anglies grandinėse nėra dvigubų jungčių. Sočiosios riebalų rūgštys  sintetinamos organizme, jas nebūtina gauti su maistu. Jų vaidmuo organizmo medžiagų apykaitoje nėra tiksliai žinomas."
+    },
+    {
+        "Nutrients": "Trans-fatty acids (TFA)",
+        "Translated": "Transriebalų rūgštys",
+        "Image": "Trans-fatty acids (TFA) 85525171.jpg",
+        "PDF Annotations": "ALAP: kaip galima mažesnis",
+        "What is it and what does it do?": "Transriebalų rūgštys – tai nesočiosios riebalų rūgštys, kuriose yra dviguba anglies-anglies jungtis trans konfigūracijoje. Jų nesintetina organizmas ir transriebalų rūgštys nėra būtina gauti su maistu. Jų vaidmuo organizmo medžiagų apykaitoje nėra tiksliai žinomas."
+    },
+    {
+        "Nutrients": "Protein",
+        "Translated": "Baltymai",
+        "Image": "Protein 437586157.jpg",
+        "PDF Annotations": "Norint apskaičiuot vertes gramais per dieną, vidutinių poreikių /gyventojų suvartotinų maistinių medžiagų kiekių vertes reikia padauginti iš referencinio kūno svorio.\n\nBesilaukiančių ir žindančių moterų atveju, vertė turi būti pridedama prie vidutinio poreikio / gyventojų suvartotinų maistinių medžiagų kiekių  vertės nesilaukiančioms ir nežindančioms moterims.",
+        "What is it and what does it do?": "Maistiniai baltymai yra azoto šaltinis ir nepakeičiamos amino rūgštys, kurios yra būtinos organizmui audinių augimui ir atsinaujinimui."
+    },
+    {
+        "Nutrients": "Water",
+        "Translated": "Vanduo",
+        "Image": "Water 73168906.jpg",
+        "PDF Annotations": "Suvartojimo normos vertės vandeniui yra susijusios su visų gėrimų sudėtyje esančiu vandeniu, įskaitant geriamą ir mineralinį vandenį, ir maisto sudėtyje esančiu vandeniu.",
+        "What is it and what does it do?": "Vanduo vaidina esminį vaidmenį praktiškai visose organizmo funkcijose ir yra itin svarbus termoreguliacijai.  "
+    },
+    {
+        "Nutrients": "Minerals",
+        "Translated": "Mineralinės medžiagos",
+        "Image": "Minerals 401701420.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Mineralinės medžiagos mityboje – tai neorganinės medžiagos, kurios būtinos organizmui kaip maistinės medžiagos daugeliui funkcijų užtikrinti. EMST yra nustačiusi RMV kalciui, variui, fluorui, jodui, geležiai, magniui, manganui, molibdenui, fosforui, kaliui, selenui ir cinkui."
+    },
+    {
+        "Nutrients": "Calcium",
+        "Translated": "Kalcis",
+        "Image": "Calcium 366258461.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Kalcis – tai pagrindinė maistinė mineralinė medžiaga ir neatsiejama sudėtinė skeleto dalis. Apie 99% viso organizme esančio kalcio yra randama kauluose ir dantyse, kuriuose jis atlieka statybinės medžiagos vaidmenį. Likęs 1% kalcio, kuris aptinkamas organizme, perduoda informaciją iš vienos ląstelės kitai ir iš vieno audinio kitam."
+    },
+    {
+        "Nutrients": "Chloride",
+        "Translated": "Chloridas",
+        "Image": "Chloride.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Chloridas yra esminė mineralinė medžiaga  ir vienas pagrindinių organizmo elektrolitų. Chloridas prisideda prie kūno skysčių pusiausvyros ir yra virškinimo sulčių sudedamoji dalis."
+    },
+    {
+        "Nutrients": "Copper",
+        "Translated": "Varis",
+        "Image": "Copper 555008632.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Varis yra viena iš esminių maisto medžiagų. Jis būtinas elektronų perdavimo procesams ir yra pagrindinė daugelio fermentų, įskaitant fermentus, dalyvaujančius neurotransmiterių sintezėje, energijos apykaitoje bei kolageno ir elastino kryžminių jungčių susidaryme, sudedamoji dalis."
+    },
+    {
+        "Nutrients": "Fluoride",
+        "Translated": "Fluoras",
+        "Image": "Fluoride 426624454.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Fluoras nėra esminė maistinė medžiaga. Todėl vidutinis poreikis esminėms fiziologinėms funkcijoms nėra nustatomas. Nepaisant to, fluorui buvo nustatyta suvartojimo norma dėl teigiamo maistinio fluoro poveikio dantų ėduonies prevencijai."
+    },
+    {
+        "Nutrients": "Iodine",
+        "Translated": "Jodas",
+        "Image": "Iodine 550602175.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Jodas yra viena iš esminių maistinių medžiagų. Jis yra sudėtinė skydliaukės hormonų dalis, todėl prisideda prie energijos apykaitos reguliavimo. Jis yra itin svarbus ankstyvuoju didžiosios dalies organų augimo, vystymosi ir brendimo laikotarpiu."
+    },
+    {
+        "Nutrients": "Iron",
+        "Translated": "Geležis",
+        "Image": "Iron 530292793.jpg",
+        "PDF Annotations": "Moterų iki menopauzės (įskaitant žindančias ir besilaukiančias moteris) atveju, gyventojų suvartotinų maistinių medžiagų kiekių  vertė apima maždaug 95 % visų moterų poreikį.",
+        "What is it and what does it do?": "Geležis yra svarbi pernešant deguonį, perduodant elektronus, oksidazės veiklai ir energijos apykaitai. Pagrindiniai organizmo komponentai, kurių sudėtyje yra geležies, – tai eritrocitai, hemoglobinas, raumenų mioglobinas, kepenų feritinas, hemo grupę turintys ir hemo grupės neturintys fermentai."
+    },
+    {
+        "Nutrients": "Magnesium",
+        "Translated": "Magnis",
+        "Image": "Magnesium 531047605.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Magnis yra būtinas daugeliui organizmo fermentinių reakcijų. Magnis gali moduliuoti membranų pralaidumą ir elektrines medžiagų savybes. Magnis taip pat atlieka kaulų statybinės medžiagos vaidmenį."
+    },
+    {
+        "Nutrients": "Manganese",
+        "Translated": "Manganas",
+        "Image": "Manganese 485564545.jpg",
+        "PDF Annotations": "Kūdikių atveju, turint omeny platų tinkamos suvartoti mangano normos diapazoną, šiai amžiaus grupei nustatomas suvartojimo normų verčių intervalas.",
+        "What is it and what does it do?": "Manganas yra viena iš esminių mineralinių maisto medžiagų. Jis yra svarbi fermentų, dalyvaujančių amino rūgščių, lipidų ir angliavandenių apykaitoje, sudėtinė dalis. Jis taip pat reikalingas tinkamam kaulų formavimuisi. "
+    },
+    {
+        "Nutrients": "Molybdenum",
+        "Translated": "Molibdenas",
+        "Image": "Molybdenum 418549027.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Molibdenas yra būtinas kaip pagrindinė sudedamoji kelių fermentų, dalyvaujančių oksidacijos-redukcijos reakcijose ir perduodant elektronus, dalis."
+    },
+    {
+        "Nutrients": "Phosphorus",
+        "Translated": "Fosforas",
+        "Image": "Phosphorus 559422934.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Fosforas yra viena iš esminių maisto medžiagų ir dalyvauja daugelyje fiziologinių procesų, kaip antai ląstelės energijos cikle, reguliuojant organizmo rūgščių ir bazių pusiausvyra, ląstelių reguliavimo ir signalų perdavimo procese ir susidarant mineralinėms medžiagoms kauluose ir dantyse."
+    },
+    {
+        "Nutrients": "Potassium",
+        "Translated": "Kalis",
+        "Image": "Potassium 401736550.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Kalis yra viena iš esminių mineralinių medžiagų žmogaus mityboje. Jis vaidina svarbų vaidmenį daugelyje žmogaus organizmo fiziologinių procesų, įskaitant kūno skysčių paskirstymą, nervinių impulsų perdavimą ir raumenų susitraukimą."
+    },
+    {
+        "Nutrients": "Selenium",
+        "Translated": "Selenas",
+        "Image": "Selenium 405877411.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Selenas  yra viena iš esminių mineralinių maisto medžiagų. Jis yra svarbi selenoproteinų dalis, kurie yra žmogaus antioksidantų aktyvumo fermentų dalis ir reguliuoja skydliaukės hormonų apykaitą."
+    },
+    {
+        "Nutrients": "Sodium",
+        "Translated": "Natris",
+        "Image": "Sodium.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Natris yra esminė mineralinė medžiaga  ir vienas pagrindinių organizmo elektrolitų. Natris palaiko daugelį kūno funkcijų, tokių kaip skysčių ir pH balansas, raumenų susitraukimas ir nervinių impulsų perdavimas."
+    },
+    {
+        "Nutrients": "Zinc",
+        "Translated": "Cinkas",
+        "Image": "Zinc 527366725.jpg",
+        "PDF Annotations": "Kūdikių ir vaikų atveju, dalinis cinko įsisavinimas, į kurį buvo atsižvelgiama nustatant gyventojų suvartotinų maistinių medžiagų kiekių  vertes, buvo paremtas mišrios mitybos racionų, kuriuose, tikėtina, yra nevienodi fitatų kiekiai, duomenimis. Todėl su maistu suvartojamas fitatų kiekis nebuvo koreguojamas.\n\nSuaugusių asmenų atveju, vidutiniai poreikiai ir gyventojų suvartotinų maistinių medžiagų kiekių vertės pateikiamos pagal keturis su maistu suvartojamų fitatų lygius : 300, 600, 900 ir 1,200 mg/ per dieną.\n\nBesilaukiančių ir žindančių moterų atveju, vertė turi būti pridedama prie vidutinio poreikio / gyventojų suvartotinų maistinių medžiagų kiekių vertės nesilaukiančioms ir nežindančioms moterims.",
+        "What is it and what does it do?": "Cinkas yra viena iš esminių mineralinių medžiagų mityboje. Cinkas yra svarbi tam tikrų baltymų struktūros dalis ir atlieka daugelio fermentų katalizatoriaus vaidmenį. Cinkas atlieka aktyvų vaidmenį reguliuojant genų ekspresiją ir signalų perdavimą iš vienos ląstelės į kitą."
+    },
+    {
+        "Nutrients": "Vitamins",
+        "Translated": "Vitaminai",
+        "Image": "Vitamins 423108550.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Vitaminai – tai organiniai junginiai, kurie yra itin svarbūs daugeliui organizmo funkcijų. EMST yra nustačiusi RMV biotinui, cholinui, kobalaminui (vitaminas B12), folatui, niacinui, pantoteno rūgščiai, riboflavinui, tiaminui, vitaminams A, B6, C, D, E α-tokoferolio pavidalu ir K filochinono pavidalu."
+    },
+    {
+        "Nutrients": "Biotin",
+        "Translated": "Biotinas",
+        "Image": "Biotin 695325472.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Biotinas – tai vandenyje tirpus vitaminas B, kuris vaidina svarbų vaidmenį energijos ir riebalų rūgščių apykaitoje."
+    },
+    {
+        "Nutrients": "Choline",
+        "Translated": "Cholinas",
+        "Image": "Choline 241353865.jpg",
+        "PDF Annotations": "Vertės yra susijusios su laisvo ar esterifikuoto pavidalo cholinu (pvz., glicerofosfocholinu, fosfocholinu, fosfatidilcholinu, sfingomielinu).",
+        "What is it and what does it do?": "Cholinas – tai vandenyje tirpus organinis junginys. Žmogaus organizmas gali pats pasigaminti choliną, tačiau, norint užtikrinti pakankamą jo kiekį, būtina jo gauti su maistu. Cholinas yra neatskiriama kai kurių fosfolipidų sudėtinė dalis. Jis dalyvauja lipidų apykaitoje ir jų pernešime bei cholinerginėje neurotransmisijoje."
+    },
+    {
+        "Nutrients": "Cobalamin (vitamin B12)",
+        "Translated": "Kobalaminas (vitaminas B12)",
+        "Image": "Cobalamin 538302322.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Kobalaminas (vitaminas B12) – tai vandenyje tirpus vitaminas, kuris, būdamas kofermentu, dalyvauja amino rūgščių, nukleotidų, neurotransmiterių ir fosfolipidų apykaitoje."
+    },
+    {
+        "Nutrients": "Folate",
+        "Translated": "Folatas",
+        "Image": "Folate 262043627.jpg",
+        "PDF Annotations": "Vertės yra susijusios su maiste esančiu folatu ir foline rūgštimi.\n\nDFE: maistinio folato ekvivalentas. Natūraliai maiste aptinkamų folatų biologinis įsisavinimas yra mažesnis nei folinės rūgšties. Siekiant atsižvelgti į šiuos skirtumus, buvo įvestas maistinio folato ekvivalentas. Kai maiste esančio folato ir folio rūgšties suvartojimas su maistu yra kombinuojamas, maistinio folato ekvivalentų vertės gali būti apskaičiuojamos tokiu būdu: μg DFE =+ μg folatas maiste + (1,7 x μg folinė rūgštis).\n\nLeistinos viršutinės suvartojimo ribos vertė taikoma folinei rūgščiai (sintetinei).",
+        "What is it and what does it do?": "Folatas – tai bendras terminas, kuris naudojamas vandenyje tirpių junginių, priklausančių B vitaminų grupei, šeimai įvardyti. Jis yra būtinas ribonukleino ir dezoksiribonukleino rūgštims (RNR ir DNR) sintetinti ir normaliam ląstelių ir organizmo funkcionavimui."
+    },
+    {
+        "Nutrients": "Niacin",
+        "Translated": "Niacinas",
+        "Image": "Niacin 437586160.jpg",
+        "PDF Annotations": "Vertės yra susijusios su niacinu nikotinamido ir nikotininės rūgšties pavidalu. Niacinas gali būti sintetinamas žmogaus organizme iš nepakeičiamos amino rūgšties triptofano.\n\nNE: niacino ekvivalentas (1 NE = 1 mg niacino = 60 mg maistinio triptofano) Niacino poreikis yra susijęs su energijos poreikiu, todėl yra išreiškiamas  mg NE / MJ. \n\nVertės, kurios išreiškiamos mg NE / per dieną gali būti apskaičiuojamos pagal nagrinėjamos grupės energijos poreikį (EMST Dietinių produktų, mitybos ir alergijos specialistų darbo grupėje, 2013). ",
+        "What is it and what does it do?": "Niacinas – tai bendras terminas nikotininei rūgščiai ir nikotinamidui, kurie yra vandenyje tirpūs organiniai junginiai, priklausantys B vitaminų grupei, įvardyti. Niacinas būtinas oksidacijos-redukcijos reakcijoms bei kataboliniams ir anaboliniams procesams. Žmogaus organizmas gali pats pasigaminti niaciną, bet jį galima gauti ir su maistu."
+    },
+    {
+        "Nutrients": "Pantothenic acid",
+        "Translated": "Pantoteno rūgštis",
+        "Image": "Pantothenic acid 367666061.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Pantoteno rūgštis – tai vandenyje tirpus vitaminas, priklausantis B vitaminų grupei. Jis skatina riebalų rūgščių ir amino rūgščių apykaitą."
+    },
+    {
+        "Nutrients": "Riboflavin",
+        "Translated": "Riboflavinas",
+        "Image": "Riboflavin 102461903.jpg",
+        "PDF Annotations": "Vertės yra susijusios su riboflavinu laisvo riboflavino, flavino mononukleotido ir flavino adenino dinukleotido pavidalu.",
+        "What is it and what does it do?": "Riboflavinas – tai vandenyje tirpus organinis junginys, priklausantis B vitaminų grupei. Jis skatina energijos apykaitą, prisideda prie metabolinių kelių ir kai kurių vitaminų (pvz., niacino ir vitamino B6) be kofermentų susidarymo."
+    },
+    {
+        "Nutrients": "Thiamin",
+        "Translated": "Tiaminas",
+        "Image": "Thiamin 153681581.jpg",
+        "PDF Annotations": "Tiamino poreikis yra susijęs su energijos poreikiu, todėl išreiškiamas mg/MJ. Vertės, kurios išreiškiamos mg NE / per dieną gali būti apskaičiuojamos pagal nagrinėjamos grupės energijos poreikį (EMST Dietinių produktų, mitybos ir alergijos specialistų darbo grupėje, 2013).",
+        "What is it and what does it do?": "Tiaminas – tai vandenyje tirpus organinis junginys, priklausantis B vitaminų grupei. Jis atlieka svarbų vaidmenį palaikant sveiką nervų ir širdies-kraujagyslių sistemą."
+    },
+    {
+        "Nutrients": "Vitamin A",
+        "Translated": "Vitaminas A",
+        "Image": "Vitamin A 558453145.jpg",
+        "PDF Annotations": "Vertės yra susijusios su vitaminu A retinolio, retinilo esterių ir provitamino A karotenoidų pavidalu.\n\nRE: retinolio ekvivalentas. Provitamino A karotinoidų biologinis įsisavinimas yra žemesnis nei retinolio. Siekiant atsižvelgti į šiuos skirtumus, buvo įvestas retinolio ekvivalentas. Jis apibrėžiamas taip: 1 μg RE = 1 μg retinolio = 6 μg β-karoteno = 12 μg kitų karotenoidų, pasižyminčių provitamino A aktyvumu. \n\nLeistina viršutinė suvartojimo ribos  vertė yra taikoma vitaminui A retinolio arba retinilo esterių pavidalu. Nėra tinkamų duomenų, kuriais pasinaudojant galima būtų gauti  leistinos viršutinės suvartojimo ribos vertę β-karotenui.",
+        "What is it and what does it do?": "Vitaminas A yra svarbus sveikam regėjimui palaikyti, žmogaus audinių ląstelių augimui ir integralumui užtikrinti. Jis yra gaunamas su maistu jau susiformavusio vitamino A (daugiausiai retinolio ir retinilo esterių) gyvūniniuose produktuose pavidalu arba provitamino A karotinoidų, pvz., beta-karoteno augaliniuose produktuose pavidalu."
+    },
+    {
+        "Nutrients": "Vitamin B6",
+        "Translated": "Vitaminas B6",
+        "Image": "Vitamin B6 532506703.jpg",
+        "PDF Annotations": "Vertės yra susijusios su vitaminu B6 piridoksino, piridoksalo, piridoksamino ir jų fosforilintų formų pavidalu.",
+        "What is it and what does it do?": "Vitaminas B6 – tai vandenyje tirpus vitaminas, prisidedantis prie energijos apykaitos organizme, normalaus nervų sistemos funkcionavimo, raudonųjų kraujo kūnelių formavimosi ir hormonų veiklos reguliavimo."
+    },
+    {
+        "Nutrients": "Vitamin C",
+        "Translated": "Vitaminas C",
+        "Image": "Vitamin C 264514838.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "Vitaminas C – tai vandenyje tirpus vitaminas, kuris atlieka svarbų antioksidantų tinklo organizme vaidmenį. Vitaminas C – tai kelių fermentų, dalyvaujančių kolageno, karnitino, katecholaminų ir t. t. sintezėje, kosubstratas."
+    },
+    {
+        "Nutrients": "Vitamin D",
+        "Translated": "Vitaminas D",
+        "Image": "Vitamin D 465164366.jpg",
+        "PDF Annotations": "Vertės yra susijusios su vitaminu D ergokalciferolio (vitamino D2) arba cholekalciferolio (vitamino D3) pavidalu.\n\nNustatant AI vertę vitaminui D, turima omeny minimali vitamino D sintezė odoje. Esant endogeninei vitamino D sintezei, maistinio vitamino D poreikis yra žemesnis arba net gali būti lygus nuliui.",
+        "What is it and what does it do?": "Vitaminas D – tai riebaluose tirpus vitaminas, kuris padeda palaikyti normalią kaulų ir raumenų funkciją. Jį galima gauti su maistu vitamino D2 (ergokalciferolio) arba vitamino D3 (cholekalciferolio) pavidalu. Pastarosios formos vitaminas taip pat sintetinamas saulės šviesos veikiamoje odoje."
+    },
+    {
+        "Nutrients": "Vitamin E as α-tocopherol",
+        "Translated": "Vitaminas E α - tokoferolio pavidalu",
+        "Image": "a-Tocopherol (vit E) 381113728.jpg",
+        "PDF Annotations": "",
+        "What is it and what does it do?": "α – tokoferolis (vitaminas E) – tai riebaluose tirpus vitaminas, kuris įeina į antioksidantų apsaugos sistemą."
+    },
+    {
+        "Nutrients": "Vitamin K as phylloquinone",
+        "Translated": "Vitaminas K filochinono pavidalu",
+        "Image": "Vitamin K.jpg",
+        "PDF Annotations": "Vitaminas K natūraliai aptinkamas maiste filochinono (vitamino K1) ir melachinono (vitamino K2) pavidalu. Tačiau šiuo metu duomenys apie melachinoną nėra pakankami, ir suvartojimo normos  vertė vitaminui K nustatoma tik filochinono pagrindu.",
+        "What is it and what does it do?": "Vitaminas K – tai riebaluose tirpių junginių šeima, vaidinanti svarbų vaidmenį kraujo krešėjimui ir kaulinio audinio mineralizacijai. Vitaminas K natūraliai aptinkamas maiste filochinono (vitamino K1) ir melachinono (vitamino K2) pavidalu."
+    }
+]

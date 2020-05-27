@@ -1,0 +1,757 @@
+html,
+body {
+	margin: 0;
+	font: 100 36px/36px MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	color: #8b0366;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	font-size: 1em;
+}
+p,ul,ol {
+	margin: 0;
+}
+img {
+	display: block;
+}
+
+/* = Sections -> Common
+===================================*/
+.section,
+.subsection {
+	position: relative;
+}
+.section-anchor {
+	position: absolute;
+}
+.txt {
+	position: absolute;
+	white-space: nowrap;
+	overflow: hidden
+}
+.v-center {
+	display: table;
+	position: absolute;
+	width: 100%;
+	height:100%;
+}
+.v-center-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+.v-center-inner-2 {
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn-tweet {
+	position: absolute;
+	display: block;
+	width: 384px;
+	height: 72px;
+	background: url(../assets/tweet.png) no-repeat;
+	font: 0/0 a;
+	text-decoration: none;
+	text-shadow: none;
+}
+.btn-tweet-l {
+	width: 516px;
+	height: 97px;
+	background: url(../assets/tweet-l.png) no-repeat;
+}
+
+/* = Sections -> Common -> Poly
+===================================*/
+
+.poly-2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 420px;
+	height: 700px;
+	margin-top: -350px;
+	margin-left: -210px;
+	overflow: visible;
+	background: #f0b600;
+	font-size: 48px;
+	line-height: 58px;
+	text-align: center;
+}
+.poly-2:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -189px;
+	width: 0;
+	height: 0;
+	border: 350px solid transparent;
+	border-left-width: 0;
+	border-right-width: 190px;
+	border-right-color: #f0b600;
+}
+.poly-2:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -189px;
+	width: 0;
+	height: 0;
+	border: 350px solid transparent;
+	border-left-width: 190px;
+	border-right-width: 0;
+	border-left-color: #f0b600;
+}
+.poly-2-inner {
+	position: absolute;
+	top: 0;
+	right: -190px;
+	bottom: 0;
+	left: -190px;
+	z-index: 1;
+}
+
+/* = Sections -> Common -> Poly -> Small
+===================================*/
+
+.poly-2-small {
+	position: absolute;
+	top: 16%;
+	left: 86%;
+	width: 100px;
+	height: 160px;
+	margin-top: -50px;
+	margin-left: -80px;
+	overflow: visible;
+	background: #f0b600;
+	font-size: 100px;
+	line-height: 1em;
+	text-align: center;
+}
+.poly-2-small:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -39px;
+	width: 0;
+	height: 0;
+	border: 80px solid transparent;
+	border-left-width: 0;
+	border-right-width: 40px;
+	border-right-color: #f0b600;
+}
+.poly-2-small:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -39px;
+	width: 0;
+	height: 0;
+	border: 80px solid transparent;
+	border-left-width: 40px;
+	border-right-width: 0;
+	border-left-color: #f0b600;
+}
+.poly-2-small-inner {
+	position: absolute;
+	top: 0;
+	right: -40px;
+	bottom: 0;
+	left: -40px;
+	z-index: 1;
+}
+
+
+/* = Sections -> Section 1
+===================================*/
+.section-1 {
+	height: 950px;
+	background: url(../assets/s-1-bg.jpg) no-repeat 50% 100%;
+}
+.section-1-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../assets/efsa.png) no-repeat 0 0;	
+}
+.section-1 .header {
+	position: absolute;
+	top: 740px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.section-1 .header h1 {
+	font-size: 74px;
+	line-height: 74px;
+}
+.section-1 .header p {
+	font-size: 40px;
+	line-height: 40px;
+	margin-top: 35px;
+}
+@media(orientation:landscape) {
+	.section-1 {
+		height: 760px;
+	}
+	.section-1-inner {
+		background-size: 80%;
+	}
+	.section-1 .header {
+		top: 530px;
+	}
+	.section-1 .header p {
+		margin-top: 0;
+	}
+}
+
+/* = Sections -> Section 2
+===================================*/
+.section-2 {
+	height: 1500px;
+	background: url(../assets/s-2-bg.jpg) no-repeat 50% 0;
+}
+.section-2 .txt {
+	position: absolute;
+	top: 640px;
+	right: 80px;
+	font-size: 60px;
+	line-height: 72px;
+	text-align: right;
+}
+.section-2 .btn-tweet {
+	bottom: 150px;
+	left: 100px;
+}
+
+/* = Sections -> Section 3
+===================================*/
+.section-3 {
+	height: 1500px;
+	background: url(../assets/s-3-bg.jpg) no-repeat 50% 0;
+}
+.section-3 .txt {
+	position: absolute;
+	top: 105px;
+	left: 85px;
+	font-size: 54px;
+	line-height: 65px;
+}
+.section-3 .txt-2 {
+	position: absolute;
+	top: 1185px;
+	left: 355px;
+	font-size: 54px;
+	line-height: 65px;
+}
+
+/* = Sections -> Section 4
+===================================*/
+.section-4 {
+	height: 1750px;
+	background: url(../assets/s-4-bg.jpg) no-repeat 50% 0;
+}
+.section-4 .txt {
+	position: absolute;
+	top: 1065px;
+	right: 195px;
+	font-size: 60px;
+	line-height: 70px;
+	text-align: right;
+}
+
+/* = Sections -> Section 5
+===================================*/
+.section-5 {
+	height: 1064px;
+	background: url(../assets/s-5-bg.jpg) no-repeat 50% 0;
+}
+.section-5 .heading {
+	position: absolute;
+	top: 435px;
+	left: 305px;
+	color: #fff;
+	font-size: 82px;
+	line-height: 98px;
+	text-align: center;
+	text-shadow: 0 0 10px rgba(0,0,0,.6);
+}
+
+/* = Sections -> Section 6
+===================================*/
+.section-6 {
+	height: 1120px;
+	background: url(../assets/s-6-bg.jpg) no-repeat 50% 0;
+}
+.section-6 .poly {
+	position: absolute;
+	top: 45px;
+	left: 175px;
+	height: 465px;
+	padding-top: 65px;
+	overflow: visible;
+	background: #8b0366;
+	color: #fff;
+	font-size: 48px;
+	line-height: 58px;
+	text-align: center;
+}
+.section-6 .poly:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -319px;
+	width: 0;
+	height: 0;
+	border: 265px solid transparent;
+	border-left-width: 160px;
+	border-right-width: 160px;
+	border-right-color: #8b0366;
+}
+.section-6 .poly:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -319px;
+	width: 0;
+	height: 0;
+	border: 265px solid transparent;
+	border-left-width: 160px;
+	border-right-width: 160px;
+	border-left-color: #8b0366;
+}
+.section-6 .poly p {
+	position: relative;
+	margin: 0 -120px;
+	z-index: 1;
+}
+
+/* = Sections -> Section 7
+===================================*/
+.section-7 {
+	height: 1120px;
+	background: url(../assets/s-6-bg.jpg) no-repeat 50% 0;
+}
+.section-7 .poly {
+	position: absolute;
+	top: 150px;
+	left: 175px;
+	height: 465px;
+	padding-top: 95px;
+	overflow: visible;
+	background: #f0b600;
+	font-size: 48px;
+	line-height: 58px;
+	text-align: center;
+}
+.section-7 .poly:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -339px;
+	width: 0;
+	height: 0;
+	border: 280px solid transparent;
+	border-left-width: 170px;
+	border-right-width: 170px;
+	border-right-color: #f0b600;
+}
+.section-7 .poly:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -339px;
+	width: 0;
+	height: 0;
+	border: 280px solid transparent;
+	border-left-width: 170px;
+	border-right-width: 170px;
+	border-left-color: #f0b600;
+}
+.section-7 .poly p {
+	position: relative;
+	margin: 0 -120px;
+	z-index: 1;
+}
+
+/* = Sections -> Section 8
+===================================*/
+.section-8 {
+	height: 1070px;
+	background: url(../assets/s-8-bg.jpg) no-repeat 50% 0;
+}
+.section-8 .poly {
+	background: #e56400;
+	color: #fff;
+}
+.section-8 .poly:before {
+	border-right-color: #e56400;
+}
+.section-8 .poly:after {
+	border-left-color: #e56400;
+}
+.section-8 .poly-2 {
+	top: 54%;
+	left: 49%;
+	font-size: 115px;
+	line-height: 1em;
+}
+
+/* = Sections -> Section 9
+===================================*/
+.section-common-to-9 .title {
+	position: absolute;
+	top: 86px;
+	left: 200px;
+	color: #fff;
+	font-size: 40px;
+	line-height: 42px
+}
+.section-common-to-9 .txt {
+	bottom: 325px;
+	left: 100px;
+	color: #5a2305;
+	font-size: 46px;
+	line-height: 1em;
+}
+.section-common-to-9 .txt p {
+	margin-top: 1em;
+}
+.section-common-to-9 .txt p:first-child {
+	margin-top: 0;
+}
+.section-9 {
+	height: 960px;
+	background: url(../assets/bg-s.png) no-repeat 0 100%,
+				url(../assets/bg-s-title.jpg) no-repeat 0 0,
+				url(../assets/s-9-bg.jpg) no-repeat 0 100%;
+}
+.section-9 .btn-tweet {
+	top: 180px;
+	right: 120px;
+}
+
+/* = Sections -> Section 10
+===================================*/
+.section-10 {
+	height: 780px;
+	background: url(../assets/bg-s.png) no-repeat 0 100%,
+				url(../assets/bg-s-title.jpg) no-repeat 0 0,
+				url(../assets/s-10-bg.jpg) no-repeat 0 100%;
+}
+.section-10 .txt {
+	bottom: 405px;
+}
+
+/* = Sections -> Section 11
+===================================*/
+.section-11 {
+	height: 780px;
+	background: url(../assets/bg-s.png) no-repeat 0 100%,
+				url(../assets/bg-s-title.jpg) no-repeat 0 0,
+				url(../assets/s-11-bg.jpg) no-repeat 0 100%;
+}
+.section-11 .txt {
+	left: 130px;
+	bottom: 330px;
+}
+
+/* = Sections -> Section 12
+===================================*/
+.section-12 {
+	height: 780px;
+	background: url(../assets/s-12-bg.png) no-repeat 0 100%,
+				url(../assets/bg-s.png) no-repeat 0 100%,
+				#fff url(../assets/bg-s-title.jpg) no-repeat 0 0;
+}
+.section-12 .txt {
+	top: 330px;
+	left: 500px;
+	bottom: auto;
+}
+
+/* = Sections -> Section 13
+===================================*/
+.section-13 {
+	height: 1070px;
+	background: url(../assets/s-8-bg.jpg) no-repeat 50% 0;
+}
+.section-13 .poly {
+	background: #f0b600;
+	color: #fff;
+}
+.section-13 .poly:before {
+	border-right-color: #f0b600;
+}
+.section-13 .poly:after {
+	border-left-color: #f0b600;
+}
+.section-13 .poly-2 {
+	top: 58%;
+	left: 52%;
+	font-size: 94px;
+	line-height: 1em;
+}
+.section-13 .poly-2-small {
+	top: 11%;
+	left: 30%;
+}
+
+/* = Sections -> Section 14
+===================================*/
+.section-common-to-14 .title {
+	position: absolute;
+	top: 86px;
+	left: 200px;
+	color: #fff;
+	font-size: 42px;
+	line-height: 42px
+}
+.section-common-to-14 .txt {
+	bottom: 525px;
+	left: 150px;
+	color: #5a2305;
+	font-size: 46px;
+	line-height: 1em;
+}
+.section-common-to-14 .txt p {
+	margin-top: 1em;
+}
+.section-common-to-14 .txt p:first-child {
+	margin-top: 0;
+}
+.section-14 {
+	height: 930px;
+	background: url(../assets/bg-s.png) no-repeat 0 100%,
+				url(../assets/bg-s-title-2.jpg) no-repeat 0 0,
+				url(../assets/s-14-bg.jpg) no-repeat 0 100%;
+}
+.section-14 .btn-tweet {
+	top: 180px;
+	right: 120px;
+}
+
+/* = Sections -> Section 15
+===================================*/
+.section-15 {
+	height: 920px;
+	background: url(../assets/bg-s.png) no-repeat 0 100%,
+				url(../assets/bg-s-title-2.jpg) no-repeat 0 0,
+				url(../assets/s-15-bg.jpg) no-repeat 0 100%;
+}
+.section-15 .txt {
+	top: 350px;
+	left: 110px;
+	bottom: auto;
+}
+
+/* = Sections -> Section 16
+===================================*/
+.section-16 {
+	height: 920px;
+	background: url(../assets/bg-s.png) no-repeat 0 100%,
+				url(../assets/bg-s-title-2.jpg) no-repeat 0 0,
+				url(../assets/s-16-bg.jpg) no-repeat 0 100%;
+}
+.section-16 .txt {
+	left: 80px;
+	bottom: 460px;
+}
+
+/* = Sections -> Section 17
+===================================*/
+.section-17 {
+	height: 1070px;
+	background: url(../assets/s-8-bg.jpg) no-repeat 50% 0;
+}
+.section-17 .poly {
+	background: #8b0366;
+	color: #fff;
+}
+.section-17 .poly:before {
+	border-right-color: #8b0366;
+}
+.section-17 .poly:after {
+	border-left-color: #8b0366;
+}
+.section-17 .poly-2 {
+	top: 58%;
+	left: 41%;
+	font-size: 90px;
+	line-height: 1em;
+}
+.section-17 .poly-2-small {
+	top: 63%;
+	left: 93%;
+}
+
+/* = Sections -> Section 18
+===================================*/
+/*.section-18 {
+	height: 915px;
+	background: url(../assets/s-18-bg.jpg) no-repeat 0 100%;
+}*/
+.section-common-to-18 .title {
+	position: absolute;
+	top: 82px;
+	left: 200px;
+	color: #fff;
+	font-size: 34px;
+	line-height: 42px
+}
+.section-common-to-18 .txt {
+	color: #5a2305;
+	font-size: 46px;
+	line-height: 1em;
+}
+.section-common-to-18 .txt p {
+	margin-top: 1em;
+}
+.section-common-to-18 .txt p:first-child {
+	margin-top: 0;
+}
+.section-18 {
+	height: 915px;
+	background: url(../assets/bg-s.png) no-repeat 0 100%,
+				url(../assets/bg-s-title-3.jpg) no-repeat 0 0,
+				url(../assets/s-18-bg.jpg) no-repeat 0 100%;
+}
+.section-18 .txt {
+	top: 220px;
+	right: 30px;
+	text-align: right;
+}
+
+/* = Sections -> Section 19
+===================================*/
+.section-19 {
+	height: 915px;
+	background: url(../assets/bg-s.png) no-repeat 0 100%,
+				url(../assets/bg-s-title-3.jpg) no-repeat 0 0,
+				url(../assets/s-19-bg.jpg) no-repeat 0 100%;
+}
+.section-19 .txt {
+	top: 325px;
+	left: 165px;
+}
+
+/* = Sections -> Section 20
+===================================*/
+.section-20 {
+	height: 915px;
+	background: url(../assets/bg-s.png) no-repeat 0 100%,
+				url(../assets/bg-s-title-3.jpg) no-repeat 0 0,
+				url(../assets/s-20-bg.jpg) no-repeat 0 100%;
+}
+.section-20 .txt {
+	top: 285px;
+	left: 225px;
+}
+.section-20 .btn-tweet {
+	top: 180px;
+	right: 120px;
+}
+
+/* = Sections -> Section 21
+===================================*/
+.section-21 {
+	height: 1065px;
+	background: url(../assets/s-21-bg.jpg) no-repeat 0 100%;
+}
+
+/* = Sections -> Section 22
+===================================*/
+.section-22 {
+	height: 1140px;
+	background: url(../assets/s-22-bg.jpg) no-repeat 0 100%;
+}
+.section-22 .poly {
+	top: 32%;
+	left: 41%;
+	width: 330px;
+	height: 580px;
+	margin-top: -290px;
+	margin-left: -165px;
+	background: #8b0366;
+	color: #fff;
+	font-size: 36px;
+	line-height: 50px;
+}
+.section-22 .poly-2:before,
+.section-22 .poly-2:after {
+	border-width: 290px;
+}
+.section-22 .poly:before {
+	left: -159px;
+	border-right-color: #8b0366;
+	border-left-width: 0;
+	border-right-width: 160px;
+}
+.section-22 .poly:after {
+	right: -159px;
+	border-left-color: #8b0366;
+	border-right-width: 0;
+	border-left-width: 160px;
+}
+
+/* = Sections -> Section 23
+===================================*/
+.section-23 {
+	height: 1135px;
+	background: url(../assets/s-23-bg.jpg) no-repeat 0 100%;
+}
+
+/* = Sections -> Section 24
+===================================*/
+.section-24 {
+	height: 1635px;
+	background: url(../assets/s-24-bg.jpg) no-repeat 0 100%;
+}
+.section-24 .txt {
+	top: 64px;
+	left: 105px;
+	font-size: 51px;
+	line-height: 62px;
+}
+.section-24 .nl-sign-up {
+	position: absolute;
+	top: 567px;
+	right: 133px;
+}
+@media(max-device-width: 400px) {
+	.section-24 .nl-sign-up img {
+		width: 800px;
+	}
+}
+.section-24-contacts {
+	position: absolute;
+	bottom: 75px;
+	right: 10px;
+	width: 215px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section-24-contacts li {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+}
+.section-24-contacts a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(../assets/blank.gif);
+	font: 0/0 a;
+	text-decoration: none;
+	text-shadow: none;
+}
+.section-24-efsa {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 320px;
+	height: 200px;
+}

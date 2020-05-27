@@ -1,0 +1,46 @@
+html, #efsa-pesticide-body {height:100%;font-family:Roboto,Arial,sans-serif;font-weight: 300;}
+#efsa-pesticide-body {margin:0;background-color:#ededed;overflow:hidden;}
+#efsa-pesticide-loading {position: absolute;left:0;top:0;width:100%;height:100%;background-color:rgba(235,235,235,.5);}
+#efsa-pesticide-dataviz, #efsa-pesticide-dataviz-svg {width:100%;}
+#efsa-pesticide-dataviz {height:100%;}
+#efsa-pesticide-header-tab-hmenu {position:absolute;top:1.7%;right:2%;max-height:3%;cursor:pointer;}
+#efsa-pesticide-header-tab-hmenu:hover {opacity:.75;}
+.efsa-pesticide-close:hover {opacity:.75;border-bottom:3px solid #808080;padding-bottom:5px;}
+#efsa-pesticide-dataviz-svg {height:92.44%;}
+#efsa-pesticide-wrapper {display:none;position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.5);}
+#efsa-pesticide-credits {display:none;position:absolute;top:0;right:-58%;width:50%;height:100%;background-color:#404040;color:white;padding:4%;}
+#efsa-pesticide-credits h2 {font-weight:400;font-size:24px;line-height:28px;margin-top:15%;}
+#efsa-pesticide-credits p {font-weight:300;font-size:22px;line-height:25px;}
+.efsa-pesticide-close {float:right;margin:-30px -30px 0 0;cursor:pointer;}
+#efsa-pesticide-header {width:100%;height:7.56%;background-color:white;}
+.efsa-pesticide-header-tab {cursor:pointer;width:13.18%;text-transform:uppercase;display:inline-block;text-align:center;height:100%;font-weight:400;color:#a0a0a0;vertical-align:bottom;background-color:#fcfcfc;float:left;}
+.efsa-pesticide-header-tab img {max-height:55%;max-width:50%;margin-top:8%;}
+.efsa-pesticide-header-tab p {margin:0;display:none;}
+.efsa-pesticide-header-tab.efsa-pesticide-header-tab-active, .efsa-pesticide-header-tab:hover {background-color:#ededed;color:#303030;}
+.efsa-pesticide-tab, .efsa-pesticide-subtab, .efsa-pesticide-tab-title {cursor: pointer;}
+.efsa-pesticide-tab-text, .efsa-pesticide-tab-title-text {fill:white;font-weight:400;font-size:12pt;}
+.efsa-pesticide-subtab-text {fill:white;font-size:12pt;}
+.efsa-pesticide-clicked-circle-text {text-anchor:middle;font-weight:400;}
+.efsa-pesticide-expanded-circle-text, .efsa-pesticide-expanded-circle-text-for-country {text-anchor:middle;font-weight:400;}
+.efsa-pesticide-expanded-circle-rect-text {fill:white;}
+#efsa-pesticide-expanded-circle-rect-text-0 {font-weight: 400;}
+.efsa-pesticide-expanded-circle-line {stroke-width:1px;stroke:#333;}
+.efsa-pesticide-expanded-circle-pie text {font-weight:400;fill:white;text-anchor:middle;}
+.efsa-pesticide-arc {shape-rendering:geometricPrecision;}
+#efsa-pesticide-tooltip {fill:white;stroke:gray;stroke-width:1px;pointer-events:none;}
+#efsa-pesticide-tooltip-text {text-anchor:middle;font-size:10pt;}
+.efsa-pesticide-composition-chart-filter-inactive {opacity:.2;}
+.efsa-composition-chart-legend-item {pointer-events: auto;} 
+.efsa-composition-chart-legend-item-banned {pointer-events:none !important;stroke-width:2px;}
+text {pointer-events:none;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+img, p {-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+
+@media screen and (max-width: 1024px) {
+    #efsa-pesticide-credits h2 {font-size:20px;line-height:24px;}
+    #efsa-pesticide-credits p {font-size:18px;line-height:21px;}
+}
+@media screen and (max-width: 768px) {
+    .efsa-pesticide-tab-title-text {font-size:9pt;}
+    #efsa-pesticide-credits h2 {font-size:14px;line-height:16px;}
+    #efsa-pesticide-credits p {font-size:13px;line-height:14px;}
+}

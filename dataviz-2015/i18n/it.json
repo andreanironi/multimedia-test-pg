@@ -1,0 +1,194 @@
+{
+    "home": {
+        "start_button": "AVVIO",
+        "title_line_1": "Antibioticoresistenza",
+        "title_line_2": "in Europa",
+        "text_part_1": "Resistenza di ",
+        "text_part_2": "Salmonella ",
+        "text_part_3": "ed ",
+        "text_part_4": "Escherichia coli",
+        "text_part_5": "in cibo, animali e uomo,",
+        "text_part_6": "per singolo Paese.",
+        "text_part_7": "L’assenza di dati per un Paese",
+        "text_part_8": "è da attribuire a mancata segnalazione,",
+        "text_part_9": "non ad assenza di antibioticoresistenza."
+    },
+    "macroregions": {
+        "northern_europe": "NORD EUROPA",
+        "eastern_europe": "EST EUROPA",
+        "southern_europe": "SUD EUROPA",
+        "western_europe": "OVEST EUROPA",
+        "all": "TUTTO",
+        "n": "N",
+        "e": "E",
+        "s": "S",
+        "w": "W"
+    },
+    "central_area": {
+        "prevalence_of": "Prevalenza di ",
+        "resistance_of": "Resistenza di ",
+        "resistance": "RESISTENZA",
+        "in": {
+            "Humans": "nell'",
+            "Calves": "nei ",
+            "Pigs": "nei ",
+            "Calves/Pigs": "in ",
+            "Meat from cattle": "nella ",
+            "Meat from pigs": "nella ",
+            "Meat from cattle/Meat from pigs": "in "
+        },
+        "to": {
+            "Ampicillin": "a ",
+            "Azithromycin": "a ",
+            "Cefotaxime": "a ",
+            "Ceftazidime": "a ",
+            "Chloramphenicol": "a ",
+            "Ciprofloxacin": "a ",
+            "Colistin": "a ",
+            "Gentamicin": "a ",
+            "Meropenem": "a ",
+            "Nalidixic acid": "a ",
+            "Sulfamethoxazole": "a ",
+            "Tetracycline": "a ",
+            "Tigecycline": "a ",
+            "Trimethoprim": "a ",
+            "Cefotaxime + Ciprofloxacin": "a ",
+            "ESBL": "a ",
+            "AmpC": "a ",
+            "+": "+"
+        },
+        "producing": ""
+    },
+    "other_labels": {
+        "all_antimicrobials": "Tutti gli antibiotici",
+        "all_countries": "Tutti i paesi",
+        "data_not_available": "DATI NON DISPONIBILI",
+        "default_country": "Unione Europea",
+        "default_antimicrobial": "Ampicillina",
+        "na": "NA",
+        "select_antimicrobial": "SCEGLI ANTIBIOTICO",
+        "select_country": "SCEGLI PAESE",
+        "compare_antimicrobials": "Confronta antibiotici",
+        "compare_countries": "Confronta paesi"
+    },
+    "generic": {
+        "species": {
+            "Humans": "Uomo",
+            "Calves": "Vitelli",
+            "Pigs": "Maiali",
+            "Calves/Pigs": "Vitelli/Maiali",
+            "Meat from cattle": "Carne bovina",
+            "Meat from pigs": "Carne suina",
+            "Meat from cattle/Meat from pigs": "Carne bovina/Carne suina"
+        },
+        "species_after_in": {
+            "Humans": "uomo",
+            "Calves": "vitelli",
+            "Pigs": "maiali",
+            "Calves/Pigs": "vitelli/maiali",
+            "Meat from cattle": "carne bovina",
+            "Meat from pigs": "carne suina",
+            "Meat from cattle/Meat from pigs": "carne bovina/carne suina"
+        },
+        "antimicrobials": {
+            "Ampicillin": "Ampicillina",
+            "Azithromycin": "Azitromicina",
+            "Cefotaxime": "Cefotaxime",
+            "Ceftazidime": "Ceftazidime",
+            "Chloramphenicol": "Cloramfenicolo",
+            "Ciprofloxacin": "Ciprofloxacina",
+            "Colistin": "Colistina",
+            "Gentamicin": "Gentamicina",
+            "Meropenem": "Meropenem",
+            "Nalidixic acid": "Acido nalidixico",
+            "Sulfamethoxazole": "Sulfametossazolo",
+            "Tetracycline": "Tetraciclina",
+            "Tigecycline": "Tigeciclina",
+            "Trimethoprim": "Trimetoprim",
+            "Cefotaxime + Ciprofloxacin": "Cefotaxime + Ciprofloxacina",
+            "ESBL": "ESBL",
+            "AmpC": "AmpC"
+        },
+        "countries": {
+            "Austria": "Austria",
+            "Belgium": "Belgio",
+            "Bulgaria": "Bulgaria",
+            "Croatia": "Croazia",
+            "Cyprus": "Cipro",
+            "Czech Republic": "Repubblica Ceca",
+            "Denmark": "Danimarca",
+            "Estonia": "Estonia",
+            "European Union": "Unione europea",
+            "Finland": "Finlandia",
+            "France": "Francia",
+            "Germany": "Germania",
+            "Greece": "Grecia",
+            "Hungary": "Ungheria",
+            "Iceland": "Islanda",
+            "Ireland": "Irlanda",
+            "Italy": "Italia",
+            "Latvia": "Lettonia",
+            "Lithuania": "Lituania",
+            "Luxembourg": "Lussemburgo",
+            "Malta": "Malta",
+            "Netherlands": "Olanda",
+            "Norway": "Norvegia",
+            "Poland": "Polonia",
+            "Portugal": "Portogallo",
+            "Romania": "Romania",
+            "Slovakia": "Slovacchia",
+            "Slovenia": "Slovenia",
+            "Spain": "Spagna",
+            "Sweden": "Svezia",
+            "Switzerland": "Svizzera",
+            "United Kingdom": "Regno Unito"
+        },
+        "bacteria": {
+            "Salmonella spp": {
+                "part_1": {
+                    "text": "Salmonella spp",
+                    "text_case": "Salmonella spp"
+                },
+                "part_2": {
+                    "text": ""
+                }
+            },
+            "Salmonella Typhimurium": {
+                "part_1": {
+                    "text": "Salmonella",
+                    "text_case": "Salmonella"
+                },
+                "part_2": {
+                    "text": "Typhimurium"
+                }
+            },
+            "Monophasic Salmonella Typhimurium": {
+                "part_1": {
+                    "text": "Salmonella",
+                    "text_case": "Salmonella"
+                },
+                "part_2": {
+                    "text": "Typhimurium monofasica"
+                }
+            },
+            "Salmonella Derby": {
+                "part_1": {
+                    "text": "Salmonella",
+                    "text_case": "Salmonella"
+                },
+                "part_2": {
+                    "text": "Derby"
+                }
+            },
+            "E. coli": {
+                "part_1": {
+                    "text": "E. coli",
+                    "text_case": "E. coli"
+                },
+                "part_2": {
+                    "text": ""
+                }
+            }
+        }
+    }
+}

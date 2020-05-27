@@ -1,0 +1,177 @@
+#survey, #surveyBox{
+    position: absolute;
+    display: none;
+    width: 36%;
+    left: 32%;
+    top: 150px;
+    overflow: hidden;
+    border-radius: 0px;
+    z-index: 1000;
+}
+
+#survey h2, #surveyBox h2 {
+    margin: 20px 0 20px 0;
+    color: #0099ab;
+    text-align: center;
+
+}
+
+#survey p, #surveyBox p {
+    margin: 10px 0 0px 0;
+    color: #777777;
+    text-align: left;
+    line-height: 130%;
+    font-size: 16px;
+}
+
+#surveyBox a, #surveyBox a:visited {
+    color: #0099ab;
+    text-decoration: none;
+}
+
+#surveyBox a:hover {
+    color: #bad405;
+    text-decoration: none;
+}
+
+#survey #survey-content {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+}
+
+#surveyBox #surveyBox-content {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+    padding: 18px;
+    margin: 28px auto 0 auto;
+}
+
+.survey-box {
+    position: fixed;
+    z-index: 100;
+    top: 250px;
+    left: 15px;
+    opacity: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.survey-box a {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    padding: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 32px;
+    width: 32px;
+    opacity: 0.8;
+    margin: 0px 5px 0 0;
+    /* background-image: url('../img/survey_icon_blu.png'); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+    text-decoration: none;
+}
+
+.survey-box a:visited {
+    text-decoration: none;
+}
+
+.survey-box a:hover {
+    background-color: #0099ab;
+    text-decoration: none;
+    /* background-image: url('../img/survey_icon_white.png'); */
+}
+
+@media screen and (max-width: 1024px) {
+
+    #survey, #surveyBox{
+        width: 50%;
+        left: 24%;
+        top: 150px;
+    }
+
+    .close {
+        left: 47%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #survey, #surveyBox {
+        width: 80%;
+        left: 9.5%;
+    }
+
+    .survey-box {
+        top: 290px;
+        left: 5px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .survey-box {
+        top: auto;
+        bottom: 193px;
+        left: 5px;
+    }
+    
+}
+
+@media screen and (max-width: 420px) {
+    #survey, #surveyBox {
+        width: 96%;
+        left: 1.8%;
+    }
+
+    .close {
+        left: 45%;
+    }
+
+}
+
+@media screen and (max-height: 600px) {
+    #survey, #surveyBox{
+        top: 70px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #survey, #surveyBox {
+        top: 10px;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    #survey, #surveyBox {
+        top: 3px;
+    }
+}
+
+#survey-content .btn-survey {
+    background-color: rgb(224, 224, 224);
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 7px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#survey-content .btn-survey:last-of-type {
+    margin-bottom: 7px;
+}

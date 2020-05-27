@@ -1,0 +1,1381 @@
+body {
+    background-color: white;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    font-family: Roboto, Arial !important;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+
+#legend {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    background-color: transparent;
+
+    overflow: hidden;
+    text-align: center;
+    opacity: 1;
+}
+
+#legend-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0;
+    background-color: #DADADA;
+}
+
+.legend-title {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+}
+
+.legend-title h5 {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.legend-space {
+    width: 101px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px 16px;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.legend-bubble {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 3px auto;
+}
+
+.infoIcon {
+    position: absolute;
+    width: 12px;
+    cursor: pointer;
+}
+
+.range0 {
+    background-color: #C3B8B4;
+    cursor: pointer;
+}
+
+.range1 {
+    background-color: #9BCBCB;
+}
+
+.range2 {
+    background-color: #ef9800;
+}
+
+.range3 {
+    background-color: #ffce3a;
+}
+
+.range4 {
+    background-color: #246898;
+}
+
+.range5 {
+    background-color: #86468a;
+}
+
+.range6 {
+    background-color: #ea5d8f;
+}
+
+.range7 {
+    background-color: #85746C;
+}
+
+#logo-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#logo-container-top {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    opacity: 0;
+    top: 10px;
+}
+
+#logo-efsa {
+    float: right;
+    height: 80px;
+    width: 155px;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/efsa_logo_80.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: right center;
+    margin: 0px 4% 0 0%;
+    overflow: hidden;
+    padding: 0;
+}
+
+#logo-efsa img {
+    height: 100%;
+    width: auto;
+}
+
+#logo-efsa a {
+    display: block;
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+}
+
+#logo-ecdc {
+    float: left;
+    height: 80px;
+    width: 90px;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/ecdc_logo_80.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: left center;
+    margin: 0px 0% 1px 5%;
+
+    overflow: hidden;
+}
+
+#logo-ecdc img {
+    height: 100%;
+    width: auto;
+}
+
+#logo-ecdc a {
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-decoration: none;
+}
+
+
+h5 {
+    color: #939393;
+    line-height: 120%;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.close {
+    position: absolute;
+    top: 0px;
+    left: 48%;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    background-color: white;
+    border: #0099ab 3px solid;
+    border-radius: 50%;
+    z-index: 1100;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/close.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.orient {
+    top: 0px;
+}
+
+.close:hover {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/close-hi.png');
+}
+
+#__info_row10__ {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center !important;
+}
+
+#__info_row10__ a {
+    background-color: #0099ab;
+    color: #fff !important;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: all .2s linear;
+}
+
+#__info_row10__ a:hover {
+    background-color: #bad405;
+}
+
+#info, #copy, #orientation, #screen, #video, #survey, #surveyBox, #antibiotics, #bug, #infoBacteria {
+    position: absolute;
+    display: none;
+    width: 36%;
+    left: 32%;
+    top: 150px;
+    overflow: hidden;
+    border-radius: 0px;
+    z-index: 1000;
+}
+
+#orientation {
+    top: 10px;
+}
+
+#info h2, #copy h2, #orientation h2, #screen h2, #video h2, #survey h2, #surveyBox h2, #antibiotics h2, #bug h2, #infoBacteria h2 {
+    margin: 20px 0 20px 0;
+    color: #0099ab;
+    text-align: center;
+
+}
+
+#info p, #copy p, #orientation p, #screen p, #video p, #survey p, #surveyBox p, #antibiotics p, #bug p, #infoBacteria p {
+    margin: 10px 0 0px 0;
+    color: #777777;
+    text-align: left;
+    line-height: 130%;
+    font-size: 16px;
+}
+
+#info a, #copy a, #orientation a, #bug a, #infoBacteria a, #info a:visited, #copy a:visited, #orientation a:visited, #bug a:visited, #screen a, #video a,
+#orientation a:visited, #surveyBox a, #surveyBox a:visited, #antibiotics a, #antibiotics a:visited, #infoBacteria a:visited {
+    color: #0099ab;
+    text-decoration: none;
+}
+
+#info a:hover, #copy a:hover, #orientation a:hover, #video a, #screen a:hover, #surveyBox a:hover, #antibiotics a:hover, #bug a:hover, #infoBacteria a:hover {
+    color: #bad405;
+    text-decoration: none;
+}
+
+#info #info-content {
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+    padding: 18px;
+    margin: 28px auto 0 auto;
+    max-height: 320px;
+    overflow-y: scroll;
+}
+
+#antibiotics #antibiotics-content {
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+    padding: 18px;
+    margin: 28px auto 0 auto;
+    max-height: 445px;
+    overflow-y: scroll;
+}
+
+#copy #copy-content {
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+    padding: 18px;
+    margin: 28px auto 0 auto;
+}
+
+#bug #bug-content {
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+    padding: 18px;
+    margin: 28px auto 0 auto;
+}
+
+#infoBacteria #infoBacteria-content {
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+    padding: 18px;
+    margin: 28px auto 0 auto;
+}
+
+#video #video-content {
+    position: relative;
+    /*height: 0;
+    padding-bottom: 56.25%; */
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+    padding: 18px;
+    margin: 28px auto 0 auto;
+}
+
+#video #video-content .video {
+    /* position: absolute; */
+    /* top: 90px; */
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    min-height: 330px;
+    /* width: 100% !important; */
+    /* height: auto !important; */
+}
+
+#survey #survey-content {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+}
+
+#surveyBox #surveyBox-content {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+    padding: 18px;
+    margin: 28px auto 0 auto;
+}
+
+#orientation #orientation-content {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+    padding: 18px;
+    margin: 28px auto 0 auto;
+}
+
+#screen #screen-content {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.93);
+    border: #bad405 3px solid;
+    border-radius: 0px;
+    padding: 18px;
+    margin: 28px auto 0 auto;
+}
+
+.home-box {
+    position: fixed;
+    z-index: 90;
+    top: 90px;
+    left: 15px;
+    opacity: 1;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+
+.home-box a {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    padding: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 32px;
+    width: 32px;
+    opacity: 0.8;
+    margin: 0px 5px 0 0;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/home-blue.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+    text-decoration: none;
+}
+
+.home-box a:visited {
+    text-decoration: none;
+}
+
+.home-box a:hover {
+    background-color: #0099ab;
+    text-decoration: none;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/home-white.png');
+}
+
+.language-box {
+    position: fixed;;
+    z-index: 100;
+    top: 130px;
+    left: 15px;
+    cursor: pointer;
+}
+
+.language-box a {
+    padding: 0px;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin: 0px 5px 0 0;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+    text-decoration: none;
+}
+
+.language-box a.language-trigger {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    background-color: #ffffff;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-en.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.language-box i:hover {
+    background-color: #0099ab;
+    text-decoration: none;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/share-white.png');
+}
+
+.language-box .languages, .language-box li {
+    list-style: none inside none;
+    padding: 0;
+    margin: 0;
+}
+
+.language-box li {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    padding: 0px;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.language-box .languages {
+    display: block;
+    position: absolute;
+    width: 200px;
+    top: 0;
+    left: -500%;
+}
+
+.language-box .languages li a {
+    background-image: none;
+    color: rgb(0, 153, 171);
+}
+
+.language-box li.lang-container {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+}
+
+.language-box li.lang-container:hover {
+    background-color: #0099ab;
+}
+
+.language-box li.lang-en {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-en.png');
+}
+
+.language-box li.lang-en:hover {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-en-white.png');
+}
+
+.language-box li.lang-de {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-de.png');
+}
+
+.language-box li.lang-de:hover {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-de-white.png');
+}
+
+.language-box li.lang-fr {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-fr.png');
+}
+
+.language-box li.lang-fr:hover {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-fr-white.png');
+}
+
+.language-box li.lang-it {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-it.png');
+}
+
+.language-box li.lang-it:hover {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-it-white.png');
+}
+
+.social-box {
+    position: fixed;
+    z-index: 100;
+    top: 290px;
+    left: 15px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.social-box i, .social-box a {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    padding: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 32px;
+    width: 32px;
+    opacity: 0.8;
+    margin: 0px 5px 0 0;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/share-blue.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+    text-decoration: none;
+}
+
+.social-box i:hover {
+    background-color: #0099ab;
+    text-decoration: none;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/share-white.png');
+}
+
+.social-box .share, .social-box li {
+    list-style: none inside none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-box li {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    padding: 0px;
+    height: 32px;
+    width: 32px;
+    opacity: 0.8;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.social-box a.tw-share {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+
+.social-box li.tw {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/twitter-blue.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+
+}
+
+.social-box li.tw:hover {
+    background-color: #55ACEE;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/twitter-white.png');
+
+}
+
+.social-box a.in-share {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+
+.social-box li.in {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/linkedin-blue.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+
+}
+
+
+.social-box li.in:hover {
+    background: #197FB7;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/linkedin-white.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.social-box a.fb-share {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+
+.social-box li.fb {
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/facebook-blue.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+
+}
+
+
+.social-box li.fb:hover {
+    background: #3B5998;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/facebook-white.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.social-box .share {
+    display: block;
+    position: absolute;
+    width: 200px;
+    top: 0;
+    left: -400%;
+}
+
+.social-box:hover {
+    opacity: 1;
+}
+
+.video-box {
+    position: fixed;
+    z-index: 100;
+    top: 210px;
+    left: 15px;
+    opacity: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.video-box a {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    padding: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 32px;
+    width: 32px;
+    opacity: 0.8;
+    margin: 0px 5px 0 0;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/camera_icon_blu.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+    text-decoration: none;
+}
+
+.video-box a:visited {
+    text-decoration: none;
+}
+
+.video-box a:hover {
+    background-color: #0099ab;
+    text-decoration: none;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/camera_icon_white.png');
+}
+
+.info-box {
+    position: fixed;
+    z-index: 100;
+    top: 170px;
+    left: 15px;
+    opacity: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.info-box a {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    padding: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 32px;
+    width: 32px;
+    opacity: 0.8;
+    margin: 0px 5px 0 0;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/info-blue.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+    text-decoration: none;
+}
+
+.info-box a:visited {
+    text-decoration: none;
+}
+
+.info-box a:hover {
+    background-color: #0099ab;
+    text-decoration: none;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/info-white.png');
+}
+
+.antibiotics-box {
+    position: fixed;
+    z-index: 100;
+    top: 330px;
+    left: 15px;
+    opacity: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.antibiotics-box a {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    padding: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 32px;
+    width: 32px;
+    opacity: 0.8;
+    margin: 0px 5px 0 0;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/icon_provetta_blu.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+    text-decoration: none;
+}
+
+.antibiotics-box a:visited {
+    text-decoration: none;
+}
+
+.antibiotics-box a:hover {
+    background-color: #0099ab;
+    text-decoration: none;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/icon_provetta_white.png');
+}
+
+.bug-box {
+    position: fixed;
+    z-index: 100;
+    top: 370px;
+    left: 15px;
+    opacity: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.bug-box a {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    padding: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 32px;
+    width: 32px;
+    opacity: 0.8;
+    margin: 0px 5px 0 0;
+
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/bug-blue.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+    text-decoration: none;
+}
+
+.bug-box a:visited {
+    text-decoration: none;
+}
+
+.bug-box a:hover {
+    background-color: #0099ab;
+    text-decoration: none;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/bug-white.png');
+}
+
+.copy-box {
+    position: fixed;
+    z-index: 100;
+    top: 409px;
+    left: 15px;
+    opacity: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.copy-box a {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    padding: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 32px;
+    width: 32px;
+    opacity: 0.8;
+    margin: 0px 5px 0 0;
+
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/copy-blue.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+    text-decoration: none;
+}
+
+.copy-box a:visited {
+    text-decoration: none;
+}
+
+.copy-box a:hover {
+    background-color: #0099ab;
+    text-decoration: none;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/copy-white.png');
+}
+
+.survey-box {
+    position: fixed;
+    z-index: 100;
+    top: 250px;
+    left: 15px;
+    opacity: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.survey-box a {
+    border-radius: 50%;
+    border: #999999 1px solid;
+    padding: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 32px;
+    width: 32px;
+    opacity: 0.8;
+    margin: 0px 5px 0 0;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/survey_icon_blu.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -ms-transition: all .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    transition: all .20s ease-in-out;
+    text-decoration: none;
+}
+
+.survey-box a:visited {
+    text-decoration: none;
+}
+
+.survey-box a:hover {
+    background-color: #0099ab;
+    text-decoration: none;
+    background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/survey_icon_white.png');
+}
+
+@media screen and (max-width: 1440px) {
+    .legend-space {
+        margin: 25px 5px;
+    }
+
+    #logo-ecdc {
+        margin: 0 0 0 2%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .legend-space {
+        margin: 25px 2px;
+    }
+
+    #logo-efsa {
+        margin: 0;
+    }
+
+    #logo-ecdc {
+        margin: 0 0 0 1%;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    #legend {
+        height: 90px;
+    }
+
+    #logo-container {
+        height: 83px;
+    }
+
+    #logo-efsa {
+        background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/efsa_logo_70.png');
+        height: 70px;
+        width: 134px;
+        margin: 0 1% 0 0;
+    }
+
+    #logo-ecdc {
+        background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/ecdc_logo_70.png');
+        height: 70px;
+        width: 76px;
+        margin: 0 0 0 2%;
+    }
+
+    .legend-title h5 {
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .legend-space h5 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #info, #copy, #orientation, #screen, #video, #survey, #surveyBox, #antibiotics, #bug, #infoBacteria {
+        width: 50%;
+        left: 24%;
+        top: 150px;
+    }
+
+    .close {
+        left: 47%;
+    }
+
+    .legend-space {
+        margin: 25px 0;
+        width: auto;
+    }
+
+    .legend-title {
+        margin: 0px 0% 1px 0%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .legend-space {
+        margin: 26px 0px;
+        width: auto;
+        min-width: 80px;
+    }
+
+    #logo-efsa {
+        background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/efsa_logo_60.png');
+        margin: 10px 0 0 0%;
+        height: 60px;
+        width: 110px;
+
+    }
+
+    #logo-ecdc {
+
+        background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/ecdc_logo_60.png');
+        margin: 13px 1% 1px 2%;
+        height: 60px;
+        width: 65px;
+
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .legend-space {
+        margin: 26px 0px;
+        min-width: 50px;
+    }
+
+    #logo-efsa {
+        background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/efsa_logo_50.png');
+        margin: 0px 0 0 0%;
+        height: 50px;
+        width: 106px;
+        margin: 11px 1% 1px 0%;
+    }
+
+    #logo-ecdc {
+        background-image: url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/ecdc_logo_50.png');
+        margin: 9px 1% 1px 2%;
+        height: 50px;
+        width: 54px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #info, #copy, #orientation, #screen, #video, #survey, #surveyBox, #antibiotics, #bug, #infoBacteria {
+        width: 80%;
+        left: 9.5%;
+    }
+
+    .home-box {
+        top: 130px;
+        left: 5px;
+    }
+
+    .language-box {
+        top: 170px;
+        left: 5px;
+    }
+
+    .social-box {
+        top: 330px;
+        left: 5px;
+    }
+
+    .info-box {
+        top: 210px;
+        left: 5px;
+    }
+
+    .video-box {
+        top: 250px;
+        left: 5px;
+    }
+
+    .survey-box {
+        top: 290px;
+        left: 5px;
+    }
+
+    .bug-box {
+        top: 410px;
+        left: 5px;
+    }
+
+    .copy-box {
+        top: 450px;
+        left: 5px;
+    }
+
+    .antibiotics-box {
+        top: 370px;
+        left: 5px;
+    }
+
+    .legend-space {
+        margin: 25px 2px;
+        width: auto;
+    }
+
+    .legend-space h5 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .legend-title {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #logo-container {
+        display: none;
+    }
+
+    #logo-container-top {
+        display: block;
+        position: fixed;
+        top: 45px;
+        height: 40px;
+    }
+
+    .legend-space {
+        margin: 4px 8px;
+        width: auto;
+    }
+
+    #logo-efsa {
+        display: none;
+
+    }
+
+    #logo-ecdc {
+        display: none;
+    }
+
+    #logo-efsa-top {
+        width: auto;
+        height: 40px;
+        margin: 0px 0 0 2%;
+        background-image: none;
+        float: left;
+    }
+
+    #logo-efsa-top img {
+        height: 100%;
+        width: auto;
+    }
+
+    #logo-ecdc-top {
+        height: 40px;
+        width: auto;
+        margin: 0px 1% 1px 0%;
+        background-image: none;
+        float: right;
+
+    }
+
+    #logo-ecdc-top img {
+        height: 100%;
+        width: auto;
+    }
+
+    #legend {
+        height: 120px;
+    }
+
+    .legend-space {
+        margin: 1px 20px 1px;
+        width: 90px;
+    }
+
+    #orientation {
+        width: 64%;
+        left: 17.5%;
+    }
+
+}
+
+@media screen and (max-width: 720px) and (max-height: 600px) and (min-width: 641px) {
+    #legend {
+        height: 70px;
+    }
+
+    .legend-space {
+        margin: 1px 8px 1px;
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    #logo-container-top {
+        top: 0px;
+    }
+
+    .legend-space {
+        margin: 6px 10px 1px;
+        width: 85px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    #logo-container-top {
+        height: 45px;
+        top: 5px;
+    }
+
+    #logo-ecdc-top {
+        height: 45px;
+    }
+
+    #logo-efsa-top {
+        height: 45px;
+    }
+
+    .home-box {
+        top: auto;
+        bottom: 336px;
+        left: 5px;
+    }
+
+    .language-box {
+        top: auto;
+        bottom: 300px;
+        left: 5px;
+    }
+
+    .social-box {
+        top: auto;
+        bottom: 158px;
+        left: 5px;
+    }
+
+    .info-box {
+        top: auto;
+        bottom: 264px;
+        left: 5px;
+    }
+
+    .antibiotics-box {
+        top: auto;
+        bottom: 123px;
+        left: 5px;
+    }
+
+    .copy-box {
+        top: auto;
+        bottom: 53px;
+        left: 5px;
+    }
+
+    .bug-box {
+        top: auto;
+        bottom: 88px;
+        left: 5px;
+    }
+
+    .video-box {
+        top: auto;
+        bottom: 229px;
+        left: 5px;
+    }
+
+    .survey-box {
+        top: auto;
+        bottom: 193px;
+        left: 5px;
+    }
+
+    #legend {
+        height: 120px;
+    }
+
+    .legend-space {
+        margin: 1px 10px 1px;
+        width: auto;
+    }
+
+    #video #video-content .video {
+        min-height: 202px;
+        left: initial;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #info, #copy, #orientation, #screen, #video, #survey, #surveyBox, #antibiotics, #bug, #infoBacteria {
+        width: 96%;
+        left: 1.8%;
+    }
+
+    .close {
+        left: 45%;
+    }
+
+    .legend-space {
+        margin: 2px 5px 1px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .legend-space {
+        margin: 0px 5px 0px 5px;
+        width: auto;
+    }
+
+    .legend-space h5 {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-height: 600px) {
+    #info, #copy, #orientation, #screen, #video, #survey, #surveyBox, #antibiotics, #bug, #infoBacteria {
+        top: 70px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #info, #copy, #orientation, #screen, #video, #survey, #surveyBox, #antibiotics, #bug, #infoBacteria {
+        top: 10px;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    #info, #copy, #orientation, #screen, #video, #survey, #surveyBox, #antibiotics, #bug, #infoBacteria {
+        top: 3px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .bgRight, .bgLeft {
+        display: none !important;
+    }
+}
+
+.bgLeft {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: -38px;
+    z-index: 1;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.bgRight {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: -45px;
+    z-index: 1;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#survey-content .btn-survey {
+    background-color: rgb(224, 224, 224);
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 7px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#survey-content .btn-survey:last-of-type {
+    margin-bottom: 7px;
+}

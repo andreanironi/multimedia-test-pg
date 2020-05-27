@@ -1,0 +1,352 @@
+.ui-overlay-c {
+  border: 1px solid #aaa;
+  color: #333;
+  text-shadow: 0 1px 0 #fff;
+  background: #f9f9f9;
+  background-image: -webkit-gradient(linear, left top, left bottom, from( #f9f9f9 ), to( #eee ));
+  background-image: -webkit-linear-gradient( #f9f9f9 , #eee );
+  background-image: -moz-linear-gradient( #f9f9f9 , #eee );
+  background-image: -ms-linear-gradient( #f9f9f9 , #eee );
+  background-image: -o-linear-gradient( #f9f9f9 , #eee );
+  background-image: linear-gradient( #f9f9f9 , #eee );
+}
+
+.ui-overlay-c {
+  background-image: none;
+  border-width: 0;
+}
+
+.ui-body-c,
+.ui-body-c input,
+.ui-body-c select,
+.ui-body-c textarea,
+.ui-body-c button {
+	font-family: Helvetica, Arial, sans-serif ;
+}
+
+.ui-body-b .ui-link {
+	color: #2489ce ;
+	font-weight: bold;
+}
+.ui-page { outline: none; }
+
+.ui-mobile,
+.ui-mobile body {
+  height: 99.9%;
+}
+
+.ui-mobile a img {
+  border-width: 0;
+}
+
+.ui-mobile-viewport {
+  margin: 0;
+  overflow-x: visible;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body.ui-mobile-viewport {
+  overflow-x: hidden;
+}
+
+@media screen and (orientation: portrait) {
+  .ui-mobile {
+    min-height: 420px;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .ui-mobile {
+    min-height: 300px;
+  }
+}
+
+
+@-moz-document url-prefix()  {
+  .ui-select .ui-btn select {
+    opacity: 0.0001;
+  }
+}
+
+.logo
+{
+    display: block;
+    width: 264px;
+    height: 126px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    background: url(../images/apsm_logoSmall.svg);
+    background-size: 264px 126px;
+}
+.safety
+{
+    display: block;
+    width: 300px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+
+
+
+}
+#help
+{
+    width: 344px;
+    margin-right: auto;
+    margin-left: auto
+}
+#title_desc{
+    display: block;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px 5px;
+	width: 260px;
+	height: 14%;
+    border: 2px solid #C8C8C8;
+    margin: 0px auto 15px auto;
+    color: #1B94BB;
+    font-size: 15px;
+    top: -5px;
+}
+
+.section-title {
+	text-align: center;
+	margin-top: 60px;				/* fix for line-height spacing*/
+	margin-bottom: 50px;
+
+	}
+
+.subtitle {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 300;
+    color: #666666;
+    letter-spacing: 0.04em;
+    font-family: verdana;
+}
+.short_subtitle{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    color: #1B94BB;
+    letter-spacing: 0.04em;
+    font-family: verdana;
+    font-size: 18px;
+}
+.short_heading{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    color: #1B94BB;
+    letter-spacing: 0.04em;
+    font-family: verdana;
+}
+
+
+.box{
+    display: inline-block;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0 5px;
+	min-width: 160px;
+	height: 14%;
+	border-radius: 0px;
+    box-shadow: 0px 10px 15px #bbbbbb;
+    margin: 15px auto 0 auto;
+    padding: .5em 1em 1em 1em;
+    width: 90%;
+    background-color:#fff;
+
+
+}
+.box1 {
+    background: url("../images/apsm_corner1.png") no-repeat;
+    background-color:#fff;
+    color: #0096D6;
+    border-top: 2px solid #0096D6;
+}
+
+
+.box4 {
+    background: url("../images/apsm_cornerA.png") no-repeat;
+    background-color:#fff;
+    color: #eeb111;
+    border-top: 2px solid #eeb111;
+
+}
+
+.box4B {
+    color: #eeb111;
+    border-top: 2px solid #eeb111;
+
+}
+.box5 {
+    background: url("../images/apsm_cornerB.png") no-repeat;
+    background-color:#fff;
+    color: #E2631A;
+    border-top: 2px solid #E2631A;
+
+}
+.box5B {
+    color: #E2631A;
+    margin: 10px auto 0 auto;
+    border-top: 2px solid #E2631A;
+}
+
+.box6 {
+    background: url("../images/apsm_cornerC.png") no-repeat;
+    background-color:#fff;
+    color: #a83a8c;
+    border-top: 2px solid #a83a8c;
+}
+
+.box6B {
+    color: #a83a8c;
+      margin: 10px auto 0 auto;
+    border-top: 2px solid #a83a8c;
+}
+.boxText{
+    margin: 0px 5px 0px 5px;
+	font-size: 13px;
+    min-height:35px;
+    padding: 3px 2px 3px 0px;
+}
+
+.info_text{
+    border: 1px solid #dadada;
+    padding: 10px 10px 10px 10px;
+    margin:0px auto 16px auto;
+    width: 90%;
+    font-size: 1em;
+   /* text-align: justify;*/
+
+}
+.box4 > a {
+   color: #eeb111;
+}
+.box5 > a {
+   color: #E2631A;
+}
+.box6 > a {
+   color: #a83a8c;
+}
+.box1 > a {
+   color: #0096D6;
+}
+
+
+
+footerWrapper{
+}
+
+#EULinks{
+
+}
+#footerBand{
+    width: 100%;
+}
+#band{
+    width: 100%;
+}
+
+.eu{
+   display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.soc{
+   display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#social{
+    display: inline-block;
+    height:50px;
+    text-decoration: none;
+    top: -50px;
+    overflow: hidden;
+}
+
+#twitter{
+
+    background: url("../images/apsm_twitter.png");
+
+}
+
+
+
+
+
+h1 {font-family:georgia,'times new roman',times,serif; font-size:2.5em; font-weight:normal; color:#f60}
+
+
+h1, h2, h3 {margin-bottom:1em}
+
+h2, h3, h4 a, h5 a {padding:3px 10px}
+
+h2, h3, h4, h5 {font-size:1em}
+
+#main h2 {background-color:#f0f0f0}
+
+#side, #side h2, #side h3 {background:#000; color:#e3e3e3}
+
+#side h2 {border-bottom:1px solid #484b51}
+
+/* --- Links --- */
+a {padding:1px; text-decoration:none}
+
+a:hover, a:focus, a:active {border-color:#bcd; outline:0 none}
+
+/* --- Accordion --- */
+.js #main .accordion {visibility:hidden}
+
+.js #side .accordion {display:none}
+
+.accordion {margin:0; }
+
+.accordion li {
+    list-style-type:none;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordion li.last-child {margin-left:19px; list-style-type:disc}
+
+#side ul.accordion ul {margin:0; padding:0 0 0 0 0px;}
+
+.accordion {
+    padding-left: 0;
+}
+.outer {
+    border:1px solid #dadada;
+    background: #fff;
+    width:90%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.accordion .inner {
+    margin-bottom:0;
+    padding:.5em 1em 1em;
+    position:relative;
+    overflow:hidden}
+
+.accordion .inner .inner {padding-bottom:0}
+
+ /* vertical padding instead of vertical margin (ie8) */
+
+/*.accordion p {margin:.5em 1px 1em}*/

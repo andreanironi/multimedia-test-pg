@@ -1,0 +1,1594 @@
+code;country;inhabitants;refcode;refcountry;type;samples
+AT;Austria;8700471;AR;Argentina;TC;5
+AT;Austria;8700471;AT;Austria;Domestic;632
+AT;Austria;8700471;AU;Australia;TC;2
+AT;Austria;8700471;BE;Belgium;EU;1
+AT;Austria;8700471;BF;Burkina Faso;TC;1
+AT;Austria;8700471;BG;Bulgaria;EU;1
+AT;Austria;8700471;BO;Bolivia;TC;1
+AT;Austria;8700471;BR;Brazil;TC;2
+AT;Austria;8700471;CA;Canada;TC;22
+AT;Austria;8700471;CI;Côte d'Ivoire;TC;1
+AT;Austria;8700471;CL;Chile;TC;4
+AT;Austria;8700471;CN;China;TC;20
+AT;Austria;8700471;CO;Colombia;TC;25
+AT;Austria;8700471;CR;Costa Rica;TC;10
+AT;Austria;8700471;CZ;Czech Republic;EU;8
+AT;Austria;8700471;DE;Germany;EU;44
+AT;Austria;8700471;DO;Dominican Republic;TC;7
+AT;Austria;8700471;EC;Ecuador;TC;28
+AT;Austria;8700471;EG;Egypt;TC;5
+AT;Austria;8700471;ES;Spain;EU;27
+AT;Austria;8700471;FR;France;EU;12
+AT;Austria;8700471;UK;United Kingdom;EU;3
+AT;Austria;8700471;GR;Greece;EU;9
+AT;Austria;8700471;GT;Guatemala;TC;2
+AT;Austria;8700471;HR;Croatia;EU;1
+AT;Austria;8700471;HU;Hungary;EU;11
+AT;Austria;8700471;ID;Indonesia;TC;1
+AT;Austria;8700471;IL;Israel;TC;6
+AT;Austria;8700471;IN;India;TC;21
+AT;Austria;8700471;IR;Iran;TC;2
+AT;Austria;8700471;IT;Italy;EU;126
+AT;Austria;8700471;JP;Japan;TC;1
+AT;Austria;8700471;KE;Kenya;TC;1
+AT;Austria;8700471;KG;Kyrgyzstan;TC;2
+AT;Austria;8700471;KR;South Korea;TC;1
+AT;Austria;8700471;KZ;Kazakhstan;TC;6
+AT;Austria;8700471;LK;Sri Lanka;TC;8
+AT;Austria;8700471;MA;Morocco;TC;4
+AT;Austria;8700471;MG;Madagascar;TC;1
+AT;Austria;8700471;MX;Mexico;TC;10
+AT;Austria;8700471;NL;Netherlands;EU;8
+AT;Austria;8700471;NZ;New Zealand;TC;2
+AT;Austria;8700471;PA;Panama;TC;7
+AT;Austria;8700471;PE;Peru;TC;13
+AT;Austria;8700471;PH;Philippines;TC;6
+AT;Austria;8700471;PK;Pakistan;TC;3
+AT;Austria;8700471;PL;Poland;EU;11
+AT;Austria;8700471;PT;Portugal;EU;4
+AT;Austria;8700471;PY;Paraguay;TC;1
+AT;Austria;8700471;RO;Romania;EU;2
+AT;Austria;8700471;RS;Serbia;TC;1
+AT;Austria;8700471;RU;Russia;TC;7
+AT;Austria;8700471;SN;Senegal;TC;1
+AT;Austria;8700471;SR;Suriname;TC;6
+AT;Austria;8700471;TH;Thailand;TC;16
+AT;Austria;8700471;TN;Tunisia;TC;1
+AT;Austria;8700471;TR;Turkey;TC;31
+AT;Austria;8700471;UA;Ukraine;TC;89
+AT;Austria;8700471;US;United States;TC;11
+AT;Austria;8700471;VN;Vietnam;TC;2
+AT;Austria;8700471;XX;Unknown;UN;326
+AT;Austria;8700471;ZA;South Africa;TC;6
+BE;Belgium;11289853;AR;Argentina;TC;14
+BE;Belgium;11289853;AT;Austria;EU;3
+BE;Belgium;11289853;AU;Australia;TC;2
+BE;Belgium;11289853;BA;Bosnia and Herzegovina;TC;1
+BE;Belgium;11289853;BE;Belgium;Domestic;1055
+BE;Belgium;11289853;BF;Burkina Faso;TC;3
+BE;Belgium;11289853;BJ;Benin;TC;32
+BE;Belgium;11289853;BR;Brazil;TC;8
+BE;Belgium;11289853;CA;Canada;TC;10
+BE;Belgium;11289853;CI;Côte d'Ivoire;TC;5
+BE;Belgium;11289853;CL;Chile;TC;17
+BE;Belgium;11289853;CM;Cameroon;TC;29
+BE;Belgium;11289853;CN;China;TC;46
+BE;Belgium;11289853;CO;Colombia;TC;8
+BE;Belgium;11289853;CR;Costa Rica;TC;23
+BE;Belgium;11289853;CZ;Czech Republic;EU;4
+BE;Belgium;11289853;DE;Germany;EU;63
+BE;Belgium;11289853;DO;Dominican Republic;TC;44
+BE;Belgium;11289853;EC;Ecuador;TC;5
+BE;Belgium;11289853;EG;Egypt;TC;185
+BE;Belgium;11289853;ES;Spain;EU;225
+BE;Belgium;11289853;ET;Ethiopia;TC;5
+BE;Belgium;11289853;FR;France;EU;87
+BE;Belgium;11289853;UK;United Kingdom;EU;4
+BE;Belgium;11289853;GH;Ghana;TC;1
+BE;Belgium;11289853;GM;The Gambia;TC;3
+BE;Belgium;11289853;GR;Greece;EU;5
+BE;Belgium;11289853;HU;Hungary;EU;1
+BE;Belgium;11289853;IL;Israel;TC;19
+BE;Belgium;11289853;IN;India;TC;25
+BE;Belgium;11289853;IR;Iran;TC;1
+BE;Belgium;11289853;IT;Italy;EU;103
+BE;Belgium;11289853;JP;Japan;TC;1
+BE;Belgium;11289853;KE;Kenya;TC;28
+BE;Belgium;11289853;KH;Cambodia;TC;2
+BE;Belgium;11289853;KZ;Kazakhstan;TC;1
+BE;Belgium;11289853;LK;Sri Lanka;TC;10
+BE;Belgium;11289853;MA;Morocco;TC;41
+BE;Belgium;11289853;MG;Madagascar;TC;1
+BE;Belgium;11289853;MU;Mauritius;TC;2
+BE;Belgium;11289853;MW;Malawi;TC;1
+BE;Belgium;11289853;MX;Mexico;TC;7
+BE;Belgium;11289853;MY;Malaysia;TC;1
+BE;Belgium;11289853;NG;Nigeria;TC;1
+BE;Belgium;11289853;NL;Netherlands;EU;184
+BE;Belgium;11289853;NZ;New Zealand;TC;17
+BE;Belgium;11289853;PA;Panama;TC;9
+BE;Belgium;11289853;PE;Peru;TC;7
+BE;Belgium;11289853;PG;Papua New Guinea;TC;1
+BE;Belgium;11289853;PK;Pakistan;TC;7
+BE;Belgium;11289853;PL;Poland;EU;16
+BE;Belgium;11289853;PT;Portugal;EU;4
+BE;Belgium;11289853;RS;Serbia;TC;4
+BE;Belgium;11289853;RW;Rwanda;TC;7
+BE;Belgium;11289853;SE;Sweden;EU;1
+BE;Belgium;11289853;SK;Slovakia;EU;4
+BE;Belgium;11289853;SN;Senegal;TC;12
+BE;Belgium;11289853;SR;Suriname;TC;1
+BE;Belgium;11289853;SY;Syria;TC;1
+BE;Belgium;11289853;SZ;Swaziland;TC;1
+BE;Belgium;11289853;TG;Togo;TC;3
+BE;Belgium;11289853;TH;Thailand;TC;17
+BE;Belgium;11289853;TR;Turkey;TC;34
+BE;Belgium;11289853;UA;Ukraine;TC;1
+BE;Belgium;11289853;UG;Uganda;TC;103
+BE;Belgium;11289853;US;United States;TC;14
+BE;Belgium;11289853;VN;Vietnam;TC;12
+BE;Belgium;11289853;XX;Unknown;UN;143
+BE;Belgium;11289853;ZA;South Africa;TC;40
+BE;Belgium;11289853;ZW;Zimbabwe;TC;4
+BE;Belgium;11289853;VG;British Virgin Islands;TC;1
+BG;Bulgaria;7153784;AR;Argentina;TC;3
+BG;Bulgaria;7153784;AT;Austria;EU;2
+BG;Bulgaria;7153784;BG;Bulgaria;Domestic;262
+BG;Bulgaria;7153784;CH;Switzerland;TC;4
+BG;Bulgaria;7153784;DE;Germany;EU;2
+BG;Bulgaria;7153784;EG;Egypt;TC;8
+BG;Bulgaria;7153784;GR;Greece;EU;41
+BG;Bulgaria;7153784;IT;Italy;EU;4
+BG;Bulgaria;7153784;NZ;New Zealand;TC;4
+BG;Bulgaria;7153784;RO;Romania;EU;1
+BG;Bulgaria;7153784;SA;Saudi Arabia;TC;2
+BG;Bulgaria;7153784;TR;Turkey;TC;6474
+CY;Cyprus;848319;AA;EEA;EU;5
+CY;Cyprus;848319;AE;United Arab Emirates;TC;2
+CY;Cyprus;848319;AR;Argentina;TC;17
+CY;Cyprus;848319;AT;Austria;EU;2
+CY;Cyprus;848319;BE;Belgium;EU;2
+CY;Cyprus;848319;BR;Brazil;TC;1
+CY;Cyprus;848319;CA;Canada;TC;3
+CY;Cyprus;848319;CH;Switzerland;TC;1
+CY;Cyprus;848319;CL;Chile;TC;14
+CY;Cyprus;848319;CN;China;TC;4
+CY;Cyprus;848319;CY;Cyprus;Domestic;472
+CY;Cyprus;848319;DE;Germany;EU;9
+CY;Cyprus;848319;EC;Ecuador;TC;1
+CY;Cyprus;848319;EG;Egypt;TC;39
+CY;Cyprus;848319;ES;Spain;EU;1
+CY;Cyprus;848319;ET;Ethiopia;TC;1
+CY;Cyprus;848319;UK;United Kingdom;EU;7
+CY;Cyprus;848319;GE;Georgia;TC;5
+CY;Cyprus;848319;GR;Greece;EU;47
+CY;Cyprus;848319;IE;Ireland;EU;2
+CY;Cyprus;848319;IL;Israel;TC;10
+CY;Cyprus;848319;IN;India;TC;6
+CY;Cyprus;848319;IT;Italy;EU;12
+CY;Cyprus;848319;KH;Cambodia;TC;3
+CY;Cyprus;848319;LB;Lebanon;TC;1
+CY;Cyprus;848319;LK;Sri Lanka;TC;3
+CY;Cyprus;848319;MM;Myanmar/Burma;TC;2
+CY;Cyprus;848319;MX;Mexico;TC;3
+CY;Cyprus;848319;NL;Netherlands;EU;9
+CY;Cyprus;848319;NZ;New Zealand;TC;3
+CY;Cyprus;848319;PE;Peru;TC;1
+CY;Cyprus;848319;PK;Pakistan;TC;1
+CY;Cyprus;848319;PL;Poland;EU;3
+CY;Cyprus;848319;RS;Serbia;TC;3
+CY;Cyprus;848319;SY;Syria;TC;7
+CY;Cyprus;848319;TH;Thailand;TC;2
+CY;Cyprus;848319;US;United States;TC;4
+CY;Cyprus;848319;VN;Vietnam;TC;2
+CY;Cyprus;848319;XX;Unknown;UN;3
+CY;Cyprus;848319;ZA;South Africa;TC;3
+CZ;Czech Republic;10553843;AA;EEA;EU;7
+CZ;Czech Republic;10553843;AL;Albania;TC;2
+CZ;Czech Republic;10553843;AR;Argentina;TC;5
+CZ;Czech Republic;10553843;AT;Austria;EU;15
+CZ;Czech Republic;10553843;BA;Bosnia and Herzegovina;TC;1
+CZ;Czech Republic;10553843;BE;Belgium;EU;26
+CZ;Czech Republic;10553843;BG;Bulgaria;EU;6
+CZ;Czech Republic;10553843;BR;Brazil;TC;7
+CZ;Czech Republic;10553843;CA;Canada;TC;1
+CZ;Czech Republic;10553843;CI;Côte d'Ivoire;TC;2
+CZ;Czech Republic;10553843;CL;Chile;TC;7
+CZ;Czech Republic;10553843;CM;Cameroon;TC;1
+CZ;Czech Republic;10553843;CN;China;TC;32
+CZ;Czech Republic;10553843;CO;Colombia;TC;3
+CZ;Czech Republic;10553843;CR;Costa Rica;TC;9
+CZ;Czech Republic;10553843;CY;Cyprus;EU;1
+CZ;Czech Republic;10553843;CZ;Czech Republic;Domestic;962
+CZ;Czech Republic;10553843;DE;Germany;EU;62
+CZ;Czech Republic;10553843;DK;Denmark;EU;1
+CZ;Czech Republic;10553843;EC;Ecuador;TC;5
+CZ;Czech Republic;10553843;EG;Egypt;TC;7
+CZ;Czech Republic;10553843;ES;Spain;EU;148
+CZ;Czech Republic;10553843;ET;Ethiopia;TC;6
+CZ;Czech Republic;10553843;FR;France;EU;25
+CZ;Czech Republic;10553843;UK;United Kingdom;EU;2
+CZ;Czech Republic;10553843;GR;Greece;EU;22
+CZ;Czech Republic;10553843;HR;Croatia;EU;4
+CZ;Czech Republic;10553843;HU;Hungary;EU;24
+CZ;Czech Republic;10553843;IL;Israel;TC;9
+CZ;Czech Republic;10553843;IN;India;TC;12
+CZ;Czech Republic;10553843;IT;Italy;EU;94
+CZ;Czech Republic;10553843;JP;Japan;TC;3
+CZ;Czech Republic;10553843;KH;Cambodia;TC;4
+CZ;Czech Republic;10553843;KZ;Kazakhstan;TC;1
+CZ;Czech Republic;10553843;LK;Sri Lanka;TC;3
+CZ;Czech Republic;10553843;LT;Lithuania;EU;2
+CZ;Czech Republic;10553843;LV;Latvia;EU;1
+CZ;Czech Republic;10553843;MA;Morocco;TC;24
+CZ;Czech Republic;10553843;MD;Moldova;TC;2
+CZ;Czech Republic;10553843;MK;Former Yugoslav Republic of Macedonia, the;TC;2
+CZ;Czech Republic;10553843;MM;Myanmar/Burma;TC;2
+CZ;Czech Republic;10553843;MX;Mexico;TC;2
+CZ;Czech Republic;10553843;NL;Netherlands;EU;71
+CZ;Czech Republic;10553843;PA;Panama;TC;2
+CZ;Czech Republic;10553843;PE;Peru;TC;6
+CZ;Czech Republic;10553843;PK;Pakistan;TC;2
+CZ;Czech Republic;10553843;PL;Poland;EU;161
+CZ;Czech Republic;10553843;PT;Portugal;EU;2
+CZ;Czech Republic;10553843;PY;Paraguay;TC;5
+CZ;Czech Republic;10553843;RS;Serbia;TC;3
+CZ;Czech Republic;10553843;SK;Slovakia;EU;34
+CZ;Czech Republic;10553843;SN;Senegal;TC;2
+CZ;Czech Republic;10553843;TH;Thailand;TC;3
+CZ;Czech Republic;10553843;TR;Turkey;TC;17
+CZ;Czech Republic;10553843;UA;Ukraine;TC;2
+CZ;Czech Republic;10553843;UY;Uruguay;TC;1
+CZ;Czech Republic;10553843;VN;Vietnam;TC;1
+CZ;Czech Republic;10553843;XX;Unknown;UN;97
+CZ;Czech Republic;10553843;ZA;South Africa;TC;18
+DE;Germany;82162000;AA;EEA;EU;17
+DE;Germany;82162000;AL;Albania;TC;1
+DE;Germany;82162000;AR;Argentina;TC;87
+DE;Germany;82162000;AT;Austria;EU;51
+DE;Germany;82162000;AU;Australia;TC;14
+DE;Germany;82162000;BA;Bosnia and Herzegovina;TC;13
+DE;Germany;82162000;BD;Bangladesh;TC;6
+DE;Germany;82162000;BE;Belgium;EU;192
+DE;Germany;82162000;BF;Burkina Faso;TC;3
+DE;Germany;82162000;BG;Bulgaria;EU;14
+DE;Germany;82162000;BO;Bolivia;TC;9
+DE;Germany;82162000;BR;Brazil;TC;175
+DE;Germany;82162000;BY;Belarus;TC;7
+DE;Germany;82162000;CA;Canada;TC;14
+DE;Germany;82162000;CH;Switzerland;TC;10
+DE;Germany;82162000;CI;Côte d'Ivoire;TC;9
+DE;Germany;82162000;CL;Chile;TC;128
+DE;Germany;82162000;CN;China;TC;256
+DE;Germany;82162000;CO;Colombia;TC;41
+DE;Germany;82162000;CR;Costa Rica;TC;53
+DE;Germany;82162000;CY;Cyprus;EU;17
+DE;Germany;82162000;CZ;Czech Republic;EU;14
+DE;Germany;82162000;DE;Germany;Domestic;8409
+DE;Germany;82162000;DK;Denmark;EU;19
+DE;Germany;82162000;DO;Dominican Republic;TC;11
+DE;Germany;82162000;EC;Ecuador;TC;27
+DE;Germany;82162000;EG;Egypt;TC;180
+DE;Germany;82162000;ES;Spain;EU;2248
+DE;Germany;82162000;ET;Ethiopia;TC;42
+DE;Germany;82162000;FR;France;EU;311
+DE;Germany;82162000;UK;United Kingdom;EU;8
+DE;Germany;82162000;GH;Ghana;TC;12
+DE;Germany;82162000;GR;Greece;EU;186
+DE;Germany;82162000;GT;Guatemala;TC;10
+DE;Germany;82162000;HN;Honduras;TC;1
+DE;Germany;82162000;HR;Croatia;EU;5
+DE;Germany;82162000;HU;Hungary;EU;79
+DE;Germany;82162000;ID;Indonesia;TC;2
+DE;Germany;82162000;IE;Ireland;EU;8
+DE;Germany;82162000;IL;Israel;TC;100
+DE;Germany;82162000;IN;India;TC;136
+DE;Germany;82162000;IR;Iran;TC;4
+DE;Germany;82162000;IT;Italy;EU;1114
+DE;Germany;82162000;JO;Jordan;TC;6
+DE;Germany;82162000;JP;Japan;TC;8
+DE;Germany;82162000;KE;Kenya;TC;60
+DE;Germany;82162000;KG;Kyrgyzstan;TC;6
+DE;Germany;82162000;KH;Cambodia;TC;3
+DE;Germany;82162000;KP;North Korea;TC;3
+DE;Germany;82162000;KR;South Korea;TC;7
+DE;Germany;82162000;KZ;Kazakhstan;TC;3
+DE;Germany;82162000;LB;Lebanon;TC;1
+DE;Germany;82162000;LK;Sri Lanka;TC;51
+DE;Germany;82162000;LT;Lithuania;EU;15
+DE;Germany;82162000;LU;Luxembourg;EU;2
+DE;Germany;82162000;MA;Morocco;TC;152
+DE;Germany;82162000;MD;Moldova;TC;1
+DE;Germany;82162000;MG;Madagascar;TC;9
+DE;Germany;82162000;MK;Former Yugoslav Republic of Macedonia, the;TC;1
+DE;Germany;82162000;MU;Mauritius;TC;2
+DE;Germany;82162000;MX;Mexico;TC;66
+DE;Germany;82162000;MY;Malaysia;TC;10
+DE;Germany;82162000;MZ;Mozambique;TC;1
+DE;Germany;82162000;NA;Namibia;TC;4
+DE;Germany;82162000;NG;Nigeria;TC;4
+DE;Germany;82162000;NI;Nicaragua;TC;4
+DE;Germany;82162000;NL;Netherlands;EU;746
+DE;Germany;82162000;NP;Nepal;TC;2
+DE;Germany;82162000;NZ;New Zealand;TC;164
+DE;Germany;82162000;PA;Panama;TC;4
+DE;Germany;82162000;PE;Peru;TC;108
+DE;Germany;82162000;PK;Pakistan;TC;32
+DE;Germany;82162000;PL;Poland;EU;223
+DE;Germany;82162000;PT;Portugal;EU;61
+DE;Germany;82162000;PY;Paraguay;TC;10
+DE;Germany;82162000;RO;Romania;EU;5
+DE;Germany;82162000;RS;Serbia;TC;35
+DE;Germany;82162000;RU;Russia;TC;21
+DE;Germany;82162000;SK;Slovakia;EU;2
+DE;Germany;82162000;SN;Senegal;TC;17
+DE;Germany;82162000;TH;Thailand;TC;82
+DE;Germany;82162000;TN;Tunisia;TC;4
+DE;Germany;82162000;TR;Turkey;TC;346
+DE;Germany;82162000;TW;Taiwan;TC;2
+DE;Germany;82162000;TZ;Tanzania;TC;3
+DE;Germany;82162000;UA;Ukraine;TC;10
+DE;Germany;82162000;UG;Uganda;TC;22
+DE;Germany;82162000;US;United States;TC;151
+DE;Germany;82162000;UY;Uruguay;TC;27
+DE;Germany;82162000;UZ;Uzbekistan;TC;2
+DE;Germany;82162000;VE;Venezuela;TC;1
+DE;Germany;82162000;VN;Vietnam;TC;42
+DE;Germany;82162000;XX;Unknown;UN;2383
+DE;Germany;82162000;ZA;South Africa;TC;262
+DE;Germany;82162000;ZM;Zambia;TC;2
+DE;Germany;82162000;ZW;Zimbabwe;TC;23
+DK;Denmark;5707251;AE;United Arab Emirates;TC;1
+DK;Denmark;5707251;AL;Albania;TC;3
+DK;Denmark;5707251;AR;Argentina;TC;10
+DK;Denmark;5707251;AU;Australia;TC;6
+DK;Denmark;5707251;BE;Belgium;EU;31
+DK;Denmark;5707251;BF;Burkina Faso;TC;1
+DK;Denmark;5707251;BG;Bulgaria;EU;4
+DK;Denmark;5707251;BO;Bolivia;TC;2
+DK;Denmark;5707251;BR;Brazil;TC;18
+DK;Denmark;5707251;CA;Canada;TC;3
+DK;Denmark;5707251;CI;Côte d'Ivoire;TC;1
+DK;Denmark;5707251;CL;Chile;TC;35
+DK;Denmark;5707251;CN;China;TC;33
+DK;Denmark;5707251;CO;Colombia;TC;16
+DK;Denmark;5707251;CR;Costa Rica;TC;19
+DK;Denmark;5707251;DE;Germany;EU;87
+DK;Denmark;5707251;DK;Denmark;Domestic;566
+DK;Denmark;5707251;DO;Dominican Republic;TC;1
+DK;Denmark;5707251;EC;Ecuador;TC;5
+DK;Denmark;5707251;EG;Egypt;TC;33
+DK;Denmark;5707251;ES;Spain;EU;225
+DK;Denmark;5707251;ET;Ethiopia;TC;1
+DK;Denmark;5707251;FR;France;EU;33
+DK;Denmark;5707251;UK;United Kingdom;EU;11
+DK;Denmark;5707251;GR;Greece;EU;12
+DK;Denmark;5707251;GT;Guatemala;TC;3
+DK;Denmark;5707251;HN;Honduras;TC;4
+DK;Denmark;5707251;HU;Hungary;EU;3
+DK;Denmark;5707251;IL;Israel;TC;8
+DK;Denmark;5707251;IN;India;TC;15
+DK;Denmark;5707251;IT;Italy;EU;187
+DK;Denmark;5707251;JO;Jordan;TC;3
+DK;Denmark;5707251;JP;Japan;TC;4
+DK;Denmark;5707251;KE;Kenya;TC;16
+DK;Denmark;5707251;LA;Laos;TC;12
+DK;Denmark;5707251;LK;Sri Lanka;TC;8
+DK;Denmark;5707251;LT;Lithuania;EU;1
+DK;Denmark;5707251;LV;Latvia;EU;1
+DK;Denmark;5707251;MA;Morocco;TC;20
+DK;Denmark;5707251;MD;Moldova;TC;1
+DK;Denmark;5707251;MG;Madagascar;TC;1
+DK;Denmark;5707251;MU;Mauritius;TC;1
+DK;Denmark;5707251;MW;Malawi;TC;1
+DK;Denmark;5707251;MX;Mexico;TC;4
+DK;Denmark;5707251;MY;Malaysia;TC;1
+DK;Denmark;5707251;NA;Namibia;TC;2
+DK;Denmark;5707251;NI;Nicaragua;TC;1
+DK;Denmark;5707251;NL;Netherlands;EU;114
+DK;Denmark;5707251;NZ;New Zealand;TC;14
+DK;Denmark;5707251;PA;Panama;TC;2
+DK;Denmark;5707251;PE;Peru;TC;19
+DK;Denmark;5707251;PK;Pakistan;TC;3
+DK;Denmark;5707251;PL;Poland;EU;36
+DK;Denmark;5707251;PT;Portugal;EU;12
+DK;Denmark;5707251;RO;Romania;EU;4
+DK;Denmark;5707251;SE;Sweden;EU;33
+DK;Denmark;5707251;SN;Senegal;TC;2
+DK;Denmark;5707251;TH;Thailand;TC;122
+DK;Denmark;5707251;TR;Turkey;TC;37
+DK;Denmark;5707251;UG;Uganda;TC;5
+DK;Denmark;5707251;US;United States;TC;15
+DK;Denmark;5707251;UY;Uruguay;TC;10
+DK;Denmark;5707251;VN;Vietnam;TC;8
+DK;Denmark;5707251;XX;Unknown;UN;19
+DK;Denmark;5707251;ZA;South Africa;TC;43
+DK;Denmark;5707251;ZW;Zimbabwe;TC;2
+DK;Denmark;5707251;AF;Afghanistan;TC;1
+EE;Estonia;1315944;AA;EEA;EU;1
+EE;Estonia;1315944;AR;Argentina;TC;1
+EE;Estonia;1315944;AT;Austria;EU;1
+EE;Estonia;1315944;BR;Brazil;TC;3
+EE;Estonia;1315944;CL;Chile;TC;2
+EE;Estonia;1315944;CN;China;TC;7
+EE;Estonia;1315944;CR;Costa Rica;TC;2
+EE;Estonia;1315944;DE;Germany;EU;3
+EE;Estonia;1315944;DK;Denmark;EU;1
+EE;Estonia;1315944;EE;Estonia;Domestic;214
+EE;Estonia;1315944;EG;Egypt;TC;8
+EE;Estonia;1315944;ES;Spain;EU;12
+EE;Estonia;1315944;FR;France;EU;1
+EE;Estonia;1315944;GR;Greece;EU;2
+EE;Estonia;1315944;HU;Hungary;EU;3
+EE;Estonia;1315944;IN;India;TC;2
+EE;Estonia;1315944;IT;Italy;EU;14
+EE;Estonia;1315944;KH;Cambodia;TC;3
+EE;Estonia;1315944;LT;Lithuania;EU;3
+EE;Estonia;1315944;LV;Latvia;EU;4
+EE;Estonia;1315944;NL;Netherlands;EU;19
+EE;Estonia;1315944;PA;Panama;TC;1
+EE;Estonia;1315944;PE;Peru;TC;1
+EE;Estonia;1315944;PL;Poland;EU;11
+EE;Estonia;1315944;PT;Portugal;EU;2
+EE;Estonia;1315944;SE;Sweden;EU;2
+EE;Estonia;1315944;UA;Ukraine;TC;2
+EE;Estonia;1315944;US;United States;TC;1
+EE;Estonia;1315944;UY;Uruguay;TC;1
+EE;Estonia;1315944;VN;Vietnam;TC;1
+EE;Estonia;1315944;XC;Non EEA;TC;3
+EE;Estonia;1315944;ZA;South Africa;TC;3
+ES;Spain;46438422;AR;Argentina;TC;26
+ES;Spain;46438422;BE;Belgium;EU;1
+ES;Spain;46438422;BR;Brazil;TC;38
+ES;Spain;46438422;CA;Canada;TC;2
+ES;Spain;46438422;CL;Chile;TC;19
+ES;Spain;46438422;CN;China;TC;26
+ES;Spain;46438422;CO;Colombia;TC;18
+ES;Spain;46438422;CR;Costa Rica;TC;22
+ES;Spain;46438422;DE;Germany;EU;1
+ES;Spain;46438422;DO;Dominican Republic;TC;8
+ES;Spain;46438422;EC;Ecuador;TC;12
+ES;Spain;46438422;EG;Egypt;TC;25
+ES;Spain;46438422;ES;Spain;Domestic;2288
+ES;Spain;46438422;FR;France;EU;4
+ES;Spain;46438422;GR;Greece;EU;1
+ES;Spain;46438422;IL;Israel;TC;10
+ES;Spain;46438422;IN;India;TC;16
+ES;Spain;46438422;IT;Italy;EU;10
+ES;Spain;46438422;JP;Japan;TC;2
+ES;Spain;46438422;MA;Morocco;TC;96
+ES;Spain;46438422;MX;Mexico;TC;14
+ES;Spain;46438422;NL;Netherlands;EU;1
+ES;Spain;46438422;NZ;New Zealand;TC;14
+ES;Spain;46438422;PE;Peru;TC;38
+ES;Spain;46438422;PK;Pakistan;TC;4
+ES;Spain;46438422;PT;Portugal;EU;2
+ES;Spain;46438422;TH;Thailand;TC;4
+ES;Spain;46438422;TR;Turkey;TC;3
+ES;Spain;46438422;US;United States;TC;2
+ES;Spain;46438422;UY;Uruguay;TC;4
+ES;Spain;46438422;VN;Vietnam;TC;7
+ES;Spain;46438422;XX;Unknown;UN;41
+ES;Spain;46438422;ZA;South Africa;TC;7
+ES;Spain;46438422;ZW;Zimbabwe;TC;1
+FI;Finland;5487308;AE;United Arab Emirates;TC;3
+FI;Finland;5487308;AR;Argentina;TC;10
+FI;Finland;5487308;AT;Austria;EU;5
+FI;Finland;5487308;AU;Australia;TC;4
+FI;Finland;5487308;BD;Bangladesh;TC;17
+FI;Finland;5487308;BE;Belgium;EU;17
+FI;Finland;5487308;BO;Bolivia;TC;1
+FI;Finland;5487308;BR;Brazil;TC;13
+FI;Finland;5487308;CA;Canada;TC;8
+FI;Finland;5487308;CH;Switzerland;TC;3
+FI;Finland;5487308;CL;Chile;TC;24
+FI;Finland;5487308;CN;China;TC;50
+FI;Finland;5487308;CO;Colombia;TC;6
+FI;Finland;5487308;CR;Costa Rica;TC;24
+FI;Finland;5487308;DE;Germany;EU;23
+FI;Finland;5487308;DK;Denmark;EU;14
+FI;Finland;5487308;DO;Dominican Republic;TC;2
+FI;Finland;5487308;EC;Ecuador;TC;13
+FI;Finland;5487308;EE;Estonia;EU;12
+FI;Finland;5487308;EG;Egypt;TC;35
+FI;Finland;5487308;ES;Spain;EU;244
+FI;Finland;5487308;ET;Ethiopia;TC;2
+FI;Finland;5487308;FI;Finland;Domestic;248
+FI;Finland;5487308;FR;France;EU;23
+FI;Finland;5487308;UK;United Kingdom;EU;13
+FI;Finland;5487308;GR;Greece;EU;5
+FI;Finland;5487308;GT;Guatemala;TC;4
+FI;Finland;5487308;HN;Honduras;TC;2
+FI;Finland;5487308;HU;Hungary;EU;24
+FI;Finland;5487308;ID;Indonesia;TC;3
+FI;Finland;5487308;IL;Israel;TC;21
+FI;Finland;5487308;IN;India;TC;45
+FI;Finland;5487308;IT;Italy;EU;127
+FI;Finland;5487308;JP;Japan;TC;7
+FI;Finland;5487308;KE;Kenya;TC;12
+FI;Finland;5487308;KH;Cambodia;TC;4
+FI;Finland;5487308;KR;South Korea;TC;2
+FI;Finland;5487308;KZ;Kazakhstan;TC;29
+FI;Finland;5487308;LK;Sri Lanka;TC;19
+FI;Finland;5487308;LT;Lithuania;EU;8
+FI;Finland;5487308;MA;Morocco;TC;25
+FI;Finland;5487308;MG;Madagascar;TC;2
+FI;Finland;5487308;MK;Former Yugoslav Republic of Macedonia, the;TC;1
+FI;Finland;5487308;ML;Mali;TC;1
+FI;Finland;5487308;MM;Myanmar/Burma;TC;1
+FI;Finland;5487308;MX;Mexico;TC;8
+FI;Finland;5487308;MY;Malaysia;TC;19
+FI;Finland;5487308;NA;Namibia;TC;1
+FI;Finland;5487308;NI;Nicaragua;TC;1
+FI;Finland;5487308;NL;Netherlands;EU;44
+FI;Finland;5487308;NZ;New Zealand;TC;1
+FI;Finland;5487308;PE;Peru;TC;36
+FI;Finland;5487308;PH;Philippines;TC;2
+FI;Finland;5487308;PK;Pakistan;TC;22
+FI;Finland;5487308;PL;Poland;EU;76
+FI;Finland;5487308;PT;Portugal;EU;13
+FI;Finland;5487308;PY;Paraguay;TC;1
+FI;Finland;5487308;RS;Serbia;TC;3
+FI;Finland;5487308;RU;Russia;TC;9
+FI;Finland;5487308;SE;Sweden;EU;14
+FI;Finland;5487308;SN;Senegal;TC;1
+FI;Finland;5487308;TH;Thailand;TC;91
+FI;Finland;5487308;TN;Tunisia;TC;3
+FI;Finland;5487308;TR;Turkey;TC;53
+FI;Finland;5487308;UA;Ukraine;TC;5
+FI;Finland;5487308;US;United States;TC;24
+FI;Finland;5487308;UY;Uruguay;TC;2
+FI;Finland;5487308;VN;Vietnam;TC;10
+FI;Finland;5487308;ZA;South Africa;TC;63
+FI;Finland;5487308;ZW;Zimbabwe;TC;4
+FI;Finland;5487308;DJ;Djibouti;TC;2
+FR;France;66661621;AR;Argentina;TC;22
+FR;France;66661621;AT;Austria;EU;1
+FR;France;66661621;AU;Australia;TC;2
+FR;France;66661621;BE;Belgium;EU;34
+FR;France;66661621;BF;Burkina Faso;TC;2
+FR;France;66661621;BJ;Benin;TC;37
+FR;France;66661621;BO;Bolivia;TC;2
+FR;France;66661621;BR;Brazil;TC;14
+FR;France;66661621;BZ;Belize;TC;2
+FR;France;66661621;CA;Canada;TC;4
+FR;France;66661621;CH;Switzerland;TC;1
+FR;France;66661621;CI;Côte d'Ivoire;TC;26
+FR;France;66661621;CL;Chile;TC;67
+FR;France;66661621;CM;Cameroon;TC;12
+FR;France;66661621;CN;China;TC;264
+FR;France;66661621;CO;Colombia;TC;58
+FR;France;66661621;CR;Costa Rica;TC;148
+FR;France;66661621;CU;Cuba;TC;2
+FR;France;66661621;DE;Germany;EU;20
+FR;France;66661621;DK;Denmark;EU;1
+FR;France;66661621;DM;Dominica;TC;12
+FR;France;66661621;DO;Dominican Republic;TC;158
+FR;France;66661621;DZ;Algeria;TC;2
+FR;France;66661621;EC;Ecuador;TC;34
+FR;France;66661621;EG;Egypt;TC;46
+FR;France;66661621;ES;Spain;EU;362
+FR;France;66661621;ET;Ethiopia;TC;2
+FR;France;66661621;FI;Finland;EU;1
+FR;France;66661621;FR;France;Domestic;3549
+FR;France;66661621;GH;Ghana;TC;12
+FR;France;66661621;GR;Greece;EU;6
+FR;France;66661621;GT;Guatemala;TC;1
+FR;France;66661621;GY;Guyana;TC;39
+FR;France;66661621;HN;Honduras;TC;21
+FR;France;66661621;HR;Croatia;EU;1
+FR;France;66661621;HU;Hungary;EU;1
+FR;France;66661621;ID;Indonesia;TC;1
+FR;France;66661621;IL;Israel;TC;22
+FR;France;66661621;IN;India;TC;49
+FR;France;66661621;IT;Italy;EU;102
+FR;France;66661621;JP;Japan;TC;1
+FR;France;66661621;KE;Kenya;TC;120
+FR;France;66661621;KH;Cambodia;TC;23
+FR;France;66661621;KZ;Kazakhstan;TC;1
+FR;France;66661621;LA;Laos;TC;2
+FR;France;66661621;LB;Lebanon;TC;1
+FR;France;66661621;LK;Sri Lanka;TC;1
+FR;France;66661621;MA;Morocco;TC;68
+FR;France;66661621;MD;Moldova;TC;1
+FR;France;66661621;MG;Madagascar;TC;14
+FR;France;66661621;MU;Mauritius;TC;4
+FR;France;66661621;MX;Mexico;TC;19
+FR;France;66661621;MY;Malaysia;TC;4
+FR;France;66661621;MZ;Mozambique;TC;1
+FR;France;66661621;NI;Nicaragua;TC;1
+FR;France;66661621;NL;Netherlands;EU;41
+FR;France;66661621;NZ;New Zealand;TC;25
+FR;France;66661621;PE;Peru;TC;48
+FR;France;66661621;PK;Pakistan;TC;6
+FR;France;66661621;PL;Poland;EU;26
+FR;France;66661621;PT;Portugal;EU;58
+FR;France;66661621;PY;Paraguay;TC;1
+FR;France;66661621;RO;Romania;EU;3
+FR;France;66661621;RS;Serbia;TC;5
+FR;France;66661621;RU;Russia;TC;2
+FR;France;66661621;SN;Senegal;TC;14
+FR;France;66661621;SR;Suriname;TC;7
+FR;France;66661621;TG;Togo;TC;7
+FR;France;66661621;TH;Thailand;TC;82
+FR;France;66661621;TN;Tunisia;TC;9
+FR;France;66661621;TR;Turkey;TC;50
+FR;France;66661621;TZ;Tanzania;TC;3
+FR;France;66661621;UA;Ukraine;TC;11
+FR;France;66661621;UG;Uganda;TC;7
+FR;France;66661621;US;United States;TC;26
+FR;France;66661621;UY;Uruguay;TC;1
+FR;France;66661621;UZ;Uzbekistan;TC;2
+FR;France;66661621;VN;Vietnam;TC;69
+FR;France;66661621;XX;Unknown;UN;2303
+FR;France;66661621;ZA;South Africa;TC;43
+FR;France;66661621;ZW;Zimbabwe;TC;2
+FR;France;66661621;VC;Saint Vincent and the Grenadines;TC;3
+UK;United Kingdom;65382556;AA;EEA;EU;35
+UK;United Kingdom;65382556;AR;Argentina;TC;17
+UK;United Kingdom;65382556;AU;Australia;TC;6
+UK;United Kingdom;65382556;BD;Bangladesh;TC;3
+UK;United Kingdom;65382556;BE;Belgium;EU;36
+UK;United Kingdom;65382556;BF;Burkina Faso;TC;1
+UK;United Kingdom;65382556;BO;Bolivia;TC;1
+UK;United Kingdom;65382556;BR;Brazil;TC;34
+UK;United Kingdom;65382556;CA;Canada;TC;11
+UK;United Kingdom;65382556;CL;Chile;TC;41
+UK;United Kingdom;65382556;CN;China;TC;37
+UK;United Kingdom;65382556;CO;Colombia;TC;1
+UK;United Kingdom;65382556;CR;Costa Rica;TC;8
+UK;United Kingdom;65382556;CY;Cyprus;EU;2
+UK;United Kingdom;65382556;DE;Germany;EU;14
+UK;United Kingdom;65382556;DK;Denmark;EU;4
+UK;United Kingdom;65382556;DO;Dominican Republic;TC;2
+UK;United Kingdom;65382556;EG;Egypt;TC;71
+UK;United Kingdom;65382556;ES;Spain;EU;261
+UK;United Kingdom;65382556;FI;Finland;EU;1
+UK;United Kingdom;65382556;FR;France;EU;41
+UK;United Kingdom;65382556;UK;United Kingdom;Domestic;1747
+UK;United Kingdom;65382556;GH;Ghana;TC;3
+UK;United Kingdom;65382556;GR;Greece;EU;44
+UK;United Kingdom;65382556;GT;Guatemala;TC;2
+UK;United Kingdom;65382556;HN;Honduras;TC;4
+UK;United Kingdom;65382556;IE;Ireland;EU;10
+UK;United Kingdom;65382556;IL;Israel;TC;17
+UK;United Kingdom;65382556;IN;India;TC;97
+UK;United Kingdom;65382556;IR;Iran;TC;1
+UK;United Kingdom;65382556;IT;Italy;EU;109
+UK;United Kingdom;65382556;JM;Jamaica;TC;1
+UK;United Kingdom;65382556;JO;Jordan;TC;13
+UK;United Kingdom;65382556;JP;Japan;TC;2
+UK;United Kingdom;65382556;KE;Kenya;TC;18
+UK;United Kingdom;65382556;KH;Cambodia;TC;4
+UK;United Kingdom;65382556;LB;Lebanon;TC;2
+UK;United Kingdom;65382556;MA;Morocco;TC;31
+UK;United Kingdom;65382556;MM;Myanmar/Burma;TC;3
+UK;United Kingdom;65382556;MX;Mexico;TC;18
+UK;United Kingdom;65382556;MY;Malaysia;TC;9
+UK;United Kingdom;65382556;NA;Namibia;TC;5
+UK;United Kingdom;65382556;NL;Netherlands;EU;123
+UK;United Kingdom;65382556;NZ;New Zealand;TC;41
+UK;United Kingdom;65382556;PE;Peru;TC;13
+UK;United Kingdom;65382556;PH;Philippines;TC;2
+UK;United Kingdom;65382556;PK;Pakistan;TC;4
+UK;United Kingdom;65382556;PL;Poland;EU;26
+UK;United Kingdom;65382556;PT;Portugal;EU;25
+UK;United Kingdom;65382556;RO;Romania;EU;1
+UK;United Kingdom;65382556;RS;Serbia;TC;11
+UK;United Kingdom;65382556;SE;Sweden;EU;2
+UK;United Kingdom;65382556;SK;Slovakia;EU;2
+UK;United Kingdom;65382556;SN;Senegal;TC;3
+UK;United Kingdom;65382556;SZ;Swaziland;TC;2
+UK;United Kingdom;65382556;TH;Thailand;TC;16
+UK;United Kingdom;65382556;TR;Turkey;TC;6
+UK;United Kingdom;65382556;UG;Uganda;TC;4
+UK;United Kingdom;65382556;US;United States;TC;23
+UK;United Kingdom;65382556;UY;Uruguay;TC;1
+UK;United Kingdom;65382556;VN;Vietnam;TC;2
+UK;United Kingdom;65382556;ZA;South Africa;TC;114
+UK;United Kingdom;65382556;ZM;Zambia;TC;1
+UK;United Kingdom;65382556;ZW;Zimbabwe;TC;5
+UK;United Kingdom;65382556;VU;Vanuatu;TC;1
+GR;Greece;10783748;AA;EEA;EU;5
+GR;Greece;10783748;AL;Albania;TC;14
+GR;Greece;10783748;AR;Argentina;TC;9
+GR;Greece;10783748;AT;Austria;EU;1
+GR;Greece;10783748;BE;Belgium;EU;4
+GR;Greece;10783748;BG;Bulgaria;EU;1
+GR;Greece;10783748;BO;Bolivia;TC;1
+GR;Greece;10783748;BR;Brazil;TC;1
+GR;Greece;10783748;CA;Canada;TC;4
+GR;Greece;10783748;CL;Chile;TC;4
+GR;Greece;10783748;CN;China;TC;11
+GR;Greece;10783748;CO;Colombia;TC;5
+GR;Greece;10783748;CR;Costa Rica;TC;3
+GR;Greece;10783748;CY;Cyprus;EU;2
+GR;Greece;10783748;DE;Germany;EU;1
+GR;Greece;10783748;EC;Ecuador;TC;29
+GR;Greece;10783748;EG;Egypt;TC;88
+GR;Greece;10783748;ES;Spain;EU;9
+GR;Greece;10783748;FR;France;EU;1
+GR;Greece;10783748;GR;Greece;Domestic;2253
+GR;Greece;10783748;GT;Guatemala;TC;1
+GR;Greece;10783748;IR;Iran;TC;1
+GR;Greece;10783748;IT;Italy;EU;5
+GR;Greece;10783748;JO;Jordan;TC;1
+GR;Greece;10783748;KG;Kyrgyzstan;TC;2
+GR;Greece;10783748;KH;Cambodia;TC;1
+GR;Greece;10783748;LB;Lebanon;TC;2
+GR;Greece;10783748;MG;Madagascar;TC;1
+GR;Greece;10783748;MK;Former Yugoslav Republic of Macedonia, the;TC;14
+GR;Greece;10783748;MX;Mexico;TC;2
+GR;Greece;10783748;NL;Netherlands;EU;3
+GR;Greece;10783748;NZ;New Zealand;TC;3
+GR;Greece;10783748;PK;Pakistan;TC;2
+GR;Greece;10783748;PL;Poland;EU;2
+GR;Greece;10783748;PS;Palestinian Territory, Occupied;TC;1
+GR;Greece;10783748;PT;Portugal;EU;1
+GR;Greece;10783748;RS;Serbia;TC;9
+GR;Greece;10783748;TR;Turkey;TC;101
+GR;Greece;10783748;US;United States;TC;2
+GR;Greece;10783748;UY;Uruguay;TC;2
+GR;Greece;10783748;XX;Unknown;UN;14
+GR;Greece;10783748;ZA;South Africa;TC;6
+GR;Greece;10783748;ZW;Zimbabwe;TC;1
+HR;Croatia;4190669;AA;EEA;EU;12
+HR;Croatia;4190669;AL;Albania;TC;4
+HR;Croatia;4190669;AR;Argentina;TC;8
+HR;Croatia;4190669;AT;Austria;EU;6
+HR;Croatia;4190669;BA;Bosnia and Herzegovina;TC;2
+HR;Croatia;4190669;BE;Belgium;EU;1
+HR;Croatia;4190669;CA;Canada;TC;4
+HR;Croatia;4190669;CL;Chile;TC;8
+HR;Croatia;4190669;CM;Cameroon;TC;1
+HR;Croatia;4190669;CN;China;TC;4
+HR;Croatia;4190669;CY;Cyprus;EU;1
+HR;Croatia;4190669;CZ;Czech Republic;EU;3
+HR;Croatia;4190669;DE;Germany;EU;57
+HR;Croatia;4190669;EG;Egypt;TC;3
+HR;Croatia;4190669;ES;Spain;EU;25
+HR;Croatia;4190669;FR;France;EU;6
+HR;Croatia;4190669;GR;Greece;EU;7
+HR;Croatia;4190669;HR;Croatia;Domestic;299
+HR;Croatia;4190669;HU;Hungary;EU;4
+HR;Croatia;4190669;IN;India;TC;4
+HR;Croatia;4190669;IT;Italy;EU;63
+HR;Croatia;4190669;KH;Cambodia;TC;4
+HR;Croatia;4190669;MA;Morocco;TC;2
+HR;Croatia;4190669;MK;Former Yugoslav Republic of Macedonia, the;TC;2
+HR;Croatia;4190669;MM;Myanmar/Burma;TC;1
+HR;Croatia;4190669;NL;Netherlands;EU;33
+HR;Croatia;4190669;PK;Pakistan;TC;1
+HR;Croatia;4190669;PL;Poland;EU;14
+HR;Croatia;4190669;RO;Romania;EU;2
+HR;Croatia;4190669;RS;Serbia;TC;5
+HR;Croatia;4190669;SI;Slovenia;EU;4
+HR;Croatia;4190669;TH;Thailand;TC;1
+HR;Croatia;4190669;TR;Turkey;TC;2
+HR;Croatia;4190669;UA;Ukraine;TC;1
+HR;Croatia;4190669;UY;Uruguay;TC;2
+HR;Croatia;4190669;XX;Unknown;UN;2
+HR;Croatia;4190669;ZA;South Africa;TC;10
+HU;Hungary;9830485;AA;EEA;EU;53
+HU;Hungary;9830485;AT;Austria;EU;18
+HU;Hungary;9830485;BA;Bosnia and Herzegovina;TC;1
+HU;Hungary;9830485;BE;Belgium;EU;4
+HU;Hungary;9830485;BG;Bulgaria;EU;3
+HU;Hungary;9830485;BR;Brazil;TC;3
+HU;Hungary;9830485;CI;Côte d'Ivoire;TC;4
+HU;Hungary;9830485;CL;Chile;TC;13
+HU;Hungary;9830485;CM;Cameroon;TC;6
+HU;Hungary;9830485;CN;China;TC;3
+HU;Hungary;9830485;CO;Colombia;TC;10
+HU;Hungary;9830485;CR;Costa Rica;TC;22
+HU;Hungary;9830485;CY;Cyprus;EU;2
+HU;Hungary;9830485;CZ;Czech Republic;EU;15
+HU;Hungary;9830485;DE;Germany;EU;33
+HU;Hungary;9830485;EC;Ecuador;TC;2
+HU;Hungary;9830485;EG;Egypt;TC;10
+HU;Hungary;9830485;ES;Spain;EU;288
+HU;Hungary;9830485;FI;Finland;EU;1
+HU;Hungary;9830485;FR;France;EU;16
+HU;Hungary;9830485;GH;Ghana;TC;2
+HU;Hungary;9830485;GR;Greece;EU;56
+HU;Hungary;9830485;GT;Guatemala;TC;1
+HU;Hungary;9830485;HR;Croatia;EU;4
+HU;Hungary;9830485;HU;Hungary;Domestic;1514
+HU;Hungary;9830485;IL;Israel;TC;3
+HU;Hungary;9830485;IN;India;TC;25
+HU;Hungary;9830485;IR;Iran;TC;7
+HU;Hungary;9830485;IT;Italy;EU;179
+HU;Hungary;9830485;KH;Cambodia;TC;3
+HU;Hungary;9830485;LT;Lithuania;EU;1
+HU;Hungary;9830485;MA;Morocco;TC;16
+HU;Hungary;9830485;MX;Mexico;TC;4
+HU;Hungary;9830485;NL;Netherlands;EU;24
+HU;Hungary;9830485;NZ;New Zealand;TC;2
+HU;Hungary;9830485;PE;Peru;TC;4
+HU;Hungary;9830485;PK;Pakistan;TC;1
+HU;Hungary;9830485;PL;Poland;EU;106
+HU;Hungary;9830485;RO;Romania;EU;18
+HU;Hungary;9830485;SK;Slovakia;EU;39
+HU;Hungary;9830485;SR;Suriname;TC;1
+HU;Hungary;9830485;TR;Turkey;TC;52
+HU;Hungary;9830485;UA;Ukraine;TC;3
+HU;Hungary;9830485;US;United States;TC;2
+HU;Hungary;9830485;VN;Vietnam;TC;3
+HU;Hungary;9830485;ZA;South Africa;TC;28
+HU;Hungary;9830485;ZW;Zimbabwe;TC;2
+IE;Ireland;4723605;AR;Argentina;TC;3
+IE;Ireland;4723605;BE;Belgium;EU;4
+IE;Ireland;4723605;BR;Brazil;TC;16
+IE;Ireland;4723605;BZ;Belize;TC;2
+IE;Ireland;4723605;CI;Côte d'Ivoire;TC;5
+IE;Ireland;4723605;CL;Chile;TC;16
+IE;Ireland;4723605;CN;China;TC;9
+IE;Ireland;4723605;CO;Colombia;TC;3
+IE;Ireland;4723605;CR;Costa Rica;TC;4
+IE;Ireland;4723605;CY;Cyprus;EU;3
+IE;Ireland;4723605;DK;Denmark;EU;1
+IE;Ireland;4723605;DO;Dominican Republic;TC;3
+IE;Ireland;4723605;EG;Egypt;TC;33
+IE;Ireland;4723605;ES;Spain;EU;115
+IE;Ireland;4723605;FR;France;EU;33
+IE;Ireland;4723605;UK;United Kingdom;EU;11
+IE;Ireland;4723605;GR;Greece;EU;4
+IE;Ireland;4723605;GT;Guatemala;TC;3
+IE;Ireland;4723605;HN;Honduras;TC;2
+IE;Ireland;4723605;IE;Ireland;Domestic;567
+IE;Ireland;4723605;IL;Israel;TC;4
+IE;Ireland;4723605;IN;India;TC;5
+IE;Ireland;4723605;IT;Italy;EU;27
+IE;Ireland;4723605;JM;Jamaica;TC;2
+IE;Ireland;4723605;JO;Jordan;TC;1
+IE;Ireland;4723605;KE;Kenya;TC;9
+IE;Ireland;4723605;MA;Morocco;TC;15
+IE;Ireland;4723605;MU;Mauritius;TC;1
+IE;Ireland;4723605;MX;Mexico;TC;5
+IE;Ireland;4723605;NL;Netherlands;EU;36
+IE;Ireland;4723605;NZ;New Zealand;TC;5
+IE;Ireland;4723605;PE;Peru;TC;13
+IE;Ireland;4723605;PL;Poland;EU;1
+IE;Ireland;4723605;PT;Portugal;EU;15
+IE;Ireland;4723605;SK;Slovakia;EU;2
+IE;Ireland;4723605;SN;Senegal;TC;2
+IE;Ireland;4723605;TH;Thailand;TC;6
+IE;Ireland;4723605;TN;Tunisia;TC;1
+IE;Ireland;4723605;TR;Turkey;TC;11
+IE;Ireland;4723605;TZ;Tanzania;TC;1
+IE;Ireland;4723605;US;United States;TC;9
+IE;Ireland;4723605;VN;Vietnam;TC;1
+IE;Ireland;4723605;XX;Unknown;UN;24
+IE;Ireland;4723605;ZA;South Africa;TC;48
+IE;Ireland;4723605;ZW;Zimbabwe;TC;2
+IS;Iceland;332529;AA;EEA;EU;16
+IS;Iceland;332529;AR;Argentina;TC;1
+IS;Iceland;332529;BE;Belgium;EU;5
+IS;Iceland;332529;BR;Brazil;TC;3
+IS;Iceland;332529;CA;Canada;TC;1
+IS;Iceland;332529;CL;Chile;TC;3
+IS;Iceland;332529;CN;China;TC;4
+IS;Iceland;332529;CR;Costa Rica;TC;1
+IS;Iceland;332529;DE;Germany;EU;1
+IS;Iceland;332529;DK;Denmark;EU;2
+IS;Iceland;332529;DO;Dominican Republic;TC;1
+IS;Iceland;332529;EC;Ecuador;TC;2
+IS;Iceland;332529;EG;Egypt;TC;1
+IS;Iceland;332529;ES;Spain;EU;47
+IS;Iceland;332529;FR;France;EU;9
+IS;Iceland;332529;UK;United Kingdom;EU;7
+IS;Iceland;332529;GR;Greece;EU;2
+IS;Iceland;332529;IL;Israel;TC;2
+IS;Iceland;332529;IN;India;TC;2
+IS;Iceland;332529;IR;Iran;TC;1
+IS;Iceland;332529;IS;Iceland;Domestic;20
+IS;Iceland;332529;IT;Italy;EU;12
+IS;Iceland;332529;MX;Mexico;TC;3
+IS;Iceland;332529;NL;Netherlands;EU;50
+IS;Iceland;332529;NZ;New Zealand;TC;1
+IS;Iceland;332529;PE;Peru;TC;3
+IS;Iceland;332529;PK;Pakistan;TC;1
+IS;Iceland;332529;PL;Poland;EU;1
+IS;Iceland;332529;RS;Serbia;TC;1
+IS;Iceland;332529;SE;Sweden;EU;5
+IS;Iceland;332529;TH;Thailand;TC;2
+IS;Iceland;332529;TR;Turkey;TC;5
+IS;Iceland;332529;US;United States;TC;9
+IS;Iceland;332529;ZA;South Africa;TC;7
+IT;Italy;60665551;AA;EEA;EU;22
+IT;Italy;60665551;AD;Andorra;TC;1
+IT;Italy;60665551;AE;United Arab Emirates;TC;1
+IT;Italy;60665551;AL;Albania;TC;23
+IT;Italy;60665551;AR;Argentina;TC;96
+IT;Italy;60665551;AT;Austria;EU;14
+IT;Italy;60665551;AU;Australia;TC;6
+IT;Italy;60665551;BA;Bosnia and Herzegovina;TC;1
+IT;Italy;60665551;BD;Bangladesh;TC;10
+IT;Italy;60665551;BE;Belgium;EU;8
+IT;Italy;60665551;BG;Bulgaria;EU;2
+IT;Italy;60665551;BI;Burundi;TC;1
+IT;Italy;60665551;BO;Bolivia;TC;4
+IT;Italy;60665551;BR;Brazil;TC;49
+IT;Italy;60665551;CA;Canada;TC;87
+IT;Italy;60665551;CF;Central African Republic;TC;1
+IT;Italy;60665551;CG;Congo;TC;5
+IT;Italy;60665551;CI;Côte d'Ivoire;TC;5
+IT;Italy;60665551;CL;Chile;TC;86
+IT;Italy;60665551;CM;Cameroon;TC;6
+IT;Italy;60665551;CN;China;TC;92
+IT;Italy;60665551;CO;Colombia;TC;16
+IT;Italy;60665551;CR;Costa Rica;TC;44
+IT;Italy;60665551;CU;Cuba;TC;1
+IT;Italy;60665551;CY;Cyprus;EU;4
+IT;Italy;60665551;CZ;Czech Republic;EU;2
+IT;Italy;60665551;DE;Germany;EU;42
+IT;Italy;60665551;DO;Dominican Republic;TC;6
+IT;Italy;60665551;DZ;Algeria;TC;2
+IT;Italy;60665551;EC;Ecuador;TC;37
+IT;Italy;60665551;EG;Egypt;TC;283
+IT;Italy;60665551;ES;Spain;EU;152
+IT;Italy;60665551;ET;Ethiopia;TC;22
+IT;Italy;60665551;FR;France;EU;81
+IT;Italy;60665551;UK;United Kingdom;EU;3
+IT;Italy;60665551;GE;Georgia;TC;1
+IT;Italy;60665551;GH;Ghana;TC;1
+IT;Italy;60665551;GR;Greece;EU;4
+IT;Italy;60665551;GT;Guatemala;TC;11
+IT;Italy;60665551;HK;Hong Kong;TC;1
+IT;Italy;60665551;HN;Honduras;TC;7
+IT;Italy;60665551;HR;Croatia;EU;3
+IT;Italy;60665551;HU;Hungary;EU;5
+IT;Italy;60665551;ID;Indonesia;TC;8
+IT;Italy;60665551;IL;Israel;TC;13
+IT;Italy;60665551;IN;India;TC;95
+IT;Italy;60665551;IR;Iran;TC;4
+IT;Italy;60665551;IT;Italy;Domestic;8797
+IT;Italy;60665551;JP;Japan;TC;1
+IT;Italy;60665551;KG;Kyrgyzstan;TC;2
+IT;Italy;60665551;KH;Cambodia;TC;3
+IT;Italy;60665551;KR;South Korea;TC;1
+IT;Italy;60665551;KZ;Kazakhstan;TC;57
+IT;Italy;60665551;LA;Laos;TC;2
+IT;Italy;60665551;LK;Sri Lanka;TC;11
+IT;Italy;60665551;LT;Lithuania;EU;1
+IT;Italy;60665551;MA;Morocco;TC;29
+IT;Italy;60665551;MD;Moldova;TC;14
+IT;Italy;60665551;MG;Madagascar;TC;4
+IT;Italy;60665551;MK;Former Yugoslav Republic of Macedonia, the;TC;2
+IT;Italy;60665551;MM;Myanmar/Burma;TC;4
+IT;Italy;60665551;MU;Mauritius;TC;5
+IT;Italy;60665551;MX;Mexico;TC;22
+IT;Italy;60665551;MY;Malaysia;TC;2
+IT;Italy;60665551;MZ;Mozambique;TC;1
+IT;Italy;60665551;NG;Nigeria;TC;1
+IT;Italy;60665551;NI;Nicaragua;TC;2
+IT;Italy;60665551;NL;Netherlands;EU;52
+IT;Italy;60665551;NZ;New Zealand;TC;18
+IT;Italy;60665551;PE;Peru;TC;33
+IT;Italy;60665551;PK;Pakistan;TC;13
+IT;Italy;60665551;PL;Poland;EU;8
+IT;Italy;60665551;RO;Romania;EU;3
+IT;Italy;60665551;RS;Serbia;TC;3
+IT;Italy;60665551;RU;Russia;TC;26
+IT;Italy;60665551;RW;Rwanda;TC;1
+IT;Italy;60665551;SI;Slovenia;EU;2
+IT;Italy;60665551;SN;Senegal;TC;3
+IT;Italy;60665551;SY;Syria;TC;2
+IT;Italy;60665551;TH;Thailand;TC;9
+IT;Italy;60665551;TN;Tunisia;TC;31
+IT;Italy;60665551;TR;Turkey;TC;131
+IT;Italy;60665551;TZ;Tanzania;TC;7
+IT;Italy;60665551;UA;Ukraine;TC;19
+IT;Italy;60665551;UG;Uganda;TC;36
+IT;Italy;60665551;US;United States;TC;78
+IT;Italy;60665551;UY;Uruguay;TC;8
+IT;Italy;60665551;UZ;Uzbekistan;TC;1
+IT;Italy;60665551;VE;Venezuela;TC;1
+IT;Italy;60665551;VN;Vietnam;TC;47
+IT;Italy;60665551;XC;Non EEA;TC;2
+IT;Italy;60665551;XX;Unknown;UN;345
+IT;Italy;60665551;ZA;South Africa;TC;86
+IT;Italy;60665551;ZW;Zimbabwe;TC;3
+IT;Italy;60665551;UM;United States Minor Outlying Islands;TC;1
+IT;Italy;60665551;AF;Afghanistan;TC;1
+IT;Italy;60665551;IQ;Iraq;TC;1
+IT;Italy;60665551;SM;San Marino;TC;1
+IT;Italy;60665551;TL;Timor-Leste;TC;1
+IT;Italy;60665551;CD;Democratic Republic of the Congo;TC;3
+LT;Lithuania;2888558;AI;Anguilla;TC;1
+LT;Lithuania;2888558;AL;Albania;TC;7
+LT;Lithuania;2888558;AR;Argentina;TC;6
+LT;Lithuania;2888558;AT;Austria;EU;1
+LT;Lithuania;2888558;BA;Bosnia and Herzegovina;TC;1
+LT;Lithuania;2888558;BE;Belgium;EU;3
+LT;Lithuania;2888558;BG;Bulgaria;EU;1
+LT;Lithuania;2888558;BR;Brazil;TC;5
+LT;Lithuania;2888558;BY;Belarus;TC;12
+LT;Lithuania;2888558;CA;Canada;TC;2
+LT;Lithuania;2888558;CL;Chile;TC;9
+LT;Lithuania;2888558;CN;China;TC;36
+LT;Lithuania;2888558;CO;Colombia;TC;1
+LT;Lithuania;2888558;CR;Costa Rica;TC;20
+LT;Lithuania;2888558;CY;Cyprus;EU;1
+LT;Lithuania;2888558;DE;Germany;EU;3
+LT;Lithuania;2888558;EC;Ecuador;TC;6
+LT;Lithuania;2888558;EE;Estonia;EU;1
+LT;Lithuania;2888558;EG;Egypt;TC;42
+LT;Lithuania;2888558;ES;Spain;EU;62
+LT;Lithuania;2888558;ET;Ethiopia;TC;4
+LT;Lithuania;2888558;FR;France;EU;1
+LT;Lithuania;2888558;UK;United Kingdom;EU;1
+LT;Lithuania;2888558;GE;Georgia;TC;5
+LT;Lithuania;2888558;GR;Greece;EU;10
+LT;Lithuania;2888558;GT;Guatemala;TC;1
+LT;Lithuania;2888558;HU;Hungary;EU;2
+LT;Lithuania;2888558;IL;Israel;TC;7
+LT;Lithuania;2888558;IN;India;TC;12
+LT;Lithuania;2888558;IT;Italy;EU;26
+LT;Lithuania;2888558;KE;Kenya;TC;2
+LT;Lithuania;2888558;KG;Kyrgyzstan;TC;1
+LT;Lithuania;2888558;LK;Sri Lanka;TC;6
+LT;Lithuania;2888558;LT;Lithuania;Domestic;109
+LT;Lithuania;2888558;LV;Latvia;EU;10
+LT;Lithuania;2888558;MA;Morocco;TC;25
+LT;Lithuania;2888558;MD;Moldova;TC;12
+LT;Lithuania;2888558;MK;Former Yugoslav Republic of Macedonia, the;TC;7
+LT;Lithuania;2888558;MX;Mexico;TC;1
+LT;Lithuania;2888558;NA;Namibia;TC;2
+LT;Lithuania;2888558;NI;Nicaragua;TC;1
+LT;Lithuania;2888558;NL;Netherlands;EU;17
+LT;Lithuania;2888558;PA;Panama;TC;1
+LT;Lithuania;2888558;PE;Peru;TC;11
+LT;Lithuania;2888558;PK;Pakistan;TC;1
+LT;Lithuania;2888558;PL;Poland;EU;41
+LT;Lithuania;2888558;RS;Serbia;TC;1
+LT;Lithuania;2888558;RU;Russia;TC;32
+LT;Lithuania;2888558;SE;Sweden;EU;1
+LT;Lithuania;2888558;TR;Turkey;TC;32
+LT;Lithuania;2888558;UA;Ukraine;TC;48
+LT;Lithuania;2888558;US;United States;TC;1
+LT;Lithuania;2888558;UZ;Uzbekistan;TC;3
+LT;Lithuania;2888558;VN;Vietnam;TC;4
+LT;Lithuania;2888558;XX;Unknown;UN;117
+LT;Lithuania;2888558;YE;Yemen;TC;1
+LT;Lithuania;2888558;ZA;South Africa;TC;23
+LT;Lithuania;2888558;ZW;Zimbabwe;TC;1
+LU;Luxembourg;576249;AA;EEA;EU;2
+LU;Luxembourg;576249;AR;Argentina;TC;1
+LU;Luxembourg;576249;BE;Belgium;EU;21
+LU;Luxembourg;576249;BR;Brazil;TC;3
+LU;Luxembourg;576249;CA;Canada;TC;3
+LU;Luxembourg;576249;CL;Chile;TC;6
+LU;Luxembourg;576249;CN;China;TC;18
+LU;Luxembourg;576249;CO;Colombia;TC;2
+LU;Luxembourg;576249;CR;Costa Rica;TC;1
+LU;Luxembourg;576249;DE;Germany;EU;18
+LU;Luxembourg;576249;DO;Dominican Republic;TC;2
+LU;Luxembourg;576249;EC;Ecuador;TC;1
+LU;Luxembourg;576249;EG;Egypt;TC;10
+LU;Luxembourg;576249;ES;Spain;EU;17
+LU;Luxembourg;576249;FR;France;EU;33
+LU;Luxembourg;576249;GH;Ghana;TC;3
+LU;Luxembourg;576249;GR;Greece;EU;1
+LU;Luxembourg;576249;ID;Indonesia;TC;1
+LU;Luxembourg;576249;IE;Ireland;EU;2
+LU;Luxembourg;576249;IL;Israel;TC;2
+LU;Luxembourg;576249;IN;India;TC;5
+LU;Luxembourg;576249;IT;Italy;EU;18
+LU;Luxembourg;576249;KE;Kenya;TC;5
+LU;Luxembourg;576249;KR;South Korea;TC;1
+LU;Luxembourg;576249;KZ;Kazakhstan;TC;1
+LU;Luxembourg;576249;LU;Luxembourg;Domestic;127
+LU;Luxembourg;576249;MD;Moldova;TC;1
+LU;Luxembourg;576249;MG;Madagascar;TC;2
+LU;Luxembourg;576249;MU;Mauritius;TC;1
+LU;Luxembourg;576249;MX;Mexico;TC;4
+LU;Luxembourg;576249;NL;Netherlands;EU;7
+LU;Luxembourg;576249;NZ;New Zealand;TC;2
+LU;Luxembourg;576249;PE;Peru;TC;1
+LU;Luxembourg;576249;PL;Poland;EU;1
+LU;Luxembourg;576249;PT;Portugal;EU;12
+LU;Luxembourg;576249;RU;Russia;TC;1
+LU;Luxembourg;576249;TH;Thailand;TC;8
+LU;Luxembourg;576249;TR;Turkey;TC;2
+LU;Luxembourg;576249;US;United States;TC;4
+LU;Luxembourg;576249;VN;Vietnam;TC;2
+LU;Luxembourg;576249;XX;Unknown;UN;40
+LU;Luxembourg;576249;ZA;South Africa;TC;4
+LV;Latvia;1968957;AR;Argentina;TC;4
+LV;Latvia;1968957;BE;Belgium;EU;2
+LV;Latvia;1968957;CL;Chile;TC;7
+LV;Latvia;1968957;CN;China;TC;3
+LV;Latvia;1968957;CR;Costa Rica;TC;1
+LV;Latvia;1968957;DE;Germany;EU;2
+LV;Latvia;1968957;EE;Estonia;EU;1
+LV;Latvia;1968957;EG;Egypt;TC;20
+LV;Latvia;1968957;ES;Spain;EU;1
+LV;Latvia;1968957;FR;France;EU;11
+LV;Latvia;1968957;UK;United Kingdom;EU;3
+LV;Latvia;1968957;GE;Georgia;TC;1
+LV;Latvia;1968957;GR;Greece;EU;12
+LV;Latvia;1968957;IN;India;TC;1
+LV;Latvia;1968957;IT;Italy;EU;17
+LV;Latvia;1968957;KG;Kyrgyzstan;TC;6
+LV;Latvia;1968957;KH;Cambodia;TC;12
+LV;Latvia;1968957;LT;Lithuania;EU;20
+LV;Latvia;1968957;LV;Latvia;Domestic;138
+LV;Latvia;1968957;MD;Moldova;TC;2
+LV;Latvia;1968957;MK;Former Yugoslav Republic of Macedonia, the;TC;1
+LV;Latvia;1968957;MM;Myanmar/Burma;TC;4
+LV;Latvia;1968957;NL;Netherlands;EU;14
+LV;Latvia;1968957;PK;Pakistan;TC;2
+LV;Latvia;1968957;PL;Poland;EU;21
+LV;Latvia;1968957;RU;Russia;TC;2
+LV;Latvia;1968957;SE;Sweden;EU;2
+LV;Latvia;1968957;SI;Slovenia;EU;1
+LV;Latvia;1968957;TR;Turkey;TC;13
+LV;Latvia;1968957;UA;Ukraine;TC;7
+LV;Latvia;1968957;VN;Vietnam;TC;4
+LV;Latvia;1968957;ZA;South Africa;TC;7
+MT;Malta;434403;CA;Canada;TC;2
+MT;Malta;434403;CN;China;TC;1
+MT;Malta;434403;FR;France;EU;3
+MT;Malta;434403;UK;United Kingdom;EU;5
+MT;Malta;434403;IE;Ireland;EU;2
+MT;Malta;434403;IT;Italy;EU;27
+MT;Malta;434403;MT;Malta;Domestic;84
+MT;Malta;434403;NL;Netherlands;EU;3
+MT;Malta;434403;NZ;New Zealand;TC;6
+MT;Malta;434403;PE;Peru;TC;5
+MT;Malta;434403;PL;Poland;EU;2
+MT;Malta;434403;RU;Russia;TC;2
+MT;Malta;434403;ZA;South Africa;TC;3
+NL;Netherlands;16979120;AR;Argentina;TC;18
+NL;Netherlands;16979120;AU;Australia;TC;1
+NL;Netherlands;16979120;BE;Belgium;EU;13
+NL;Netherlands;16979120;BF;Burkina Faso;TC;3
+NL;Netherlands;16979120;BG;Bulgaria;EU;2
+NL;Netherlands;16979120;BO;Bolivia;TC;3
+NL;Netherlands;16979120;BR;Brazil;TC;73
+NL;Netherlands;16979120;CA;Canada;TC;13
+NL;Netherlands;16979120;CI;Côte d'Ivoire;TC;4
+NL;Netherlands;16979120;CL;Chile;TC;51
+NL;Netherlands;16979120;CN;China;TC;140
+NL;Netherlands;16979120;CO;Colombia;TC;36
+NL;Netherlands;16979120;CR;Costa Rica;TC;34
+NL;Netherlands;16979120;CU;Cuba;TC;4
+NL;Netherlands;16979120;CY;Cyprus;EU;1
+NL;Netherlands;16979120;CZ;Czech Republic;EU;1
+NL;Netherlands;16979120;DE;Germany;EU;20
+NL;Netherlands;16979120;DO;Dominican Republic;TC;85
+NL;Netherlands;16979120;EC;Ecuador;TC;8
+NL;Netherlands;16979120;EG;Egypt;TC;286
+NL;Netherlands;16979120;ES;Spain;EU;261
+NL;Netherlands;16979120;ET;Ethiopia;TC;2
+NL;Netherlands;16979120;FR;France;EU;18
+NL;Netherlands;16979120;UK;United Kingdom;EU;3
+NL;Netherlands;16979120;GH;Ghana;TC;1
+NL;Netherlands;16979120;GR;Greece;EU;12
+NL;Netherlands;16979120;GT;Guatemala;TC;18
+NL;Netherlands;16979120;HK;Hong Kong;TC;13
+NL;Netherlands;16979120;HN;Honduras;TC;9
+NL;Netherlands;16979120;HU;Hungary;EU;1
+NL;Netherlands;16979120;ID;Indonesia;TC;4
+NL;Netherlands;16979120;IL;Israel;TC;14
+NL;Netherlands;16979120;IN;India;TC;167
+NL;Netherlands;16979120;IT;Italy;EU;48
+NL;Netherlands;16979120;JM;Jamaica;TC;1
+NL;Netherlands;16979120;JO;Jordan;TC;1
+NL;Netherlands;16979120;JP;Japan;TC;4
+NL;Netherlands;16979120;KE;Kenya;TC;293
+NL;Netherlands;16979120;KG;Kyrgyzstan;TC;1
+NL;Netherlands;16979120;KH;Cambodia;TC;1
+NL;Netherlands;16979120;KR;South Korea;TC;1
+NL;Netherlands;16979120;KZ;Kazakhstan;TC;1
+NL;Netherlands;16979120;LA;Laos;TC;23
+NL;Netherlands;16979120;LK;Sri Lanka;TC;1
+NL;Netherlands;16979120;LT;Lithuania;EU;1
+NL;Netherlands;16979120;MA;Morocco;TC;57
+NL;Netherlands;16979120;MG;Madagascar;TC;2
+NL;Netherlands;16979120;MU;Mauritius;TC;1
+NL;Netherlands;16979120;MX;Mexico;TC;27
+NL;Netherlands;16979120;MY;Malaysia;TC;15
+NL;Netherlands;16979120;MZ;Mozambique;TC;3
+NL;Netherlands;16979120;NA;Namibia;TC;3
+NL;Netherlands;16979120;NL;Netherlands;Domestic;616
+NL;Netherlands;16979120;NZ;New Zealand;TC;6
+NL;Netherlands;16979120;PA;Panama;TC;3
+NL;Netherlands;16979120;PE;Peru;TC;93
+NL;Netherlands;16979120;PK;Pakistan;TC;4
+NL;Netherlands;16979120;PL;Poland;EU;9
+NL;Netherlands;16979120;PT;Portugal;EU;5
+NL;Netherlands;16979120;PY;Paraguay;TC;6
+NL;Netherlands;16979120;RO;Romania;EU;1
+NL;Netherlands;16979120;SE;Sweden;EU;1
+NL;Netherlands;16979120;SN;Senegal;TC;9
+NL;Netherlands;16979120;SR;Suriname;TC;49
+NL;Netherlands;16979120;SY;Syria;TC;2
+NL;Netherlands;16979120;SZ;Swaziland;TC;1
+NL;Netherlands;16979120;TG;Togo;TC;1
+NL;Netherlands;16979120;TH;Thailand;TC;105
+NL;Netherlands;16979120;TN;Tunisia;TC;1
+NL;Netherlands;16979120;TR;Turkey;TC;52
+NL;Netherlands;16979120;TW;Taiwan;TC;1
+NL;Netherlands;16979120;UG;Uganda;TC;21
+NL;Netherlands;16979120;US;United States;TC;30
+NL;Netherlands;16979120;UY;Uruguay;TC;4
+NL;Netherlands;16979120;VN;Vietnam;TC;142
+NL;Netherlands;16979120;XX;Unknown;UN;182
+NL;Netherlands;16979120;ZA;South Africa;TC;125
+NL;Netherlands;16979120;ZM;Zambia;TC;2
+NL;Netherlands;16979120;ZW;Zimbabwe;TC;14
+NL;Netherlands;16979120;IO;British Indian Ocean Territory;TC;1
+NO;Norway;5213985;AE;United Arab Emirates;TC;1
+NO;Norway;5213985;AR;Argentina;TC;3
+NO;Norway;5213985;AU;Australia;TC;1
+NO;Norway;5213985;BE;Belgium;EU;23
+NO;Norway;5213985;BR;Brazil;TC;5
+NO;Norway;5213985;CA;Canada;TC;8
+NO;Norway;5213985;CL;Chile;TC;24
+NO;Norway;5213985;CN;China;TC;31
+NO;Norway;5213985;CO;Colombia;TC;13
+NO;Norway;5213985;CR;Costa Rica;TC;33
+NO;Norway;5213985;CY;Cyprus;EU;1
+NO;Norway;5213985;DE;Germany;EU;25
+NO;Norway;5213985;DK;Denmark;EU;5
+NO;Norway;5213985;EC;Ecuador;TC;10
+NO;Norway;5213985;EG;Egypt;TC;8
+NO;Norway;5213985;ES;Spain;EU;184
+NO;Norway;5213985;ET;Ethiopia;TC;1
+NO;Norway;5213985;FI;Finland;EU;3
+NO;Norway;5213985;FR;France;EU;21
+NO;Norway;5213985;UK;United Kingdom;EU;11
+NO;Norway;5213985;GT;Guatemala;TC;5
+NO;Norway;5213985;HN;Honduras;TC;2
+NO;Norway;5213985;HU;Hungary;EU;3
+NO;Norway;5213985;IL;Israel;TC;19
+NO;Norway;5213985;IN;India;TC;15
+NO;Norway;5213985;IT;Italy;EU;80
+NO;Norway;5213985;JO;Jordan;TC;1
+NO;Norway;5213985;KE;Kenya;TC;9
+NO;Norway;5213985;KH;Cambodia;TC;1
+NO;Norway;5213985;KZ;Kazakhstan;TC;1
+NO;Norway;5213985;LK;Sri Lanka;TC;3
+NO;Norway;5213985;LT;Lithuania;EU;1
+NO;Norway;5213985;LV;Latvia;EU;1
+NO;Norway;5213985;MA;Morocco;TC;17
+NO;Norway;5213985;MM;Myanmar/Burma;TC;2
+NO;Norway;5213985;MU;Mauritius;TC;2
+NO;Norway;5213985;MX;Mexico;TC;7
+NO;Norway;5213985;NA;Namibia;TC;2
+NO;Norway;5213985;NL;Netherlands;EU;81
+NO;Norway;5213985;NO;Norway;Domestic;434
+NO;Norway;5213985;NZ;New Zealand;TC;6
+NO;Norway;5213985;PA;Panama;TC;1
+NO;Norway;5213985;PE;Peru;TC;23
+NO;Norway;5213985;PK;Pakistan;TC;2
+NO;Norway;5213985;PL;Poland;EU;8
+NO;Norway;5213985;PT;Portugal;EU;11
+NO;Norway;5213985;SE;Sweden;EU;13
+NO;Norway;5213985;SK;Slovakia;EU;1
+NO;Norway;5213985;SN;Senegal;TC;6
+NO;Norway;5213985;TH;Thailand;TC;42
+NO;Norway;5213985;TR;Turkey;TC;21
+NO;Norway;5213985;TZ;Tanzania;TC;2
+NO;Norway;5213985;UG;Uganda;TC;3
+NO;Norway;5213985;US;United States;TC;19
+NO;Norway;5213985;UY;Uruguay;TC;4
+NO;Norway;5213985;VE;Venezuela;TC;1
+NO;Norway;5213985;VN;Vietnam;TC;1
+NO;Norway;5213985;ZA;South Africa;TC;47
+NO;Norway;5213985;ZW;Zimbabwe;TC;4
+NO;Norway;5213985;MV;Maldives;TC;1
+PL;Poland;37967209;AA;EEA;EU;35
+PL;Poland;37967209;AR;Argentina;TC;1
+PL;Poland;37967209;AT;Austria;EU;1
+PL;Poland;37967209;BE;Belgium;EU;12
+PL;Poland;37967209;BG;Bulgaria;EU;1
+PL;Poland;37967209;BR;Brazil;TC;2
+PL;Poland;37967209;CL;Chile;TC;24
+PL;Poland;37967209;CM;Cameroon;TC;1
+PL;Poland;37967209;CN;China;TC;28
+PL;Poland;37967209;CO;Colombia;TC;6
+PL;Poland;37967209;CR;Costa Rica;TC;6
+PL;Poland;37967209;CY;Cyprus;EU;1
+PL;Poland;37967209;CZ;Czech Republic;EU;9
+PL;Poland;37967209;DE;Germany;EU;25
+PL;Poland;37967209;EC;Ecuador;TC;25
+PL;Poland;37967209;EG;Egypt;TC;15
+PL;Poland;37967209;ES;Spain;EU;239
+PL;Poland;37967209;FR;France;EU;7
+PL;Poland;37967209;UK;United Kingdom;EU;2
+PL;Poland;37967209;GR;Greece;EU;45
+PL;Poland;37967209;GT;Guatemala;TC;5
+PL;Poland;37967209;HU;Hungary;EU;3
+PL;Poland;37967209;IL;Israel;TC;2
+PL;Poland;37967209;IN;India;TC;17
+PL;Poland;37967209;IR;Iran;TC;6
+PL;Poland;37967209;IT;Italy;EU;152
+PL;Poland;37967209;KH;Cambodia;TC;7
+PL;Poland;37967209;LK;Sri Lanka;TC;1
+PL;Poland;37967209;MA;Morocco;TC;12
+PL;Poland;37967209;MD;Moldova;TC;6
+PL;Poland;37967209;MK;Former Yugoslav Republic of Macedonia, the;TC;1
+PL;Poland;37967209;MM;Myanmar/Burma;TC;2
+PL;Poland;37967209;MX;Mexico;TC;1
+PL;Poland;37967209;NI;Nicaragua;TC;4
+PL;Poland;37967209;NL;Netherlands;EU;41
+PL;Poland;37967209;NZ;New Zealand;TC;2
+PL;Poland;37967209;PA;Panama;TC;2
+PL;Poland;37967209;PE;Peru;TC;7
+PL;Poland;37967209;PK;Pakistan;TC;2
+PL;Poland;37967209;PL;Poland;Domestic;1561
+PL;Poland;37967209;PT;Portugal;EU;9
+PL;Poland;37967209;TH;Thailand;TC;7
+PL;Poland;37967209;TN;Tunisia;TC;1
+PL;Poland;37967209;TR;Turkey;TC;41
+PL;Poland;37967209;UA;Ukraine;TC;15
+PL;Poland;37967209;US;United States;TC;4
+PL;Poland;37967209;VN;Vietnam;TC;1
+PL;Poland;37967209;XC;Non EEA;TC;3
+PL;Poland;37967209;XX;Unknown;UN;7
+PL;Poland;37967209;ZA;South Africa;TC;39
+PL;Poland;37967209;ZW;Zimbabwe;TC;1
+PL;Poland;37967209;MC;Monaco;TC;1
+PT;Portugal;10341330;AA;EEA;EU;12
+PT;Portugal;10341330;AE;United Arab Emirates;TC;1
+PT;Portugal;10341330;AR;Argentina;TC;10
+PT;Portugal;10341330;BE;Belgium;EU;3
+PT;Portugal;10341330;BR;Brazil;TC;42
+PT;Portugal;10341330;CA;Canada;TC;1
+PT;Portugal;10341330;CL;Chile;TC;10
+PT;Portugal;10341330;CN;China;TC;2
+PT;Portugal;10341330;CO;Colombia;TC;4
+PT;Portugal;10341330;CR;Costa Rica;TC;10
+PT;Portugal;10341330;DE;Germany;EU;4
+PT;Portugal;10341330;DK;Denmark;EU;1
+PT;Portugal;10341330;DO;Dominican Republic;TC;3
+PT;Portugal;10341330;EC;Ecuador;TC;1
+PT;Portugal;10341330;EG;Egypt;TC;1
+PT;Portugal;10341330;ES;Spain;EU;20
+PT;Portugal;10341330;FR;France;EU;3
+PT;Portugal;10341330;GT;Guatemala;TC;1
+PT;Portugal;10341330;IL;Israel;TC;1
+PT;Portugal;10341330;IR;Iran;TC;1
+PT;Portugal;10341330;IT;Italy;EU;2
+PT;Portugal;10341330;JP;Japan;TC;1
+PT;Portugal;10341330;KH;Cambodia;TC;1
+PT;Portugal;10341330;MG;Madagascar;TC;1
+PT;Portugal;10341330;NL;Netherlands;EU;3
+PT;Portugal;10341330;NZ;New Zealand;TC;2
+PT;Portugal;10341330;PE;Peru;TC;2
+PT;Portugal;10341330;PK;Pakistan;TC;1
+PT;Portugal;10341330;PL;Poland;EU;1
+PT;Portugal;10341330;PT;Portugal;Domestic;524
+PT;Portugal;10341330;TH;Thailand;TC;1
+PT;Portugal;10341330;TN;Tunisia;TC;2
+PT;Portugal;10341330;TR;Turkey;TC;3
+PT;Portugal;10341330;US;United States;TC;4
+PT;Portugal;10341330;UY;Uruguay;TC;1
+PT;Portugal;10341330;UZ;Uzbekistan;TC;1
+PT;Portugal;10341330;VE;Venezuela;TC;1
+PT;Portugal;10341330;XC;Non EEA;TC;1
+PT;Portugal;10341330;XX;Unknown;UN;5
+PT;Portugal;10341330;ZA;South Africa;TC;21
+PT;Portugal;10341330;ZW;Zimbabwe;TC;1
+RO;Romania;19759968;AL;Albania;TC;170
+RO;Romania;19759968;AR;Argentina;TC;45
+RO;Romania;19759968;AT;Austria;EU;5
+RO;Romania;19759968;BA;Bosnia and Herzegovina;TC;1
+RO;Romania;19759968;BE;Belgium;EU;10
+RO;Romania;19759968;BG;Bulgaria;EU;6
+RO;Romania;19759968;BO;Bolivia;TC;2
+RO;Romania;19759968;BR;Brazil;TC;8
+RO;Romania;19759968;CA;Canada;TC;5
+RO;Romania;19759968;CH;Switzerland;TC;4
+RO;Romania;19759968;CL;Chile;TC;15
+RO;Romania;19759968;CM;Cameroon;TC;4
+RO;Romania;19759968;CN;China;TC;96
+RO;Romania;19759968;CO;Colombia;TC;10
+RO;Romania;19759968;CR;Costa Rica;TC;20
+RO;Romania;19759968;DE;Germany;EU;16
+RO;Romania;19759968;DZ;Algeria;TC;1
+RO;Romania;19759968;EC;Ecuador;TC;15
+RO;Romania;19759968;EG;Egypt;TC;147
+RO;Romania;19759968;ES;Spain;EU;73
+RO;Romania;19759968;ET;Ethiopia;TC;4
+RO;Romania;19759968;FR;France;EU;6
+RO;Romania;19759968;UK;United Kingdom;EU;1
+RO;Romania;19759968;GR;Greece;EU;110
+RO;Romania;19759968;GT;Guatemala;TC;1
+RO;Romania;19759968;HN;Honduras;TC;3
+RO;Romania;19759968;HR;Croatia;EU;5
+RO;Romania;19759968;HU;Hungary;EU;43
+RO;Romania;19759968;IL;Israel;TC;7
+RO;Romania;19759968;IN;India;TC;10
+RO;Romania;19759968;IR;Iran;TC;3
+RO;Romania;19759968;IT;Italy;EU;100
+RO;Romania;19759968;JO;Jordan;TC;6
+RO;Romania;19759968;KG;Kyrgyzstan;TC;4
+RO;Romania;19759968;KH;Cambodia;TC;1
+RO;Romania;19759968;KZ;Kazakhstan;TC;1
+RO;Romania;19759968;LY;Libya;TC;1
+RO;Romania;19759968;MA;Morocco;TC;3
+RO;Romania;19759968;MD;Moldova;TC;184
+RO;Romania;19759968;MK;Former Yugoslav Republic of Macedonia, the;TC;61
+RO;Romania;19759968;MM;Myanmar/Burma;TC;8
+RO;Romania;19759968;MX;Mexico;TC;3
+RO;Romania;19759968;NL;Netherlands;EU;41
+RO;Romania;19759968;PE;Peru;TC;3
+RO;Romania;19759968;PK;Pakistan;TC;4
+RO;Romania;19759968;PL;Poland;EU;77
+RO;Romania;19759968;PT;Portugal;EU;1
+RO;Romania;19759968;RO;Romania;Domestic;2778
+RO;Romania;19759968;RS;Serbia;TC;16
+RO;Romania;19759968;SN;Senegal;TC;1
+RO;Romania;19759968;SR;Suriname;TC;1
+RO;Romania;19759968;SY;Syria;TC;3
+RO;Romania;19759968;TH;Thailand;TC;1
+RO;Romania;19759968;TR;Turkey;TC;1451
+RO;Romania;19759968;UA;Ukraine;TC;34
+RO;Romania;19759968;US;United States;TC;8
+RO;Romania;19759968;XX;Unknown;UN;68
+RO;Romania;19759968;ZA;South Africa;TC;66
+RO;Romania;19759968;ZW;Zimbabwe;TC;1
+SE;Sweden;9851017;AA;EEA;EU;19
+SE;Sweden;9851017;AR;Argentina;TC;65
+SE;Sweden;9851017;AT;Austria;EU;7
+SE;Sweden;9851017;AU;Australia;TC;2
+SE;Sweden;9851017;BE;Belgium;EU;23
+SE;Sweden;9851017;BR;Brazil;TC;51
+SE;Sweden;9851017;CI;Côte d'Ivoire;TC;1
+SE;Sweden;9851017;CL;Chile;TC;62
+SE;Sweden;9851017;CN;China;TC;3
+SE;Sweden;9851017;CO;Colombia;TC;9
+SE;Sweden;9851017;CR;Costa Rica;TC;42
+SE;Sweden;9851017;CY;Cyprus;EU;2
+SE;Sweden;9851017;DE;Germany;EU;39
+SE;Sweden;9851017;DK;Denmark;EU;3
+SE;Sweden;9851017;DO;Dominican Republic;TC;14
+SE;Sweden;9851017;EC;Ecuador;TC;21
+SE;Sweden;9851017;EE;Estonia;EU;1
+SE;Sweden;9851017;EG;Egypt;TC;41
+SE;Sweden;9851017;ES;Spain;EU;200
+SE;Sweden;9851017;ET;Ethiopia;TC;1
+SE;Sweden;9851017;FI;Finland;EU;2
+SE;Sweden;9851017;FR;France;EU;14
+SE;Sweden;9851017;UK;United Kingdom;EU;8
+SE;Sweden;9851017;GH;Ghana;TC;4
+SE;Sweden;9851017;GR;Greece;EU;6
+SE;Sweden;9851017;HN;Honduras;TC;6
+SE;Sweden;9851017;HU;Hungary;EU;2
+SE;Sweden;9851017;IL;Israel;TC;29
+SE;Sweden;9851017;IN;India;TC;48
+SE;Sweden;9851017;IR;Iran;TC;3
+SE;Sweden;9851017;IT;Italy;EU;98
+SE;Sweden;9851017;JO;Jordan;TC;11
+SE;Sweden;9851017;KE;Kenya;TC;9
+SE;Sweden;9851017;KG;Kyrgyzstan;TC;3
+SE;Sweden;9851017;KH;Cambodia;TC;2
+SE;Sweden;9851017;LB;Lebanon;TC;7
+SE;Sweden;9851017;LK;Sri Lanka;TC;1
+SE;Sweden;9851017;MA;Morocco;TC;71
+SE;Sweden;9851017;MD;Moldova;TC;1
+SE;Sweden;9851017;MG;Madagascar;TC;3
+SE;Sweden;9851017;MK;Former Yugoslav Republic of Macedonia, the;TC;3
+SE;Sweden;9851017;MX;Mexico;TC;4
+SE;Sweden;9851017;MZ;Mozambique;TC;2
+SE;Sweden;9851017;NA;Namibia;TC;4
+SE;Sweden;9851017;NL;Netherlands;EU;79
+SE;Sweden;9851017;NZ;New Zealand;TC;26
+SE;Sweden;9851017;PA;Panama;TC;3
+SE;Sweden;9851017;PE;Peru;TC;31
+SE;Sweden;9851017;PK;Pakistan;TC;10
+SE;Sweden;9851017;PL;Poland;EU;18
+SE;Sweden;9851017;PR;Puerto Rico;TC;1
+SE;Sweden;9851017;PT;Portugal;EU;8
+SE;Sweden;9851017;RS;Serbia;TC;1
+SE;Sweden;9851017;SE;Sweden;Domestic;438
+SE;Sweden;9851017;SN;Senegal;TC;1
+SE;Sweden;9851017;TH;Thailand;TC;54
+SE;Sweden;9851017;TR;Turkey;TC;65
+SE;Sweden;9851017;UG;Uganda;TC;9
+SE;Sweden;9851017;US;United States;TC;26
+SE;Sweden;9851017;UY;Uruguay;TC;4
+SE;Sweden;9851017;VN;Vietnam;TC;2
+SE;Sweden;9851017;XC;Non EEA;TC;18
+SE;Sweden;9851017;ZA;South Africa;TC;74
+SE;Sweden;9851017;ZW;Zimbabwe;TC;1
+SI;Slovenia;2064188;AE;United Arab Emirates;TC;1
+SI;Slovenia;2064188;AL;Albania;TC;4
+SI;Slovenia;2064188;AR;Argentina;TC;1
+SI;Slovenia;2064188;AT;Austria;EU;20
+SI;Slovenia;2064188;BA;Bosnia and Herzegovina;TC;4
+SI;Slovenia;2064188;BE;Belgium;EU;1
+SI;Slovenia;2064188;BG;Bulgaria;EU;2
+SI;Slovenia;2064188;BR;Brazil;TC;4
+SI;Slovenia;2064188;CA;Canada;TC;3
+SI;Slovenia;2064188;CL;Chile;TC;3
+SI;Slovenia;2064188;CN;China;TC;13
+SI;Slovenia;2064188;CR;Costa Rica;TC;4
+SI;Slovenia;2064188;CZ;Czech Republic;EU;1
+SI;Slovenia;2064188;DE;Germany;EU;25
+SI;Slovenia;2064188;DO;Dominican Republic;TC;1
+SI;Slovenia;2064188;DZ;Algeria;TC;1
+SI;Slovenia;2064188;EC;Ecuador;TC;2
+SI;Slovenia;2064188;EG;Egypt;TC;171
+SI;Slovenia;2064188;ES;Spain;EU;32
+SI;Slovenia;2064188;FR;France;EU;5
+SI;Slovenia;2064188;UK;United Kingdom;EU;1
+SI;Slovenia;2064188;GR;Greece;EU;4
+SI;Slovenia;2064188;HR;Croatia;EU;9
+SI;Slovenia;2064188;HU;Hungary;EU;7
+SI;Slovenia;2064188;IL;Israel;TC;13
+SI;Slovenia;2064188;IN;India;TC;4
+SI;Slovenia;2064188;IT;Italy;EU;129
+SI;Slovenia;2064188;KZ;Kazakhstan;TC;2
+SI;Slovenia;2064188;LK;Sri Lanka;TC;1
+SI;Slovenia;2064188;MA;Morocco;TC;2
+SI;Slovenia;2064188;MK;Former Yugoslav Republic of Macedonia, the;TC;3
+SI;Slovenia;2064188;MM;Myanmar/Burma;TC;1
+SI;Slovenia;2064188;NL;Netherlands;EU;21
+SI;Slovenia;2064188;PE;Peru;TC;1
+SI;Slovenia;2064188;PL;Poland;EU;13
+SI;Slovenia;2064188;PT;Portugal;EU;1
+SI;Slovenia;2064188;RS;Serbia;TC;17
+SI;Slovenia;2064188;SI;Slovenia;Domestic;346
+SI;Slovenia;2064188;TH;Thailand;TC;2
+SI;Slovenia;2064188;TN;Tunisia;TC;2
+SI;Slovenia;2064188;TR;Turkey;TC;13
+SI;Slovenia;2064188;XC;Non EEA;TC;6
+SI;Slovenia;2064188;ZA;South Africa;TC;6
+SI;Slovenia;2064188;ZW;Zimbabwe;TC;1
+SK;Slovakia;5426252;AA;EEA;EU;1
+SK;Slovakia;5426252;AL;Albania;TC;3
+SK;Slovakia;5426252;AR;Argentina;TC;3
+SK;Slovakia;5426252;AT;Austria;EU;4
+SK;Slovakia;5426252;BE;Belgium;EU;14
+SK;Slovakia;5426252;BG;Bulgaria;EU;1
+SK;Slovakia;5426252;BR;Brazil;TC;4
+SK;Slovakia;5426252;CA;Canada;TC;3
+SK;Slovakia;5426252;CL;Chile;TC;7
+SK;Slovakia;5426252;CM;Cameroon;TC;2
+SK;Slovakia;5426252;CN;China;TC;19
+SK;Slovakia;5426252;CO;Colombia;TC;1
+SK;Slovakia;5426252;CR;Costa Rica;TC;3
+SK;Slovakia;5426252;CZ;Czech Republic;EU;16
+SK;Slovakia;5426252;DE;Germany;EU;13
+SK;Slovakia;5426252;DK;Denmark;EU;1
+SK;Slovakia;5426252;EC;Ecuador;TC;1
+SK;Slovakia;5426252;EG;Egypt;TC;5
+SK;Slovakia;5426252;ES;Spain;EU;53
+SK;Slovakia;5426252;ET;Ethiopia;TC;6
+SK;Slovakia;5426252;FR;France;EU;10
+SK;Slovakia;5426252;UK;United Kingdom;EU;1
+SK;Slovakia;5426252;GH;Ghana;TC;2
+SK;Slovakia;5426252;GR;Greece;EU;11
+SK;Slovakia;5426252;HN;Honduras;TC;1
+SK;Slovakia;5426252;HU;Hungary;EU;9
+SK;Slovakia;5426252;IL;Israel;TC;1
+SK;Slovakia;5426252;IN;India;TC;8
+SK;Slovakia;5426252;IT;Italy;EU;51
+SK;Slovakia;5426252;KE;Kenya;TC;2
+SK;Slovakia;5426252;KH;Cambodia;TC;1
+SK;Slovakia;5426252;LK;Sri Lanka;TC;1
+SK;Slovakia;5426252;LT;Lithuania;EU;1
+SK;Slovakia;5426252;MA;Morocco;TC;1
+SK;Slovakia;5426252;MD;Moldova;TC;1
+SK;Slovakia;5426252;MK;Former Yugoslav Republic of Macedonia, the;TC;2
+SK;Slovakia;5426252;MM;Myanmar/Burma;TC;3
+SK;Slovakia;5426252;MY;Malaysia;TC;1
+SK;Slovakia;5426252;NL;Netherlands;EU;10
+SK;Slovakia;5426252;PA;Panama;TC;1
+SK;Slovakia;5426252;PE;Peru;TC;5
+SK;Slovakia;5426252;PL;Poland;EU;49
+SK;Slovakia;5426252;RS;Serbia;TC;5
+SK;Slovakia;5426252;SE;Sweden;EU;5
+SK;Slovakia;5426252;SK;Slovakia;Domestic;139
+SK;Slovakia;5426252;TH;Thailand;TC;4
+SK;Slovakia;5426252;TR;Turkey;TC;20
+SK;Slovakia;5426252;UY;Uruguay;TC;1
+SK;Slovakia;5426252;VN;Vietnam;TC;2
+SK;Slovakia;5426252;XX;Unknown;UN;1
+SK;Slovakia;5426252;ZA;South Africa;TC;11

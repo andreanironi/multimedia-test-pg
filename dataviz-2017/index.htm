@@ -1,0 +1,645 @@
+<!--
+
+Pomilio Blumm - Quantitas  2016
+
+EFSA AMR Data Visualization
+
+Main html file
+
+-->
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang=""> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Antimicrobial resistance in Europe</title>
+  <meta name="description" content="Antimicrobial resistance in Europe">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+
+
+  <meta property="og:title" content="Antimicrobial resistance in Europe">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="EFSA">
+  <meta property="og:url" content="https://www.efsa.europa.eu/en/interactive_pages/AMR_Report_2017">
+  <meta property="og:image" content="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/amr-2019-banner-centered.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:image:width" content="1230">
+  <meta property="og:image:height" content="402">
+  <meta property="og:description" content="Resistance of Salmonella and E. coli in food, animals and humans. Explore data country by country.">
+  <link rel="shortcut icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/favicon.ico" type="image/ico">
+  <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-96x96.png" sizes="96x96">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-72x72.png" sizes="72x72">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-114x114.png" sizes="114x114">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-144x144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-72x72.png" sizes="72x72">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-114x114.png" sizes="114x114">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-144x144.png" sizes="144x144">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-180x180.png" sizes="180x180">
+  <meta name="twitter:site" content="@EFSA_EU">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@EFSA_EU">
+  <meta name="twitter:creator:id" content="84582815">
+  <meta name="twitter:url" content="https://www.efsa.europa.eu/en/interactive_pages/AMR_Report_2017">
+  <meta name="twitter:title" content="Antimicrobial resistance in Europe">
+  <meta name="twitter:description" content="Resistance of Salmonella and E. coli in food, animals and humans. Explore data country by country.">
+  <meta name="twitter:image" content="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/amr-2019-banner-centered.png">
+  <meta name="description" content="Resistance of Salmonella and E. coli in food, animals and humans. Explore data country by country.">
+  <link rel="canonical" href="https://www.efsa.europa.eu/en/interactive_pages/AMR_Report_2017" />
+  <link rel="alternate" hreflang="de" href="https://www.efsa.europa.eu/de/interactive_pages/AMR_Report_2017" />
+  <link rel="alternate" hreflang="fr" href="https://www.efsa.europa.eu/fr/interactive_pages/AMR_Report_2017" />
+  <link rel="alternate" hreflang="it" href="https://www.efsa.europa.eu/it/interactive_pages/AMR_Report_2017" />
+
+
+  <style>.hidden {
+    display: none;
+  }</style>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using a very <strong>outdated</strong> browser. Please <a
+    href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+<div class="home-box" style="opacity:0;"><a class="" href="javascript:window.reload();">&nbsp;</a></div>
+
+<div class="language-box" style="opacity:0;">
+  <a class="language-trigger pull-right">&nbsp;</a>
+  <ul class="languages block">
+    <li class="lang-container lang-en"><a class="lang-chooser" href="javascript:"
+                                          onclick="jQuery(document).trigger('translate', 'en');"> </a></li>
+    <li class="lang-container lang-de"><a class="lang-chooser" href="javascript:"
+                                          onclick="jQuery(document).trigger('translate', 'de');"> </a></li>
+    <li class="lang-container lang-fr"><a class="lang-chooser" href="javascript:"
+                                          onclick="jQuery(document).trigger('translate', 'fr');"> </a></li>
+    <li class="lang-container lang-it"><a class="lang-chooser" href="javascript:"
+                                          onclick="jQuery(document).trigger('translate', 'it');"> </a></li>
+  </ul>
+</div>
+
+<div class="video-box" style="opacity:0;"><a href="#">&nbsp;</a></div>
+
+<div class="social-box" style="opacity:0;"><a class="share-trigger pull-right glyphicon glyphicon-share-alt">&nbsp;</a>
+  <ul class="share block">
+    <li class="tw"><a class="tw-share" href="#">&nbsp;</a></li>
+    <li class="in"><a class="in-share" href="#">&nbsp;</a></li>
+    <li class="fb"><a class="fb-share" href="#">&nbsp;</a></li>
+  </ul>
+</div>
+<div class="info-box" style="opacity:0;"><a href="#">&nbsp;</a></div>
+<div class="survey-box" style="opacity:0;"><a href="#">&nbsp;</a></div>
+<div class="copy-box" style="opacity:0;"><a href="#">&nbsp;</a></div>
+<div class="antibiotics-box" style="opacity:0;"><a href="#">&nbsp;</a></div>
+
+
+<div id="info" style="display:none;">
+  <div id="info-content"><h2 id="__info_title__">Antimicrobial resistance in Europe</h2>
+    <p id="__info_row1__">
+      The visualised data show the resistance of <em>Salmonella, E. Coli and Campylobacter</em> in food, animals
+      and humans, country by country from 2017.
+    </p>
+    <p id="__info_row2__">
+      If no data are presented for single countries, it means that none or fewer than 10 resistant bacteria were
+      reported. It does not mean absence of resistance.
+    </p>
+    <p id="__info_row3__">
+      The countries monitoring and reporting are the EU Member States, Iceland, Norway and Switzerland.
+    </p>
+    <p id="__info_row4__">
+      Monitoring for calves is only mandatory for certain Member States. <br><br> The monitoring of AMR in
+      Salmonella from pigs and calves under one year of age, as well as in Campylobacter coli from fattening pigs
+      is performed voluntarily by MSs.
+    </p>
+    <p id="__info_row5__">
+      See more detailed explanations in the full report:
+    </p>
+    <p id="__info_row6__">
+      <a href='http://www.efsa.europa.eu/sites/default/files/scientific_output/documents/4694.pdf'
+         target='_blank'>The European Union summary report on antimicrobial resistance in zoonotic and indicator
+        bacteria from humans, animals and food in 2015</a>
+    </p>
+    <p id="__info_row7__">
+      The data is open access and can be found here: <a href='https://doi.org/10.5281/zenodo.2562858'
+                                                        target='_blank'>EFSA’s Knowledge Junction on Zenodo</a>
+    </p>
+    <p id="__info_row8__">
+      Unsure of any scientific terms? Consult EFSA’s <a href='#' target='_blank'>glossary</a>
+    </p>
+  </div>
+  <div class="close"></div>
+</div>
+
+<div id="video" style="display:none;">
+  <div id="video-content">
+    <h2 id="__tutorial_title__">Tutorial</h2>
+    <div id="__tutorial_iframe__">Tutorial
+      <iframe class="video" id="tutorial_video" src="https://www.youtube-nocookie.com/embed/ai3E1sJCmlA?rel=0&enablejsapi=1&modestbranding=1" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+    </div>
+
+  </div>
+  <div class="close"></div>
+</div>
+
+<div id="survey" style="display:none;">
+  <div id="survey-content"><h2 id="__survey_title__">Are you a(n)…</h2>
+    <a id="__survey_value_1__" class="btn-survey">Citizen</a>
+    <a id="__survey_value_2__" class="btn-survey">Farmer</a>
+    <a id="__survey_value_3__" class="btn-survey">Health professional</a>
+    <a id="__survey_value_4__" class="btn-survey">Industry representative</a>
+    <a id="__survey_value_5__" class="btn-survey">NGO</a>
+    <a id="__survey_value_6__" class="btn-survey">Policy maker</a>
+    <a id="__survey_value_7__" class="btn-survey">Risk manager</a>
+    <a id="__survey_value_8__" class="btn-survey">Scientist/Academia</a>
+    <a id="__survey_value_9__" class="btn-survey">Other</a>
+  </div>
+</div>
+
+<div id="surveyBox" style="display:none;">
+  <div id="surveyBox-content"><h2 id="__surveyBox_title__">Tutorial</h2>
+    <p id="__surveyBox_row1__">
+      Please give us a <a href='#' target='_blank'>feedback</a> about the tool.
+    </p>
+  </div>
+  <div class="close"></div>
+</div>
+
+<div id="copy" style="display:none;">
+  <div id="copy-content">
+    <h2 id="__copyright_title__">Copyright notice</h2>
+    <p id="__copyright_row1__">&copy; 2019 - European Food Safety Authority – EFSA.
+    <p>
+    <p id="__copyright_row2__">Re-use is authorised, provided that EFSA is acknowledged as the source of the
+      material.</p></div>
+
+  <div class="close"></div>
+</div>
+
+<div id="orientation" style="display:none;">
+  <div id="orientation-content"><h2>Attention</h2>
+    <p style="text-align:center;">Please, turn your device to portrait mode.</p>
+    <p style="text-align:center;">For the full experience, please use a <strong>bigger screen</strong>.</p>
+  </div>
+  <div class="close orient"></div>
+</div>
+
+<div id="screen" style="display:none;">
+  <div id="screen-content"><h2>Attention</h2>
+    <p style="text-align:center;">For the full experience, we strongly suggest to use a <strong>bigger
+      screen</strong>.</p>
+  </div>
+  <div class="close"></div>
+</div>
+
+<div id="antibiotics" style="display:none;">
+  <div id="antibiotics-content"><h2 id="__antibiotics_title__">Unsure of any classes of antibiotics?</h2>
+    <p id="__antibiotics_row1__">
+      Check below the list of antibiotics listed in the tool, which belong to the following classes:
+    </p>
+    <p id="__antibiotics_row2__">
+    </p>
+  </div>
+  <div class="close"></div>
+</div>
+
+<img src="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/img/bg-right.png" class="bgRight" style="display: none"/>
+<img src="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/img/bg-left.png" class="bgLeft" style="display: none"/>
+
+<div id="container">
+  <svg id="bacteria-div" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"
+       xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 950 1000" xml:space="preserve">
+        </svg>
+</div>
+<div id="legend">
+  <div id="legend-container">
+    <div class="legend-title">
+      <h5 id="__legend_title__">Level of resistance</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range1"></div>
+      <h5 id="__rare__">Rare<br/>&lt;0.1%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range2"></div>
+      <h5 id="__very_low__">Very low<br/>0.1% to 1%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range3"></div>
+      <h5 id="__low__">Low<br/>&gt;1% to 10%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range4"></div>
+      <h5 id="__moderate__">Moderate<br/>&gt;10% to 20%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range5"></div>
+      <h5 id="__high__">High<br/>&gt;20% to 50%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range6"></div>
+      <h5 id="__very_high__">Very high<br/>&gt;50% to 70%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range7"></div>
+      <h5 id="__extremely_high__">Extremely&nbsp;high<br/>&gt;70%</h5>
+    </div>
+  </div>
+</div>
+<div id="logo-container">
+  <div id="logo-efsa"><a href="https://www.efsa.europa.eu" target="_blank">&nbsp;</a></div>
+  <div id="logo-ecdc"><a href="https://ecdc.europa.eu/en/home" target="_blank">&nbsp;</a></div>
+</div>
+<div id="logo-container-top">
+  <div id="logo-efsa-top"><a href="https://www.efsa.europa.eu" target="_blank"><img src="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/img/efsa.png"></a></div>
+  <div id="logo-ecdc-top"><a href="https://ecdc.europa.eu/en/home" target="_blank"><img src="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/img/ecdc.png"></a></div>
+</div>
+<div id="popup-wrapper">
+</div>
+<div id="popup">
+  <div id="popup-header"></div>
+  <div id="popup-content"></div>
+</div>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23121873-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23121873-1', { 'anonymize_ip': true });
+</script>
+
+<script src="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/js/vendor/all_vendors.min.js.txt" type="text/javascript"></script>
+<script src="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/js/main.min.js.txt?reload=12" async></script>
+<script src="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/js/translate.js.txt?reload=1"></script>
+<link rel="stylesheet" href="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/css/main.css">
+<link rel="stylesheet" href="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/css/page.css?reload=">
+<div id="blink" style="position:fixed;width:20px;height:20px;background-color:#555;top:0;left:0;display:none;"></div>
+<script>
+    function topMenu() {
+        var p = jQuery("#menu-1");
+        var l = jQuery("#legend");
+        if ((p.length == 0)) {
+
+        } else {
+            var pos = p.position();
+            if (pos.top > 50) {
+                //jQuery('#logo-container-top').css('top','0');
+                jQuery('#logo-container-top').stop().animate({top: 0}, 200);
+            } else {
+                var posl = l.position();
+                //jQuery('#logo-container-top').css('top',(posl.top-50));
+                jQuery('#logo-container-top').stop().animate({top: (posl.top - 50)}, 300);
+            }
+        }
+    }
+
+    jQuery(".home-box").click(function () {
+        window.location.reload();
+    });
+    jQuery('.info-box').click(function (e) {
+        if (jQuery('#container').css('opacity') == '1') {
+            jQuery('#info').show(500);
+            jQuery('#container').animate({opacity: 0.2}, 1000);
+        } else {
+            jQuery('#info').hide(300);
+            jQuery('#container').animate({opacity: 1}, 500);
+        }
+        gtag('event', 'openBox', {
+            'event_category': 'Boxes',
+            'event_label': 'Info'
+        });
+
+        e.preventDefault();
+    });
+    jQuery('.antibiotics-box').click(function (e) {
+        if (jQuery('#container').css('opacity') == '1') {
+            jQuery('#antibiotics').show(500);
+            jQuery('#container').animate({opacity: 0.2}, 1000);
+        } else {
+            jQuery('#antibiotics').hide(300);
+            jQuery('#container').animate({opacity: 1}, 500);
+        }
+        gtag('event', 'openBox', {
+            'event_category': 'Boxes',
+            'event_label': 'Antibiotics'
+        });
+
+        e.preventDefault();
+    });
+    jQuery('.survey-box').click(function (e) {
+        if (jQuery('#container').css('opacity') == '1') {
+            jQuery('#surveyBox').show(500);
+            jQuery('#container').animate({opacity: 0.2}, 1000);
+        } else {
+            jQuery('#surveyBox').hide(300);
+            jQuery('#container').animate({opacity: 1}, 500);
+        }
+        gtag('event', 'openBox', {
+            'event_category': 'Boxes',
+            'event_label': 'Feedback'
+        });
+        e.preventDefault();
+    });
+    jQuery('#info').click(function () {
+        jQuery('#info').hide(300);
+        jQuery('#container').animate({opacity: 1}, 500);
+    });
+    jQuery('#antibiotics').click(function () {
+        jQuery('#antibiotics').hide(300);
+        jQuery('#container').animate({opacity: 1}, 500);
+    });
+    jQuery('.copy-box').click(function (e) {
+        if (jQuery('#container').css('opacity') == '1') {
+            jQuery('#copy').show(500);
+            jQuery('#container').animate({opacity: 0.2}, 1000, function () {
+            });
+        } else {
+            jQuery('#copy').hide(300);
+            jQuery('#container').animate({opacity: 1}, 500, function () {
+            });
+        }
+        gtag('event', 'openBox', {
+            'event_category': 'Boxes',
+            'event_label': 'Copyright'
+        });
+        e.preventDefault();
+    });
+    jQuery("#copy").click(function () {
+        jQuery("#copy").hide(300);
+        jQuery('#container').animate({opacity: 1}, 500, function () {
+        });
+    });
+
+    jQuery("#orientation").click(function () {
+        jQuery("#orientation").hide(300);
+        jQuery('#container').animate({opacity: 1}, 500, function () {
+        });
+    });
+
+    jQuery("#screen").click(function () {
+        jQuery("#screen").hide(300);
+        jQuery('#container').animate({opacity: 1}, 500, function () {
+        });
+    });
+
+    jQuery('#surveyBox').click(function () {
+        jQuery('#surveyBox').hide(300);
+        jQuery('#container').animate({opacity: 1}, 500);
+    });
+
+    jQuery(".language-box").animate({
+        opacity: 1,
+    }, 2000, function () {
+    });
+    jQuery(".info-box").animate({
+        opacity: 1,
+    }, 3000, function () {
+    });
+    jQuery(".video-box").animate({
+        opacity: 1,
+    }, 4000, function () {
+    });
+    jQuery(".survey-box").animate({
+        opacity: 1,
+    }, 5000, function () {
+    });
+    jQuery(".social-box").animate({
+        opacity: 1,
+    }, 6000, function () {
+    });
+    jQuery(".antibiotics-box").animate({
+        opacity: 1,
+    }, 7000, function () {
+    });
+    jQuery(".copy-box").animate({
+        opacity: 1,
+    }, 8000, function () {
+    });
+
+
+    jQuery('.video-box').click(function (e) {
+        if (jQuery('#container').css('opacity') == '1') {
+            jQuery('#video').show(500);
+            jQuery('#container').animate({opacity: 0.2}, 1000);
+        } else {
+            jQuery('#video').hide(300);
+            jQuery('#container').animate({opacity: 1}, 500);
+            // Pause the video on closing.
+            document.getElementById('tutorial_video').contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+        }
+        gtag('event', 'openBox', {
+            'event_category': 'Boxes',
+            'event_label': 'Tutorial'
+        });
+        e.preventDefault();
+    });
+    jQuery("#video").click(function () {
+        jQuery("#video").hide(300);
+        jQuery('#container').animate({opacity: 1}, 500, function () {
+        });
+    });
+
+    jQuery('.bgRight').show(500);
+    jQuery('.bgLeft').show(500);
+
+    jQuery(window).resize(function () {
+        topMenu();
+    });
+
+    // check orientation
+    if (window.innerHeight < window.innerWidth && window.innerWidth < 720) {
+        if (jQuery('#container').css('opacity') == '1') {
+            jQuery('#orientation').show(500);
+            jQuery('#container').animate({opacity: 0.2}, 1000, function () {
+            });
+        } else {
+            jQuery('#orientation').hide(300);
+            jQuery('#container').animate({opacity: 1}, 500, function () {
+            });
+        }
+    } else {
+        if (window.innerWidth < 640 || window.innerHeight < 450) {
+            if (jQuery('#container').css('opacity') == '1') {
+                jQuery('#screen').show(500);
+                jQuery('#container').animate({opacity: 0.2}, 1000, function () {
+                });
+            } else {
+                jQuery('#screen').hide(300);
+                jQuery('#container').animate({opacity: 1}, 500, function () {
+                });
+            }
+        }
+
+    }
+
+    function activateBox() {
+        jQuery("#legend-container").animate({
+            opacity: 1,
+
+        }, 2500, function () {
+        });
+        jQuery(".legend-title").css({
+            'position': 'absolute',
+        });
+
+        jQuery(".home-box").animate({
+            opacity: 1,
+        }, 1000, function () {
+        });
+
+
+        jQuery("#logo-container").animate({
+            opacity: 1,
+        }, 3500, function () {
+        });
+        jQuery("#logo-container-top").animate({
+            opacity: 1,
+        }, 3500, function () {
+        });
+
+        var resizeItem = function (animate) {
+            var containerHeight = jQuery(window).height();
+            var legendHeight = jQuery('#legend').height();
+            var newHeight = containerHeight - legendHeight + 50;
+            newHeight = newHeight + 'px';
+
+            if (animate) {
+                jQuery("#container").animate({
+                    height: newHeight,
+                }, 3500, function () {
+                });
+            } else {
+                jQuery('#container').height(newHeight);
+            }
+        };
+
+
+        resizeItem(true);
+        jQuery(window).resize(function () {
+            resizeItem(false)
+        });
+
+        jQuery('.bgLeft').stop().animate({bottom: 80}, 200);
+        jQuery('.bgRight').stop().animate({top: 45}, 200);
+        setTimeout(topMenu, 8000);
+    }
+
+    jQuery(function () {
+        var url = 'https://www.efsa.europa.eu/en/interactive_pages/AMR_Report_2017',
+            container = triggerContainer = jQuery('.social-box');
+
+        function sdvSocialSharePopUp(URL) {
+            day = new Date();
+            id = day.getTime();
+            eval("page" + id + " = window.open('" + URL + "', '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=500,left = 710,top = 290');");
+        }
+
+        jQuery('.tw-share').attr('href', 'https://twitter.com/intent/tweet?text=%23AntimicrobialResistance%20in%20Europe%20in%20food%2C%20animals%20and%20humans.%20Explore%20%23data%20country%20by%20country&url=' + url);
+        jQuery('.fb-share').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + url);
+        jQuery('.in-share').attr('href', 'https://www.linkedin.com/shareArticle?mini=true&url=' + url);
+
+        jQuery('.social-box').hover(
+            function (e) {
+                e.preventDefault();
+                jQuery(this).find('.share').stop().animate({left: '100%'}, 400);
+            },
+            function (e) {
+                e.preventDefault();
+                jQuery(this).find('.share').stop().animate({left: '-400%'}, 400);
+            });
+
+        jQuery('.language-box').hover(
+            function (e) {
+                e.preventDefault();
+                jQuery(this).find('.languages').stop().animate({left: '100%'}, 400);
+            },
+            function (e) {
+                e.preventDefault();
+                jQuery(this).find('.languages').stop().animate({left: '-500%'}, 400);
+            });
+
+        jQuery('.share a').click(function (e) {
+            e.preventDefault();
+            var socialNetwork = "";
+            switch(jQuery(this).parent().attr('class')) {
+                case 'tw':
+                    socialNetwork = 'twitter';
+                    break;
+                case 'fb':
+                    socialNetwork = 'facebook';
+                    break;
+                case 'in':
+                    socialNetwork = 'linkedin';
+                    break;
+                default:
+                // code block
+            }
+            gtag('event', 'share', {
+                'event_category': 'Social',
+                'event_label': socialNetwork
+            });
+
+            thisUrl = jQuery(this).attr('href');
+            sdvSocialSharePopUp(thisUrl);
+        });
+    });
+
+    // select type of user
+    jQuery(function () {
+        if (document.cookie.replace(/(?:(?:^|.*;\s*)survey\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+            jQuery('#survey').show(500);
+            jQuery('#container').animate({opacity: 0.2}, 1000);
+        }
+    });
+
+    jQuery('#survey-content a').click(function () {
+        // add a cookie
+        document.cookie = "survey=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
+        // send event to google analytics
+        gtag('event', 'selectTypeOfUser', {
+            'event_category': 'User',
+            'event_label': jQuery(this).text()
+        });
+
+        jQuery('#survey').hide(300);
+        jQuery('#container').animate({opacity: 1}, 500);
+    });
+
+    jQuery('.lang-container').click(function () {
+        if (jQuery('#survey').is(':visible')) {
+            jQuery('#survey').hide(300);
+            jQuery('#survey').show(500);
+        }
+    })
+</script>
+</body>
+</html>
+
+

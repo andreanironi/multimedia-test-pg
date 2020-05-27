@@ -1,0 +1,922 @@
+html,
+body {
+    margin: 0;
+    font: 100 10px/1em MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+    ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    font-size: 1em;
+}
+
+img {
+    display: block;
+}
+/**/
+/**/
+
+.tweet {
+    position: absolute;
+    display: block;
+    width: 821px;
+    height: 151px;
+    background: url(../images/adhh_tweet.png) no-repeat;
+    font: 0/0 a;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .tweet {
+        width: 410px;
+        height: 75px;
+        background-size: 100%;
+    }
+}
+/**/
+
+.txt {
+    position: absolute;
+    width: 0;
+    height: 0;
+    white-space: nowrap;
+}
+
+.txt-default {
+    position: relative;
+}
+/**/
+
+.section-1 {
+    position: relative;
+    background: #f7f7f7;
+}
+
+.section-1 .header {
+    display: table;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.section-1 .header-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section-1 .header-inner-2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.section-1 .header p.margintop {
+    margin-top: 80px;
+}
+
+.section-1 .header h1 {
+    font-size: 80px;
+    line-height: 80px;
+    color: #0F3E92;
+    text-transform: uppercase;
+}
+
+.section-1 .header p {
+    font-size: 70px;
+    line-height: 70px;
+    color: #b7b7b7;
+}
+
+.s-1-img-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.s-1-img-efsa img {
+    margin: auto;
+}
+
+.s-1-img-scroll {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -127px;
+}
+
+@media(orientation:landscape) {
+    .section-1 .header p.margintop {
+        margin-top: 40px;
+    }
+    .section-1 .header h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .section-1 .header p {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .s-1-img-efsa img {
+        width: 40%;
+    }
+    .s-1-img-bg img {
+        float: right;
+        width: 60%;
+    }
+    .s-1-img-scroll {
+        margin-left: -50px;
+    }
+    .s-1-img-scroll img {
+        width: 100px;
+    }
+}
+/**/
+
+.section-2 {
+    position: relative;
+    height: 2789px;
+    background: url(../images/adhh_s-2-bg.jpg) no-repeat;
+}
+
+.section-2 p {
+    margin: 0;
+    font-size: 46px;
+    line-height: 50px;
+    color: #5a5a5a;
+}
+
+.s-2-txt-1 {
+    top: 436px;
+    left: 787px;
+    text-align: right
+}
+
+.s-2-txt-1 .txt-inner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.s-2-txt-1 .tweet {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .s-2-txt-1 .tweet {
+        top: 10px;
+        right: -86px;
+    }
+}
+
+.s-2-txt-2 {
+    top: 1177px;
+    left: 200px;
+}
+
+.s-2-txt-2 .txt-inner {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.s-2-txt-2 .tweet {
+    top: 37px;
+    left: -56px;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .s-2-txt-2 .tweet {
+        top: 25px;
+        left: 10px;
+    }
+}
+
+.s-2-txt-3 {
+    top: 2015px;
+    left: 582px;
+    text-align: right;
+}
+
+.s-2-txt-3 .txt-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.s-2-txt-3 .tweet {
+    position: relative;
+    right: -300px;
+    top: 10px;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .s-2-txt-3 .tweet {
+        right: -80px;
+    }
+}
+/**/
+
+.section-3 {
+    position: relative;
+    height: 2667px;
+    background: url(../images/adhh_s-3-bg.jpg) no-repeat;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .section-3 {
+        height: 2370px;
+    }
+}
+
+.s-3-title {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    color: #fff;
+    font-size: 55px;
+    font-weight: 100;
+    line-height: 177px;
+    white-space: nowrap;
+}
+
+.s-3-txt-1 {
+    top: 550px;
+    left: 230px;
+    color: #535353;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.s-3-txt-1 .tweet {
+    position: relative;
+    left: -40px;
+    top: 40px;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .s-3-txt-1 .tweet {
+        left: 65px;
+        top: 14px;
+    }
+}
+
+.s-3-txt-2 {
+    top: 1700px;
+    left: 85px;
+    color: #fff;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.s-3-txt-2 strong {
+    font-size: 180px;
+    font-weight: 100;
+    line-height: 180px;
+}
+
+.s-3-txt-2 .tweet {
+    position: relative;
+    top: 40px;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .s-3-txt-2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+/**/
+
+.section-4 {
+    padding-top: 1px;
+    position: relative;
+    background: #f5f5f5 url(../images/adhh_s-4-bg.jpg) no-repeat;
+}
+
+.s-4-title {
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 100;
+    line-height: 54px;
+    white-space: nowrap;
+}
+
+.section-4 .tweet {
+    position: absolute;
+    top: 220px;
+    left: 120px;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .section-4 .tweet {
+        position: absolute;
+        top: 210px;
+        left: auto;
+        right: 10px;
+    }
+}
+
+.s-4-block {
+    position: relative;
+}
+
+.s-4-txt {
+    font-size: 48px;
+    line-height: 48px;
+    color: #535353;
+}
+
+.s-4-block-1 {
+    position: relative;
+    margin-top: 400px;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .s-4-block-1 {
+        margin-top: 300px;
+    }
+}
+
+.s-4-txt-1 {
+    margin-left: 530px;
+}
+
+.s-4-img-1 {
+    position: absolute;
+    top: -37px;
+    left: 20px;
+}
+
+.s-4-video-1 {
+    display: block;
+    margin-top: 57px;
+    margin-left: 73px;
+}
+
+.s-4-block-3 {
+    margin-top: 390px;
+    margin-left: 25px;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .s-4-block-3 {
+        margin-top: 200px;
+    }
+}
+
+.s-4-img-2 {
+    position: absolute;
+    right: 50px;
+    top: 17px;
+}
+
+.s-4-video-2 {
+    display: block;
+    margin-top: 70px;
+    margin-left: 73px;
+}
+
+.s-4-block-5 {
+    margin-top: 397px;
+}
+
+.s-4-txt-3 {
+    margin-left: 500px;
+}
+
+.s-4-img-3 {
+    position: absolute;
+    top: -168px;
+    left: 58px;
+}
+
+.s-4-video-3 {
+    display: block;
+    margin-top: 48px;
+    margin-left: 73px;
+}
+/**/
+
+.section-5 {
+    padding-top: 1px;
+    position: relative;
+    height: 1215px;
+    background: #f5f5f5 url(../images/adhh_s-5-bg.jpg) no-repeat;
+}
+
+.s-5-title {
+    position: absolute;
+    top: 56px;
+    left: 60px;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 100;
+    line-height: 54px;
+    white-space: nowrap;
+}
+
+.s-5-txt {
+    top: 550px;
+    left: 205px;
+    font-size: 50px;
+    line-height: 50px;
+    color: #b92610;
+}
+/**/
+
+.section-6 {
+    padding-top: 1px;
+    position: relative;
+    background: #cecece url(../images/adhh_s-6-bg.jpg) no-repeat;
+}
+
+.s-6-title {
+    position: absolute;
+    top: 56px;
+    left: 60px;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 100;
+    line-height: 54px;
+    white-space: nowrap;
+}
+
+.section-6 .tweet {
+    position: absolute;
+    left: 120px;
+    top: 220px;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .section-6 .tweet {
+        top: 210px;
+        left: auto;
+        right: 10px;
+    }
+}
+
+.s-6-txt {
+    font-size: 42px;
+    line-height: 42px;
+    color: #b92610;
+}
+
+.s-6-block-1 {
+    position: relative;
+    margin-top: 432px;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .s-6-block-1 {
+        margin-top: 332px;
+    }
+}
+
+.s-6-block-2 {
+    position: relative;
+    margin-top: 294px;
+}
+
+.s-6-block-3 {
+    position: relative;
+    margin-top: 360px;
+}
+
+.s-6-img-1 {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+}
+
+.s-6-img-2 {
+    position: absolute;
+    top: -145px;
+    right: 0px;
+}
+
+.s-6-img-3 {
+    position: absolute;
+    top: -200px;
+    left: 0px;
+}
+
+.s-6-txt-1 {
+    margin-left: 550px;
+}
+
+.s-6-txt-2 {
+    margin-right: 615px;
+    text-align: right;
+}
+
+.s-6-txt-3 {
+    margin-left: 530px;
+    padding-bottom: 100px;
+}
+/**/
+
+.section-7 {
+    height: 2905px;
+    padding-top: 1px;
+    position: relative;
+    background: #92b1d6 url(../images/adhh_s-7-bg.jpg) no-repeat;
+}
+
+.s-7-title {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 100;
+    line-height: 54px;
+    white-space: nowrap;
+}
+
+.section-7 .masthead {
+    display: table;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 260px;
+}
+
+.section-7 .masthead-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section-7 .masthead-inner-2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.s-7-txt-1 {
+    color: #891d69;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.s-7-video-1 {
+    position: absolute;
+    top: 760px;
+    right: 0;
+}
+
+.s-7-txt-2 {
+    position: absolute;
+    top: 1650px;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 58px;
+    line-height: 68px;
+    text-align: center;
+}
+
+.s-7-info-1 {
+    position: absolute;
+    top: 2364px;
+    right: 0;
+}
+/**/
+
+.section-8 {
+    padding-top: 1px;
+    position: relative;
+    background: #cfcfcf url(../images/adhh_s-8-bg.jpg) no-repeat;
+}
+
+.s-8-title {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 100;
+    line-height: 94px;
+    white-space: nowrap;
+}
+
+.section-8 .tweet {
+    position: absolute;
+    left: 120px;
+    top: 220px;
+    z-index: 1;
+}
+
+@media(orientation:landscape) and (min-device-width:768px) {
+    .section-8 .tweet {
+        top: 210px;
+        left: auto;
+        right: 10px;
+    }
+}
+
+.s-8-block {
+    position: relative;
+    height: 638px;
+}
+
+.s-8-block-1 {
+    margin-top: 204px;
+    background: url(../images/adhh_s-8-img-1.jpg) no-repeat;
+}
+
+.s-8-block-2 {
+    background: url(../images/adhh_s-8-img-2.jpg) no-repeat;
+}
+
+.s-8-block-3 {
+    background: url(../images/adhh_s-8-img-3.jpg) no-repeat;
+}
+
+.s-8-txt {
+    color: #535353;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.s-8-txt-1 {
+    top: 170px;
+    left: 630px;
+}
+
+.s-8-txt-2 {
+    top: 170px;
+    left: 660px;
+}
+
+.s-8-txt-3 {
+    top: 140px;
+    left: 670px;
+}
+/**/
+
+.section-9 {
+    height: 3403px;
+    padding-top: 1px;
+    position: relative;
+    background: #cfcfcf url(../images/adhh_ref-s-9-bg.jpg) no-repeat;
+    color: #646464;
+}
+
+.section-9 h2 {
+    position: absolute;
+    top: 258px;
+    left: 0;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 100px;
+    text-align: center;
+}
+
+.s-9-txt-1 {
+    position: absolute;
+    top: 684px;
+    left: 126px;
+    right: 0;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.s-9-txt-2 {
+    position: absolute;
+    top: 1040px;
+    left: 75px;
+    font-size: 40px;
+    line-height: 42px;
+    color: #4b4b4b;
+}
+
+.s-9-txt-3 {
+    position: absolute;
+    top: 1632px;
+    left: 713px;
+    font-size: 40px;
+    line-height: 42px;
+    color: #4b4b4b;
+}
+
+.s-9-txt-4 {
+    position: absolute;
+    top: 2456px;
+    left: 690px;
+    font-size: 40px;
+    line-height: 42px;
+    color: #4b4b4b;
+}
+
+.s-9-txt-5 {
+    position: absolute;
+    top: 3040px;
+    left: 645px;
+    font-size: 40px;
+    line-height: 42px;
+    color: #4b4b4b;
+}
+/**/
+
+.section-10 {
+    height: 2276px;
+    padding-top: 1px;
+    position: relative;
+    background: #cfcfcf url(../images/adhh_ref-s-10-bg.jpg) no-repeat;
+}
+
+.s-10-newsletter {
+    position: absolute;
+    top: 1608px;
+    right: 0;
+}
+
+.s-10-txt-1 {
+    position: absolute;
+    top: 780px;
+    left: 80px;
+    font-size: 70px;
+    line-height: 70px;
+    color: #1f7dc6;
+}
+
+.s-10-contacts {
+    position: absolute;
+    bottom: 75px;
+    right: 25px;
+    width: 363px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.s-10-contacts li {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.s-10-contacts a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/blank.gif);
+    font: 0/0 a;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.s-10-efsa {
+    position: absolute;
+    bottom: 75px;
+    left: 40px;
+    display: block;
+    width: 300px;
+    height: 150px;
+    background: url(../images/blank.gif);
+    font: 0/0 a;
+    text-decoration: none;
+    text-shadow: none;
+}
+/**/
+
+#modal {
+    display: none;
+    position: relative;
+    z-index: 10000;
+}
+
+.modal-visible #modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#modal-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.modal-visible #modal-bg {
+    -webkit-animation: videoBG .3s ease;
+    animation: videoBG .3s ease;
+}
+
+@-webkit-keyframes videoBG {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes videoBG {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#modal-content {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    bottom: 1%;
+    left: 1%;
+    padding: 5px;
+    background: #000;
+}
+
+#modal-content-placeholder {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-visible #modal-content {
+    -webkit-animation: videoContent .3s ease;
+    animation: videoContent .3s ease;
+}
+
+@-webkit-keyframes videoContent {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.6, .6);
+        transform: scale(.6, .6);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: scale(.6, .6);
+        transform: scale(.6, .6);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes videoContent {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.6, .6);
+        transform: scale(.6, .6);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: scale(.6, .6);
+        transform: scale(.6, .6);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}
+
+#modal-link-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #000 url(../images/adsm_modal-close.png) no-repeat 50% 50%;
+    font: 0/0 a;
+    text-decoration: none;
+    z-index: 2;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+#modal-link-close:active {
+    -webkit-transform: scale(.9, .9);
+    transform: scale(.9, .9);
+}

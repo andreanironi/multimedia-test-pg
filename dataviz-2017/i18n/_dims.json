@@ -1,0 +1,50 @@
+{
+    "home": {
+        "title": {
+            "it": "23px",
+            "en": "23px",
+            "fr": "23px",
+            "de": "23px"
+        },
+        "text": {
+            "it": "15.5px",
+            "en": "17.5px",
+            "fr": "17.5px",
+            "de": "16.5px"
+        }
+    },
+    "other_labels": {
+        "central_area_name": {
+            "it": "22px",
+            "en": "22px",
+            "fr": "22px",
+            "de": "20px"
+        },
+        "central_area_composite_text": {
+            "it": "14px",
+            "en": "14px",
+            "fr": "13.5px",
+            "de": "12.5px"
+        },
+        "switch_button": {
+            "it": "16px",
+            "en": "16px",
+            "fr": "11.5px",
+            "de": "16px"
+        },
+        "switch_comparison_button": {
+            "it": "20px",
+            "en": "20px",
+            "fr": "18px",
+            "de": "20px"
+        }
+    },
+    "top_menu": {
+        "item": {
+            "it": "23px",
+            "en": "22px",
+            "fr": "21px",
+            "de": "20px"
+        }
+    }
+}

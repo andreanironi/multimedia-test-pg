@@ -1,0 +1,213 @@
+<!--
+
+Pomilio Blumm - Quantitas  2016
+
+EFSA AMR Data Visualization
+
+Main html file
+
+-->
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+  <title>Antimicrobial resistance in Europe</title>
+
+  <meta name="description" content="Antimicrobial resistance in Europe">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=9;IE=10;IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Antimicrobial resistance in Europe">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="EFSA">
+  <meta property="og:url" content="https://www.efsa.europa.eu/interactive_pages/AMR_Report_2016">
+  <meta property="og:image" content="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz/amr_dataviz_2015banner.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="512">
+  <meta property="og:description" content="Resistance of Salmonella and E. coli in food, animals and humans. Explore data country by country.">
+  <link rel="shortcut icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/favicon.ico" type="image/ico">
+  <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-96x96.png" sizes="96x96">
+  <meta name="p:domain_verify" content="0262a11bf7601f9cb7f6673fddebbf2d">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-72x72.png" sizes="72x72">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-114x114.png" sizes="114x114">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-144x144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-72x72.png" sizes="72x72">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-114x114.png" sizes="114x114">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-144x144.png" sizes="144x144">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon-precomposed" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="canonical" href="https://www.efsa.europa.eu/interactive_pages/AMR_Report_2016" />
+  <link rel="alternate" hreflang="de" href="https://www.efsa.europa.eu/de/interactive_pages/AMR_Report_2016" />
+  <link rel="alternate" hreflang="fr" href="https://www.efsa.europa.eu/fr/interactive_pages/AMR_Report_2016" />
+  <link rel="alternate" hreflang="it" href="https://www.efsa.europa.eu/it/interactive_pages/AMR_Report_2016" />
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:site" content="@EFSA_EU">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@EFSA_EU">
+  <meta name="twitter:creator:id" content="84582815">
+  <meta name="twitter:url" content="https://www.efsa.europa.eu/interactive_pages/AMR_Report_2016">
+  <meta name="twitter:title" content="Antimicrobial resistance in Europe">
+  <meta name="twitter:description" content="Resistance of Salmonella and E. coli in food, animals and humans. Explore data country by country.">
+  <meta name="twitter:image" content="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz/amr_dataviz_2015banner.jpg">
+
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using a very <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+
+<div class="home-box" style="opacity:0;"><a class="" href="javascript:window.reload();">&nbsp;</a></div>
+
+<div class="language-box" style="opacity:0;">
+  <a class="language-trigger pull-right">&nbsp;</a>
+  <ul class="languages block">
+    <li class="lang-container lang-en"><a class="lang-chooser" href="javascript:" onclick="$(document).trigger('translate', 'en');"> </a></li>
+    <li class="lang-container lang-de"><a class="lang-chooser" href="javascript:" onclick="$(document).trigger('translate', 'de');"> </a></li>
+    <li class="lang-container lang-fr"><a class="lang-chooser" href="javascript:" onclick="$(document).trigger('translate', 'fr');"> </a></li>
+    <li class="lang-container lang-it"><a class="lang-chooser" href="javascript:" onclick="$(document).trigger('translate', 'it');"> </a></li>
+  </ul>
+</div>
+
+<div class="social-box" style="opacity:0;"><a class="share-trigger pull-right glyphicon glyphicon-share-alt">&nbsp;</a>
+  <ul class="share block">
+    <li class="tw"><a class="tw-share" href="#">&nbsp;</a></li>
+    <li class="in"><a class="in-share" href="#">&nbsp;</a></li>
+    <li class="fb"><a class="fb-share" href="#">&nbsp;</a></li>
+  </ul>
+</div>
+<div class="info-box" style="opacity:0;"><span>&nbsp;</span></div>
+<div class="copy-box" style="opacity:0;"><span>&nbsp;</span></div>
+
+
+<div id="info" style="display:none;">
+  <div id="info-content"><h2 id="__info_title__">Antimicrobial resistance in Europe</h2>
+    <p id="__info_row1__">
+      Resistance of <em>Salmonella</em>, <em>E. coli</em> and <em>Campylobacter</em> in food, animals and humans, country by country.
+    </p>
+    <p id="__info_row2__">
+      If no data are presented for single countries, it means that none were reported.
+    </p>
+    <p id="__info_row3__">
+      Full report: <a href="https://www.efsa.europa.eu/en/efsajournal/pub/5182" target="_blank">The European Union summary report on antimicrobial resistance in zoonotic and indicator bacteria from humans, animals and food in 2016</a>.
+    </p>
+    <p id="__info_row4__">
+      Tutorial: <a href="https://www.youtube.com/watch?v=Hb4EVOpM3DY" target="_blank">How does it work?</a>
+    </p>
+    <p id="__info_row5__">
+      Open access data: <a href='https://doi.org/10.5281/zenodo.1183248' target='_blank'>EFSA’s Knowledge Junction on Zenodo</a>
+    </p>
+    <p id="__info_row6__">
+      More info: <a href='https://www.efsa.europa.eu/en/topics/topic/antimicrobial-resistance' target='_blank'>Antimicrobial resistance</a>
+    </p>
+  </div>
+  <div class="close"></div>
+</div>
+
+<div id="copy" style="display:none;"><div id="copy-content">
+  <h2 id="__copyright_title__">Copyright notice</h2>
+  <p id="__copyright_row1__">&copy; 2018 - European Food Safety Authority – EFSA.<p>
+  <p id="__copyright_row2__">Re-use is authorised, provided that EFSA is acknowledged as the source of the material.</p></div>
+
+  <div class="close"></div></div>
+
+<div id="orientation" style="display:none;">
+  <div id="orientation-content"><h2>Attention</h2>
+    <p style="text-align:center;">Please, turn your device to portrait mode.</p>
+    <p style="text-align:center;">For the full experience, please use a <strong>bigger screen</strong>.</p>
+  </div>
+  <div class="close orient"></div>
+</div>
+
+<div id="screen" style="display:none;">
+  <div id="screen-content"><h2>Attention</h2>
+    <p style="text-align:center;">For the full experience, we strongly suggest to use a <strong>bigger screen</strong>.</p>
+  </div>
+  <div class="close"></div>
+</div>
+
+<div id="container">
+  <svg id="bacteria-div" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 950 1000" xml:space="preserve">
+        </svg>
+</div>
+<div id="legend">
+  <div id="legend-container">
+    <div id="legend-label" class="legend-space"><h2 id="__info_percentage_label__">Level of resistance</h2></div>
+    <div class="legend-space">
+      <div class="legend-bubble range1"></div>
+      <h5 id="__rare__">Rare<br/>&lt;0.1%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range2"></div>
+      <h5 id="__very_low__">Very low<br/>0.1% to 1%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range3"></div>
+      <h5 id="__low__">Low<br/>&gt;1% to 10%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range4"></div>
+      <h5 id="__moderate__">Moderate<br/>&gt;10% to 20%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range5"></div>
+      <h5 id="__high__">High<br/>&gt;20% to 50%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range6"></div>
+      <h5 id="__very_high__">Very high<br/>&gt;50% to 70%</h5>
+    </div>
+    <div class="legend-space">
+      <div class="legend-bubble range7"></div>
+      <h5 id="__extremely_high__">Extremely&nbsp;high<br/>&gt;70%</h5>
+    </div>
+  </div>
+</div>
+<div id="logo-container">
+  <div id="logo-efsa"><a href="https://www.efsa.europa.eu" target="_blank">&nbsp;</a></div>
+  <div id="logo-ecdc"><a href="http://ecdc.europa.eu" target="_blank">&nbsp;</a></div>
+</div>
+<div id="logo-container-top">
+  <div id="logo-efsa-top"><a href="https://www.efsa.europa.eu" target="_blank"><img src="/sites/default/files/interactive_tools/dataviz_2016/img/efsa.png"></a></div>
+  <div id="logo-ecdc-top"><a href="http://ecdc.europa.eu" target="_blank"><img src="/sites/default/files/interactive_tools/dataviz_2016/img/ecdc.png"></a></div>
+</div>
+<div id="popup-wrapper">
+</div>
+<div id="popup">
+  <div id="popup-header"></div>
+  <div id="popup-content"></div>
+</div>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount','UA-23121873-1'],
+        ['_gat._anonymizeIp'],
+        ['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/jquery.1.11.2.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/underscore.1.8.3.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/d3.v4.3.0.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/amr_dataviz_2016_translate.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/amr_dataviz_2016.js" type="text/javascript"></script><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz_2016/css/dataviz_fonts.css" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz_2016/css/main.min.css" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz_2016/css/page.css" type="text/css">
+
+<div id="blink" style="position:fixed;width:20px;height:20px;background-color:#555;top:0;left:0;display:none;"></div>
+
+</body>
+</html>

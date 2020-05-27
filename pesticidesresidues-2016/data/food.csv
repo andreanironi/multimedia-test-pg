@@ -1,0 +1,264 @@
+Food;Category;SubCategory;Samples;Below LOQ;% Below LOQ;Below MRL;% Below MRL;Above MRL;% Above MRL
+Head cabbages;Vegetables;Brassica vegetables;1326;960;72.4;349;26.3;17;1.3
+Broccoli;Vegetables;Brassica vegetables;442;270;61.1;153;34.6;19;4.3
+Cauliflowers;Vegetables;Brassica vegetables;398;337;84.7;56;14.1;5;1.3
+Kohlrabies;Vegetables;Brassica vegetables;352;229;65.1;110;31.3;13;3.7
+Brussels sprouts;Vegetables;Brassica vegetables;303;81;26.7;207;68.3;15;5
+Chinese cabbages;Vegetables;Brassica vegetables;234;132;56.4;84;35.9;18;7.7
+Kales;Vegetables;Brassica vegetables;122;60;49.2;56;45.9;6;4.9
+Brassica vegetables n/s;Vegetables;Brassica vegetables;73;58;79.5;12;16.4;3;4.1
+Onions;Vegetables;Bulb vegetables;530;429;80.9;97;18.3;4;0.8
+Spring onions;Vegetables;Bulb vegetables;334;156;46.7;156;46.7;22;6.6
+Garlic;Vegetables;Bulb vegetables;136;111;81.6;22;16.2;3;2.2
+Shallots;Vegetables;Bulb vegetables;28;12;42.9;16;57.1;0;0
+Bulb vegetables n/s;Vegetables;Bulb vegetables;6;6;100;0;0;0;0
+Sweet peppers;Vegetables;Fruiting vegetables;6556;3059;46.7;3204;48.9;293;4.5
+Tomatoes;Vegetables;Fruiting vegetables;3151;1515;48.1;1513;48;123;3.9
+Cucumbers;Vegetables;Fruiting vegetables;1344;621;46.2;706;52.5;17;1.3
+Courgettes;Vegetables;Fruiting vegetables;1207;754;62.5;424;35.1;29;2.4
+Aubergines;Vegetables;Fruiting vegetables;865;513;59.3;316;36.5;36;4.2
+Melons;Vegetables;Fruiting vegetables;427;185;43.3;234;54.8;8;1.9
+Okra;Vegetables;Fruiting vegetables;339;153;45.1;149;44;37;10.9
+Watermelons;Vegetables;Fruiting vegetables;167;137;82;28;16.8;2;1.2
+Pumpkins;Vegetables;Fruiting vegetables;134;104;77.6;23;17.2;7;5.2
+Sweet corn;Vegetables;Fruiting vegetables;123;116;94.3;5;4.1;2;1.6
+Gherkins;Vegetables;Fruiting vegetables;49;36;73.5;11;22.4;2;4.1
+Fruiting vegetables n/s;Vegetables;Fruiting vegetables;24;20;83.3;4;16.7;0;0
+Cultivated fungi;Vegetables;Fungi and algae;541;299;55.3;226;41.8;16;3
+Wild fungi;Vegetables;Fungi and algae;209;81;38.8;102;48.8;26;12.4
+Fungi, algae, mosses and lichens n/s;Vegetables;Fungi and algae;44;39;88.6;2;4.5;3;6.8
+Lettuces;Vegetables;Leafy vegetables and fresh herbs;2340;959;41;1310;56;71;3
+Spinaches;Vegetables;Leafy vegetables and fresh herbs;791;383;48.4;368;46.5;40;5.1
+Leaf vegetables n/s;Vegetables;Leafy vegetables and fresh herbs;421;157;37.3;215;51.1;49;11.6
+Escaroles;Vegetables;Leafy vegetables and fresh herbs;240;108;45;129;53.8;3;1.3
+Parsley;Vegetables;Leafy vegetables and fresh herbs;219;68;31.1;119;54.3;32;14.6
+Basil and edible flowers;Vegetables;Leafy vegetables and fresh herbs;177;39;22;78;44.1;60;33.9
+Lamb's lettuces;Vegetables;Leafy vegetables and fresh herbs;126;23;18.3;97;77;6;4.8
+Chards;Vegetables;Leafy vegetables and fresh herbs;113;73;64.6;34;30.1;6;5.3
+Rucola;Vegetables;Leafy vegetables and fresh herbs;111;27;24.3;72;64.9;12;10.8
+Celery leaves;Vegetables;Leafy vegetables and fresh herbs;107;31;29;59;55.1;17;15.9
+Grape leaves and similar species;Vegetables;Leafy vegetables and fresh herbs;87;30;34.5;13;14.9;44;50.6
+Watercresses;Vegetables;Leafy vegetables and fresh herbs;84;44;52.4;12;14.3;28;33.3
+Witloofs;Vegetables;Leafy vegetables and fresh herbs;80;48;60;27;33.8;5;6.3
+Chives;Vegetables;Leafy vegetables and fresh herbs;44;11;25;21;47.7;12;27.3
+Tarragon;Vegetables;Leafy vegetables and fresh herbs;33;25;75.8;6;18.2;2;6.1
+Thyme;Vegetables;Leafy vegetables and fresh herbs;29;15;51.7;10;34.5;4;13.8
+Bay leave;Vegetables;Leafy vegetables and fresh herbs;22;12;54.5;5;22.7;5;22.7
+Rosemary;Vegetables;Leafy vegetables and fresh herbs;22;13;59.1;9;40.9;0;0
+Cresses, other sprouts and shoots;Vegetables;Leafy vegetables and fresh herbs;13;9;69.2;1;7.7;3;23.1
+Sage;Vegetables;Leafy vegetables and fresh herbs;10;7;70;1;10;2;20
+Purslanes;Vegetables;Leafy vegetables and fresh herbs;5;5;100;0;0;0;0
+Baby leaf crops ;Vegetables;Leafy vegetables and fresh herbs;4;1;25;3;75;0;0
+Chervil;Vegetables;Leafy vegetables and fresh herbs;3;0;0;3;100;0;0
+Beans (with pods);Vegetables;Legume vegetables (fresh);1338;572;42.8;647;48.4;119;8.9
+Peas (with pods);Vegetables;Legume vegetables (fresh);698;183;26.2;464;66.5;51;7.3
+Peas (without pods);Vegetables;Legume vegetables (fresh);231;173;74.9;49;21.2;9;3.9
+Beans (without pods);Vegetables;Legume vegetables (fresh);101;85;84.2;11;10.9;5;5
+Legume vegetables n/s;Vegetables;Legume vegetables (fresh);26;26;100;0;0;0;0
+Lentils (fresh);Vegetables;Legume vegetables (fresh);9;9;100;0;0;0;0
+Potatoes;Vegetables;Root and tuber vegetables;2229;1340;60.1;857;38.4;32;1.4
+Carrots;Vegetables;Root and tuber vegetables;1215;647;53.3;537;44.2;31;2.6
+Radishes;Vegetables;Root and tuber vegetables;247;146;59.1;93;37.7;8;3.2
+Celeriacs;Vegetables;Root and tuber vegetables;246;62;25.2;166;67.5;18;7.3
+Sweet potatoes;Vegetables;Root and tuber vegetables;194;109;56.2;76;39.2;9;4.6
+Beetroots;Vegetables;Root and tuber vegetables;134;112;83.6;19;14.2;3;2.2
+Turnips;Vegetables;Root and tuber vegetables;113;72;63.7;25;22.1;16;14.2
+Yams;Vegetables;Root and tuber vegetables;109;106;97.2;0;0;3;2.8
+Cassava roots;Vegetables;Root and tuber vegetables;91;75;82.4;11;12.1;5;5.5
+Parsley roots;Vegetables;Root and tuber vegetables;90;47;52.2;40;44.4;3;3.3
+Root and tuber vegetables n/s;Vegetables;Root and tuber vegetables;54;46;85.2;3;5.6;5;9.3
+Parsnips;Vegetables;Root and tuber vegetables;51;35;68.6;16;31.4;0;0
+Swedes;Vegetables;Root and tuber vegetables;18;13;72.2;5;27.8;0;0
+Horseradishes;Vegetables;Root and tuber vegetables;16;14;87.5;2;12.5;0;0
+Jerusalem artichokes;Vegetables;Root and tuber vegetables;16;16;100;0;0;0;0
+Salsifies;Vegetables;Root and tuber vegetables;7;6;85.7;1;14.3;0;0
+Arrowroots;Vegetables;Root and tuber vegetables;4;4;100;0;0;0;0
+Leeks;Vegetables;Stem vegetables;1107;572;51.7;505;45.6;30;2.7
+Asparagus;Vegetables;Stem vegetables;646;543;84.1;80;12.4;23;3.6
+Celeries;Vegetables;Stem vegetables;364;90;24.7;227;62.4;47;12.9
+Fennels;Vegetables;Stem vegetables;237;126;53.2;107;45.1;4;1.7
+Rhubarbs;Vegetables;Stem vegetables;217;194;89.4;23;10.6;0;0
+Globe artichokes;Vegetables;Stem vegetables;152;122;80.3;22;14.5;8;5.3
+Stem vegetables n/s;Vegetables;Stem vegetables;8;6;75;0;0;2;25
+Bamboo shoots;Vegetables;Stem vegetables;4;4;100;0;0;0;0
+Cardoons;Vegetables;Stem vegetables;2;2;100;0;0;0;0
+Palm hearts;Vegetables;Stem vegetables;1;1;100;0;0;0;0
+Vegetables n/s;Vegetables;Vegetables, not specified;60;37;61.7;21;35;2;3.3
+Oranges;Fruits and nuts;Citrus fruit;1882;520;27.6;1300;69.1;62;3.3
+Lemons;Fruits and nuts;Citrus fruit;1514;314;20.7;1089;71.9;111;7.3
+Mandarins;Fruits and nuts;Citrus fruit;1250;317;25.4;906;72.5;27;2.2
+Grapefruits;Fruits and nuts;Citrus fruit;871;129;14.8;697;80;45;5.2
+Limes;Fruits and nuts;Citrus fruit;225;36;16;172;76.4;17;7.6
+Citrus fruits n/s;Fruits and nuts;Citrus fruit;14;4;28.6;9;64.3;1;7.1
+Cashew nuts;Fruits and nuts;Nuts;68;60;88.2;4;5.9;4;5.9
+Chestnuts;Fruits and nuts;Nuts;55;53;96.4;2;3.6;0;0
+Hazelnuts;Fruits and nuts;Nuts;52;50;96.2;2;3.8;0;0
+Walnuts;Fruits and nuts;Nuts;51;45;88.2;6;11.8;0;0
+Coconuts;Fruits and nuts;Nuts;37;26;70.3;11;29.7;0;0
+Almonds;Fruits and nuts;Nuts;34;23;67.6;11;32.4;0;0
+Pistachios;Fruits and nuts;Nuts;27;11;40.7;6;22.2;10;37
+Tree nuts n/s;Fruits and nuts;Nuts;14;14;100;0;0;0;0
+Pine nut kernels;Fruits and nuts;Nuts;10;9;90;1;10;0;0
+Brazil nuts;Fruits and nuts;Nuts;6;3;50;3;50;0;0
+Pecans;Fruits and nuts;Nuts;5;5;100;0;0;0;0
+Macadamias;Fruits and nuts;Nuts;2;2;100;0;0;0;0
+Apples;Fruits and nuts;Pome fruit;3596;1231;34.2;2258;62.8;107;3
+Pears;Fruits and nuts;Pome fruit;1647;425;25.8;1192;72.4;30;1.8
+Quinces;Fruits and nuts;Pome fruit;41;22;53.7;18;43.9;1;2.4
+Pome fruits n/s;Fruits and nuts;Pome fruit;30;24;80;6;20;0;0
+Medlars;Fruits and nuts;Pome fruit;12;5;41.7;7;58.3;0;0
+Loquats;Fruits and nuts;Pome fruit;8;8;100;0;0;0;0
+Wine grapes;Fruits and nuts;Small fruit and berries;2761;1394;50.5;1339;48.5;28;1
+Strawberries;Fruits and nuts;Small fruit and berries;2627;553;21.1;2009;76.5;65;2.5
+Table grapes;Fruits and nuts;Small fruit and berries;2308;442;19.2;1804;78.2;62;2.7
+Raspberries;Fruits and nuts;Small fruit and berries;473;91;19.2;375;79.3;7;1.5
+Currants;Fruits and nuts;Small fruit and berries;376;65;17.3;282;75;29;7.7
+Blueberries;Fruits and nuts;Small fruit and berries;330;141;42.7;183;55.5;6;1.8
+Blackberries;Fruits and nuts;Small fruit and berries;81;20;24.7;59;72.8;2;2.5
+Gooseberries;Fruits and nuts;Small fruit and berries;49;3;6.1;43;87.8;3;6.1
+Cranberries;Fruits and nuts;Small fruit and berries;43;36;83.7;7;16.3;0;0
+Table/wine grapes n/s;Fruits and nuts;Small fruit and berries;26;7;26.9;18;69.2;1;3.8
+Berries and small fruits n/s;Fruits and nuts;Small fruit and berries;25;23;92;1;4;1;4
+Mulberries;Fruits and nuts;Small fruit and berries;25;24;96;1;4;0;0
+Elderberries;Fruits and nuts;Small fruit and berries;6;5;83.3;1;16.7;0;0
+Rose hips;Fruits and nuts;Small fruit and berries;1;1;100;0;0;0;0
+Dewberries;Fruits and nuts;Small fruit and berries;1;1;100;0;0;0;0
+Peaches;Fruits and nuts;Stone fruit;1979;417;21.1;1509;76.3;53;2.7
+Cherries;Fruits and nuts;Stone fruit;985;186;18.9;779;79.1;20;2
+Plums;Fruits and nuts;Stone fruit;953;413;43.3;526;55.2;14;1.5
+Apricots;Fruits and nuts;Stone fruit;572;131;22.9;430;75.2;11;1.9
+Stone fruits n/s;Fruits and nuts;Stone fruit;13;7;53.8;5;38.5;1;7.7
+Kiwi fruits;Fruits and nuts;Tropical and subtropical fruit;952;612;64.3;327;34.3;13;1.4
+Bananas;Fruits and nuts;Tropical and subtropical fruit;833;262;31.5;566;67.9;5;0.6
+Pineapples;Fruits and nuts;Tropical and subtropical fruit;655;197;30.1;436;66.6;22;3.4
+Mangoes;Fruits and nuts;Tropical and subtropical fruit;403;161;40;224;55.6;18;4.5
+Prickly pears;Fruits and nuts;Tropical and subtropical fruit;316;131;41.5;135;42.7;50;15.8
+Pomegranates;Fruits and nuts;Tropical and subtropical fruit;259;144;55.6;85;32.8;30;11.6
+Papayas;Fruits and nuts;Tropical and subtropical fruit;202;73;36.1;110;54.5;19;9.4
+Avocados;Fruits and nuts;Tropical and subtropical fruit;192;136;70.8;53;27.6;3;1.6
+Passionfruits;Fruits and nuts;Tropical and subtropical fruit;153;59;38.6;57;37.3;37;24.2
+Persimmon;Fruits and nuts;Tropical and subtropical fruit;129;98;76;27;20.9;4;3.1
+Figs;Fruits and nuts;Tropical and subtropical fruit;113;86;76.1;17;15;10;8.8
+Table olives;Fruits and nuts;Tropical and subtropical fruit;101;64;63.4;33;32.7;4;4
+Lychees;Fruits and nuts;Tropical and subtropical fruit;51;34;66.7;8;15.7;9;17.6
+Cherimoyas;Fruits and nuts;Tropical and subtropical fruit;48;15;31.3;10;20.8;23;47.9
+Dates;Fruits and nuts;Tropical and subtropical fruit;41;31;75.6;9;22;1;2.4
+Tropical fruits n/s;Fruits and nuts;Tropical and subtropical fruit;27;16;59.3;8;29.6;3;11.1
+Guavas;Fruits and nuts;Tropical and subtropical fruit;23;5;21.7;9;39.1;9;39.1
+Carambolas;Fruits and nuts;Tropical and subtropical fruit;16;5;31.3;10;62.5;1;6.3
+Kumquats;Fruits and nuts;Tropical and subtropical fruit;13;8;61.5;4;30.8;1;7.7
+American persimmons;Fruits and nuts;Tropical and subtropical fruit;10;9;90;0;0;1;10
+Star apples;Fruits and nuts;Tropical and subtropical fruit;3;3;100;0;0;0;0
+Durians;Fruits and nuts;Tropical and subtropical fruit;3;3;100;0;0;0;0
+Soursops;Fruits and nuts;Tropical and subtropical fruit;3;2;66.7;1;33.3;0;0
+Jambolans;Fruits and nuts;Tropical and subtropical fruit;2;2;100;0;0;0;0
+Breadfruits;Fruits and nuts;Tropical and subtropical fruit;2;2;100;0;0;0;0
+Fruits and tree nuts n/s;Fruits and nuts;Fruits and nuts, not specified;61;42;68.9;18;29.5;1;1.6
+Muscle (swine);Animal products;Muscle (different species);729;577;79.1;146;20;6;0.8
+Muscle (bovine);Animal products;Muscle (different species);347;327;94.2;20;5.8;0;0
+Muscle (other farm animals);Animal products;Muscle (different species);324;110;34;213;65.7;1;0.3
+Muscle (poultry);Animal products;Muscle (different species);264;243;92;21;8;0;0
+Muscle (sheep);Animal products;Muscle (different species);39;38;97.4;1;2.6;0;0
+Muscle (equine);Animal products;Muscle (different species);14;14;100;0;0;0;0
+Muscle (goat);Animal products;Muscle (different species);9;9;100;0;0;0;0
+Fat (swine);Animal products;Fat (different species);1248;1203;96.4;44;3.5;1;0.1
+Fat (bovine);Animal products;Fat (different species);281;242;86.1;39;13.9;0;0
+Fat (poultry);Animal products;Fat (different species);202;192;95;10;5;0;0
+Fat (sheep);Animal products;Fat (different species);149;122;81.9;27;18.1;0;0
+Fat (equine);Animal products;Fat (different species);25;21;84;4;16;0;0
+Fat (other farm animals);Animal products;Fat (different species);22;19;86.4;3;13.6;0;0
+Fat (goat);Animal products;Fat (different species);6;4;66.7;2;33.3;0;0
+Liver (bovine);Animal products;Liver (different species);229;123;53.7;59;25.8;47;20.5
+Liver (swine);Animal products;Liver (different species);229;129;56.3;96;41.9;4;1.7
+Liver (sheep);Animal products;Liver (different species);131;31;23.7;69;52.7;31;23.7
+Liver (poultry);Animal products;Liver (different species);38;38;100;0;0;0;0
+Liver (equine);Animal products;Liver (different species);17;17;100;0;0;0;0
+Liver (other farm animals);Animal products;Liver (different species);8;8;100;0;0;0;0
+Kidney (bovine);Animal products;Kidney (different species);1;0;0;1;100;0;0
+Edible offal (swine);Animal products;Edible offal (different species);26;26;100;0;0;0;0
+Edible offal (bovine);Animal products;Edible offal (different species);7;5;71.4;2;28.6;0;0
+Edible offal (sheep);Animal products;Edible offal (different species);2;1;50;1;50;0;0
+Milk (cattle);Animal products;Milk and milk products;1729;1547;89.5;175;10.1;7;0.4
+Milk n/s;Animal products;Milk and milk products;275;266;96.7;2;0.7;7;2.5
+Milk (goat);Animal products;Milk and milk products;168;119;70.8;17;10.1;32;19
+Milk (sheep);Animal products;Milk and milk products;30;24;80;4;13.3;2;6.7
+Milk (horse);Animal products;Milk and milk products;4;4;100;0;0;0;0
+Eggs (chicken);Animal products;Eggs;539;456;84.6;81;15;2;0.4
+Eggs (quail);Animal products;Eggs;9;7;77.8;2;22.2;0;0
+Eggs n/s;Animal products;Eggs;8;8;100;0;0;0;0
+Honey;Animal products;Honey;1131;895;79.1;217;19.2;19;1.7
+Wild terrestrial vertebrate animals;Animal products;Game products;109;79;72.5;30;27.5;0;0
+Terrestrial invertebrate animals;Animal products;Amphibians, reptiles, insects, snails;2;2;100;0;0;0;0
+Olives for oil production;Other plant products;Oilseeds and oil fruits;746;619;83;122;16.4;5;0.7
+Sunflower seeds;Other plant products;Oilseeds and oil fruits;251;229;91.2;19;7.6;3;1.2
+Pumpkin seeds;Other plant products;Oilseeds and oil fruits;166;88;53;74;44.6;4;2.4
+Soyabeans;Other plant products;Oilseeds and oil fruits;113;49;43.4;64;56.6;0;0
+Oilseeds and oil fruits n/s;Other plant products;Oilseeds and oil fruits;105;75;71.4;29;27.6;1;1
+Linseeds;Other plant products;Oilseeds and oil fruits;90;48;53.3;36;40;6;6.7
+Sesame seeds;Other plant products;Oilseeds and oil fruits;76;66;86.8;9;11.8;1;1.3
+Rapeseeds;Other plant products;Oilseeds and oil fruits;63;45;71.4;18;28.6;0;0
+Poppy seeds;Other plant products;Oilseeds and oil fruits;47;10;21.3;20;42.6;17;36.2
+Hemp seeds;Other plant products;Oilseeds and oil fruits;45;38;84.4;7;15.6;0;0
+Peanuts;Other plant products;Oilseeds and oil fruits;23;19;82.6;4;17.4;0;0
+Mustard seeds;Other plant products;Oilseeds and oil fruits;16;15;93.8;1;6.3;0;0
+Castor beans;Other plant products;Oilseeds and oil fruits;5;5;100;0;0;0;0
+Safflower seeds;Other plant products;Oilseeds and oil fruits;3;3;100;0;0;0;0
+Oil palms kernels;Other plant products;Oilseeds and oil fruits;2;2;100;0;0;0;0
+Oil palms fruits;Other plant products;Oilseeds and oil fruits;2;1;50;1;50;0;0
+Cotton seeds;Other plant products;Oilseeds and oil fruits;1;1;100;0;0;0;0
+Gold of pleasure seeds;Other plant products;Oilseeds and oil fruits;1;0;0;1;100;0;0
+Beans (dry);Other plant products;Pulses;326;281;86.2;32;9.8;13;4
+Lentils (dry);Other plant products;Pulses;239;198;82.8;39;16.3;2;0.8
+Peas (dry);Other plant products;Pulses;82;62;75.6;15;18.3;5;6.1
+Pulses (dry) n/s;Other plant products;Pulses;16;16;100;0;0;0;0
+Lupins (dry);Other plant products;Pulses;5;3;60;2;40;0;0
+Ginger;Other plant products;Spices;84;54;64.3;24;28.6;6;7.1
+Peppercorn (black, green, white);Other plant products;Spices;43;12;27.9;21;48.8;10;23.3
+Vanilla pods;Other plant products;Spices;41;41;100;0;0;0;0
+Cumin seed;Other plant products;Spices;29;9;31;7;24.1;13;44.8
+Spices n/s;Other plant products;Spices;23;19;82.6;4;17.4;0;0
+Turmeric/curcuma;Other plant products;Spices;20;15;75;5;25;0;0
+Capers;Other plant products;Spices;12;8;66.7;4;33.3;0;0
+Fennel seed;Other plant products;Spices;9;5;55.6;2;22.2;2;22.2
+Cardamom;Other plant products;Spices;8;6;75;2;25;0;0
+Cinnamon;Other plant products;Spices;6;5;83.3;1;16.7;0;0
+Nutmeg;Other plant products;Spices;6;2;33.3;4;66.7;0;0
+Caraway;Other plant products;Spices;5;4;80;1;20;0;0
+Allspice;Other plant products;Spices;5;2;40;1;20;2;40
+Anise/aniseed;Other plant products;Spices;4;2;50;2;50;0;0
+Dill seed;Other plant products;Spices;3;2;66.7;1;33.3;0;0
+Cloves;Other plant products;Spices;3;3;100;0;0;0;0
+Coriander seed;Other plant products;Spices;3;1;33.3;1;33.3;1;33.3
+Celery seed;Other plant products;Spices;2;1;50;1;50;0;0
+Saffron;Other plant products;Spices;1;0;0;1;100;0;0
+Black caraway/black cumin;Other plant products;Spices;1;0;0;1;100;0;0
+Sugar beet roots;Other plant products;Sugar plants;16;16;100;0;0;0;0
+Sugar canes;Other plant products;Sugar plants;12;12;100;0;0;0;0
+Chicory roots;Other plant products;Sugar plants;11;10;90.9;1;9.1;0;0
+Sugar plants n/s;Other plant products;Sugar plants;3;3;100;0;0;0;0
+Teas;Other plant products;Tea, coffee, herbal infusions, cocoa;1054;383;36.3;420;39.8;251;23.8
+Coffee beans;Other plant products;Tea, coffee, herbal infusions, cocoa;282;243;86.2;37;13.1;2;0.7
+Tea, coffee, herbal infusions, cocoa n/s;Other plant products;Tea, coffee, herbal infusions, cocoa;176;115;65.3;53;30.1;8;4.5
+Cocoa beans;Other plant products;Tea, coffee, herbal infusions, cocoa;66;61;92.4;4;6.1;1;1.5
+Strawberry leaves;Other plant products;Tea, coffee, herbal infusions, cocoa;20;6;30;13;65;1;5
+Camomille flowers;Other plant products;Tea, coffee, herbal infusions, cocoa;13;11;84.6;2;15.4;0;0
+Rooibos leaves;Other plant products;Tea, coffee, herbal infusions, cocoa;10;9;90;0;0;1;10
+Matè;Other plant products;Tea, coffee, herbal infusions, cocoa;3;3;100;0;0;0;0
+Ginseng root;Other plant products;Tea, coffee, herbal infusions, cocoa;1;1;100;0;0;0;0
+Rose petals;Other plant products;Tea, coffee, herbal infusions, cocoa;1;1;100;0;0;0;0
+Lime/linden flowers;Other plant products;Tea, coffee, herbal infusions, cocoa;1;1;100;0;0;0;0
+Hops, dried;Other plant products;Hops;33;3;9.1;26;78.8;4;12.1
+Baby foods (other than cereal-based);Food for infants and young children;Food for infants and young children;1043;934;89.5;82;7.9;27;2.6
+Processed cereal-based foods IYC;Food for infants and young children;Food for infants and young children;357;337;94.4;16;4.5;4;1.1
+Infant formulae;Food for infants and young children;Food for infants and young children;153;123;80.4;29;19;1;0.7
+Follow-on formulae;Food for infants and young children;Food for infants and young children;77;65;84.4;12;15.6;0;0
+Food for infants and young children;Food for infants and young children;Food for infants and young children;46;46;100;0;0;0;0
+Wheat;Cereals;Cereals;2654;1772;66.8;874;32.9;8;0.3
+Rice;Cereals;Cereals;1161;675;58.1;441;38;45;3.9
+Rye;Cereals;Cereals;991;585;59;399;40.3;7;0.7
+Maize;Cereals;Cereals;355;315;88.7;39;11;1;0.3
+Barley;Cereals;Cereals;218;146;67;71;32.6;1;0.5
+Buckwheat;Cereals;Cereals;207;163;78.7;24;11.6;20;9.7
+Oat;Cereals;Cereals;185;153;82.7;32;17.3;0;0
+Cereals n/s;Cereals;Cereals;85;70;82.4;15;17.6;0;0
+Millet;Cereals;Cereals;65;51;78.5;13;20;1;1.5
