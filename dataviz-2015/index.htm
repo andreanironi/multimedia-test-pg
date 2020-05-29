@@ -177,20 +177,17 @@
   <div id="popup-content"></div>
 </div>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount','UA-23121873-1'],
-        ['_gat._anonymizeIp'],
-        ['_trackPageview']);
-    (function() {
-        var ga = document.createElement('script');
-        ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(ga, s);
-    })();
-</script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/jquery.1.11.2.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/underscore.1.8.3.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/d3.v4.3.0.min.js" type="text/javascript"></script><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/main.min.css?2=2" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/page.css?2=2" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/amr_dataviz_fonts.css" type="text/css"><div id="blink" style="position:fixed;width:20px;height:20px;background-color:#555;top:0;left:0;display:none;"></div>
+    (function(window, document, dataLayerName, id) {
+        window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+        function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+        var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+        var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+        tags.async=!0,tags.src="//efsa.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+        !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+    })(window, document, 'dataLayer', 'cdb2708a-d4fa-4240-a574-20f1821f7650');
+</script><noscript><iframe src="//efsa.containers.piwik.pro/cdb2708a-d4fa-4240-a574-20f1821f7650/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/jquery.1.11.2.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/underscore.1.8.3.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/d3.v4.3.0.min.js" type="text/javascript"></script><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/main.min.css?2=2" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/page.css?2=2" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/amr_dataviz_fonts.css" type="text/css"><div id="blink" style="position:fixed;width:20px;height:20px;background-color:#555;top:0;left:0;display:none;"></div>
 <script>
     /**
      *
