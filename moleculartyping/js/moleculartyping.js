@@ -218,13 +218,13 @@ efsa = {
 
         if ($section.length) {
             $('.preload', $section).each(function () {
-                files.push('/sites/default/files/interactive_tools/moleculartyping/img/' + $(this).data('preload'));
+                files.push('../img/' + $(this).data('preload'));
             });
 
             if (files.length) {
                 self.images(files, function (images) {
                     $('.preload', $section).each(function () {
-                        $(this).attr('src', '/sites/default/files/interactive_tools/moleculartyping/img/' + $(this).data('preload'));
+                        $(this).attr('src', 'img/' + $(this).data('preload'));
                     });
 
                     $('body').addClass('page-preloaded');
@@ -255,7 +255,7 @@ efsa = {
         } else {
             if (navigator.userAgent.match(/iPad/i) || !isMobile.any()) {
                 for (var i = 1; i < 326; i++) {
-                    files.push('/sites/default/files/interactive_tools/moleculartyping/img/Images-for-parallax/EFSA_MTS_Video_290915 ' + ('00' + i).slice(-3) + '.jpg');
+                    files.push('img/Images-for-parallax/EFSA_MTS_Video_290915 ' + ('00' + i).slice(-3) + '.jpg');
                 }
 
                 self.images(files, function (images) {
@@ -947,7 +947,7 @@ function animateGenomeFrames(controller) {
         filename;
 
     for (var i = 1; i < totalImages; i++) {
-        filename = '/sites/default/files/interactive_tools/moleculartyping/img/Images-for-parallax/EFSA_MTS_Video_290915 ' + ('00' + i).slice(-3) + '.jpg';
+        filename = 'img/Images-for-parallax/EFSA_MTS_Video_290915 ' + ('00' + i).slice(-3) + '.jpg';
         imagesFrames.push(filename);
     }
 
