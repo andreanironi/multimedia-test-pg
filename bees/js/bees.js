@@ -364,7 +364,7 @@ efsa.videos = {
 		var self = this,
 			cache = this.cache;
 		for(var i = 1; i < totalImages; i++) {
-			var filename = '/sites/default/files/interactive_tools/bees/images/bela_' + prefix + (('00' + i).slice(-3)) + '.jpg'; // Filename of each image
+			var filename = 'images/bela_' + prefix + (('00' + i).slice(-3)) + '.jpg'; // Filename of each image
 			var img = new Image;
 			img.src = filename;
 			$('#' + prefix + '-' + (i+1)).css({'background-image': 'url(' + img.src + ')'});
@@ -412,13 +412,13 @@ efsa.preload = {
 	cache: {
 		sectionsAmount: 14,
 		sectionsLoaded: 0,
-		folder: '/sites/default/files/interactive_tools/bees/images/besm_'
+		folder: 'images/besm_'
 	},
 	init: function() {
 		if(window.innerWidth > 1400) {
-			this.cache.folder = '/sites/default/files/interactive_tools/bees/images/bela_';
+			this.cache.folder = 'images/bela_';
 		} else {
-			this.cache.folder = '/sites/default/files/interactive_tools/bees/images/besm_';
+			this.cache.folder = 'images/besm_';
 		}
 		this.getFiles();
 	},

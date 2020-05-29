@@ -555,7 +555,7 @@ $(function () {
 
         var trigger;
         if ((trigger = $('.language-trigger'))) {
-            trigger.css('background-image', "url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-" + lang + ".png')")
+            trigger.css('background-image', "url('img/lang-" + lang + ".png')")
         }
 
         gtag('event', 'selectLanguage', {
@@ -614,15 +614,6 @@ $(function () {
          * Order of parameters
          */
         language = fromGet || fromUrl || fromUser;
-
-        /**
-         * Logging
-
-         console.log("User language: " + fromUser);
-         console.log("Url language: " + fromUrl);
-         console.log("Get language: " + fromGet);
-
-         */
 
         /**
          * Return

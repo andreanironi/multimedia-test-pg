@@ -32,7 +32,7 @@ $(document).ready(function () {
     var centralTextLinesTop = null, centralTextLinesBottom = null; // svg elements (containers)
     var datavizStarted = false; // true when the user clicks on a home page bacteria
     var startingSelection = -1; // the id of the bacteria clicked at the beginning
-    var ECDC_LINK = "http://ecdc.europa.eu/";
+    var ECDC_LINK = "https://ecdc.europa.eu/";
     var EFSA_LINK = "https://www.efsa.europa.eu";
     var MAX_NATION_RADIUS = 20; // maximum allowed nation radius for normal view
     var MAX_NATION_RADIUS_CMP = 45; // maximum allowed nation radius for comparison view
@@ -147,7 +147,7 @@ $(document).ready(function () {
      * @param {function} callback the function to call at the end
      */
     function readData(isFirst, callback) {
-        var url = focusOn === BACTERIA ? "/sites/default/files/interactive_tools/dataviz_2016/data/data-countries.json" : "/sites/default/files/interactive_tools/dataviz_2016/data/data-bacteria.json";
+        var url = focusOn === BACTERIA ? "data/data-countries.json" : "data/data-bacteria.json";
         $.ajax({
             "url": url,
             "method": "GET",
@@ -182,7 +182,7 @@ $(document).ready(function () {
      */
     function load_i18n(lang, callback) {
         $.ajax({
-            "url": "/sites/default/files/interactive_tools/dataviz_2016/i18n/"+lang+".json",
+            "url": "i18n/"+lang+".json",
             "method": "GET",
 			"dataType": "json",
             "success": function (res) {
@@ -198,7 +198,7 @@ $(document).ready(function () {
      */
     function loadTextsDims(res, callback) {
         $.ajax({
-            "url": "/sites/default/files/interactive_tools/dataviz_2016/i18n/_dims.json",
+            "url": "i18n/_dims.json",
             "method": "GET",
 			"dataType": "json",
             "success": function (_dims) {
@@ -1356,7 +1356,7 @@ $(document).ready(function () {
         svg.append("text").attr("id", "starter-text").attr("x", width/2).attr("y", height/2+135).attr("text-anchor", "middle").attr("fill", theme_green_dark).text(dictionary.home.start_button).attr("font-size", "22px").attr("font-weight", "700").attr("pointer-events", "none");
         var arc = d3.arc().innerRadius(radius_glass+140).outerRadius(radius_glass+150).startAngle(1).endAngle(5.28);
         svg.append("path").attr("class", "intro-element").attr("d", arc).attr("fill", "#e6e6e6").attr("transform", "translate("+width/2+", "+(height/2-10)+")").attr("opacity", 1);
-        svg.append("image").attr("class", "intro-element").attr("xlink:href", "/sites/default/files/interactive_tools/dataviz_2016/img/ECDC_logo.png").attr("x", width/2+45).attr("y", height/2 -radius_glass-180).attr("width", "245px").attr("height", "118px").attr("opacity", 1).attr("cursor", "pointer")
+        svg.append("image").attr("class", "intro-element").attr("xlink:href", "img/ECDC_logo.png").attr("x", width/2+45).attr("y", height/2 -radius_glass-180).attr("width", "245px").attr("height", "118px").attr("opacity", 1).attr("cursor", "pointer")
                 .on("mouseover", function() {
                     d3.select(this).attr("opacity", .8);
                 })
@@ -1366,7 +1366,7 @@ $(document).ready(function () {
                 .on("click", function() {
                     window.open(ECDC_LINK, '_blank');
                 });
-        svg.append("image").attr("class", "intro-element").attr("xlink:href", "/sites/default/files/interactive_tools/dataviz_2016/img/logo efsa.png").attr("x", width/2-260).attr("y", height/2 -radius_glass-180).attr("width", "250px").attr("height", "118px").attr("opacity", 1).attr("cursor", "pointer")
+        svg.append("image").attr("class", "intro-element").attr("xlink:href", "img/logo efsa.png").attr("x", width/2-260).attr("y", height/2 -radius_glass-180).attr("width", "250px").attr("height", "118px").attr("opacity", 1).attr("cursor", "pointer")
                 .on("mouseover", function() {
                     d3.select(this).attr("opacity", .8);
                 })

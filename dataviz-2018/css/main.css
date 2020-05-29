@@ -116,7 +116,7 @@ body {overflow:hidden!important;margin:0;font-family:Roboto;}
     right: 20px;
     width: 20px;
     height: 15px;
-    background : url(https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/menu-arrow.png) no-repeat;
+    background : url(img/menu-arrow.png) no-repeat;
     background-size: cover;
     content: '';
 }
