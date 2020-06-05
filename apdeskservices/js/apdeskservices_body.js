@@ -450,13 +450,4 @@ $(document).ready(function() {
     }); // fancybox
 }); // ready
 
-$(document).ready(function() {
-  jQuery.scrollDepth({
-    elements: ['#preparation_and_submission', '#assessment', '#adoption_and_publication', '#footerImages'],
-    percentage: false,
-    userTiming: false,
-    pixelDepth: false,
-  });
-});
-
 bmi_SafeAddOnload(bmi_load, "bmi_orig_img", 0);

@@ -7,14 +7,6 @@ ga('create', 'UA-23121873-1', 'auto');
 ga('set', 'anonymizeIp', true);
 ga('send', 'pageview');
 
-jQuery.scrollDepth({
-	elements: ['#intro', '#food', '#contact-with-animals', '#bites-from-insects', '#how-to-reduce-the-risk'],
-	percentage: false,
-	eventHandler: function(data) {
-		console.log(data)
-	}
-});
-
 var efsaMobile = {
 	init: function() {
 		this.setBindings();

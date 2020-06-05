@@ -7,15 +7,6 @@ ga('create', 'UA-23121873-1', 'auto');
 ga('set', 'anonymizeIp', true);
 ga('send', 'pageview');
 
-jQuery(document).ready(function() {
-  jQuery.scrollDepth({
-    elements: ['#welcome', '#first-step', '#second-step', '#third-step', '#fourth-step', '#conclusion-section'],
-    percentage: true,
-    userTiming: false,
-    pixelDepth: false,
-  });
-});
-
 $(function() {
 
     var $window = $(window);

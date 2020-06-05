@@ -7,12 +7,6 @@ ga('create', 'UA-23121873-1', 'auto');
 ga('set', 'anonymizeIp', true);
 ga('send', 'pageview');
 
-jQuery.scrollDepth({
-	percentage: true,
-	userTiming: false,
-	pixelDepth: false,
-});
-
 $(function () {
 
     var $window = $(window);

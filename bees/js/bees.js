@@ -21,13 +21,6 @@ ga('create', 'UA-23121873-1', 'auto');
 ga('set', 'anonymizeIp', true);
 ga('send', 'pageview');
 
-jQuery.scrollDepth({
-  elements: ['#intro', '#biological', '#chemicals-and-contaminants', '#environmental'],
-  percentage: true,
-  userTiming: false,
-  pixelDepth: false,
-});
-
 window.efsa = window.efsa || {};
 efsa.cache = {
 	screenW: 0,

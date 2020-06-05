@@ -154,8 +154,6 @@ function initAnim() {
 
 $(window).load(function(){
 
- $.scrollDepth();
-
  if($(window).width() > 979) {
   /* Activate popups */
   $(".media.video").colorbox({iframe:true, width:"580px", height:"350px"});

@@ -7,12 +7,6 @@ ga('create', 'UA-23121873-1', 'auto');
 ga('set', 'anonymizeIp', true);
 ga('send', 'pageview');
 
-jQuery.scrollDepth({
-	percentage: true,
-	userTiming: true,
-	pixelDepth: true,
-});
-
 (function($){
 	var width = $(document).width();
 	if (width > 750 && width <= 970) {

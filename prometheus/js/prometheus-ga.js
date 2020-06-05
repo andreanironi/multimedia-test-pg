@@ -6,10 +6,3 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-23121873-1', 'auto');
 ga('set', 'anonymizeIp', true);
 ga('send', 'pageview');
-
-jQuery.scrollDepth({
-	elements: ['#result_label', '#process_label', '#principles_label', '#result_triangle', '#process_triangle', '#principles_triangle'],
-	percentage: true,
-	userTiming: false,
-	pixelDepth: false,
-});
