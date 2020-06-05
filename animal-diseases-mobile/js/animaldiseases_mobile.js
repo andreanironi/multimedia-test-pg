@@ -15,13 +15,11 @@ var efsaMobile = {
 		$('.bind-click-video').on('click', function(e) {
 			e.preventDefault();
 			$('body').addClass('modal-visible');
-			_gaq.push(['_trackEvent','Animal Diseases video','Video opened: ' + $(this).data("videoid")]);
 			$('#modal-content-placeholder').append("<iframe width='100%' height='100%' src='" + $(this).data("video") + "' frameborder='0' allowfullscreen>");
 			$('.bind-click-close').attr('data_videoid', $(this).data("videoid"));
 		});
 		$('.bind-click-close').on('click', function(e) {
 			e.preventDefault();
-			_gaq.push(['_trackEvent','Animal Diseases video','Video closed: ' + $(this).data("videoid")]);
 			$('body').removeClass('modal-visible');
 			$('#modal-content-placeholder').empty();
 		});

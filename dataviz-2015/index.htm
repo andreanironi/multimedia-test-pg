@@ -177,20 +177,7 @@
   <div id="popup-content"></div>
 </div>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount','UA-23121873-1'],
-        ['_gat._anonymizeIp'],
-        ['_trackPageview']);
-    (function() {
-        var ga = document.createElement('script');
-        ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(ga, s);
-    })();
-</script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/jquery.1.11.2.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/underscore.1.8.3.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/d3.v4.3.0.min.js" type="text/javascript"></script><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/main.min.css?2=2" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/page.css?2=2" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/amr_dataviz_fonts.css" type="text/css"><div id="blink" style="position:fixed;width:20px;height:20px;background-color:#555;top:0;left:0;display:none;"></div>
+<script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/jquery.1.11.2.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/underscore.1.8.3.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/d3.v4.3.0.min.js" type="text/javascript"></script><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/main.min.css?2=2" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/page.css?2=2" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/amr_dataviz_fonts.css" type="text/css"><div id="blink" style="position:fixed;width:20px;height:20px;background-color:#555;top:0;left:0;display:none;"></div>
 <script>
     /**
      *
@@ -473,9 +460,6 @@
          * @param {string} newLang the new dictionary
          */
         function translate(newLang) {
-            //ga('send', 'event', 'AMR dataviz', newLang, 'language');
-            _gaq.push(['_trackEvent','AMR dataviz',newLang, 'language']);
-
             if (true || isIE || isSafari) { // patch 2017.07.25
                 var url = window.location.href;
                 url = url.replace(window.location.search, "");
@@ -4440,11 +4424,8 @@
         }
 
         jQuery('.tw-share').attr('href', 'https://twitter.com/intent/tweet?text=%23AntimicrobialResistance%20in%20Europe%20in%20food%2C%20animals%20and%20humans.%20Explore%20%23data%20country%20by%20country&url=' + url + '%20%40EFSA_EU&related=EFSA_EU');
-        jQuery('.tw-share').attr('onclick', "_gaq.push(['_trackSocial','Twitter','share', 'http://www.efsa.europa.eu/interactive_pages/AMR_Report_2015']); return true;");
         jQuery('.fb-share').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + url);
-        jQuery('.fb-share').attr('onclick', "_gaq.push(['_trackSocial','Facebook','share', 'http://www.efsa.europa.eu/interactive_pages/AMR_Report_2015']); return true;");
         jQuery('.in-share').attr('href', 'https://www.linkedin.com/shareArticle?mini=true&url=' + url);
-        jQuery('.in-share').attr('onclick', "_gaq.push(['_trackSocial','LinkedIn','share', 'http://www.efsa.europa.eu/interactive_pages/AMR_Report_2015']); return true;");
 
         $('.social-box').hover(
             function (e) {
