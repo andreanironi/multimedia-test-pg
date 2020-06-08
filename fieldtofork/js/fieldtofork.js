@@ -32,12 +32,6 @@ jQuery(function($){
     $(this).parent().addClass('no-shadow');
     $(this).parent().find('.more').slideToggle("slow", function() {
       $(this).parent().removeClass('no-shadow');
-
-      if($(this).is(':visible')) {
-        var textboxname = $(this).parent().attr('class');
-		ga('set', 'nonInteraction', true);
-		ga('send', 'event', {eventCategory: 'Text Box '+textboxname, eventAction: 'Opened'});
-      }
     });
     var tmp = $(this).text();
     $(this).text($(this).data('temp'));

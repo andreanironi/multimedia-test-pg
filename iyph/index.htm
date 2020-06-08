@@ -481,21 +481,9 @@
 <script>
 
     $(window).on('load', function () {
-        // Asynchronous GA.
-        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-        ga('create', 'UA-23121873-1', 'auto');
-        ga('set', 'anonymizeIp', true);
-        ga('send', 'pageview');
-
         // Cookie banner.
         cookie_execute();
     });
-
-    function trackOutboundLink(url) {
-        ga('send', 'event', 'outbound', 'click', url, {
-            'transport': 'beacon'
-        });
-    }
 
     /**
      * @file
@@ -528,11 +516,6 @@
                 }, 600, function () {
                 });
             }
-        });
-
-        jQuery("#cta").click(function(){
-            trackOutboundLink(jQuery(this).attr('title'));
-            return true;
         });
 
         // Add breakpoint classes to body.
