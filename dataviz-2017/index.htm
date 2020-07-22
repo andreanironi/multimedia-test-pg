@@ -290,20 +290,6 @@ Main html file
   <div id="popup-content"></div>
 </div>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23121873-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'UA-23121873-1', { 'anonymize_ip': true });
-</script>
-
 <script src="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/js/vendor/all_vendors.min.js.txt" type="text/javascript"></script>
 <script src="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/js/main.min.js.txt?reload=12" async></script>
 <script src="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2017/js/translate.js.txt?reload=1"></script>
@@ -340,10 +326,6 @@ Main html file
             jQuery('#info').hide(300);
             jQuery('#container').animate({opacity: 1}, 500);
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'Info'
-        });
 
         e.preventDefault();
     });
@@ -355,10 +337,6 @@ Main html file
             jQuery('#antibiotics').hide(300);
             jQuery('#container').animate({opacity: 1}, 500);
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'Antibiotics'
-        });
 
         e.preventDefault();
     });
@@ -370,10 +348,6 @@ Main html file
             jQuery('#surveyBox').hide(300);
             jQuery('#container').animate({opacity: 1}, 500);
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'Feedback'
-        });
         e.preventDefault();
     });
     jQuery('#info').click(function () {
@@ -394,10 +368,7 @@ Main html file
             jQuery('#container').animate({opacity: 1}, 500, function () {
             });
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'Copyright'
-        });
+
         e.preventDefault();
     });
     jQuery("#copy").click(function () {
@@ -463,10 +434,7 @@ Main html file
             // Pause the video on closing.
             document.getElementById('tutorial_video').contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'Tutorial'
-        });
+
         e.preventDefault();
     });
     jQuery("#video").click(function () {
@@ -610,11 +578,6 @@ Main html file
                 default:
                 // code block
             }
-            gtag('event', 'share', {
-                'event_category': 'Social',
-                'event_label': socialNetwork
-            });
-
             thisUrl = jQuery(this).attr('href');
             sdvSocialSharePopUp(thisUrl);
         });
@@ -631,11 +594,6 @@ Main html file
     jQuery('#survey-content a').click(function () {
         // add a cookie
         document.cookie = "survey=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
-        // send event to google analytics
-        gtag('event', 'selectTypeOfUser', {
-            'event_category': 'User',
-            'event_label': jQuery(this).text()
-        });
 
         jQuery('#survey').hide(300);
         jQuery('#container').animate({opacity: 1}, 500);

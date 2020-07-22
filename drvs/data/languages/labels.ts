@@ -444,16 +444,16 @@ export default {
         "mk": "Погледнете го упатството: Како работи DRV Finder-от  на ЕФСА ?"
     },
     "STATIC_HOW_LINK": {
-        "en": "https://www.youtube.com/embed/-0ww-QI9GO8",
-        "it": "https://www.youtube.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=it",
-        "fr": "https://www.youtube.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=fr",
-        "de": "https://www.youtube.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=de",
-        "es": "https://www.youtube.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=es",
-        "cs": "https://www.youtube.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=cs",
-        "el": "https://www.youtube.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=el",
-        "et": "https://www.youtube.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=et",
-        "lt": "https://www.youtube.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=lt",
-        "mk": "https://www.youtube.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=mk"
+        "en": "https://www.youtube-nocookie.com/embed/-0ww-QI9GO8",
+        "it": "https://www.youtube-nocookie.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=it",
+        "fr": "https://www.youtube-nocookie.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=fr",
+        "de": "https://www.youtube-nocookie.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=de",
+        "es": "https://www.youtube-nocookie.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=es",
+        "cs": "https://www.youtube-nocookie.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=cs",
+        "el": "https://www.youtube-nocookie.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=el",
+        "et": "https://www.youtube-nocookie.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=et",
+        "lt": "https://www.youtube-nocookie.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=lt",
+        "mk": "https://www.youtube-nocookie.com/embed/-0ww-QI9GO8?cc_load_policy=1&cc_lang_pref=mk"
     },
     "STATIC_DISCLAIMER_PARAGRAPH1": {
         "en": "For information on the appropriate use of DRVs, you should consult the EFSA <a href=\"http://www.efsa.europa.eu/en/efsajournal/pub/1458\" target=\"_blank\">opinion on principles for deriving and applying Dietary Reference Values</a>. The appropriate interpretation of these values requires an understanding of their scientific background, the statistical grounds for their uses, and the conceptual difference between their use for individuals and for groups.",
