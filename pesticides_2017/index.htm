@@ -58,8 +58,17 @@
 
 </head>
 <body id="efsa-pesticide-body">
+<script type="text/javascript">
+    (function(window, document, dataLayerName, id) {
+        window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+        function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+        var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+        var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+        tags.async=!0,tags.src="//efsa.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+        !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+    })(window, document, 'dataLayer', 'cdb2708a-d4fa-4240-a574-20f1821f7650');
+</script><noscript><iframe src="//efsa.containers.piwik.pro/cdb2708a-d4fa-4240-a574-20f1821f7650/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-</div>
 <div id="disclaimer">
   <div class="center"><img src="assets/logo.svg" alt="Logo EFSA" title="Logo EFSA"/>
     <h1>For the full experience, please use a bigger screen.<br/>
@@ -250,25 +259,25 @@
     introText['en'] = "<h1>Pesticide residues in food</h1><p>This data visualisation tool presents the main results from the monitoring of pesticide residues in food carried out in Europe in 2017.<br/>The full report, which is published annually, analyses the results from around 90,000 samples submitted to EFSA by EU Member States, Norway and Iceland.</p><p>The selected data visualised here can be reached via two routes: by type of food or by country.</p>";
     butFood['en'] = "Results by food";
     butCountry['en'] = "Results by country";
-    ref['en'] = "<ul><li>Full report: <a href='https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2019.5743' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Wiley\", \"Links\"); return true;'>The 2017 European Union report on pesticide residues in food</a></li><li>Open access data: <a href='https://doi.org/10.5281/zenodo.3254912' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Zenodo\", \"Links\"); return true;'>EFSA's Knowledge Junction on Zenodo</a></li><li>More info: <a href='https://www.efsa.europa.eu/en/topics/topic/pesticides' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Topic\", \"Links\"); return true;'>Pesticides</a></li><li>News story: <a href='https://www.efsa.europa.eu/en/press/news/190626' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"News\", \"Links\"); return true;'>Pesticide residues in food: what's the picture in the EU?</a></li></ul>";
+    ref['en'] = "<ul><li>Full report: <a href='https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2019.5743' target='_blank'>The 2017 European Union report on pesticide residues in food</a></li><li>Open access data: <a href='https://doi.org/10.5281/zenodo.3254912' target='_blank'>EFSA's Knowledge Junction on Zenodo</a></li><li>More info: <a href='https://www.efsa.europa.eu/en/topics/topic/pesticides' target='_blank'>Pesticides</a></li><li>News story: <a href='https://www.efsa.europa.eu/en/press/news/190626' target='_blank' >Pesticide residues in food: what's the picture in the EU?</a></li></ul>";
     foot['en'] = "Copyright notice: © " + date.getFullYear() + " - European Food Safety Authority – EFSA.<br/>Re-use is authorised, provided that EFSA is acknowledged as the source of the material.";
 
     introText['de'] = "<h1>Pestizidrückständen in Lebensmitteln</h1><p>Dieses Tool zur Datenvisualisierung veranschaulicht die Hauptergebnisse des europäischen Monitorings von Pestizidrückständen in Lebensmitteln für das Jahr 2017. Der vollständige Bericht, der jährlich veröffentlicht wird, enthält die Auswertung der Ergebnisse von nahezu 90.000 Proben, die der EFSA von den EU-Mitgliedstaaten, Norwegen und Island übermittelt wurden.</p><p>Die Ergebnisse lassen sich auf zweierlei Weise bildlich darstellen: nach Lebensmitteln und nach Land.</p>";
     butFood['de'] = "Ergebnisse nach Lebensmitteln";
     butCountry['de'] = "Ergebnisse nach Ländern";
-    ref['de'] = "<ul><li>Kompletter Bericht: <a href='https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2019.5743' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Wiley\", \"Links\"); return true;'>The 2017 European Union report on pesticide residues in food</a></li><li>Frei zugängliche Daten: <a href='https://doi.org/10.5281/zenodo.3254912' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Zenodo\", \"Links\"); return true;'>EFSA's Knowledge Junction on Zenodo</a></li><li>Weitere Informationen: <a href='https://www.efsa.europa.eu/de/topics/topic/pesticides' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Topic\", \"Links\"); return true;'>Pestizide</a></li><li>Webstory: <a href='https://www.efsa.europa.eu/de/press/news/190626' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"News\", \"Links\"); return true;'>Pestizidrückstände in Lebensmitteln: Wie sieht das Bild in der EU aus?</a></li></ul>";
+    ref['de'] = "<ul><li>Kompletter Bericht: <a href='https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2019.5743' target='_blank'>The 2017 European Union report on pesticide residues in food</a></li><li>Frei zugängliche Daten: <a href='https://doi.org/10.5281/zenodo.3254912' target='_blank'>EFSA's Knowledge Junction on Zenodo</a></li><li>Weitere Informationen: <a href='https://www.efsa.europa.eu/de/topics/topic/pesticides' target='_blank'>Pestizide</a></li><li>Webstory: <a href='https://www.efsa.europa.eu/de/press/news/190626' target='_blank'>Pestizidrückstände in Lebensmitteln: Wie sieht das Bild in der EU aus?</a></li></ul>";
     foot['de'] = "(Copyright-Vermerk © " + date.getFullYear() + " – Europäische Behörde für Lebensmittelsicherheit – EFSA.<br/>Die Weiterverwendung ist gestattet, sofern die EFSA als Quelle des betreffenden Materials angegeben wird.";
 
     introText['fr'] = "<h1>Résidus de pesticides dans les aliments</h1><p>Cet outil de visualisation des données présente les principaux résultats de la surveillance exercée sur les résidus de pesticides dans les aliments en Europe en 2017. Le rapport intégral, publié annuellement, présente les résultats de l’analyse réalisée sur près de 90.000 échantillons soumis à l'EFSA par les États membres de l'UE, la Norvège et l'Islande.</p><p>Les résultats sont présentés ici dans deux sections qui permettent de les visualiser par aliment et/ou par pays.</p>";
     butFood['fr'] = "Résultats par aliment";
     butCountry['fr'] = "Résultats par pays";
-    ref['fr'] = "<ul><li>Rapport intégral: <a href='https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2019.5743' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Wiley\", \"Links\"); return true;'>The 2017 European Union report on pesticide residues in food</a></li><li>Données en accès libre: <a href='https://doi.org/10.5281/zenodo.3254912' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Zenodo\", \"Links\"); return true;'>EFSA's Knowledge Junction on Zenodo</a></li><li>En savoir plus: <a href='https://www.efsa.europa.eu/fr/topics/topic/pesticides' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Topic\", \"Links\"); return true;'>Pesticides</a></li><li>Article : <a href='https://www.efsa.europa.eu/fr/press/news/190626' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"News\", \"Links\"); return true;'>Résidus de pesticides dans les aliments : le point sur la situation dans l'UE</a></li></ul>";
+    ref['fr'] = "<ul><li>Rapport intégral: <a href='https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2019.5743' target='_blank'>The 2017 European Union report on pesticide residues in food</a></li><li>Données en accès libre: <a href='https://doi.org/10.5281/zenodo.3254912' target='_blank'>EFSA's Knowledge Junction on Zenodo</a></li><li>En savoir plus: <a href='https://www.efsa.europa.eu/fr/topics/topic/pesticides' target='_blank'>Pesticides</a></li><li>Article : <a href='https://www.efsa.europa.eu/fr/press/news/190626' target='_blank' >Résidus de pesticides dans les aliments : le point sur la situation dans l'UE</a></li></ul>";
     foot['fr'] = "Copyright notice : © " + date.getFullYear() + " – Autorité européenne de sécurité des aliments – EFSA.<br/>Reproduction autorisée, sauf à des fins commerciales, moyennant mention de la source.";
 
     introText['it'] = "<h1>Residui di pesticidi negli alimenti</h1><p>Questo strumento di visualizzazione dei dati presenta i principali risultati del monitoraggio dei residui di pesticidi negli alimenti effettuato in Europa nel 2017. Il rapporto integrale, che si pubblica a cadenza annuale, analizza i risultati di quasi 90 000 campioni trasmessi all’EFSA dagli Stati membri dell’UE, dalla Norvegia e dall’Islanda.</p><p>I risultati vengono qui presentati in due sezioni che consentono di visualizzarli per alimento o per Paese.</p>";
     butFood['it'] = "Risultati per alimento";
     butCountry['it'] = "Risultati per Paese";
-    ref['it'] = "<ul><li>Versione integrale del rapporto: <a href='https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2019.5743' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Wiley\", \"Links\"); return true;'>The 2017 European Union report on pesticide residues in food</a></li><li>Dati ad accesso gratuito: <a href='https://doi.org/10.5281/zenodo.3254912' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Zenodo\", \"Links\"); return true;'>EFSA's Knowledge Junction on Zenodo</a></li><li>Ulteriori informazioni: <a href='https://www.efsa.europa.eu/it/topics/topic/pesticides' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"Topic\", \"Links\"); return true;'>Pesticidi</a></li><li>Notizia: <a href='https://www.efsa.europa.eu/it/press/news/190626' target='_blank' onclick='ga(\"send\", \"event\", \"Pesticides residues\", \"News\", \"Links\"); return true;'>Residui di pesticidi negli alimenti: com’è la situazione nell'UE?</a></li></ul>";
+    ref['it'] = "<ul><li>Versione integrale del rapporto: <a href='https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2019.5743' target='_blank'>The 2017 European Union report on pesticide residues in food</a></li><li>Dati ad accesso gratuito: <a href='https://doi.org/10.5281/zenodo.3254912' target='_blank'>EFSA's Knowledge Junction on Zenodo</a></li><li>Ulteriori informazioni: <a href='https://www.efsa.europa.eu/it/topics/topic/pesticides' target='_blank'>Pesticidi</a></li><li>Notizia: <a href='https://www.efsa.europa.eu/it/press/news/190626' target='_blank' >Residui di pesticidi negli alimenti: com’è la situazione nell'UE?</a></li></ul>";
     foot['it'] = "Avviso sui diritti d’autore: © Autorità europea per la sicurezza alimentare (EFSA), " + date.getFullYear() + ".<br/>Si autorizza il riutilizzo del materiale, a condizione di citare l'EFSA come fonte.";
 
     $(document).ready(function () {
@@ -286,7 +295,6 @@
 
         $('#survey-content a').click(function () {
             document.cookie = "survey=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
-            ga("send", "event", "User", "selectTypeOfUser", $(this).text());
             $('#survey').hide(300);
             $('#container').animate({opacity: 1}, 500);
         });
@@ -531,7 +539,6 @@
             if ($(window).width() <= 1024) {
                 $("#efsa-pesticide-hamburger").fadeIn(300);
             }
-            ga('send', 'event', {eventCategory: 'Home choice', eventAction: 'Food', eventLabel: 'Food'});
             intro = 0;
         });
     }
@@ -554,7 +561,6 @@
             if ($(window).width() <= 1024) {
                 $("#efsa-pesticide-hamburger").fadeIn(300);
             }
-            ga('send', 'event', {eventCategory: 'Home choice', eventAction: 'Countries', eventLabel: 'Countries'});
             intro = 0;
         });
     }
@@ -601,12 +607,8 @@
     var url = 'https://www.efsa.europa.eu/interactive_pages/Pesticides_report_2017',container = triggerContainer = $('.social-box');
 
     $('.tw-share').attr('href', 'https://twitter.com/intent/tweet?url=' + url);
-    $('.tw-share').attr('onclick', "ga('send', 'social', 'Twitter', 'share', 'https://www.efsa.europa.eu/interactive_pages/Pesticides_report_2017'); return true;");
     $('.fb-share').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + url);
-    $('.fb-share').attr('onclick', "ga('send', 'social', 'Facebook', 'share', 'https://www.efsa.europa.eu/interactive_pages/Pesticides_report_2017'); return true;");
     $('.in-share').attr('href', 'https://www.linkedin.com/shareArticle?mini=true&url=' + url);
-    $('.in-share').attr('onclick', "ga('send', 'social', 'Linkedin', 'share', 'https://www.efsa.europa.eu/interactive_pages/Pesticides_report_2017'); return true;");
-
 
     $('.share-trigger').on('click', function (e) {
         e.preventDefault();
@@ -640,33 +642,6 @@
             $('.lang').stop().animate({top: '-600%'}, 300)
         }
     });
-
-
-    // ANALYTICS ORIGINALE
-
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-23121873-1', 'auto');
-    ga('set', 'anonymizeIp', true);
-    ga('send', 'pageview');
-
-    // NUOVO ANALYTICS
-    /*
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('config', 'UA-23121873-1', {'anonymize_ip': true});
-    gtag('js', new Date());
-    gtag('config', 'UA-23121873-1');
-     */
-
-
 </script>
 
 </body>

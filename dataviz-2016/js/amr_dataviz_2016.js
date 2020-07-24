@@ -282,9 +282,6 @@ $(document).ready(function () {
      * @param {string} newLang the new dictionary
      */
     function translate(newLang) {
-        //ga('send', 'event', 'AMR dataviz', newLang, 'language');
-		_gaq.push(['_trackEvent','AMR dataviz',newLang, 'language']);
-
         if (true || isIE || isSafari) { // patch 2017.07.25
             var url = window.location.href;
             url = url.replace(window.location.search, "");
@@ -3659,11 +3656,8 @@ $(function () {
     }
 
 	    jQuery('.tw-share').attr('href', 'https://twitter.com/intent/tweet?text=%23AntimicrobialResistance%20in%20Europe%20in%20food%2C%20animals%20and%20humans.%20Explore%20%23data%20country%20by%20country&url=' + url + '%20%40EFSA_EU&related=EFSA_EU');
-		jQuery('.tw-share').attr('onclick', "_gaq.push(['_trackSocial','Twitter','share', 'https://www.efsa.europa.eu/interactive_pages/AMR_Report_2016']); return true;");
 	    jQuery('.fb-share').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + url);
-		jQuery('.fb-share').attr('onclick', "_gaq.push(['_trackSocial','Facebook','share', 'https://www.efsa.europa.eu/interactive_pages/AMR_Report_2016']); return true;");
 	    jQuery('.in-share').attr('href', 'https://www.linkedin.com/shareArticle?mini=true&url=' + url);
-		jQuery('.in-share').attr('onclick', "_gaq.push(['_trackSocial','LinkedIn','share', 'https://www.efsa.europa.eu/interactive_pages/AMR_Report_2016']); return true;");
 
       $('.social-box').hover(
           function (e) {

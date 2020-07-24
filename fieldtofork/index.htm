@@ -45,7 +45,16 @@
   <link href="style/bootstrap-responsive.min.css" rel="stylesheet">
   <link href="style/colorbox.css" rel="stylesheet">
 </head><body data-spy="scroll" data-target="#menubar">
-
+<script type="text/javascript">
+    (function(window, document, dataLayerName, id) {
+        window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+        function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+        var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+        var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+        tags.async=!0,tags.src="//efsa.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+        !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+    })(window, document, 'dataLayer', 'cdb2708a-d4fa-4240-a574-20f1821f7650');
+</script><noscript><iframe src="//efsa.containers.piwik.pro/cdb2708a-d4fa-4240-a574-20f1821f7650/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Main Menubar -->
 <div id="menubar" class="navbar visible-desktop"> <a class="logo" href="https://www.efsa.europa.eu/"></a>
   <ul class="nav"><li><a href="#thefoodchain-title">Food chain</a></li>
@@ -77,7 +86,7 @@
   <div id="social-links">
 
     <!--  -->
-    <a class="inline toggler" href="#popup_newsletter" target="_blank" onclick="_gaq.push(['_trackEvent','Newsletter','open popup']);"> <img alt="Subscribe to the EFSA newsletter" src="images/newsletter.png" data-preload="/"></a>
+    <a class="inline toggler" href="#popup_newsletter" target="_blank"> <img alt="Subscribe to the EFSA newsletter" src="images/newsletter.png" data-preload="/"></a>
     <div class="hidden">
       <div id="popup_newsletter">
         <h2><a href="http://eepurl.com/bdNZ41" id="newsLink1" target="_blank">Subscribe to the EFSA Highlights newsletter</a></h2>
@@ -86,10 +95,10 @@
     </div>
 
     <!--  -->
-    <a class="twitter" target="_blank" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.efsa.europa.eu%2Finteractive-pages%2Ffieldtofork%2FFieldToFork&amp;related=EFSA_EU&amp;text=Science+protecting+consumers+from+field+to+fork%3A+check+out+%40EFSA_EU+new+interactive+tool&amp;url=https://www.efsa.europa.eu/interactive-pages/fieldtofork/FieldToFork" onclick="_gaq.push(['_trackSocial','twitter','share']);"> <img src="images/twitter.png" alt="Share on Twitter" data-preload="/"></a>
+    <a class="twitter" target="_blank" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.efsa.europa.eu%2Finteractive-pages%2Ffieldtofork%2FFieldToFork&amp;related=EFSA_EU&amp;text=Science+protecting+consumers+from+field+to+fork%3A+check+out+%40EFSA_EU+new+interactive+tool&amp;url=https://www.efsa.europa.eu/interactive-pages/fieldtofork/FieldToFork"> <img src="images/twitter.png" alt="Share on Twitter" data-preload="/"></a>
 
     <!--  -->
-    <a class="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.efsa.europa.eu%2Finteractive-pages%2Ffieldtofork%2FFieldToFork" onclick="_gaq.push(['_trackSocial','facebook','share']);"> <img src="images/facebook.png" alt="Share on Facebook" data-preload="/"></a> </div>
+    <a class="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.efsa.europa.eu%2Finteractive-pages%2Ffieldtofork%2FFieldToFork"> <img src="images/facebook.png" alt="Share on Facebook" data-preload="/"></a> </div>
   <div id="header" class="container"> <img alt="" src="images/header-bg.png" class="bg" data-preload="/"><div class="title">
     <h1>From field to fork</h1>
     <h2>The work of the European Food Safety Authority at a glance</h2>
@@ -113,7 +122,7 @@
         <div class="mobile-illus  hidden-desktop img-polaroid">
           <div class="img-wrapper"><img alt="" src="images/01.jpg" data-preload="/"></div>
         </div>
-        <a href="//www.youtube.com/v/9qkxvMDKVuA?version=3&amp;hl=en_GB&amp;rel=0" class="media video hidden-desktop" onclick="_gaq.push(['_trackEvent','JW Player Video Fallback Play','EFSA_INTRO_EN.mp4']);">Introduction</a> <a class="media video video-1 visible-desktop" href="//www.youtube.com/embed/9qkxvMDKVuA?autoplay=1&amp;rel=0" title="Introduction"><img alt="" class="preview" src="images/anim-intro.gif" data-preload="/"></a>
+        <a href="//www.youtube.com/v/9qkxvMDKVuA?version=3&amp;hl=en_GB&amp;rel=0" class="media video hidden-desktop">Introduction</a> <a class="media video video-1 visible-desktop" href="//www.youtube.com/embed/9qkxvMDKVuA?autoplay=1&amp;rel=0" title="Introduction"><img alt="" class="preview" src="images/anim-intro.gif" data-preload="/"></a>
         <div class="spare-fade text text-1">
           <p>EFSA's scientific remit covers the full range of consumers' <strong>field to fork</strong> concerns:</p>
           <ul><li>plant protection</li>
@@ -137,7 +146,7 @@
         <div class="mobile-illus  hidden-desktop img-polaroid">
           <div class="img-wrapper"><img alt="" src="images/02.jpg" data-preload="/"></div>
         </div>
-        <a href="//www.youtube.com/v/NCUkX66PxwI?version=3&amp;hl=en_GB&amp;rel=0" class="media video hidden-desktop" onclick="_gaq.push(['_trackEvent','JW Player Video Fallback Play','EFSA_PESTICIDES_EN.mp4']);">Pesticides</a> <a class="media video video-1 visible-desktop" href="//www.youtube.com/embed/NCUkX66PxwI?autoplay=1&amp;rel=0" title="Pesticides"><img alt="" class="preview" src="images/anim-pesticide.gif" data-preload="/"></a>
+        <a href="//www.youtube.com/v/NCUkX66PxwI?version=3&amp;hl=en_GB&amp;rel=0" class="media video hidden-desktop">Pesticides</a> <a class="media video video-1 visible-desktop" href="//www.youtube.com/embed/NCUkX66PxwI?autoplay=1&amp;rel=0" title="Pesticides"><img alt="" class="preview" src="images/anim-pesticide.gif" data-preload="/"></a>
         <h2 class="subtitle-2"><img alt="" class="title-dot" src="images/circle.png" data-preload="/">ANIMAL HEALTH AND WELFARE</h2>
         <div class="text text-2">
           <p>Food safety is linked to the health and welfare of farm animals. Many <strong>food-borne diseases</strong> that affect humans, such as campylobacteriosis and salmonellosis, originate from animals or products of animal origin. EFSA works on issues such as housing, feeding and transportation of livestock to <strong>prevent and reduce the risk of diseases</strong>. EFSA also assesses the safety of <strong>animal feed</strong>, which is important for animal and human health.</p>
@@ -146,7 +155,7 @@
         <div class="mobile-illus  hidden-desktop img-polaroid">
           <div class="img-wrapper"><img alt="" src="images/03.jpg" data-preload="/"></div>
         </div>
-        <a href="//www.youtube.com/v/C2ItbclLiIw?version=3&amp;hl=en_GB&amp;rel=0" class="media video hidden-desktop" onclick="_gaq.push(['_trackEvent','JW Player Video Fallback Play','EFSA_SAMONELLA_EN.mp4']);">Food borne diseases</a> <a class="media video video-2  visible-desktop" href="//www.youtube.com/embed/C2ItbclLiIw?autoplay=1&amp;rel=0" title="Food borne diseases"><img alt="" class="preview" src="images/anim-food.gif" data-preload="/"></a>
+        <a href="//www.youtube.com/v/C2ItbclLiIw?version=3&amp;hl=en_GB&amp;rel=0" class="media video hidden-desktop">Food borne diseases</a> <a class="media video video-2  visible-desktop" href="//www.youtube.com/embed/C2ItbclLiIw?autoplay=1&amp;rel=0" title="Food borne diseases"><img alt="" class="preview" src="images/anim-food.gif" data-preload="/"></a>
         <h2 class="subtitle-3"><img alt="" class="title-dot" src="images/circle.png" data-preload="/">IMPACT ON THE ENVIRONMENT</h2>
         <div class="text text-3">
           <p>Increasingly, EFSA is required to consider the <strong>food chain's impact on the environment</strong>. For example, the Authority assesses potential risks to the eco-system of genetically-modified crops as well as pesticides, feed additives and invasive plant species.</p>
@@ -182,7 +191,7 @@
         <div class="mobile-illus  hidden-desktop img-polaroid">
           <div class="img-wrapper"><img alt="" src="images/06.jpg" data-preload="/"></div>
         </div>
-        <a href="//www.youtube.com/v/R79cw_2Mt4c?version=3&amp;hl=en_GB&amp;rel=0" class="media video hidden-desktop" onclick="_gaq.push(['_trackEvent','JW Player Video Fallback Play','EFSA_HEALTHCLAIMS_EN.mp4']);">Health claims</a> <a class="media video visible-desktop" href="//www.youtube.com/embed/R79cw_2Mt4c?autoplay=1&amp;rel=0" title="Health claims"><img alt="" class="preview visible-desktop" src="images/anim-health.gif" data-preload="/"></a>
+        <a href="//www.youtube.com/v/R79cw_2Mt4c?version=3&amp;hl=en_GB&amp;rel=0" class="media video hidden-desktop">Health claims</a> <a class="media video visible-desktop" href="//www.youtube.com/embed/R79cw_2Mt4c?autoplay=1&amp;rel=0" title="Health claims"><img alt="" class="preview visible-desktop" src="images/anim-health.gif" data-preload="/"></a>
         <h2 class="subtitle-4"><img alt="" class="title-dot" src="images/circle.png" data-preload="/">FOOD CONSUMPTION DATA</h2>
         <div class="text text-4">
           <p>Knowing what Europeans eat is essential for protecting consumers. Food consumption data underpin not only <strong>food safety decisions</strong> but also <strong>advice on nutrition and the diet</strong>. However, different data collection methods used by EU countries can hinder EU-wide comparisons. EFSA and its partners have taken steps to <strong>harmonise collection of such data</strong>, leading to standardised information on people's diet across Europe.</p>
@@ -208,7 +217,7 @@
         <div class="mobile-illus  hidden-desktop img-polaroid">
           <div class="img-wrapper"><img alt="" src="images/14.jpg" data-preload="/"></div>
         </div>
-        <a href="//www.youtube.com/v/uhcz6JEeue0?version=3&amp;hl=en_GB&amp;rel=0" class="media video hidden-desktop" onclick="_gaq.push(['_trackEvent','JW Player Video Fallback Play','EFSA_CONCLUSION_EN.mp4']);">Conclusion</a> <a class="media video visible-desktop" href="//www.youtube.com/embed/uhcz6JEeue0?autoplay=1&amp;rel=0" title="Conclusion"><img alt="" class="preview visible-desktop" src="images/anim-ccl.gif" data-preload="/"></a> </div>
+        <a href="//www.youtube.com/v/uhcz6JEeue0?version=3&amp;hl=en_GB&amp;rel=0" class="media video hidden-desktop">Conclusion</a> <a class="media video visible-desktop" href="//www.youtube.com/embed/uhcz6JEeue0?autoplay=1&amp;rel=0" title="Conclusion"><img alt="" class="preview visible-desktop" src="images/anim-ccl.gif" data-preload="/"></a> </div>
       <div id="end">
         <h1 id="end-title" class="right-dot"><img alt="" class="title-dot" src="images/1px_white.jpg" data-preload="/"><span>HOW EFSA COMMUNICATES</span></h1>
       </div>
@@ -219,23 +228,9 @@
 <!-- /container -->
 <script  src="js/jwplayer63.js"></script>
 <script  src="js/modernizr.2.8.3.min.js"></script>
-<script >
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount','UA-23121873-1'],
-        ['_gat._anonymizeIp'],
-        ['_trackPageview']);
-    (function() {
-        var ga = document.createElement('script');
-        ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(ga, s);
-    })();
-</script>
 <script  src="js/jquery.1.9.1.js"></script>
 <script  src="js/TweenMax.1.9.7.min.js"></script>
 <script  src="js/jquery.superscrollorama.js"></script>
 <script  src="js/bootstrap.min.js"></script>
 <script  src="js/jquery.colorbox.1.4.10.min.js"></script>
-<script  src="js/jquery.scrolldepth.0.8.min.js"></script>
 <script  src="js/fieldtofork.js"></script></body></html>

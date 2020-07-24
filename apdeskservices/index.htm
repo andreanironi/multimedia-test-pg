@@ -50,6 +50,16 @@
   <link rel="stylesheet" href="style/jquery.fancybox.css" type="text/css" media="screen">
 </head>
 <body>
+<script type="text/javascript">
+    (function(window, document, dataLayerName, id) {
+        window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+        function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+        var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+        var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+        tags.async=!0,tags.src="//efsa.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+        !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+    })(window, document, 'dataLayer', 'cdb2708a-d4fa-4240-a574-20f1821f7650');
+</script><noscript><iframe src="//efsa.containers.piwik.pro/cdb2708a-d4fa-4240-a574-20f1821f7650/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="trigger_menu_S1"></div>
 <div id="trigger_menu_S2"></div>
 <div id="trigger_menu_S3"></div>
@@ -78,21 +88,21 @@
     <div id="levelSide">
       <div id="pin1" class=" box box3 white outline">
         <p class="boxText">EFSA Guidance documents</p>
-        <a class="fancybox expand" href="#guidance" title="EFSA Guidance documents" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'GuidanceDocuments'}); return true;">MORE</a></div>
+        <a class="fancybox expand" href="#guidance" title="EFSA Guidance documents">MORE</a></div>
       <div id="pin2" class=" box box3 white outline">
         <p class="boxText">Info Sessions on <br>
           Applications</p>
-        <a class="fancybox expand" href="#info_sessions" title="Info Sessions on Applications" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'InfoSessions'}); return true;">MORE</a></div>
+        <a class="fancybox expand" href="#info_sessions" title="Info Sessions on Applications">MORE</a></div>
       <div id="pin3" class=" box box3 white outline">
         <p class="boxText">Scientific Workshops/ <br>
           Conferences</p>
-        <a class="fancybox expand" href="#scientific_workshops" title="Scientific Workshops/Conferences" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'Workshops'}); return true;">MORE</a></div>
+        <a class="fancybox expand" href="#scientific_workshops" title="Scientific Workshops/Conferences">MORE</a></div>
       <div id="pin4" class=" box box3 white outline">
         <p class="boxText">APDESK Web form</p>
-        <a class="fancybox expand" href="#contact_form" title="APDESK Web form" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'WebForm'}); return true;">MORE</a></div>
+        <a class="fancybox expand" href="#contact_form" title="APDESK Web form">MORE</a></div>
       <div id="pin5" class="box box3 white outline">
         <p class="boxText">General communications activities</p>
-        <a class="fancybox expand" href="#active_communications" title="General communications activities" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'CommsActivities'}); return true;">MORE</a></div>
+        <a class="fancybox expand" href="#active_communications" title="General communications activities">MORE</a></div>
     </div>
     <div id="sideLink"><img id="sideLinkImg" alt="Menu" src="images/apla_sideLinkThrough.png" data-preload="/"></div>
   </div>
@@ -109,7 +119,7 @@
     <div id="level_1">
       <div class=" box box1A white outline">
         <p class="boxText boxText1A">Submission of applications by electronic means</p>
-        <a class="fancybox expand" href="#submission" title="Submission of applications" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'SubmissionOfApplications'}); return true;">MORE</a></div>
+        <a class="fancybox expand" href="#submission" title="Submission of applications">MORE</a></div>
     </div>
   </div>
 </section>
@@ -134,13 +144,13 @@
     <div id="level_4">
       <div class="box box6 white" style="margin-top:6px">
         <p class=" boxText2">Clarification teleconference</p>
-        <a class="fancybox expand" href="#clarification_c" title="Clarification Teleconference" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'Teleconference1'}); return true;" aria-label="Clarification Teleconference: see more">MORE</a></div>
+        <a class="fancybox expand" href="#clarification_c" title="Clarification Teleconference" aria-label="Clarification Teleconference: see more">MORE</a></div>
       <div class=" box box6 white ">
         <p class="boxText2">Clarification teleconference</p>
-        <a class="fancybox expand" href="#clarification_r" title="Clarification Teleconference" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'Teleconference2'}); return true;">MORE</a></div>
+        <a class="fancybox expand" href="#clarification_r" title="Clarification Teleconference">MORE</a></div>
       <div class=" box box6 white ">
         <p class="boxText2">Applicants' technical hearing at Working Group/Plenary meetings</p>
-        <a class="fancybox expand" href="#appliciants_technical" title="Appliciants Technical Hearing" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'Hearing'}); return true;">MORE</a></div>
+        <a class="fancybox expand" href="#appliciants_technical" title="Appliciants Technical Hearing">MORE</a></div>
     </div>
   </div>
 </section>
@@ -155,23 +165,23 @@
     <div id="level_5">
       <div class=" box box3A white outline">
         <p class="boxText">Notification email on adoption of scientific output</p>
-        <a class="fancybox expand" href="#notification_email" title="Notification email" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'Email'}); return true;">MORE</a></div>
+        <a class="fancybox expand" href="#notification_email" title="Notification email">MORE</a></div>
       <div class="box box3A white outline">
         <p class="boxText">Pre-notification of publication</p>
-        <a class="fancybox expand" href="#notification" title="Pre-notification of publication" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'Pre-notification'}); return true;">MORE</a></div>
+        <a class="fancybox expand" href="#notification" title="Pre-notification of publication">MORE</a></div>
       <div class="box box3A white outline">
         <p class="boxText">Post-adoption teleconference</p>
-        <a class="fancybox expand" href="#adoption" title="Post-adoption teleconference" onclick="ga('send', 'event', {eventCategory: 'BoxOpened', eventAction: 'Post-adoption'}); return true;">MORE</a></div>
+        <a class="fancybox expand" href="#adoption" title="Post-adoption teleconference">MORE</a></div>
     </div>
   </div>
 </section>
 <!--//-->
 <div class="spacer s3"></div>
 <section id="footerWrapper">
-  <div id="EULinks"> <a href="https://www.efsa.europa.eu/en/applicationshelpdesk" class="eu" target="_blank" onclick="ga('send', 'event', {eventCategory: 'Link', eventAction: 'ApdeskPage'}); return true;"><img src="images/apla_visit.png" alt="Visit the aplications helpdesks page" style="margin-right:100px" data-preload="/"></a> <a href="https://www.efsa.europa.eu/en/supporting/pub/en-777" class="eu" style="margin-left:100px" target="_blank" onclick="ga('send', 'event', {eventCategory: 'Link', eventAction: 'Catalogue'}); return true;"><img src="images/apla_support_services.png" alt="View the Catalogue of supported services" data-preload="/"></a> </div>
+  <div id="EULinks"> <a href="https://www.efsa.europa.eu/en/applicationshelpdesk" class="eu" target="_blank"><img src="images/apla_visit.png" alt="Visit the aplications helpdesks page" style="margin-right:100px" data-preload="/"></a> <a href="https://www.efsa.europa.eu/en/supporting/pub/en-777" class="eu" style="margin-left:100px" target="_blank"><img src="images/apla_support_services.png" alt="View the Catalogue of supported services" data-preload="/"></a> </div>
   <div class="footerBand"><img id="band" alt="spacer" src="images/apla_band-01.png" data-preload="/"></div>
   <div id="footerImages"><img src="images/apla_logoSmall.png" alt="logo" data-preload="/"><img src="images/apla_safety.png" alt="Trusted science for safe food" style="padding-bottom: 20px" data-preload="/">
-    <div id="social"> <a onclick="ga('send', 'social', {socialNetwork: 'twitter', socialAction: 'follow'}); return true;" href="https://twitter.com/efsa_eu" target="_blank" class="rollover" id="twitter"></a> <a onclick="ga('send', 'social', {socialNetwork: 'youtube', socialAction: 'follow'}); return true;" href="https://www.youtube.com/user/EFSAchannel" target="_blank" class="rollover" id="youtube"></a> <a onclick="ga('send', 'social', {socialNetwork: 'linkedin', socialAction: 'follow'}); return true;" href="https://www.linkedin.com/company/efsa" target="_blank" class="rollover" id="linkedIn"></a> <a onclick="ga('send', 'event', {eventCategory: 'Link', eventAction: 'Newsletter'}); return true;" href="https://eepurl.com/bdNZ41" target="_blank" class="rollover" id="email"></a> </div>
+    <div id="social"> <a href="https://twitter.com/efsa_eu" target="_blank" class="rollover" id="twitter"></a> <a href="https://www.youtube.com/user/EFSAchannel" target="_blank" class="rollover" id="youtube"></a> <a href="https://www.linkedin.com/company/efsa" target="_blank" class="rollover" id="linkedIn"></a> <a href="https://eepurl.com/bdNZ41" target="_blank" class="rollover" id="email"></a> </div>
   </div>
 </section>
 <div id="guidance" style="width:400px;display: none;">
@@ -221,7 +231,6 @@
 <script src="js/highlight.pack.js"></script>
 <script src="js/modernizr.custom.min.js"></script>
 <script src="js/jquery.scrollmagic.min.js"></script>
-<script src="js/jquery.scrolldepth.1.0.min.js"></script>
 <script src="js/apdeskservices_body.js"></script>
 </body>
 </html>

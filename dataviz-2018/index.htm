@@ -79,7 +79,16 @@ Main html file
     href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-
+<script type="text/javascript">
+    (function(window, document, dataLayerName, id) {
+        window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+        function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+        var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+        var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+        tags.async=!0,tags.src="//efsa.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+        !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+    })(window, document, 'dataLayer', 'cdb2708a-d4fa-4240-a574-20f1821f7650');
+</script><noscript><iframe src="//efsa.containers.piwik.pro/cdb2708a-d4fa-4240-a574-20f1821f7650/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="home-box" style="opacity:0;"><a class="" href="javascript:window.reload();">&nbsp;</a></div>
 
 <div class="language-box" style="opacity:0;">
@@ -163,7 +172,7 @@ Main html file
 <div id="video" style="display:none;">
   <div id="video-content">
     <h2 id="__tutorial_title__">Tutorial</h2>
-    <iframe class="video" src="https://www.youtube.com/embed/Hb4EVOpM3DY" frameborder="0"
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/Hb4EVOpM3DY" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
   </div>
@@ -319,20 +328,6 @@ Main html file
   <div id="popup-content"></div>
 </div>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23121873-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('config', 'UA-23121873-1', {'anonymize_ip': true});
-
-    gtag('js', new Date());
-
-</script>
 
 <script src="js/vendor/all_vendors.min.js" type="text/javascript"></script>
 <script src="js/main.min.js" async></script>
@@ -371,10 +366,6 @@ Main html file
             jQuery('#info').hide(300);
             jQuery('#container').animate({opacity: 1}, 500);
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'Info'
-        });
 
         e.preventDefault();
     });
@@ -387,10 +378,6 @@ Main html file
             jQuery('#antibiotics').hide(300);
             jQuery('#container').animate({opacity: 1}, 500);
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'Antibiotics'
-        });
 
         e.preventDefault();
     });
@@ -403,10 +390,7 @@ Main html file
             jQuery('#surveyBox').hide(300);
             jQuery('#container').animate({opacity: 1}, 500);
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'Feedback'
-        });
+
         e.preventDefault();
     });
     jQuery('#info').click(function () {
@@ -428,10 +412,7 @@ Main html file
             jQuery('#container').animate({opacity: 1}, 500, function () {
             });
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'Copyright'
-        });
+
         e.preventDefault();
     });
     jQuery('.bug-box').click(function (e) {
@@ -445,10 +426,7 @@ Main html file
             jQuery('#container').animate({opacity: 1}, 500, function () {
             });
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'Bug'
-        });
+
         e.preventDefault();
     });
 
@@ -463,10 +441,7 @@ Main html file
             jQuery('#container').animate({opacity: 1}, 500, function () {
             });
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'InfoLegend'
-        });
+
         e.preventDefault();
     });
 
@@ -548,10 +523,6 @@ Main html file
             jQuery('#video').hide(300);
             jQuery('#container').animate({opacity: 1}, 500);
         }
-        gtag('event', 'openBox', {
-            'event_category': 'Boxes',
-            'event_label': 'Tutorial'
-        });
         e.preventDefault();
     });
     jQuery("#video").click(function () {
@@ -706,10 +677,7 @@ Main html file
                 default:
                 // code block
             }
-            gtag('event', 'share', {
-                'event_category': 'Social',
-                'event_label': socialNetwork
-            });
+
             thisUrl = jQuery(this).attr('href');
             sdvSocialSharePopUp(thisUrl);
         });
@@ -726,11 +694,7 @@ Main html file
     jQuery('#survey-content a').click(function () {
         // add a cookie
         document.cookie = "survey=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
-        // send event to google analytics
-        gtag('event', 'selectTypeOfUser', {
-            'event_category': 'User',
-            'event_label': jQuery(this).text()
-        });
+
 
         jQuery('#survey').hide(300);
         jQuery('#container').animate({opacity: 1}, 500);

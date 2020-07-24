@@ -515,11 +515,6 @@ $(function () {
         if ((trigger = $('.language-trigger'))) {
             trigger.css('background-image', "url('img/lang-" + lang + ".png')")
         }
-		
-        gtag('event', 'selectLanguage', {
-           'event_category': 'Language',
-           'event_label': lang
-       });
     };
 
     var extractGet = window.extractGet = function (parameter) {
