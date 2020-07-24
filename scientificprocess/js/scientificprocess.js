@@ -1,20 +1,3 @@
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-23121873-1', 'auto');
-ga('set', 'anonymizeIp', true);
-ga('send', 'pageview');
-
-$(window).load(function(){
-	jQuery.scrollDepth({
-		percentage: true,
-		userTiming: false,
-		pixelDepth: false,
-	});
-});
-
 (function($){
 	/* Menu toggler
 	*************/
@@ -65,8 +48,6 @@ $(window).load(function(){
 		$(this).on('click', function() {
 			$('#youtubeModal .modal-body').html('<iframe width="598" height="450" src="' + $(this).data('video') + '" frameborder="0" allowfullscreen></iframe>');
 			$('#youtubeModal').modal();
-			ga('set', 'nonInteraction', true);
-			ga('send', 'event', {eventCategory: 'Video '+$(this).data('name'), eventAction: 'Opened'});
 		});
 	});
 

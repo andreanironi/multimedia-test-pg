@@ -557,11 +557,6 @@ $(function () {
         if ((trigger = $('.language-trigger'))) {
             trigger.css('background-image', "url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-" + lang + ".png')")
         }
-
-        gtag('event', 'selectLanguage', {
-            'event_category': 'Language',
-            'event_label': lang
-        });
     };
 
     var extractGet = window.extractGet = function (parameter) {

@@ -1737,15 +1737,6 @@ function efsaPesticideDataviz(config) {
                                     q.d3stopPropagation();
                                     if (i > 3) {
                                         hideTooltip(-1);
-                                        if (i == 4) {
-                                            ga('send', 'event', {eventCategory: 'Pesticides origin chart', eventAction: 'EEA', eventLabel: 'EEA'});
-                                        } else if (i == 5) {
-                                            ga('send', 'event', {eventCategory: 'Pesticides origin chart', eventAction: 'Domestic', eventLabel: 'Domestic'});
-                                        } else if (i == 6) {
-                                            ga('send', 'event', {eventCategory: 'Pesticides origin chart', eventAction: 'Third Countries', eventLabel: 'Third Countries'});
-                                        } else if (i == 7) {
-                                            ga('send', 'event', {eventCategory: 'Pesticides origin chart', eventAction: 'Unknown origin', eventLabel: 'Unknown origin'});
-                                        }
                                         showCompositionChart(name, subcategories, false, true, 0, [COUNTRIES_SPECIES_TYPES[i-4]]);
                                     }
                                 });
@@ -1767,7 +1758,6 @@ function efsaPesticideDataviz(config) {
                                 .on("click", function(d, i) {
                                     q.d3stopPropagation();
                                     hideTooltip(-1);
-                                    ga('send', 'event', {eventCategory: 'Pesticides origin chart', eventAction: 'All', eventLabel: 'All'});
                                     showCompositionChart(name, subcategories, false, true, 0, null);
                                 });
                     });
