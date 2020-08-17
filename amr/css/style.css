@@ -1798,9 +1798,13 @@ text-align: center;  color:#FFFFFF;   padding: 8px 0;
 .lang-boxx.open {
     opacity: 1;
     border-radius:0px 0px 0px 0px;
-    background-color: rgba(92, 92, 92, 0.5);}
-
+    background-color: rgba(92, 92, 92, 0.5);
+}
 
 .lang-boxx.open ul {
     top: 100%;
+}
+
+html[lang="sk"] #slide2-1 {
+  font-size: 2em;
 }
