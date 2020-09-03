@@ -1808,3 +1808,6 @@ text-align: center;  color:#FFFFFF;   padding: 8px 0;
 html[lang="sk"] #slide2-1 {
   font-size: 2.35em;
 }
+html[lang="sk"] .frame5 p {
+    font-size: 23px;
+}
