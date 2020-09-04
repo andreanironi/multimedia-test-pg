@@ -12,14 +12,13 @@
   <meta property="og:image:width" content="365">
   <meta property="og:image:height" content="230">
   <meta property="og:description" content="Reduce the use of antimicrobials. Replace antimicrobials with alternative treatments. Rethink the livestock production system. Find out EFSA and EMA's advice to fight against antimicrobial resistance in Europe.">
-  <link rel="stylesheet" href="css/normalize.css?upd=25072017" type="text/css">
-  <link rel="stylesheet" href="css/style.css?upd=25072017" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/favicon.ico" type="image/ico">
   <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-16x16.png" sizes="16x16">
   <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-32x32.png" sizes="32x32">
   <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-96x96.png" sizes="96x96">
-  <meta name="p:domain_verify" content="0262a11bf7601f9cb7f6673fddebbf2d">
   <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-72x72.png" sizes="72x72">
   <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-76x76.png" sizes="76x76">
@@ -51,6 +50,7 @@
   <link rel="alternate" hreflang="de" href="https://www.efsa.europa.eu/de/interactive-pages/Antimicrobial-Resistance" />
   <link rel="alternate" hreflang="fr" href="https://www.efsa.europa.eu/fr/interactive-pages/Antimicrobial-Resistance" />
   <link rel="alternate" hreflang="it" href="https://www.efsa.europa.eu/it/interactive-pages/Antimicrobial-Resistance" />
+  <link rel="alternate" hreflang="sk" href="https://www.efsa.europa.eu/sk/interactive-pages/Antimicrobial-Resistance" />
 
 </head><body>
 <script type="text/javascript">
@@ -74,7 +74,8 @@
     <li><a data-lang="en" href="#" style="color: black;font-weight: bold;">EN</a></li>
     <li ><a data-lang="fr" href="#" style="color: black;font-weight: bold;">FR</a></li>
     <li><a data-lang="it" href="#" style="color: black;font-weight: bold;">IT</a></li>
-    <li class="last"><a data-lang="de" href="#" style="color: black;font-weight: bold;">DE</a></li>
+    <li><a data-lang="de" href="#" style="color: black;font-weight: bold;">DE</a></li>
+    <li class="last"><a data-lang="sk" href="#" style="color: black;font-weight: bold;">SK</a></li>
   </ul>
 </div></section>
 
@@ -406,10 +407,10 @@
         <div class="layer text4">
           <div class="box">
             <div class="text">
-              <p  id="slide4-7"><strong>Together</strong> we are <strong>stronger</strong>,<br>together we can fight this threat.
+              <p id="slide4-7"><strong>Together</strong> we are <strong>stronger</strong>,<br>together we can fight this threat.
                 <br/><br/><img alt="Reduce - Replace - Rethink" class="trad" src="img/closure_en.png" data-src="img/closure.png" /> </p>
               <br/><br/>
-              <ul class="share"><li><img alt="condividi" src="img/share-d.png" data-preload="/"> Share on</li>
+              <ul class="share"><li id="slide4-8"><img alt="condividi" src="img/share-d.png" data-preload="/">Share on</li>
                 <li class="tw"><a class="tw-share" href="#"><img alt="Share on Twitter" class="pull-right" src="img/icon-tw-d.png" data-preload="/"></a></li>
                 <li class="in"><a class="in-share" href="#"><img alt="Share on LinkedIn" class="pull-right" src="img/icon-in-d.png" data-preload="/"></a></li>
                 <li class="fb"><a class="fb-share" href="#"><img alt="Share on Facebook" class="pull-right" src="img/icon-fb-d.png" data-preload="/"></a></li>
@@ -462,8 +463,8 @@
 
             $("ul.lang li").show();
             $("li a[data-lang='" + ln + "']").parent().hide();
-            $('.lang-boxx i').html(ln);
-
+            $('.lang-boxx em').html(ln);
+            $('html').attr('lang', ln);
         }
 
         $('.lang-boxx .lang-trigger').click(function (ev) {
@@ -487,7 +488,7 @@
         });
 
         function isLangCode(element) {
-            return (element == 'it' || element == 'en' || element == 'fr' || element == 'de');
+            return (element == 'it' || element == 'en' || element == 'fr' || element == 'de' || element == 'sk');
         }
 
         var rawFile = new XMLHttpRequest();
