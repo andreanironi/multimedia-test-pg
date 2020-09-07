@@ -9,7 +9,7 @@ deviceAgent.match(/blackberry/i) ||
 deviceAgent.match(/bada/i));
 
 if (isTouchDevice) {
-	window.location = "/interactive_pages/bees/BeesUnderAttack_mobile";
+	window.location = "/interactive-pages/bees/BeesUnderAttack_mobile";
 }
 
 window.efsa = window.efsa || {};
@@ -52,7 +52,7 @@ efsa.screenWatch = {
 			currentURL = window.location;
 			if(!resizeApplied) {
 				resizeApplied = true;
-				window.location = 'https://www.efsa.europa.eu/interactive_pages/bees/BeesUnderAttack';
+				window.location = 'https://www.efsa.europa.eu/interactive-pages/bees/BeesUnderAttack';
 				setTimeout(function() {
 				}, 500);
 			}

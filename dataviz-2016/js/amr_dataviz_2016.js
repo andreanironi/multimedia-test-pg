@@ -3646,7 +3646,7 @@ function activateBox() {
 }
 
 $(function () {
-	    var url = 'https://www.efsa.europa.eu/interactive_pages/AMR_Report_2016',
+	    var url = 'https://www.efsa.europa.eu/interactive-pages/AMR-Report-2016',
             container = triggerContainer = $('.social-box');
 
     function sdvSocialSharePopUp(URL) {

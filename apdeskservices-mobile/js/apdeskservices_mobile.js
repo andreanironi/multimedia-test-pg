@@ -9,7 +9,7 @@ var isTouchDevice = (deviceAgent.match(/(iphone|ipod|ipad)/) ||
   deviceAgent.match(/bada/i));
 
 if (!isTouchDevice) {
-  window.location = "/interactive_pages/apdeskservices/ApdeskServices";
+  window.location = "/interactive-pages/apdeskservices/ApdeskServices";
 }
 
 $(document).ready(function() {

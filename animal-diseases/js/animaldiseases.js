@@ -9,7 +9,7 @@ var isTouchDevice = (deviceAgent.match(/(iphone|ipod|ipad)/) ||
 	deviceAgent.match(/bada/i));
 
 if (isTouchDevice) {
-	window.location = "/interactive_pages/animaldiseases/AnimalDiseases_mobile";
+	window.location = "/interactive-pages/animaldiseases/AnimalDiseases_mobile";
 }
 
 window.efsa = window.efsa || {};
