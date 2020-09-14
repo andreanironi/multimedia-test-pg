@@ -11,8 +11,8 @@
         "Food sources\n(incl. if available)": "",
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "shutterstock_572226073",
         "Text to be displayed in the results pop-up": "Dietary reference values for energy are given as average requirements (ARs) of specified age and sex groups and are of limited use for individuals, They are expressed in units of energy. \n1 MJ = 238,83 kcal\nPhysical activity level (PAL) values of 1.4, 1.6, 1.8 and 2.0 reflect low active (sedentary), moderately active, active and very active lifestyles.",
-        "news story": "http://www.efsa.europa.eu/en/press/news/130110",
-        "opinion": "http://www.efsa.europa.eu/en/press/news/130110"
+        "news story": "https://www.efsa.europa.eu/en/press/news/130110",
+        "opinion": "https://www.efsa.europa.eu/en/press/news/130110"
     },
     {
         "Nutrients": "Carbohydrates",
@@ -27,7 +27,7 @@
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "",
         "Text to be displayed in the results pop-up": "",
         "news story": "",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/1462"
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/1462"
     },
     {
         "Nutrients": "Total carbohydrates",
@@ -117,7 +117,7 @@
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "shutterstock_396446890 (if necessary)",
         "Text to be displayed in the results pop-up": "",
         "news story": "",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/1461"
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/1461"
     },
     {
         "Nutrients": "Total fat",
@@ -236,8 +236,8 @@
         "Food sources\n(incl. if available)": "The main sources of protein in European adult diets are meat and meat products, followed by grains/grain-based products and milk/dairy products.",
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "shutterstock_437586157 for protein",
         "Text to be displayed in the results pop-up": "Dietary reference values for protein are expressed on a kg body weight basis. To be multiplied by reference body weights to calculate values in g/day",
-        "news story": "http://www.efsa.europa.eu/en/press/news/120209",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/2557"
+        "news story": "https://www.efsa.europa.eu/en/press/news/120209",
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/2557"
     },
     {
         "Nutrients": "Water",
@@ -252,7 +252,7 @@
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "shutterstock_73168906 for water",
         "Text to be displayed in the results pop-up": "The DRVs for water cover water from all sources, including drinking water, mineral water and water contained in food.\nWater from internal oxidation process is not included in the setting of DRVs.",
         "news story": "n/a",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/1459"
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/1459"
     },
     {
         "Nutrients": "Minerals",
@@ -281,8 +281,8 @@
         "Food sources\n(incl. if available)": "Food sources of calcium are dairy products. Other rich food sources include dark green vegetables, legumes, nuts, fish with soft bones and calcium-fortified foods. ",
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "shutterstock_540453118 for calcium",
         "Text to be displayed in the results pop-up": "",
-        "news story": "http://www.efsa.europa.eu/en/press/news/150527-0",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/4101"
+        "news story": "https://www.efsa.europa.eu/en/press/news/150527-0",
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/4101"
     },
     {
         "Nutrients": "Chloride",
@@ -431,8 +431,8 @@
         "Food sources\n(incl. if available)": "Food sources of potassium include starchy roots or tubers, vegetables and fruit, whole grains, dairy products and coffee.",
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "potassium shutterstock_401736550",
         "Text to be displayed in the results pop-up": "",
-        "news story": "http://www.efsa.europa.eu/en/press/news/161025",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/4592"
+        "news story": "https://www.efsa.europa.eu/en/press/news/161025",
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/4592"
     },
     {
         "Nutrients": "Selenium",
@@ -507,7 +507,7 @@
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "shutterstock_587425010",
         "Text to be displayed in the results pop-up": "",
         "news story": "",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/3580 "
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/3580 "
     },
     {
         "Nutrients": "Choline",
@@ -611,8 +611,8 @@
         "Food sources\n(incl. if available)": "Food sources of thiamin include whole grains, pulses, red meat, fish, seeds and nuts.",
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "mixed nuts for thiamin shutterstock_535384492",
         "Text to be displayed in the results pop-up": "",
-        "news story": "http://www.efsa.europa.eu/en/press/news/161219",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/4653"
+        "news story": "https://www.efsa.europa.eu/en/press/news/161219",
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/4653"
     },
     {
         "Nutrients": "Vitamin A",
@@ -626,8 +626,8 @@
         "Food sources\n(incl. if available)": "Foods rich in vitamin A include meat, butter, retinol-enriched margarine, dairy products, eggs, and vegetables and fruits such as sweet potatoes, carrots, pumpkins, dark green leafy vegetables, sweet red peppers, mangoes and melons.",
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "shutterstock_558453145",
         "Text to be displayed in the results pop-up": "",
-        "news story": "http://www.efsa.europa.eu/en/press/news/150305",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/4028"
+        "news story": "https://www.efsa.europa.eu/en/press/news/150305",
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/4028"
     },
     {
         "Nutrients": "Vitamin B6",
@@ -641,8 +641,8 @@
         "Food sources\n(incl. if available)": "Foods that contain vitamin B6 include fish, poultry, liver, potatoes and non-citrus fruit.",
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "nuts for vitamin B6",
         "Text to be displayed in the results pop-up": "",
-        "news story": "http://www.efsa.europa.eu/en/press/news/160624",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/4485"
+        "news story": "https://www.efsa.europa.eu/en/press/news/160624",
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/4485"
     },
     {
         "Nutrients": "Vitamin C",
@@ -671,8 +671,8 @@
         "Food sources\n(incl. if available)": "Food sources of vitamin D include fatty fish, dairy products and eggs. Vitamin D can also be synthesised in the body by exposure to the sun.",
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "vitamin D shutterstock_360639251",
         "Text to be displayed in the results pop-up": "The setting of the adequate intake (AI) for vitamin D assumes minimal exposure to sunlight as a source of vitamin D. ",
-        "news story": "http://www.efsa.europa.eu/en/press/news/161028",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/4547"
+        "news story": "https://www.efsa.europa.eu/en/press/news/161028",
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/4547"
     },
     {
         "Nutrients": "Vitamin E as α-tocopherol",
@@ -701,7 +701,7 @@
         "Food sources\n(incl. if available)": "Food sources of vitamin K include dark green leafy vegetables such as spinach, lettuce, kale and Brussels sprouts.",
         "image (file name, location: T:\\Kirsten\\Images for DRV tool)": "shutterstock_550196611 - for vitamin K",
         "Text to be displayed in the results pop-up": "The AI for vitamin K is based on phylloquinone only",
-        "news story": "http://www.efsa.europa.eu/en/press/news/170522-1",
-        "opinion": "http://www.efsa.europa.eu/en/efsajournal/pub/4780"
+        "news story": "https://www.efsa.europa.eu/en/press/news/170522-1",
+        "opinion": "https://www.efsa.europa.eu/en/efsajournal/pub/4780"
     }
 ]

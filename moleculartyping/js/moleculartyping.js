@@ -1,96 +1,3 @@
-$(function () {
-
-    var $window = $(window);
-
-    efsa.preload();
-    efsa.init();
-
-    $(window).resize(_.debounce(efsa.init.bind(efsa), 500));
-
-    var controller = new ScrollMagic.Controller();
-
-    if (!navigator.userAgent.match(/Trident/i)) {
-        animateParallax(controller);
-        animateMap(controller);
-        animateBacterium(controller);
-    }
-
-    animateMenu(controller);
-    animateFood(controller);
-
-    // Main Menu
-    // change behaviour of controller to animate scroll instead of jump
-    controller.scrollTo(function (newpos, cb) {
-        TweenMax.to(window, 1, {scrollTo: {y: newpos}, onComplete: cb});
-    });
-
-    // Bind scroll to anchor links
-    $(document).on('click', "a[href^='#']", function (e) {
-        var id = $(this).attr('href');
-
-        if ($(id).length > 0) {
-            e.preventDefault();
-
-            // Trigger scroll
-            controller.scrollTo(id, function () {
-                window.location.hash = id;
-            });
-        }
-    });
-
-    animateMolecularTyping(controller);
-    animateIntroTitle(controller);
-    animateDnaTitle(controller);
-    animateHeader(controller);
-    animateFooter(controller);
-    animateGenomeHeader(controller);
-    animateGenomeFooter(controller);
-    animateGenomeFrames(controller);
-
-    animateHowItWorksTitle(controller);
-    animateBacteriumTitle(controller);
-
-    var footerPos = $('.footer').offset().top;
-
-    $window.scroll(function () {
-        var scrolled = $(window).scrollTop();
-
-        if (scrolled >= 1 && scrolled < footerPos) {
-            $('.intro-header').css({
-                position: 'fixed',
-                display: 'block'
-            });
-        } else {
-            $('.intro-header').css({
-                position: 'absolute',
-                display: 'none'
-            });
-        }
-    });
-
-});
-
-isMobile = {
-    Android: function () {
-        return navigator.userAgent.match(/Android/i);
-    },
-    BlackBerry: function () {
-        return navigator.userAgent.match(/BlackBerry/i);
-    },
-    iOS: function () {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function () {
-        return navigator.userAgent.match(/Opera Mini/i);
-    },
-    Windows: function () {
-        return navigator.userAgent.match(/IEMobile/i);
-    },
-    any: function () {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-    }
-};
-
 window.efsa = window.efsa || {};
 
 efsa = {
@@ -203,13 +110,13 @@ efsa = {
 
         if ($section.length) {
             $('.preload', $section).each(function () {
-                files.push('/sites/default/files/interactive_tools/moleculartyping/img/' + $(this).data('preload'));
+                files.push('img/' + $(this).data('preload'));
             });
 
             if (files.length) {
                 self.images(files, function (images) {
                     $('.preload', $section).each(function () {
-                        $(this).attr('src', '/sites/default/files/interactive_tools/moleculartyping/img/' + $(this).data('preload'));
+                        $(this).attr('src', 'img/' + $(this).data('preload'));
                     });
 
                     $('body').addClass('page-preloaded');
@@ -240,7 +147,7 @@ efsa = {
         } else {
             if (navigator.userAgent.match(/iPad/i) || !isMobile.any()) {
                 for (var i = 1; i < 326; i++) {
-                    files.push('/sites/default/files/interactive_tools/moleculartyping/img/Images-for-parallax/EFSA_MTS_Video_290915 ' + ('00' + i).slice(-3) + '.jpg');
+                    files.push('img/Images-for-parallax/EFSA_MTS_Video_290915 ' + ('00' + i).slice(-3) + '.jpg');
                 }
 
                 self.images(files, function (images) {
@@ -274,6 +181,27 @@ efsa = {
             images[i].onload = inc;
             images[i].src = imgs[i];
         }
+    }
+};
+
+isMobile = {
+    Android: function () {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function () {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function () {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function () {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function () {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function () {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
 
@@ -558,7 +486,7 @@ function animateParallax(controller) {
             .setTween('#bacteria > .background', {y: '90%', ease: Linear.easeNone})
             .addTo(controller),
 
-    // DNA
+        // DNA
         dnaImg1Scene = new ScrollMagic.Scene({
             triggerElement: '#dna',
             triggerHook: 'onEnter',
@@ -593,7 +521,7 @@ function animateParallax(controller) {
             .setTween(TweenMax.fromTo($('#dna-img-4-anim'), 1, {top: -800}, {top: 0}))
             .addTo(controller),
 
-    // How it works
+        // How it works
         howItWorksImg1Scene = new ScrollMagic.Scene({
             triggerElement: '#how-it-works',
             triggerHook: 'onEnter',
@@ -739,7 +667,7 @@ function animateFood(controller) {
                 TweenMax.to($mealIntro, 0.5, {strokeDashoffset: 0, ease: Linear.easeNone})
             ])
             .fromTo($('#food-img-blue-filter'), 2.5, {height: 0, ease: Linear.easeNone}, {height: '100%'})
-        ;
+    ;
 
     new ScrollMagic.Scene({
         triggerElement: '.intro-section-info-trigger',
@@ -767,7 +695,7 @@ function animateDnaTitle(controller) {
         $dnaSmallRectangle = $('path.dna-small-rectangle'),
         $dnaSamplesLines = $('path.dna-small-lines'),
 
-    // Build tween
+        // Build tween
         tweenline = new TimelineMax()
             .add(TweenMax.to($dnaRectangle, 1, {strokeDashoffset: 0, ease: Linear.easeNone}))
             .add(TweenMax.to($dnaSmallRectangle, 1.5, {strokeDashoffset: 0, ease: Linear.easeNone}))
@@ -787,7 +715,7 @@ function animateDnaTitle(controller) {
 function animateMolecularTyping(controller) {
     var $molecularTypingLines = $('path.molecular-typing-video-rectangle'),
 
-    // Build tween
+        // Build tween
         tweenline = new TimelineMax()
             .add(TweenMax.to($molecularTypingLines, 2, {strokeDashoffset: 0, ease: Linear.easeNone}));
 
@@ -807,13 +735,13 @@ function animateHowItWorksTitle(controller) {
         $hiwSmallRectangle = $('path.how-works-small-rectangle'),
         $hiwSamplesLines = $('path.how-works-lines'),
 
-    // Build tween
+        // Build tween
         tweenLine = new TimelineMax()
             .add(TweenMax.to($hiwRectangle, 1, {strokeDashoffset: 0, ease: Linear.easeNone}))
             .add(TweenMax.to($hiwSmallRectangle, 1.5, {strokeDashoffset: 0, ease: Linear.easeNone}))
             .add(TweenMax.to($hiwSamplesLines, 0.5, {strokeDashoffset: 0, ease: Linear.easeNone})),
 
-    // Build scene
+        // Build scene
         scene = new ScrollMagic.Scene({
             triggerElement: '#how-it-works',
             duration: 300,
@@ -841,7 +769,7 @@ function animateGenomeFooter(controller) {
         $genomeTitleRectangle = $paths.eq(0),
         $genomeTitleSmallRectangle = $paths.eq(1),
 
-    // Build tween
+        // Build tween
         tweenline = new TimelineMax()
             .add([
                 TweenMax.to($genomeTitleRectangle, 2, {strokeDashoffset: 0, ease: Linear.easeNone}),
@@ -863,7 +791,7 @@ function animateGenomeFooter(controller) {
 function animateBacteriumTitle(controller) {
     var $bacteriumLines = $('path.bacterium-lines'),
 
-    // Build tween
+        // Build tween
         tweenline = new TimelineMax()
             .add(TweenMax.to($bacteriumLines, 1, {strokeDashoffset: 0, ease: Linear.easeNone}));
 
@@ -884,7 +812,7 @@ function animateHeader(controller) {
         $headerInnerLine2 = $('path#headerTitleLine3'),
         $headerOuterLine2 = $('path#headerTitleLine4'),
 
-    // Build tween
+        // Build tween
         timeline = new TimelineMax()
             .add(TweenMax.to($headerOuterLine1, 0.5, {strokeDashoffset: 0, ease: Linear.easeNone}))
             .add(TweenMax.to($headerInnerLine1, 1, {strokeDashoffset: 0, ease: Linear.easeNone}));
@@ -932,7 +860,7 @@ function animateGenomeFrames(controller) {
         filename;
 
     for (var i = 1; i < totalImages; i++) {
-        filename = '/sites/default/files/interactive_tools/moleculartyping/img/Images-for-parallax/EFSA_MTS_Video_290915 ' + ('00' + i).slice(-3) + '.jpg';
+        filename = 'img/Images-for-parallax/EFSA_MTS_Video_290915 ' + ('00' + i).slice(-3) + '.jpg';
         imagesFrames.push(filename);
     }
 
@@ -974,3 +902,75 @@ function animateGenomeFrames(controller) {
         .addTo(controller)
     ;
 }
+
+$(function () {
+
+    var $window = $(window);
+
+    efsa.preload();
+    efsa.init();
+
+    $(window).resize(_.debounce(efsa.init.bind(efsa), 500));
+
+    var controller = new ScrollMagic.Controller();
+
+    if (!navigator.userAgent.match(/Trident/i)) {
+        animateParallax(controller);
+        animateMap(controller);
+        animateBacterium(controller);
+    }
+
+    animateMenu(controller);
+    animateFood(controller);
+
+    // Main Menu
+    // change behaviour of controller to animate scroll instead of jump
+    controller.scrollTo(function (newpos, cb) {
+        TweenMax.to(window, 1, {scrollTo: {y: newpos}, onComplete: cb});
+    });
+
+    // Bind scroll to anchor links
+    $(document).on('click', "a[href^='#']", function (e) {
+        var id = $(this).attr('href');
+
+        if ($(id).length > 0) {
+            e.preventDefault();
+
+            // Trigger scroll
+            controller.scrollTo(id, function () {
+                window.location.hash = id;
+            });
+        }
+    });
+
+    animateMolecularTyping(controller);
+    animateIntroTitle(controller);
+    animateDnaTitle(controller);
+    animateHeader(controller);
+    animateFooter(controller);
+    animateGenomeHeader(controller);
+    animateGenomeFooter(controller);
+    animateGenomeFrames(controller);
+
+    animateHowItWorksTitle(controller);
+    animateBacteriumTitle(controller);
+
+    var footerPos = $('.footer').offset().top;
+
+    $window.scroll(function () {
+        var scrolled = $(window).scrollTop();
+
+        if (scrolled >= 1 && scrolled < footerPos) {
+            $('.intro-header').css({
+                position: 'fixed',
+                display: 'block'
+            });
+        } else {
+            $('.intro-header').css({
+                position: 'absolute',
+                display: 'none'
+            });
+        }
+    });
+
+});

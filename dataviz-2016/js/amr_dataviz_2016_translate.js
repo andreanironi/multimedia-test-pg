@@ -129,7 +129,7 @@ $(function () {
 
         var trigger;
         if((trigger = $('.language-trigger'))) {
-            trigger.css('background-image', "url('/sites/default/files/interactive_tools/dataviz_2016/img/lang-" + lang + ".png')")
+            trigger.css('background-image', "url('img/lang-" + lang + ".png')")
         }
     };
 
@@ -183,15 +183,6 @@ $(function () {
          * Order of parameters
          */
         language = fromGet || fromUrl || fromUser;
-
-        /**
-         * Logging
-
-        console.log("User language: " + fromUser);
-        console.log("Url language: " + fromUrl);
-        console.log("Get language: " + fromGet);
-
-         */
 
         /**
          * Return

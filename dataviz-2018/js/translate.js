@@ -126,10 +126,10 @@ var LABELS = {
         "fr": "Les données sont librement accessibles sur le lien suivant: <a href='https://doi.org/10.5281/zenodo.3628719' target='_blank'>Knowledge Junction de l’EFSA sur Zenodo</a>"
     },
     "__info_row8__": {
-        "en": "Unsure of any scientific terms? Consult EFSA’s <a href='http://www.efsa.europa.eu/en/glossary-taxonomy-terms' target='_blank'>glossary</a>",
-        "it": "Perplessità su un termine scientifico? Consultate il <a href='http://www.efsa.europa.eu/it/glossary-taxonomy-terms' target='_blank'>glossario</a> EFSA",
-        "de": "Fragen zu wissenschaftlichen Fachbegriffen? Schlagen Sie nach im <a href='http://www.efsa.europa.eu/de/glossary-taxonomy-terms' target='_blank'>EFSA-Glossar</a>",
-        "fr": "Indécis sur la signification d’un terme scientifique ? Consultez le <a href='http://www.efsa.europa.eu/fr/glossary-taxonomy-terms' target='_blank'>glossaire de l’EFSA</a>"
+        "en": "Unsure of any scientific terms? Consult EFSA’s <a href='https://www.efsa.europa.eu/en/glossary-taxonomy-terms' target='_blank'>glossary</a>",
+        "it": "Perplessità su un termine scientifico? Consultate il <a href='https://www.efsa.europa.eu/it/glossary-taxonomy-terms' target='_blank'>glossario</a> EFSA",
+        "de": "Fragen zu wissenschaftlichen Fachbegriffen? Schlagen Sie nach im <a href='https://www.efsa.europa.eu/de/glossary-taxonomy-terms' target='_blank'>EFSA-Glossar</a>",
+        "fr": "Indécis sur la signification d’un terme scientifique ? Consultez le <a href='https://www.efsa.europa.eu/fr/glossary-taxonomy-terms' target='_blank'>glossaire de l’EFSA</a>"
     },
     "__info_row9__": {
         "en": "See data from previous years",
@@ -555,7 +555,7 @@ $(function () {
 
         var trigger;
         if ((trigger = $('.language-trigger'))) {
-            trigger.css('background-image', "url('https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz_2018/img/lang-" + lang + ".png')")
+            trigger.css('background-image', "url('img/lang-" + lang + ".png')")
         }
     };
 
@@ -609,15 +609,6 @@ $(function () {
          * Order of parameters
          */
         language = fromGet || fromUrl || fromUser;
-
-        /**
-         * Logging
-
-         console.log("User language: " + fromUser);
-         console.log("Url language: " + fromUrl);
-         console.log("Get language: " + fromGet);
-
-         */
 
         /**
          * Return

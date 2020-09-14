@@ -11,8 +11,8 @@
   <meta property="og:title" content="Antimicrobial resistance in Europe">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="EFSA">
-  <meta property="og:url" content="https://www.efsa.europa.eu/interactive_pages/AMR_Report_2015">
-  <meta property="og:image" content="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz/amr_dataviz_2015banner.jpg">
+  <meta property="og:url" content="https://www.efsa.europa.eu/interactive-pages/AMR_Report_2015">
+  <meta property="og:image" content="https://www.efsa.europa.euamr_dataviz_2015banner.jpg">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1024">
   <meta property="og:image:height" content="512">
@@ -21,7 +21,6 @@
   <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-16x16.png" sizes="16x16">
   <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-32x32.png" sizes="32x32">
   <link rel="icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/favicon-96x96.png" sizes="96x96">
-  <meta name="p:domain_verify" content="0262a11bf7601f9cb7f6673fddebbf2d">
   <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-72x72.png" sizes="72x72">
   <link rel="apple-touch-icon" href="https://www.efsa.europa.eu/profiles/efsa/themes/responsive_efsa/images/mobile_icons/apple-touch-icon-76x76.png" sizes="76x76">
@@ -43,11 +42,11 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@EFSA_EU">
   <meta name="twitter:creator:id" content="84582815">
-  <meta name="twitter:url" content="https://www.efsa.europa.eu/interactive_pages/AMR_Report_2015">
+  <meta name="twitter:url" content="https://www.efsa.europa.eu/interactive-pages/AMR-Report-2015">
   <meta name="twitter:title" content="Antimicrobial resistance in Europe">
   <meta name="twitter:description" content="Resistance of Salmonella and E. coli in food, animals and humans. Explore data country by country.">
-  <meta name="twitter:image" content="https://www.efsa.europa.eu/sites/default/files/interactive_tools/dataviz/amr_dataviz_2015banner.jpg">
-  <link rel="canonical" href="https://www.efsa.europa.eu/interactive_pages/AMR_Report_2015" />
+  <meta name="twitter:image" content="https://www.efsa.europa.euamr_dataviz_2015banner.jpg">
+  <link rel="canonical" href="https://www.efsa.europa.eu/interactive-pages/AMR-Report-2015" />
 
   <title>Antimicrobial resistance in Europe</title>
 </head>
@@ -173,11 +172,11 @@
 </div>
 <div id="logo-container">
   <div id="logo-efsa"><a href="https://www.efsa.europa.eu" target="_blank">&nbsp;</a></div>
-  <div id="logo-ecdc"><a href="http://ecdc.europa.eu" target="_blank">&nbsp;</a></div>
+  <div id="logo-ecdc"><a href="https://ecdc.europa.eu" target="_blank">&nbsp;</a></div>
 </div>
 <div id="logo-container-top">
-  <div id="logo-efsa-top"><a href="https://www.efsa.europa.eu" target="_blank"><img src="/sites/default/files/interactive_tools/dataviz/img/efsa.png"></a></div>
-  <div id="logo-ecdc-top"><a href="http://ecdc.europa.eu" target="_blank"><img src="/sites/default/files/interactive_tools/dataviz/img/ecdc.png"></a></div>
+  <div id="logo-efsa-top"><a href="https://www.efsa.europa.eu" target="_blank"><img src="img/efsa.png"></a></div>
+  <div id="logo-ecdc-top"><a href="https://ecdc.europa.eu" target="_blank"><img src="img/ecdc.png"></a></div>
 </div>
 <div id="popup-wrapper">
 </div>
@@ -186,7 +185,14 @@
   <div id="popup-content"></div>
 </div>
 
-<script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/jquery.1.11.2.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/underscore.1.8.3.min.js" type="text/javascript"></script><script src="/profiles/efsa/themes/responsive_efsa/js/interactive_tools/common/d3.v4.3.0.min.js" type="text/javascript"></script><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/main.min.css?2=2" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/page.css?2=2" type="text/css"><link rel="stylesheet" href="/sites/default/files/interactive_tools/dataviz/css/amr_dataviz_fonts.css" type="text/css"><div id="blink" style="position:fixed;width:20px;height:20px;background-color:#555;top:0;left:0;display:none;"></div>
+<script src="js/jquery.1.11.2.min.js" type="text/javascript"></script>
+<script src="js/underscore.1.8.3.min.js" type="text/javascript"></script>
+<script src="js/d3.v4.3.0.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/main.min.css" type="text/css">
+<link rel="stylesheet" href="css/page.css?2=2" type="text/css">
+<link rel="stylesheet" href="css/amr_dataviz_fonts.css" type="text/css">
+<div id="blink" style="position:fixed;width:20px;height:20px;background-color:#555;top:0;left:0;display:none;"></div>
+
 <script>
     /**
      *
@@ -213,7 +219,7 @@
         var bottomBar = null; // the footer bar (removed since dic.2016)
         var datavizStarted = false; // true when the user clicks on a home page bacteria
         var startingSelection = -1; // the id of the bacteria clicked at the beginning
-        var ECDC_LINK = "http://ecdc.europa.eu/";
+        var ECDC_LINK = "https://ecdc.europa.eu/";
         var EFSA_LINK = "https://www.efsa.europa.eu";
         var MAX_NATION_RADIUS = 32; // maximum allowed nation radius for normal view
         var MAX_NATION_RADIUS_CMP = 45; // maximum allowed nation radius for comparison view
@@ -334,7 +340,7 @@
          * Read data from external json
          */
         function readData(isFirst, callback) {
-            var url = focusOn === BACTERIA ? "/sites/default/files/interactive_tools/dataviz/data/data-countries.json?1=1" : "/sites/default/files/interactive_tools/dataviz/data/data-bacteria.json?1=1";
+            var url = focusOn === BACTERIA ? "data/data-countries.json?1=1" : "data/data-bacteria.json?1=1";
             $.ajax({
                 "url": url,
                 "method": "GET",
@@ -369,7 +375,7 @@
          */
         function load_i18n(lang, callback) {
             $.ajax({
-                "url": "/sites/default/files/interactive_tools/dataviz/i18n/"+lang+".json?1=1",
+                "url": "i18n/"+lang+".json?1=1",
                 "method": "GET",
                 "dataType": "json",
                 "success": function (res) {
@@ -385,7 +391,7 @@
          */
         function loadTextsDims(res, callback) {
             $.ajax({
-                "url": "/sites/default/files/interactive_tools/dataviz/i18n/_dims.json?1=1",
+                "url": "i18n/_dims.json?1=1",
                 "method": "GET",
                 "dataType": "json",
                 "success": function (_dims) {
@@ -917,29 +923,7 @@
             t.append("text").attr("class", "central-text").attr("id", "central-text").attr("x", width / 2).attr("y", height / 2 + 10).attr("text-anchor", "middle").attr("font-size", "22px").text(dictionary.generic.antimicrobials[antimicrobials[selectedLev2].trim()].capitalizeFirstLetter()).attr("opacity", 0).attr("font-weight", "400").attr("fill", "#fff").attr("clip-path", "url(#clipper2)").style("display", "none");
             t.append("text").attr("class", "central-text").attr("id", "central-text-pre").attr("x", width / 2).attr("y", height / 2 - 10).attr("text-anchor", "middle").attr("font-size", "22px").text("").attr("opacity", 0).attr("font-weight", "400").attr("fill", "#fff").attr("clip-path", "url(#clipper2)").style("display", "none");
             t.append("text").attr("class", "central-text").attr("id", "central-text-post").attr("x", width / 2).attr("y", height / 2 + 30).attr("text-anchor", "middle").attr("font-size", "22px").text("").attr("opacity", 0).attr("font-weight", "400").attr("fill", "#fff").attr("clip-path", "url(#clipper2)").style("display", "none");
-            /* BELOW: OLD VERSION
-        var ctar = t.append("g");
-        ctar.attr("class", "central-text").attr("opacity", 0);
-        ctar.append("rect").attr("id", "central-text-arrow-right").attr("x", width/2 + radius_center - 15).attr("y", height/2-10).attr("width", 20).attr("height", 20).attr("fill", "transparent").attr("cursor", "pointer");
-        ctar.append("line").attr("x1", width/2 + radius_center).attr("x2", width/2 + radius_center - 10).attr("y1", height/2).attr("y2", height/2-10).attr("stroke", "#333");*/
-            /*t.append("text").attr("class", "central-text").attr("id", "central-text-arrow-right").attr("x", width / 2 + radius_center).attr("y", height / 2 + 10).attr("text-anchor", "end").attr("font-size", "22px").text(">").attr("opacity", 0).attr("font-weight", "700").attr("fill", "#156674").style("display", "none").style("cursor", "pointer");
-        t.append("text").attr("class", "central-text").attr("id", "central-text-arrow-left").attr("x", width / 2 - radius_center).attr("y", height / 2 + 10).attr("text-anchor", "start").attr("font-size", "22px").text("<").attr("opacity", 0).attr("font-weight", "700").attr("fill", "#156674").style("display", "none").style("cursor", "pointer");
-        d3.select("#central-text-arrow-right").on("click", function (d, i) {
-            selectedLev2++;
-            var arr = focusOn === BACTERIA ? antimicrobials : countries;
-            if (selectedLev2 > _.size(arr) - 1) {
-                selectedLev2 = 0;
-            }
-            setSelectedLev2(true, RIGHT);
-        });
-        d3.select("#central-text-arrow-left").on("click", function (d, i) {
-            selectedLev2--;
-            var arr = focusOn === BACTERIA ? antimicrobials : countries;
-            if (selectedLev2 < 0) {
-                selectedLev2 = _.size(arr) - 1;
-            }
-            setSelectedLev2(true, LEFT);
-        });*/
+
             centralGroup = bacteriaGroup.append("g").attr("text-anchor", "middle").attr("opacity", 0);
             centralGroup.append("circle").attr("id", "central").attr("cx", width / 2).attr("cy", height / 2).attr("r", 0).attr("fill", theme_green_dark).attr("stroke", theme_color).attr("stroke-width", 0);
             svg.append("circle").attr("id", "central-dotted").attr("cx", width / 2).attr("cy", height / 2).attr("r", 0).attr("fill", "transparent").attr("stroke", theme_green_light).attr("stroke-dasharray", "3,3").attr("stroke-width", "4");
@@ -963,12 +947,9 @@
                     d3.select(this).attr("fill", "#d0d0d0")
                 })
                 .on("click", switchData);
-            // removed on 2017.01.10 centralGroupText.append("text").attr("id", "central-text-5a").attr("x", width / 2).attr("y", height / 2 + 140).attr("fill", "#888").text("Compare").attr("font-size", "20px").attr("font-style", "italic").attr("pointer-events", "none").style("display", "none");
             centralGroupText.append("text").attr("id", "central-text-5b").attr("x", width / 2).attr("y", height / 2 + 157).attr("fill", "#555").text(dictionary.other_labels.compare_antimicrobials).attr("font-size", dims_dictionary.other_labels.switch_comparison_button[lang]).attr("pointer-events", "none").style("display", "none");
             var cgtcmp = centralGroupText.append("g");
             cgtcmp.attr("id", "central-comparison-texts")
-            //cgtcmp.append("rect").attr("x", width/2-CENTRAL_COMPARISON_BAR_LENGTH/2).attr("width", CENTRAL_COMPARISON_BAR_LENGTH).attr("y", height/2+10).attr("height", 10).attr("fill", "white").attr("id", "central-comparison-bar-1");
-            //cgtcmp.append("rect").attr("x", width/2-CENTRAL_COMPARISON_BAR_LENGTH/2).attr("width", CENTRAL_COMPARISON_BAR_LENGTH).attr("y", height/2+60).attr("height", 10).attr("fill", "white").attr("id", "central-comparison-bar-2");
             var singleBarWidth = (CENTRAL_COMPARISON_BAR_LENGTH-MINIBARS-10)/MINIBARS;
             for (var i = 0; i < MINIBARS; i++) {
                 cgtcmp.append("rect").attr("x", width/2-15-CENTRAL_COMPARISON_BAR_LENGTH/2 + i*(singleBarWidth+1)).attr("width", singleBarWidth).attr("y", height/2+01).attr("height", 17).attr("fill", "white").attr("opacity", .5);
@@ -1207,7 +1188,6 @@
         function init(data) {
             initializeBottomBar();
             initializeCentralBackground();
-            //initializeProtobacteria(data, width, height);
             initializeProtobacteriaV2(data, width, height);
             initializeCentralForeground();
             setupSelection();
@@ -1219,49 +1199,6 @@
          * Computes the ratio between the maximum allowed radius of a nation-bubble and the maximum value of the dataset
          */
         function setupSelection() {
-
-            /* Code below was commented on 2017.01.16
-         * uncomment this code to have max nation radius customized for each view
-         * (allowed max radius == biggest bubble radius)
-        var len = data.length;
-        min_nation = Number.MAX_VALUE;
-        max_nation = -min_nation;
-        if (comparisonView) {
-            for (var i = 0; i < len; i++) {
-                if (data[i]) {
-                    var value = getValueWithSelectedSpecies(data[i].value, comparisonView-1);
-                    if (value < min_nation) {
-                        min_nation = value;
-                    }
-                    if (value > max_nation) {
-                        max_nation = value;
-                    }
-                    var value = getValueWithSelectedSpecies(data[i].value, comparisonView-2);
-                    if (value < min_nation) {
-                        min_nation = value;
-                    }
-                    if (value > max_nation) {
-                        max_nation = value;
-                    }
-                }
-            }
-        } else {
-            for (var i = 0; i < len; i++) {
-                if (data[i]) {
-                    var value = getValue(data[i].value);
-                    if (value < min_nation) {
-                        min_nation = value;
-                    }
-                    if (value > max_nation) {
-                        max_nation = value;
-                    }
-                }
-            }
-        }
-        if (isNaN(max_nation) || max_nation <= 0 || max_nation > 100) {
-            max_nation = 100;
-        }*/
-
             max_nation = 100; // added on 2016.01.16 comment this line and uncomment code before to have each view with custom radius
 
             nation_radius_ratio = max_nation_radius / max_nation;
@@ -1652,7 +1589,7 @@
             }).on("mouseout", function () {
                 d3.select(this).attr("fill", theme_green_light);
             });
-            //centralMenuGroup.append("image").attr("xlink:href", "/sites/default/files/interactive_tools/dataviz/img/menu icon transparent.png").attr("x", width / 2 - 7).attr("y", height / 2 + radius_center - 12).attr("width", "14px").attr("height", "12px").attr("pointer-events", "none");
+            //centralMenuGroup.append("image").attr("xlink:href", "img/menu icon transparent.png").attr("x", width / 2 - 7).attr("y", height / 2 + radius_center - 12).attr("width", "14px").attr("height", "12px").attr("pointer-events", "none");
             centralMenuGroup.append("line").attr("x1", width/2-7).attr("y1", height/2+radius_center-11).attr("x2", width/2+7).attr("y2", height/2+radius_center-11).attr("stroke", theme_green_dark).attr("stroke-width", 3).attr("pointer-events", "none");
             centralMenuGroup.append("line").attr("x1", width/2-7).attr("y1", height/2+radius_center-6).attr("x2", width/2+7).attr("y2", height/2+radius_center-6).attr("stroke", theme_green_dark).attr("stroke-width", 3).attr("pointer-events", "none");
             centralMenuGroup.append("line").attr("x1", width/2-7).attr("y1", height/2+radius_center-1).attr("x2", width/2+7).attr("y2", height/2+radius_center-1).attr("stroke", theme_green_dark).attr("stroke-width", 3).attr("pointer-events", "none");
@@ -1697,7 +1634,7 @@
             svg.append("text").attr("id", "starter-text").attr("x", width/2).attr("y", height/2+135).attr("text-anchor", "middle").attr("fill", theme_green_dark).text(dictionary.home.start_button).attr("font-size", "22px").attr("font-weight", "700").attr("pointer-events", "none");
             var arc = d3.arc().innerRadius(radius_glass+140).outerRadius(radius_glass+150).startAngle(1).endAngle(5.28);
             svg.append("path").attr("class", "intro-element").attr("d", arc).attr("fill", "#e6e6e6").attr("transform", "translate("+width/2+", "+(height/2-10)+")").attr("opacity", 1);
-            svg.append("image").attr("class", "intro-element").attr("xlink:href", "/sites/default/files/interactive_tools/dataviz/img/ECDC_logo.png").attr("x", width/2+45).attr("y", height/2 -radius_glass-180).attr("width", "245px").attr("height", "118px").attr("opacity", 1).attr("cursor", "pointer")
+            svg.append("image").attr("class", "intro-element").attr("xlink:href", "img/ECDC_logo.png").attr("x", width/2+45).attr("y", height/2 -radius_glass-180).attr("width", "245px").attr("height", "118px").attr("opacity", 1).attr("cursor", "pointer")
                 .on("mouseover", function() {
                     d3.select(this).attr("opacity", .8);
                 })
@@ -1707,7 +1644,7 @@
                 .on("click", function() {
                     window.open(ECDC_LINK, '_blank');
                 });
-            svg.append("image").attr("class", "intro-element").attr("xlink:href", "/sites/default/files/interactive_tools/dataviz/img/logo efsa.png").attr("x", width/2-260).attr("y", height/2 -radius_glass-180).attr("width", "250px").attr("height", "118px").attr("opacity", 1).attr("cursor", "pointer")
+            svg.append("image").attr("class", "intro-element").attr("xlink:href", "img/logo efsa.png").attr("x", width/2-260).attr("y", height/2 -radius_glass-180).attr("width", "250px").attr("height", "118px").attr("opacity", 1).attr("cursor", "pointer")
                 .on("mouseover", function() {
                     d3.select(this).attr("opacity", .8);
                 })
@@ -1751,158 +1688,6 @@
             });
         }
 
-        /**
-         * OLD VERSION (SEE PREV FUNCTION FOR NEW ONE)
-         * Inizializes the bacteria in the first screen (version 1)
-         * @param {type} data the data
-         * @param {type} width the area width
-         * @param {type} height the area height
-         */
-        function initializeProtobacteria(data, width, height) {
-            var pos = [// some random data
-                {x: -50, y: -130, color: "#ff6674"},
-                {x: 50, y: -110, color: "#009882"},
-                {x: 20, y: -180, color: "#ff6674"},
-                {x: -150, y: 20, color: "#ff6674"},
-                {x: -130, y: 100, color: "#009882"},
-                {x: -70, y: 160, color: "#ff6674"},
-                {x: -60, y: 80, color: "#009882"},
-                {x: 150, y: 0, color: "#009882"},
-                {x: 130, y: 80, color: "#ff6674"},
-                {x: 70, y: 140, color: "#009882"},
-                {x: 60, y: 60, color: "#ff6674"}
-            ];
-            var pos2 = [];
-            _.each(pos, function (item, p) {
-                var loop = 2;
-                while (loop--) {
-                    _.each(data, function (datum, i) {
-                        pos2.push({
-                            ox: item.x,
-                            oy: item.y,
-                            x: item.x + Math.random() * 40,
-                            y: item.y + Math.random() * 40,
-                            color: item.color,
-                            p: p,
-                            value: datum.value,
-                            name: datum.name,
-                            code: datum.code
-                        });
-                    });
-                }
-            });
-            _.each(pos2, function (item, p) {
-                item.ox += width / 2;
-                item.oy += height / 2;
-                item.x += width / 2;
-                item.y += height / 2;
-            });
-            pos = pos2;
-            bacteriaGroupContainer = svg.append("g").attr("id", "internal-area");
-            // remove on 2017.01.09 bacteriaGroupContainer.append("circle").attr("class", "glass-int").attr("cx", width / 2).attr("cy", height / 2).attr("r", radius_glass).attr("fill", "#daf2f2").attr("stroke", "#909090").attr("stroke-width", stroke_glass).style("filter", "url(#filterGlass)");
-            // remove on 2017.01.09 bacteriaGroupContainer.style("filter", "url(#filterS2)");
-            var html = d3.select("#internal-area").html();
-            bacteriaGroup = svg.append("g");
-            // remove on 2017.01.09 bacteriaGroupContainer.append("circle").attr("class", "glass-int-reflection").attr("cx", width / 2 + 100).attr("cy", height / 2 - 100).attr("r", radius_glass).attr("fill", "#ecf8f8").attr("stroke-width", 0).attr("clip-path", "url(#clipper)");
-            bacteriaGroupContainerClone = bacteriaGroup.append("g").html(html).style("display", "none");
-            // remove on 2017.01.09 bacteriaGroup.style("filter", "url(#filterS2)");
-            bacteriaGroup.selectAll(".gooey")
-                .data(pos).enter()
-                .append("circle").attr("class", "gooey")
-                .attr("clip-path", "url(#clipper)").style("cursor", "pointer")
-                .attr("cx", function (d, i) {
-                    return pos[i].x;
-                })
-                .attr("cy", function (d, i) {
-                    return pos[i].y;
-                })
-                .attr("r", function (d, i) {
-                    return 4 + Math.random() * 5;
-                })
-                .attr("fill", function (d, i) {
-                    return d.color;
-                });
-            var centralMenuGroup = svg.append("g").attr("id", "menu-central").attr("opacity", 0);
-            centralMenuGroup.append("circle").attr("cx", width / 2).attr("cy", height / 2 + radius_center).attr("r", 20).attr("fill", "#156674").attr("clip-path", "url(#clipper2)").attr("cursor", "pointer").on("click", function (d) {
-                d3.event.stopPropagation();
-                menuSelection(3);
-            }).on("mouseover", function () {
-                d3.select(this).attr("fill", "#257684");
-            }).on("mouseout", function () {
-                d3.select(this).attr("fill", "#156674");
-            });
-            centralMenuGroup.append("image").attr("xlink:href", "/sites/default/files/interactive_tools/dataviz/img/menu icon transparent.png").attr("x", width / 2 - 7).attr("y", height / 2 + radius_center - 12).attr("width", "14px").attr("height", "12px").attr("pointer-events", "none");
-
-            var n = 1; // random parameter
-            var m = 1; // random parameter
-            var o = 1; // random parameter
-            var shaking = window.setInterval(shake, 2200);
-            var gooeys = svg.selectAll(".gooey");
-            var shakes = 0; // limit to ALLOWED_SHAKES shakes; then, abort animation; avoid browser frozing
-            var ALLOWED_SHAKES = 10;
-            /**
-             * Performs the initial shake effect
-             */
-            function shake() {
-                gooeys.transition().ease(function (d, i) {
-                    if (isChrome) {
-                        var rand = Math.floor(Math.random() * 4);
-                        switch (rand) {
-                            case 0:
-                                return d3.easeExp(d, i);
-                            case 1:
-                                return d3.easeLinear(d, i);
-                            case 2:
-                                return d3.easeBounce(d, i);
-                            case 3:
-                                return d3.easeElastic(d, i);
-                        }
-                    } else {
-                        return d3.easeLinear(d, i);
-                    }
-                }).duration(2000)
-                    .attr("cx", function (d, i) {
-                        var mm = m;
-                        var oo = -o;
-                        if (d.p % 2 == 1) {
-                            mm = -m;
-                            oo = o;
-                        }
-                        return +d3.select(this).attr("cx") + n * 2 + mm + oo * 2;
-                    })
-                    .attr("cy", function (d, i) {
-                        var mm = m;
-                        var oo = -o;
-                        if (d.p % 2 == 1) {
-                            mm = -m;
-                            oo = o;
-                        }
-                        return +d3.select(this).attr("cy") + n + mm * 2 + oo * 2;
-                    });
-                n = -n;
-                o = -o;
-                m = -m;
-                shakes++;
-                if (shakes > ALLOWED_SHAKES) {
-                    if (shaking) {
-                        clearInterval(shaking);
-                    }
-                }
-            }
-            ;
-
-            svg.selectAll(".gooey").on("click", function (d, i) {
-                if (datavizStarted) {
-                    return;
-                }
-                datavizStarted = true;
-                if (shaking) {
-                    clearInterval(shaking);
-                }
-                gooeyClick(d, i);
-            });
-        }
-
 
         /**
          * Properly disposes the nations/bubbles
@@ -1933,32 +1718,6 @@
                     }
                     d3.select(this).attr("or", r);
                     return r;
-
-
-                    /**
-                     OLD VERSION
-                     commented due to comparison problem
-                     normal -> pigs/calves -> meat/meat -> right colors but wrong radius
-                     var limitTO = comparisonView ? 2*TO : TO;
-                     if (k < FROM || k >= limitTO) {
-                return 0;
-            }
-                     if (k < xys.length) {
-                var r = 0;
-                if (comparisonView) {
-                    if (data[k]) {
-                        r = getSizedValueWithSelectedSpecies(data[k].value, comparisonView-1);
-                    } else {
-                        r = getSizedValueWithSelectedSpecies(data[k-nxys/2].value, comparisonView-2);
-                    }
-                } else {
-                    r = getSizedValue(data[k].value);
-                }
-                d3.select(this).attr("or", r);
-                return r;
-            } else {
-                return 0;
-            }*/
                 })
                 .attr("cx", function (d, k) {
                     if (!xys[k]) {
@@ -2059,17 +1818,7 @@
                         return d3.select(this).attr("or");
                     }
                     return i === clicked || i === hovered ? radius_hover_plus : d3.select(this).attr("or");
-                    /**
-                     OLD VERSION
-                     if (!xys[i]) {
-                return 0;
-            } else {
-                if (i === clicked || i === hovered || comparisonView && (i+arrSize === clicked || i+arrSize === hovered || i-arrSize === clicked || i-arrSize === hovered)) {
-                    return radius_hover_plus;
-                } else {
-                    return d3.select(this).attr("or");
-                }
-            }*/
+
                 }).attr("fill", function (d, i) {
                 if (comparisonView) {
                     if (i === clicked || i === hovered || i+arrSize === clicked || i+arrSize === hovered || i-arrSize === clicked || i-arrSize === hovered) {
@@ -2670,10 +2419,6 @@
                     return 0;
                 }
             });
-            /// removed on 2017.01.10 d3.select("#central-comparison-bar-1").transition().duration(1000).attr("width", pigsValueLength);
-            /// removed on 2017.01.10 d3.select("#central-comparison-value-1").transition().duration(1000).attr("x", width/2-CENTRAL_COMPARISON_BAR_LENGTH/2+pigsValueLength+3);
-            /// removed on 2017.01.10 d3.select("#central-comparison-bar-2").transition().duration(1000).attr("width", calvesValueLength);
-            /// removed on 2017.01.10 d3.select("#central-comparison-value-2").transition().duration(1000).attr("x", width/2-CENTRAL_COMPARISON_BAR_LENGTH/2+calvesValueLength+3);
 
             if (pigsValue < 0) {
                 d3.select("#central-comparison-value-1").text(dictionary.other_labels.na);
@@ -2948,11 +2693,7 @@
                 d3.selectAll(".sel" + type + "-menu-item-text").transition().delay(function (d, i) {
                     return (size - i - 1) * 20;
                 }).attr("opacity", 0).style("display", "none");
-            } /* removed on 2017.01.10 else {
-            d3.selectAll(".sel" + type + "-menu-item-text").transition().delay(function (d, i) {
-                return (size - i - 1) * 8 + 20;
-            }).attr("opacity", 0).style("display", "none");
-        } */
+            }
         }
 
         /**
@@ -2999,52 +2740,6 @@
                         d3.select("#menu-3-box").transition().duration(400).attr("opacity", 1).style("transform", "matrix(1, 0, 0, 1, 0, 0)");
                     }, 400);
                 }
-                /* removed on 2017.01.10
-            d3.select(".sel" + type + "-menu").transition().ease(d3.easeLinear).duration(200).attr("height", size * MENU_ITEM_HEIGHT - 20).attr("y", height / 2 + radius_center - size * MENU_ITEM_HEIGHT + down);
-            d3.selectAll(".sel" + type + "-menu-item-back").style("display", "block").transition().delay(function (d, i) {
-                return 50 + i * 15;
-            }).attr("height", MENU_ITEM_HEIGHT+"px");
-            d3.selectAll(".sel" + type + "-menu-item-text").style("display", "block").transition().delay(function (d, i) {
-                return 20 + i * 15;
-            }).attr("opacity", 1).attr("height", MENU_ITEM_HEIGHT+"px"); */
-                /* no more html menu
-            $("#popup-wrapper").css("display", "block");
-            $("#popup").css("display", "block");
-            if (focusOn === BACTERIA) {
-                $("#popup-header").html("SELECT ANTIMICROBIAL");
-            } else {
-                $("#popup-header").html("SELECT COUNTRY");
-            }
-            var parts = [];
-            parts.push("<div id='popup-icon-list-container'>");
-            parts.push("<div id='popup-icon-list'>");
-            var arr = focusOn === BACTERIA ? antimicrobials : countries;
-            _.each(arr, function(item, index) {
-                parts.push("<p class='popup-icon-list-item' data-index='"+index+"'>");
-                parts.push(item);
-                parts.push("</p>");
-            });
-            parts.push("</div>");
-            parts.push("</div>");
-            parts.push("<p id='popup-icon-close'>x</p>");
-            $("#popup-content").html(parts.join(""));
-
-            ///$("#popup-icon-list-container").scrollbar({});
-
-
-            $(".popup-icon-list-item").off("click");
-            $(".popup-icon-list-item").on("click", function() {
-                var index = $(this).data("index");
-                menuClick(3, index);
-                $("#popup-wrapper").css("display", "none");
-                $("#popup").css("display", "none");
-            });
-
-            $("#popup-icon-close").off("click");
-            $("#popup-icon-close").on("click", function() {
-                $("#popup-wrapper").css("display", "none");
-                $("#popup").css("display", "none");
-            });*/
             }
         }
 
@@ -4048,19 +3743,6 @@
             }
         }
 
-
-        /**
-         * It does something on screen resize
-         */
-        function resizeEvent() {
-            if ($(window).outerWidth() < 1001) {
-                //debug $("#screenalert").removeClass("hidden");
-            } else {
-                //debug $("#screenalert").addClass("hidden");
-            }
-        }
-        resizeEvent();
-        $(window).on("resize", resizeEvent);
         $(window).on("click", function() { // close all the menus
             closeMenu(1);
             closeMenu(2);
@@ -4188,7 +3870,7 @@
 
             var trigger;
             if((trigger = $('.language-trigger'))) {
-                trigger.css('background-image', "url('/sites/default/files/interactive_tools/dataviz/img/lang-" + lang + ".png')")
+                trigger.css('background-image', "url('img/lang-" + lang + ".png')")
             }
         };
 
@@ -4242,15 +3924,6 @@
              * Order of parameters
              */
             language = fromGet || fromUrl || fromUser;
-
-            /**
-             * Logging
-
-             console.log("User language: " + fromUser);
-             console.log("Url language: " + fromUrl);
-             console.log("Get language: " + fromGet);
-
-             */
 
             /**
              * Return
@@ -4423,7 +4096,7 @@
 
 
     $(function () {
-        var url = 'http://www.efsa.europa.eu/interactive_pages/AMR_Report_2015',
+        var url = 'https://www.efsa.europa.eu/interactive-pages/AMR-Report-2015',
             container = triggerContainer = $('.social-box');
 
         function sdvSocialSharePopUp(URL) {

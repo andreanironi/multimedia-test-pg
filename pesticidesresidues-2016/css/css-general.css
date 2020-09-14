@@ -192,7 +192,7 @@ a:active {
   width: 34%;
   overflow: hidden;
   float: right;
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/home-picture.jpg');
+  background-image: url('../img/home-picture.jpg');
   background-repeat: no-repeat;
   background-position: right center;
   background-size: auto 100%;
@@ -200,7 +200,7 @@ a:active {
   height: 500px;
 }
 #efsa-pesticide-intro #dx #dx-picture {
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/mask3.png');
+  background-image: url('../img/mask3.png');
   background-repeat: no-repeat;
   background-position: left top;
   background-size: auto 100%;
@@ -265,7 +265,7 @@ a:active {
   height: 36px;
   left: 0;
   top: -15px;
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/close-help.png');
+  background-image: url('../img/close-help.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: auto 100%;
@@ -329,7 +329,7 @@ a:active {
   width: 28px;
   opacity: 1;
   margin: 0px 5px 0 0;
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/social/share-blue.png');
+  background-image: url('../img/social/share-blue.png');
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-transition: all 0.2s ease-in-out;
@@ -342,7 +342,7 @@ a:active {
 .social-box i:hover {
   background-color: #0099ab;
   text-decoration: none;
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/social/share-white.png');
+  background-image: url('../img/social/share-white.png');
 }
 .social-box .share,
 .social-box li {
@@ -366,7 +366,7 @@ a:active {
   background-color: transparent;
 }
 .social-box li.tw {
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/social/twitter-blue.png');
+  background-image: url('../img/social/twitter-blue.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-color: white;
@@ -378,7 +378,7 @@ a:active {
 }
 .social-box li.tw:hover {
   background-color: #55ACEE;
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/social/twitter-white.png');
+  background-image: url('../img/social/twitter-white.png');
   border: #55ACEE 3px solid;
 }
 .social-box a.in-share {
@@ -387,7 +387,7 @@ a:active {
   background-color: transparent;
 }
 .social-box li.in {
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/social/linkedin-blue.png');
+  background-image: url('../img/social/linkedin-blue.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-color: white;
@@ -400,7 +400,7 @@ a:active {
 .social-box li.in:hover {
   background: #197FB7;
   border: #197FB7 3px solid;
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/social/linkedin-white.png');
+  background-image: url('../img/social/linkedin-white.png');
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -410,7 +410,7 @@ a:active {
   background-color: transparent;
 }
 .social-box li.fb {
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/social/facebook-blue.png');
+  background-image: url('../img/social/facebook-blue.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-color: white;
@@ -423,7 +423,7 @@ a:active {
 .social-box li.fb:hover {
   background: #3B5998;
   border: #3B5998 3px solid;
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/social/facebook-white.png');
+  background-image: url('../img/social/facebook-white.png');
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -515,7 +515,7 @@ a:active {
   width: 28px;
   opacity: 1;
   margin: 0px 5px 0 0;
-  background-image: url('/sites/default/files/interactive_tools/pesticidesresidues_2016/img/i.png');
+  background-image: url('../img/i.png');
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-transition: all 0.2s ease-in-out;

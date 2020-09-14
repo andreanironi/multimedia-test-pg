@@ -9,7 +9,7 @@ deviceAgent.match(/blackberry/i) ||
 deviceAgent.match(/bada/i));
 
 if (!isTouchDevice) {
-	window.location = "/interactive_pages/bees/BeesUnderAttack";
+	window.location = "/interactive-pages/bees/BeesUnderAttack";
 }
 
 jQuery(document).ready(function() {
